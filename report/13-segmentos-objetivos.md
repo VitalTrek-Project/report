@@ -1,4 +1,4 @@
-# 1.2.4. Segmentos Objetivo
+# 1.3 Segmentos Objetivo
  
 A partir del análisis del dominio del problema, la falta de sistemas de monitoreo en tiempo real para turismo de aventura en zonas remotas del Perú, se han identificado dos segmentos objetivo claramente diferenciados a los que VitalTrek dirige su propuesta de valor. El primero corresponde a las agencias y operadores turísticos de aventura que requieren herramientas de gestión, supervisión y trazabilidad operativa de sus tours; el segundo corresponde a los turistas de aventura nacionales y extranjeros que demandan experiencias seguras, guiadas y enriquecidas en entornos naturales del país. A continuación se describen ambos segmentos junto con sus características demográficas y la información estadística que sustenta su relevancia.
  
