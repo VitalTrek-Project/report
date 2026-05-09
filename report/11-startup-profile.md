@@ -1,0 +1,23 @@
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+Nexum Devs es una startup tecnológica enfocada en el desarrollo de soluciones para el turismo de aventura en el Perú, orientada a mejorar la seguridad, trazabilidad y gestión operativa en entornos de baja conectividad. Surge para cubrir la falta de sistemas que permitan el monitoreo en tiempo real de turistas en zonas remotas.
+
+Su producto principal, VitalTrek, es una plataforma web y móvil que centraliza la gestión de tours, permitiendo a las agencias supervisar la ubicación, estado y progreso de sus grupos mediante dashboards y alertas ante anomalías. A su vez, los turistas acceden a herramientas de navegación offline, registro de su experiencia y visualización de información contextual del recorrido.
+
+A nivel técnico, VitalTrek integra un ecosistema IoT con dispositivos wearables y checkpoints Bluetooth que capturan datos de geolocalización y signos vitales. Estos se sincronizan de forma asincrónica, asegurando operatividad incluso sin conexión continua, lo que permite un sistema escalable, resiliente y orientado a la prevención de riesgos.
+
+
+### 1.1.2 Perfiles de integrantes del equipo 
+
+|||
+|------|-------------|
+| ![Foto](../assets/images/Joaquin_foto.png) | **Alfaro Mallma, Alberto Joaquin**<br><br> Código de Estudiante: U20241A267<br><br>Soy estudiante de Ingeniería de Software de quinto ciclo, enfocado en el desarrollo de soluciones web creativas y funcionales. Me considero una persona creativa, responsable y con capacidad para trabajar en equipo, aportando ideas innovadoras y adaptándome a las necesidades del proyecto.<br>Cuento con conocimientos en lenguajes y herramientas como HTML, CSS, JavaScript, Angular 7 y Node.js, los cuales aplico en el desarrollo de proyectos académicos y personales.<br>En mis tiempos libres disfruto explorar nuevas tecnologías, diseñar interfaces y colaborar en proyectos creativos, actividades que complementan mi visión técnica y artística. |
+| <br>![Foto](../assets/images/Edu_foto.png) | <br>**Quispe Perez, Eder Edu**<br><br> Código de Estudiante: U202324623<br><br>Me llamo Eder Edu Quispe Pérez, soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), manejo lenguajes como Python y C++, y en mi tiempo libre me gusta ver películas y series<br><br>|
+| <br>![Foto](../assets/images/Miler_foto.png) |  <br>**Rodriguez Rojas, Miler Alexander**<br><br> Código de Estudiante: U20241A827<br><br>Soy estudiante de Ingeniería de Software de quinto ciclo, con 22 años, enfocado en el desarrollo de soluciones tecnológicas eficientes. Me considero una persona con liderazgo, capaz de trabajar en equipo y adaptarme rápidamente a distintos entornos y necesidades del proyecto.<br>Cuento con conocimientos en lenguajes y herramientas como SQL Server, C++, HTML, CSS y Python, los cuales aplico en el desarrollo de proyectos académicos y personales.<br>En mis tiempos libres disfruto jugar fútbol, escuchar música, programar y ver películas, actividades que complementan mi creatividad y disciplina.|
+| <br>![Foto](../assets/images/Gabriel_foto.png) |<br>**Vilchez Vite, Gabriel Alejandro**<br><br> Código de Estudiante: U202416903 <br><br> Mi nombre es Gabriel Alejandro Vilchez Vite, mi código es U202416903, actualmente estudio la carrera de ingeniería de software y estoy en mi 5to ciclo. Me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java.
+|<br>![Foto](../assets/images/Giancarlo_foto.png) |<br>**Verastigue Martinez, Giancarlo Jose**<br><br> Código de Estudiante: U202419483<br><br> Mi nombre es Giancarlo Jose Verastigue Martinez, estudiante de Ingeniería de Software. Soy una persona responsable y enfocada en sus proyectos y metas, a nivel académico cuento con conocimientos en programación en el lenguaje de C++, con experiencia trabajando en equipo y bajo presión. Considero que soy organizado y detallista en mis proyectos. La experiencia laboral y la universidad me han hecho desarrollar habilidades para afrontar problemas o dificultades de manera exitosa, habilidades que aportaré a este grupo de trabajo y de esta manera sacar adelante nuestro proyecto.<br><br>|
+---
