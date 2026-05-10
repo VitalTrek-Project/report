@@ -1,4 +1,6 @@
-# 3.1 User Stories
+## Capítulo III: Requirements Specification
+
+### 3.1. User Stories
 
 A continuación se presenta el conjunto completo de Epics, User Stories, Landing Page Stories y Technical Stories identificadas para VitalTrek. Todas las historias se redactan en tiempo presente, tercera persona, sin referencia a detalles de interfaz de usuario, con criterios de aceptación comprobables siguiendo la estructura Gherkin (Given-When-Then).
 
