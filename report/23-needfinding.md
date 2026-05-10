@@ -59,3 +59,25 @@ En el caso de Marco Rodriguez, las tareas con mayor frecuencia e importancia se 
 Entre las principales coincidencias entre ambos User Personas destaca la relevancia que ambos otorgan a la planificación del itinerario y a la reserva de servicios, aunque desde perspectivas distintas. Mientras Ana Lucía planifica la logística operativa del lado de la oferta, Marco planifica su experiencia desde el lado de la demanda. Otra coincidencia importante es la criticidad de la reacción ante emergencias, que aunque ocurre con baja frecuencia, ambos consideran muy importante por sus implicancias en seguridad y bienestar. Finalmente, ambos User Personas comparten la necesidad de orientarse y navegar en zonas remotas, lo cual refuerza la importancia de contar con herramientas digitales que operen sin conectividad continua.
 
 Entre las principales diferencias se observa que las tareas relacionadas con la supervisión de grupos, la generación de reportes operativos, la gestión de facturación y la coordinación con guías son exclusivas del User Persona de la agencia, mientras que las tareas vinculadas a la documentación de la experiencia, el acceso a información cultural y el compartir contenido en redes sociales son predominantes en el User Persona del turista. Esta diferenciación valida el enfoque dual de la propuesta de valor de VitalTrek, donde la plataforma debe atender tanto las necesidades operativas y de control de las agencias como las expectativas experienciales y de seguridad personal de los turistas.
+
+#### 2.3.3. User Journey Mapping
+
+El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. Realizamos los User Journey Maps en su versión As-Is para los tres segmentos objetivos.
+
+<b>User Journey Map del 1er segmento objetivo – agencias y operadores de turismo</b>
+<img src="../assets/images/jm-segmento-1.png" width="800"/>
+
+<b>User Journey Map del 2do segmento objetivo - turistas de aventura </b>
+<img src="../assets/images/jm-segmento-2.png" width="800"/>
+
+#### 2.3.4. Empathy Mapping
+
+El Empathy Mapping es una herramienta que nos permite profundizar en la experiencia emocional y cognitiva del usuario. A través de categorías como lo que el usuario piensa, siente, dice y hace, se busca comprender su contexto, así como sus principales miedos, frustraciones y motivaciones.
+
+Para VitalTrek, elaborar un Empathy Mapping para cada segmento objetivo fue clave para entender no solo cómo las agencias planifican la logística y cómo los turistas viven la experiencia outdoor, sino también cómo enfrentan la incertidumbre de la desconexión en zonas remotas, los retos de seguridad y la respuesta ante posibles emergencias. Esta comprensión más empática nos permite diseñar un ecosistema tecnológico que responda a sus necesidades reales, brindando tranquilidad y reduciendo los puntos de dolor presentes en la gestión actual de las rutas de aventura.
+
+<b>Empathy Mapping del 1er segmento objetivo – agencias y operadores de turismo</b>
+<img src="../assets/images/Marco-Delgado-Huanca-EM.png" width="800"/>
+
+<b>Empathy Mapping del 2do segmento objetivo – turistas de aventura </b>
+<img src="../assets/images/Camila-Rivas-Torres-EM.png" width="800"/>
