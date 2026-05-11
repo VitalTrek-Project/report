@@ -77,7 +77,7 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la experien
 Para VitalTrek, elaborar un Empathy Mapping para cada segmento objetivo fue clave para entender no solo cómo las agencias planifican la logística y cómo los turistas viven la experiencia outdoor, sino también cómo enfrentan la incertidumbre de la desconexión en zonas remotas, los retos de seguridad y la respuesta ante posibles emergencias. Esta comprensión más empática nos permite diseñar un ecosistema tecnológico que responda a sus necesidades reales, brindando tranquilidad y reduciendo los puntos de dolor presentes en la gestión actual de las rutas de aventura.
 
 <b>Empathy Mapping del 1er segmento objetivo – agencias y operadores de turismo</b>
-<img src="../assets/images/Marco-Delgado-Huanca-EM.png" width="800"/>
+<img src="../assets/images/Empathy-Map1.png" width="800"/>
 
 <b>Empathy Mapping del 2do segmento objetivo – turistas de aventura </b>
-<img src="../assets/images/Camila-Rivas-Torres-EM.png" width="800"/>
+<img src="../assets/images/Empathy-Map2.png" width="800"/>
