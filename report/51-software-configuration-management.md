@@ -179,3 +179,59 @@ La estructura general adoptada en el proyecto es la siguiente:
 Esta estructura arquitectónica será utilizada de manera consistente tanto para aplicaciones frontend como para servicios backend desarrollados por el equipo, garantizando uniformidad en la organización del código, separación clara de responsabilidades y facilidad de escalabilidad del sistema.
 
 #### 5.1.4. Software Deployment Configuration
+
+
+Esta sección describe la configuración de despliegue adoptada para los productos digitales del ecosistema VitalTrek, especificando el proceso necesario para publicar correctamente cada solución a partir de sus respectivos repositorios de código fuente.
+
+Durante este primer sprint, el único producto desplegado corresponde a la Landing Page del proyecto. Debido a su naturaleza estática, el despliegue se realiza utilizando GitHub Pages como plataforma de publicación continua integrada con GitHub.
+
+---
+
+##### Landing Page Deployment
+
+La Landing Page fue desarrollada utilizando HTML5, CSS3 y JavaScript, sin requerir herramientas de compilación, gestores de paquetes ni procesos de build adicionales. El despliegue se realiza directamente desde el repositorio remoto alojado en GitHub.
+
+| Configuración            | Valor                    |
+|:-------------------------|:-------------------------|
+| Producto                 | Landing Page             |
+| Plataforma de despliegue | GitHub Pages             |
+| Repositorio fuente       | `vitaltrek-landing-page` |
+| Rama de despliegue       | `main`                   |
+| Directorio publicado     | `/root`                  |
+| Tipo de despliegue       | Automático               |
+| URL pública              |                          |
+
+---
+
+##### Procedimiento de Despliegue
+
+El proceso de despliegue configurado para la Landing Page sigue los siguientes pasos:
+
+1. Crear el repositorio remoto en GitHub bajo la organización del equipo.
+2. Subir el código fuente de la Landing Page mediante commits y push hacia la rama `main`.
+3. Acceder a la sección **Settings > Pages** dentro del repositorio.
+4. Configurar GitHub Pages seleccionando:
+    - Source: `Deploy from a branch`
+    - Branch: `main`
+    - Folder: `/root`
+5. Guardar la configuración de publicación.
+6. Esperar la generación automática del sitio público por parte de GitHub Pages.
+7. Verificar el correcto despliegue accediendo a la URL pública generada.
+
+---
+
+##### Automatización del Despliegue
+
+El despliegue está configurado bajo un esquema de publicación automática. Cada actualización enviada mediante `git push` hacia la rama `main` genera automáticamente una nueva versión desplegada de la Landing Page.
+
+Este enfoque permite mantener sincronizada la versión publicada con el estado actual del repositorio fuente, facilitando la integración continua y la entrega rápida de cambios.
+
+---
+
+##### Consideraciones Técnicas
+
+- El despliegue está orientado exclusivamente a contenido estático.
+- No se requiere infraestructura de servidores dedicada.
+- No se utilizan contenedores ni pipelines CI/CD personalizados durante este sprint.
+- El entorno de publicación es completamente administrado por GitHub Pages.
+- La solución desplegada es accesible públicamente mediante una URL permanente.
