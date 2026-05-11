@@ -114,6 +114,68 @@ La estructura definida para los mensajes de commit es la siguiente:
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+##### Organización del Código
+
+El proyecto seguirá una arquitectura basada en Domain-Driven Design (DDD) y organización modular por funcionalidades (Feature-Based Structure), permitiendo mantener un código desacoplado, reutilizable, escalable y fácil de mantener tanto en frontend como en backend.
+
+Cada funcionalidad del sistema se organiza como un módulo independiente que contiene sus propias capas de responsabilidad, evitando dependencias innecesarias entre contextos del sistema.
+
+Las capas utilizadas en cada módulo son las siguientes:
+
+- `application`: contiene la lógica de aplicación, manejo de estado y coordinación de casos de uso.
+- `domain`: contiene entidades, modelos y reglas de negocio del dominio.
+- `infrastructure`: contiene acceso a APIs, ensambladores, persistencia y servicios externos.
+- `presentation`: contiene componentes visuales e interacción con el usuario.
+
+Asimismo, el sistema incorpora un módulo `shared` destinado a funcionalidades y componentes reutilizables entre diferentes módulos de la aplicación.
+
+La estructura general adoptada en el proyecto es la siguiente:
+
+```text
+/src
+├── assets/
+├── locales/
+│   ├── en.json
+│   └── es.json
+│
+├── news/
+│   ├── application/
+│   │   └── news.store.js
+│   │
+│   ├── domain/
+│   │   └── model/
+│   │       ├── article.entity.js
+│   │       └── source.entity.js
+│   │
+│   ├── infrastructure/
+│   │   ├── article.assembler.js
+│   │   ├── news-api.js
+│   │   └── source.assembler.js
+│   │
+│   └── presentation/
+│       └── components/
+│           ├── article-item.vue
+│           ├── article-list.vue
+│           ├── source-item.vue
+│           ├── source-list.vue
+│           └── unavailable-content.vue
+│
+├── shared/
+│   ├── infrastructure/
+│   │   └── logo-dev-api.js
+│   │
+│   └── presentation/
+│       └── components/
+│           ├── footer-content.vue
+│           ├── language-switcher.vue
+│           └── layout.vue
+│
+├── app.vue
+├── i18n.js
+├── main.js
+└── style.css
+```
+
+Esta estructura arquitectónica será utilizada de manera consistente tanto para aplicaciones frontend como para servicios backend desarrollados por el equipo, garantizando uniformidad en la organización del código, separación clara de responsabilidades y facilidad de escalabilidad del sistema.
 
 #### 5.1.4. Software Deployment Configuration
-
