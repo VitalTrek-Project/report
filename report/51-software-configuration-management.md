@@ -31,10 +31,10 @@ Asimismo, cada componente del ecosistema VitalTrek contará con un repositorio i
 
 | Producto | Repositorio | URL |
 |:--|:--|:--|
-| Landing Page | vitaltrek-landing-page | https://github.com/DuDu-tech/vitaltrek-landing-page |
-| Frontend Web Application | vitaltrek-frontend | https://github.com/DuDu-tech/vitaltrek-frontend |
-| Web Services | vitaltrek-backend | https://github.com/DuDu-tech/vitaltrek-backend |
-| Documentation | NexumDevs | https://github.com/DuDu-tech/NexumDevs |
+| Landing Page | vitaltrek-landing-page |  |
+| Frontend Web Application | vitaltrek-frontend |  |
+| Web Services | vitaltrek-backend |  |
+| Documentation | NexumDevs |  |
 
 ---
 
@@ -48,7 +48,6 @@ Las ramas definidas para el proyecto son las siguientes:
 - **develop**: rama principal de integración continua donde se consolidan las funcionalidades desarrolladas antes de su liberación.
 - **feature/***: ramas temporales creadas a partir de `develop` para el desarrollo de nuevas funcionalidades o User Stories.
 - **release/***: ramas utilizadas para la preparación, validación y estabilización de nuevas versiones antes de ser desplegadas en producción.
-- **hotfix/***: ramas destinadas a la corrección inmediata de errores críticos detectados en producción.
 
 Las funcionalidades serán desarrolladas en ramas `feature/*` y posteriormente integradas a `develop` mediante Pull Requests (PR). Una vez completada la validación de funcionalidades, se preparará una rama `release/*` para estabilizar la versión antes de su integración en `main`. En caso de detectarse errores críticos en producción, se utilizarán ramas `hotfix/*` creadas a partir de `main`.
 
@@ -62,7 +61,6 @@ Con el objetivo de mantener consistencia y facilitar la identificación de cambi
 |:--|:--|:--|
 | Feature Branch | `feature/<nombre-funcionalidad>` | `feature/user-authentication` |
 | Release Branch | `release/v<major>.<minor>.<patch>` | `release/v1.0.0` |
-| Hotfix Branch | `hotfix/<descripcion-error>` | `hotfix/login-validation-fix` |
 
 ---
 
@@ -113,3 +111,9 @@ La estructura definida para los mensajes de commit es la siguiente:
 | **chore** | Tareas de mantenimiento o configuración del proyecto | `chore(deps): actualizar dependencias npm` |
 | **build** | Cambios relacionados con compilación, CI/CD o despliegue | `build(deploy): configurar pipeline de despliegue` |
 | **perf** | Mejoras orientadas al rendimiento del sistema | `perf(search): optimizar tiempo de respuesta del filtrado` |
+
+#### 5.1.3. Source Code Style Guide & Conventions
+
+
+#### 5.1.4. Software Deployment Configuration
+
