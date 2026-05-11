@@ -1,5 +1,11 @@
 ### 3.3. Product Backlog
 
+A continuación se presenta el Product Backlog de VitalTrek con la priorización y estimación de todas las historias identificadas. El orden refleja el valor para el negocio, priorizando las funcionalidades del Landing Page y las capacidades core de monitoreo y seguridad en campo.
+
+Para acceder al Product Backlog en la herramienta de gestión del equipo, visitar el siguiente enlace: [Product Backlog — VitalTrek](https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog)
+
+![Product Backlog VitalTrek](../assets/images/product-backlog-vitaltrek.png)
+
 | #Orden | User Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
 |--------|---------------|--------|-------------|--------------------------|
 | 1 | US-L01 | Ver propuesta de valor | Como visitante, quiero comprender rápidamente la propuesta de valor de VitalTrek, para decidir si la plataforma se adapta a mis necesidades. | 3 |
