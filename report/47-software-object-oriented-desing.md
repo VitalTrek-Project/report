@@ -33,4 +33,4 @@ Incluye la entidad Profile, que guarda información vital y de EmergencyContact.
 
 **Resultado Diagrama de Clases**
 
-![Class Diagram](../assets/images/VitalTrek_ClassDiagram.png)
+![Class Diagram](../assets/images/VitalTrek_ClassDiagram_Complete.png)
