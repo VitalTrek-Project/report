@@ -1,6 +1,15 @@
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 
+**Bounded Context: Shared**
+Agrupa los componentes y servicios transversales reutilizados por toda 
+la aplicación. Incluye `Layout`, `LanguageSwitcher` y `FooterContent` 
+como componentes de presentación comunes, junto con `BaseApi` y 
+`BaseEndpoint` como infraestructura base que extienden las APIs 
+específicas de cada bounded context
+.
+![Class Diagram](../assets/images/VitalTrek_Shared_ClassDiagram.png)
+
 **Bounded Context: Safety & Monitoring**
 Supervisa el bienestar de los turistas y la captura de datos en zonas remotas.
 Se centra en la entidad IoTDevice (wearables), gestionando las lecturas de signos vitales (VitalSignReading) y geolocalización (LocationLog) sincronizadas mediante Checkpoint Bluetooth. También maneja Alert para registrar y notificar anomalías o riesgos en tiempo real.
@@ -31,6 +40,4 @@ Incluye la entidad Profile, que guarda información vital y de EmergencyContact.
 
 ![Class Diagram](../assets/images/VitalTrek_NotificationProfile_ClassDiagram.png)
 
-**Resultado Diagrama de Clases**
 
-![Class Diagram](../assets/images/VitalTrek_ClassDiagram_Complete.png)
