@@ -11,32 +11,42 @@ específicas de cada bounded context
 ![Class Diagram](../assets/images/VitalTrek_Shared_ClassDiagram.png)
 
 **Bounded Context: Safety & Monitoring**
-Supervisa el bienestar de los turistas y la captura de datos en zonas remotas.
-Se centra en la entidad IoTDevice (wearables), gestionando las lecturas de signos vitales (VitalSignReading) y geolocalización (LocationLog) sincronizadas mediante Checkpoint Bluetooth. También maneja Alert para registrar y notificar anomalías o riesgos en tiempo real.
+Supervisa la seguridad de los turistas durante la expedición mediante 
+monitoreo en tiempo real. Administra `Location`, `VitalSignReading`, 
+`Alert` e `Incident` a través de `SafetyStore`, permitiendo detectar 
+anomalías y exportar reportes operativos.
 
 ![Class Diagram](../assets/images/VitalTrek_SafetyMonitoring_ClassDiagram.png)
 
 **Bounded Context: Navigation & Exploration**
-Gestiona la orientación del turista y el registro de su viaje, operando incluso en baja conectividad.
-Incluye la entidad Route y sus Waypoint (tramos del recorrido), así como PointOfInterest para información contextual. También administra OfflineMap para la disponibilidad sin conexión y ExperienceLog donde el turista documenta su recorrido.
+Gestiona la ejecución de expediciones en campo y la experiencia del 
+turista durante el recorrido. Incluye `Expedition` como entidad central, 
+junto con `Progress`, `TouristExperience` y `Weather`, coordinados por 
+`NavigationStore` para navegación offline y registro multimedia.
 
 ![Class Diagram](../assets/images/VitalTrek_NavigationExploration_ClassDiagram.png)
 
 **Bounded Context: Identity & Access**
-Controla la seguridad de acceso, autenticación y autorización en la plataforma.
-La entidad principal es User, vinculada a Credential y Role. Permite diferenciar los accesos y permisos específicos entre los turistas, los guías de expedición y los administradores de las agencias de turismo.
+Gestiona el registro, autenticación y ciclo de vida de las cuentas de 
+usuario. Se centra en `User` y `Session`, administradas mediante 
+`IdentityStore` para operaciones de login, registro, recuperación de 
+contraseña y gestión de sesiones activas.
 
 ![Class Diagram](../assets/images/VitalTrek_IdentityAccess_ClassDiagram.png)
 
 **Bounded Context: Tour Management**
-Centraliza la planificación, ejecución y supervisión operativa de las excursiones.
-Se basa en la entidad Tour, que conecta a la agencia (Agency) con el personal en campo (Guide) y el grupo de viajeros (TouristGroup). Incluye Itinerary para gestionar los horarios y el progreso general que se visualiza en los dashboards de la agencia.
+Controla la creación y administración del catálogo de tours por parte 
+de las agencias. La entidad principal es `Tour`, que se compone de 
+`Checkpoint` y se asocia con `Tourist` mediante asignaciones, todo 
+gestionado a través de `TourManagementStore`.
 
 ![Class Diagram](../assets/images/VitalTrek_TourManagement_ClassDiagram.png)
 
 **Bounded Context: Notification & Profile**
-Administra la información personal de los usuarios y el sistema de avisos de la plataforma.
-Incluye la entidad Profile, que guarda información vital y de EmergencyContact. Además, gestiona Notification para despachar alertas de seguridad, desvíos de ruta o confirmaciones de sincronización asincrónica de datos al recuperar la conectividad.
+Administra los datos personales del usuario y la entrega de 
+notificaciones del sistema. Se basa en `Profile`, `NotificationPreferences` 
+y `Notification`, gestionados por `ProfileStore` para personalización 
+de la cuenta y configuración de canales de comunicación.
 
 ![Class Diagram](../assets/images/VitalTrek_NotificationProfile_ClassDiagram.png)
 
