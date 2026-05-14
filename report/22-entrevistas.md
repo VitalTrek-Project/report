@@ -20,7 +20,6 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 **Perfil del entrevistado:** propietarios, directores de operaciones o guías principales de agencias que operen rutas de trekking, montañismo, expediciones o turismo de naturaleza en zonas remotas del Perú. Preferiblemente agencias medianas o pequeñas con operaciones activas en sierra, selva alta o circuitos andinos.
 
-**Modalidad:** Entrevista semiestructurada, presencial o por videollamada, duración estimada de 45 a 60 minutos.
 
 ---
 
@@ -61,7 +60,6 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 **Perfil del entrevistado:** personas que hayan realizado al menos una actividad de turismo de aventura en el Perú en los últimos dos años (trekking, montañismo, expedición en selva o ruta de naturaleza en zonas remotas), ya sean nacionales o extranjeros residentes en el país.
 
-**Modalidad:** Entrevista semiestructurada, presencial o por videollamada, duración estimada de 30 a 45 minutos.
 
 ---
 
@@ -113,7 +111,52 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 ##### Segmento 1: Dueños o Responsables de Agencias de Turismo de Aventura
 
-*Las entrevistas de este segmento serán registradas y añadidas en la siguiente entrega.*
+---
+
+**Entrevista N° 1**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|---|---|---|
+| Mateo León Paredes | 25 | Lima |
+
+| **Segmento** | **URL** | **Inicio** | **Duración** |
+|---|---|---|---|
+| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCTR9ftr5EBSqyKIiaLu-InAfHmA15wMaRtQdTGF4vHQHI?e=SLgOLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 11:30 min |
+
+![Entrevista-1](../assets/images/entrevista-agencia-1.png)
+
+**Resumen:** Mateo León Paredes, 25 años, opera como encargado logístico de transporte turístico desde Lima, gestionando hasta 10 vehículos y entre 80-120 turistas semanales en rutas hacia Cusco, Arequipa y selva central. Su mayor problema es el seguimiento de flota: el GPS instalado está desactualizado y pierde señal en sierra, por lo que todo depende de WhatsApp y un Excel manual, con zonas de hasta 2 horas sin cobertura que han generado fricciones comerciales con agencias clientes. Vivió un incidente crítico con 12 turistas extranjeros varados de noche sin señal, lo que evidenció la fragilidad total del sistema. Necesita una solución con funcionamiento offline, botón de emergencia para conductores y panel en tiempo real desde Lima, y estaría dispuesto a pagar entre 60-120 USD/mes si puede justificar el ROI ante el dueño, quien representa la principal barrera para adoptar nueva tecnología.
+
+---
+
+**Entrevista N° 2**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|---|---|---|
+| Rodrigo Quispe Mendoza | 29 | Miraflores |
+
+| **Segmento** | **URL** | **Inicio** | **Duración** |
+|---|---|---|---|
+| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
+
+![Entrevista-2](../assets/images/entrevista-agencia-2.png)
+
+**Resumen:** Rodrigo Quispe Mendoza, 29 años, es cofundador y responsable de operaciones de Cumbres Vivas Expediciones, agencia boutique de trekking y montañismo en Miraflores con cuatro años de operación, grupos máximos de ocho personas y presencia en Cusco, Puno y selva alta de Amazonas. En temporada alta gestiona hasta cinco grupos simultáneos con ocho a diez guías en campo y entre treinta y cuarenta turistas activos. El seguimiento es completamente manual vía WhatsApp desde puntos de señal, con silencios de hasta seis a ocho horas en zonas altas donde entre el 60-70% del recorrido no tiene cobertura. Vivió un incidente crítico en el Ausangate donde un turista con mal de altura se deterioró de noche y el guía tardó casi cuatro horas en conseguir señal para pedir ayuda, exponiendo la ausencia de protocolos claros de escalamiento. Ha probado GPS de mano y apps de rastreo sin éxito por problemas de batería, falta de transmisión en tiempo real y dependencia de señal. Sus necesidades indispensables son ubicación en tiempo real con conectividad satelital y alertas de emergencia activables por el guía, y pagaría entre 80-150 USD/mes por una solución robusta. Usa Bokun, WhatsApp y Google Sheets, y tiene alta conciencia del riesgo operativo y legal.
+---
+
+**Entrevista N° 3**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|---|---|---|
+| Paola Paz Collazos | 38 | Lima |
+
+| **Segmento** | **URL** | **Inicio** | **Duración** |
+|---|---|---|---|
+| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAem8RgDlGJlKqcoQkWc_28A?e=233heE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:25 min |
+
+![Entrevista-3](../assets/images/entrevista-agencia-3.png)
+
+**Resumen:** Paola Paz Collazos, 38 años, es fundadora y dueña de una empresa de transporte turístico con doce unidades y ocho años de operación en Lima, atendiendo rutas hacia Cusco, Arequipa y selva central con hasta diez vehículos activos simultáneos y entre cien y ciento cuarenta turistas semanales. El seguimiento actual combina un GPS de flota inestable en sierra, WhatsApp y un Excel manual que actualiza su encargado, con tramos de hasta dos horas sin señal que ya le generaron fricciones comerciales y casi la pérdida de un contrato con una agencia grande. Vivió un incidente de avería mecánica nocturna con doce turistas extranjeros sin señal por más de una hora, donde la incapacidad de informar a los clientes fue el mayor daño. Como dueña reconoce que depender del celular en esas rutas no es un sistema sino suerte, y esa responsabilidad le pesa. Ha probado soluciones de rastreo sin éxito por costo y falta de funcionalidad offline, e identifica como barreras la conectividad, la simplicidad necesaria para conductores mayores sin habilidades digitales y el costo justificable. Ve valor no solo operativo sino comercial en la solución: poder mostrar a las agencias en tiempo real dónde está su grupo como argumento de diferenciación frente a otros transportistas. Sus funcionalidades indispensables son operatividad offline, alerta de emergencia simple y panel en tiempo real desde Lima, y pagaría entre 85-150 USD/mes.
 
 ---
 
