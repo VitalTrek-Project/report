@@ -1,26 +1,62 @@
 #### 4.4.3. Web Applications User Flow Diagrams
-
-En esta sección se presentan los User Flows de VitalTrek, los cuales describen la ruta lógica que siguen los distintos usuarios para cumplir sus objetivos dentro de la plataforma.
+##### User Persona: Ana Lucía Quispe - Gerente de Operaciones en Agencia de Turismo de Aventura
+**User Goal 1: Monitoreo de grupos turísticos**
+<br>**Como** gerente de operaciones de una agencia de turismo de aventura,
+<br>**quiero** visualizar en tiempo real la ubicación y estado de mis grupos en ruta,
+<br>**para** reaccionar rápidamente ante incidentes y garantizar la seguridad de los turistas incluso en zonas remotas.
 <br>
-A diferencia de los wireflows estructurales, estos diagramas incorporan los mock-ups de las pantallas, permitiendo visualizar la interacción del usuario con la interfaz durante cada etapa del recorrido. Se incluyen tanto el flujo principal (Happy Path) como las rutas alternativas o de error (Unhappy Paths), considerando situaciones como pérdida de conectividad, datos inválidos o incidencias durante el tour.
-
-##### Turista de aventura
-**User Goal:** Consultar y descargar la ruta del tour antes de iniciar el recorrido para acceder a ella sin conexión durante la actividad.
-
-**Descripción del flujo:** El flujo inicia cuando la turista accede a la plataforma e inicia sesión. Luego visualiza la lista de tours disponibles, selecciona uno y accede al detalle del recorrido. Desde esta pantalla puede revisar el mapa, los checkpoints y descargar la ruta para utilizarla sin conexión.
+<br><br>
+**User Goal 2: Gestión de incidentes**
+<br>**Como** gerente de operaciones,
+<br>**quiero** recibir alertas automáticas cuando ocurra una anomalía o pérdida de conectividad,
+<br>**para** tomar decisiones preventivas y coordinar una respuesta inmediata ante emergencias.
 <br>
-
-El happy path ocurre cuando las credenciales son válidas y la descarga se completa correctamente.
+<br><br>
+**User Goal 3: Supervisión centralizada**
+<br>**Como** responsable de operaciones turísticas,
+<br>**quiero** supervisar múltiples tours desde un dashboard centralizado,
+<br>**para** reducir la dependencia de reportes manuales y mejorar la eficiencia operativa de la agencia.
 <br>
-Los unhappy paths contemplan situaciones como credenciales inválidas, falla de descarga o indisponibilidad temporal de la ruta.
-<br><br>![Web Applications User Flow Diagrams 1](../assets/images/Web-Applications-User-Flow-Diagrams-1.png)
-
-##### Agencia de turismo
-**User Goal:** Monitorear el estado y la ubicación del grupo durante el desarrollo del tour para identificar posibles incidencias a tiempo.
-**Descripción del flujo:** El flujo inicia cuando el operador de la agencia ingresa al sistema y accede al dashboard principal. Desde allí selecciona un tour activo y visualiza el mapa con la ubicación del grupo y el estado general del recorrido.
+<br><br>
+**User Goal 4: Registro y seguimiento de tours**
+<br>**Como** gerente de una agencia de aventura,
+<br>**quiero** registrar y monitorear el progreso de cada tour,
+<br>**para** mantener un historial organizado de recorridos, incidentes y desempeño operativo.
 <br>
-
-El happy path ocurre cuando los datos del recorrido se reciben correctamente y el monitoreo continúa sin incidencias.
+<br><br>
+**User Goal 5: Seguridad y reputación de la agencia**
+<br>**Como** gerente de operaciones,
+<br>**quiero** asegurar que mis turistas se sientan protegidos durante todo el recorrido,
+<br>**para** fortalecer la reputación de la agencia y ofrecer experiencias seguras y confiables.
 <br>
-Los unhappy paths incluyen pérdida de conectividad, ausencia de nuevos datos o detección de una anomalía que genera una alerta para seguimiento.
-<br><br>![Web Applications User Flow Diagrams 2](../assets/images/Web-Applications-User-Flow-Diagrams-2.png)
+---
+##### User Persona: Marco Rodriguez - Arquitecto Senior en Estudio Independiente
+**User Goal 1: Seguridad durante la aventura**
+<br>**Como** turista,
+<br>**quiero** compartir mi ubicación y mantenerme conectado durante rutas en zonas remotas,
+<br>**para** sentirme seguro y dar tranquilidad a mi familia mientras exploro el Perú.
+<br>
+<br><br>
+**User Goal 2: Comunicación con familiares**
+<br>**Como** viajero internacional,
+<br>**quiero** mantener informados a mis familiares sobre mi estado y ubicación,
+<br>**para** reducir su preocupación durante mis recorridos de aventura.
+<br>
+<br><br>
+**User Goal 3: Documentación de la experiencia**
+<br>**Como** entusiasta del trekking y la fotografía,
+<br>**quiero** registrar fotos, recorridos y datos de mis rutas,
+<br>**para** conservar recuerdos de calidad y compartir mi experiencia con mi comunidad.
+<br>
+<br><br>
+**User Goal 4: Información contextual del recorrido**
+<br>**Como** viajero interesado en la cultura y naturaleza,
+<br>**quiero** acceder a información histórica, geográfica y cultural de las rutas,
+<br>**para** comprender mejor los lugares que visito y enriquecer mi experiencia de viaje.
+<br>
+<br><br>
+**User Goal 5: Planificación segura del viaje**
+<br>**Como** turista que organiza sus viajes con anticipación,
+<br>**quiero** contar con información clara sobre rutas, riesgos y recomendaciones,
+<br>**para** tomar decisiones seguras y disfrutar una experiencia bien organizada.
+<br>
