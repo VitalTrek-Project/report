@@ -107,7 +107,7 @@ Los botones de acción destacan por color, ubicación y tamaño, incentivando co
 El Mock-Up considera principios de accesibilidad mediante contrastes adecuados, textos legibles, botones visibles y estructura adaptable a distintos dispositivos. Asimismo, se emplean etiquetas claras en formularios e íconos reconocibles para mejorar la experiencia de todo tipo de usuarios.
 
 ![Navigation, home page and problem](../assets/images/mock-up-pantalla-1.png)
-![solution and target segment](../assets/mock-up-pantalla-2.png)
+![solution and target segment](../assets/images/mock-up-pantalla-2.png)
 ![IoT technology](../assets/images/mock-up-pantalla-3.png)
 ![Key feature](../assets/images/mock-up-pantalla-4.png)
 ![How it works](../assets/images/mock-up-pantalla-5.png)
