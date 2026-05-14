@@ -142,6 +142,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 ![Entrevista-2](../assets/images/entrevista-agencia-2.png)
 
 **Resumen:** Rodrigo Quispe Mendoza, 29 años, es cofundador y responsable de operaciones de Cumbres Vivas Expediciones, agencia boutique de trekking y montañismo en Miraflores con cuatro años de operación, grupos máximos de ocho personas y presencia en Cusco, Puno y selva alta de Amazonas. En temporada alta gestiona hasta cinco grupos simultáneos con ocho a diez guías en campo y entre treinta y cuarenta turistas activos. El seguimiento es completamente manual vía WhatsApp desde puntos de señal, con silencios de hasta seis a ocho horas en zonas altas donde entre el 60-70% del recorrido no tiene cobertura. Vivió un incidente crítico en el Ausangate donde un turista con mal de altura se deterioró de noche y el guía tardó casi cuatro horas en conseguir señal para pedir ayuda, exponiendo la ausencia de protocolos claros de escalamiento. Ha probado GPS de mano y apps de rastreo sin éxito por problemas de batería, falta de transmisión en tiempo real y dependencia de señal. Sus necesidades indispensables son ubicación en tiempo real con conectividad satelital y alertas de emergencia activables por el guía, y pagaría entre 80-150 USD/mes por una solución robusta. Usa Bokun, WhatsApp y Google Sheets, y tiene alta conciencia del riesgo operativo y legal.
+
 ---
 
 **Entrevista N° 3**
