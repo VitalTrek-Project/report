@@ -127,17 +127,23 @@ Durante el Sprint 1, el equipo completó la implementación de la Landing Page e
 
 A continuación se presentan capturas de las principales vistas implementadas:
 
-*(Insertar screenshot de la sección Hero)*
+![VitalTrek Landing Page 1](../assets/images/vitaltrek-landing-pag1.png)
 
-*(Insertar screenshot de la sección de Beneficios)*
+![VitalTrek Landing Page 2](../assets/images/vitaltrek-landing-pag2.png)
 
-*(Insertar screenshot de la sección de Funcionalidades)*
+![VitalTrek Landing Page 3](../assets/images/vitaltrek-landing-pag3.png)
 
-*(Insertar screenshot de la sección de Contacto)*
+![VitalTrek Landing Page 4](../assets/images/vitaltrek-landing-pag4.png)
 
-*(Insertar screenshot del toggle de idioma EN/ES)*
+![VitalTrek Landing Page 5](../assets/images/vitaltrek-landing-pag5.png)
 
-**Video de demostración:** *(Insertar enlace al video que ilustra la navegación completa de la landing page)*
+![VitalTrek Landing Page 6](../assets/images/vitaltrek-landing-pag6.png)
+
+![VitalTrek Landing Page 7](../assets/images/vitaltrek-landing-pag7.png)
+
+![VitalTrek Landing Page 8](../assets/images/vitaltrek-landing-pag8.png)
+
+![VitalTrek Landing Page 9](../assets/images/vitaltrek-landing-pag9.png)
 
 ---
 
