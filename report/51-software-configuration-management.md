@@ -6,21 +6,22 @@
 
 Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente entre todos los miembros del equipo Nexum Devs, se ha definido el siguiente entorno de desarrollo para el ecosistema VitalTrek:
 
-| Actividad                           | Producto           | Propósito / Uso                                                                                                                         | Ruta de referencia / descarga |
-|:------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------|
-| Project Management                  | Trello             | Organización del Product Backlog, planificación de Sprints y monitoreo del avance de tareas del equipo.                                 |                               |
-| Requirements Management             | UXPressia          | Elaboración de artefactos de descubrimiento (User Personas, Empathy Maps, Journey Maps e Impact Maps) para la definición de requisitos. |                               |
-| UX/UI Design                        | Figma              | Diseño de la guía de estilo, prototipos de baja fidelidad (wireframes) y alta fidelidad (mockups).                                      |                               |
-| Big Picture Event Storming          | Miro               | Modelado y representación colaborativa de procesos mediante Event Storming.                                                             |                               |
-| User Flows & Wireflows              | LucidChart         | Elaboración de Wireflows y User Flows.                                                                                                  |                               |
-| C4 Diagrams                         | Structurizr        | Elaboración de diagramas C4.                                                                                                            |                               |
-| Class Diagrams & Database Design    | PlantUML           | Elaboración de diagramas UML y modelado estructural de la base de datos.                                                                |                               |
-| Software Development (Backend)      | JetBrains Rider    | Entorno de desarrollo para la implementación de servicios web RESTful con ASP.NET Core y C#.                                            |                               |
-| Software Development (Frontend)     | JetBrains WebStorm | Desarrollo de la aplicación web utilizando Vue Framework y tecnologías frontend como HTML5, CSS3 y JavaScript.                          |                               |
-| Software Development (Landing Page) | Visual Studio Code | Desarrollo y edición de la Landing Page utilizando tecnologías web estándar.                                                            |                               |
-| Version Control                     | GitHub             | Administración de repositorios y control de versiones mediante GitFlow y Conventional Commits.                                          |                               |
-| Software Deployment                 | Netlify            | Despliegue y publicación de la Landing Page en un entorno accesible para usuarios.                                                      |                               |
-| Documentation                       | Markdown           | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto.                                                       |                               |
+| Actividad                           | Producto           | Propósito / Uso                                                                                                                         | Ruta de referencia / descarga                                                                                                                                              |
+|:------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project Management                  | Trello             | Organización del Product Backlog, planificación de Sprints y monitoreo del avance de tareas del equipo.                                 | https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog <br>                                                     |
+| Requirements Management             | UXPressia          | Elaboración de artefactos de descubrimiento (User Personas, Empathy Maps, Journey Maps e Impact Maps) para la definición de requisitos. | https://uxpressia.com/w/zOJAx                                                                                                                                              |
+| UX/UI Design                        | Figma              | Diseño de la guía de estilo, prototipos de baja fidelidad (wireframes) y alta fidelidad (mockups).                                      | https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=A39veEYR7UykQwPG-0                                                                    |
+| Big Picture Event Storming          | Miro               | Modelado y representación colaborativa de procesos mediante Event Storming.                                                             | https://miro.com/app/board/uXjVHcmAuSg=/?share_link_id=67734123477                                                                                                         |
+| User Flows & Wireflows              | LucidChart         | Elaboración de Wireflows y User Flows.                                                                                                  | https://lucid.app/lucidchart/43bc9b20-18a3-4d2c-b9a6-85ed008620de/edit?viewport_loc=-2040%2C2618%2C4437%2C2445%2C0_0&invitationId=inv_49759446-823e-49d5-b1b4-d320a18165d8 |
+| C4 Diagrams                         | Structurizr        | Elaboración de diagramas C4.                                                                                                            | https://structurizr.com/share/109663/51271721-b088-4007-addf-b09ca1ad0c3f                                                                                                  |
+| Class Diagrams & Database Design    | PlantUML           | Elaboración de diagramas UML y modelado estructural de la base de datos.                                                                | https://plantuml.com/es/class-diagram                                                                                                                                      |
+| Software Development (Backend)      | JetBrains Rider    | Entorno de desarrollo para la implementación de servicios web RESTful con ASP.NET Core y C#.                                            |                                                                                                                                                                            |
+| Software Development (Frontend)     | JetBrains WebStorm | Desarrollo de la aplicación web utilizando Vue Framework y tecnologías frontend como HTML5, CSS3 y JavaScript.                          |                                                                                                                                                                            |
+| Software Development (Landing Page) | Visual Studio Code | Desarrollo y edición de la Landing Page utilizando tecnologías web estándar.                                                            |                                                                                                                                                                            |
+| Version Control                     | GitHub             | Administración de repositorios y control de versiones mediante GitFlow y Conventional Commits.                                          |                                                                                                                                                                            |
+| Software Deployment                 | GitHub Pages       | Despliegue y publicación de la Landing Page en un entorno accesible para usuarios.                                                      | https://vitaltrek-project.github.io/landing-page/                                                                                                                          |
+| Software Deployment Web-Application | CloudFare          | Despliegue y publicación de la Web Application en un entorno accesible para usuarios.                                                   | 
+| Documentation                       | Markdown           | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto.                                                       |                                                                                                                                                                            |
 
 
 #### 5.1.2. Source Code Management
@@ -29,12 +30,12 @@ El proyecto utilizará Git como sistema de control de versiones distribuido y Gi
 
 Asimismo, cada componente del ecosistema VitalTrek contará con un repositorio independiente, facilitando la modularidad, el control de versiones y la administración de los distintos productos de software desarrollados por el equipo. En el caso de Web Services, el repositorio incluirá tanto el proyecto principal como los archivos correspondientes a pruebas unitarias y pruebas de integración/aceptación.
 
-| Producto | Repositorio | URL |
-|:--|:--|:--|
-| Landing Page | vitaltrek-landing-page |  |
-| Frontend Web Application | vitaltrek-frontend |  |
-| Web Services | vitaltrek-backend |  |
-| Documentation | NexumDevs |  |
+| Producto                 | Repositorio            | URL                                                      |
+|:-------------------------|:-----------------------|:---------------------------------------------------------|
+| Landing Page             | vitaltrek-landing-page | https://github.com/VitalTrek-Project/landing-page.git    |
+| Frontend Web Application | vitaltrek-frontend     | https://github.com/VitalTrek-Project/web-application.git |
+| Web Services             | vitaltrek-backend      |                                                          |
+| Documentation            | NexumDevs              | https://github.com/VitalTrek-Project/report.git          |
 
 ---
 
@@ -134,41 +135,86 @@ La estructura general adoptada en el proyecto es la siguiente:
 ```text
 /src
 ├── assets/
+│
 ├── locales/
 │   ├── en.json
 │   └── es.json
 │
-├── news/
+├── monitoring/
 │   ├── application/
-│   │   └── news.store.js
+│   │   └── monitoring.store.js
 │   │
 │   ├── domain/
 │   │   └── model/
-│   │       ├── article.entity.js
-│   │       └── source.entity.js
+│   │       ├── alert.entity.js
+│   │       ├── incident.entity.js
+│   │       ├── location.entity.js
+│   │       ├── sign.entity.js
+│   │       └── tourist.entity.js
 │   │
 │   ├── infrastructure/
-│   │   ├── article.assembler.js
-│   │   ├── news-api.js
-│   │   └── source.assembler.js
+│   │   ├── alert.assembler.js
+│   │   ├── incident.assembler.js
+│   │   ├── location.assembler.js
+│   │   ├── monitoring-api.js
+│   │   ├── sign.assembler.js
+│   │   └── tourist.assembler.js
 │   │
 │   └── presentation/
-│       └── components/
-│           ├── article-item.vue
-│           ├── article-list.vue
-│           ├── source-item.vue
-│           ├── source-list.vue
-│           └── unavailable-content.vue
+│       ├── components/
+│       │   ├── alert-item.vue
+│       │   ├── alert-list.vue
+│       │   ├── incident-item.vue
+│       │   ├── incident-list.vue
+│       │   ├── location-item.vue
+│       │   ├── location-list.vue
+│       │   ├── sign-item.vue
+│       │   ├── sign-list.vue
+│       │   ├── tourist-item.vue
+│       │   └── tourist-list.vue
+│       │
+│       └── views/
+│           └── monitoring-view.vue
+│
+├── tour-management/
+│   ├── application/
+│   │   └── tour-management.store.js
+│   │
+│   ├── domain/
+│   │   └── model/
+│   │       ├── checkpoint.entity.js
+│   │       ├── tour.entity.js
+│   │       └── tourist.entity.js
+│   │
+│   ├── infrastructure/
+│   │   ├── checkpoint.assembler.js
+│   │   ├── tour.assembler.js
+│   │   └── tour-management-api.js
+│   │
+│   └── presentation/
+│       ├── components/
+│       │   ├── checkpoint-item.vue
+│       │   ├── checkpoint-list.vue
+│       │   ├── tour-item.vue
+│       │   ├── tour-list.vue
+│       │   └── tourist-item.vue
+│       │
+│       └── views/
+│           └── tour-management-view.vue
 │
 ├── shared/
 │   ├── infrastructure/
-│   │   └── logo-dev-api.js
+│   │   ├── base-api.js
+│   │   └── base-endpoint.js
 │   │
 │   └── presentation/
 │       └── components/
 │           ├── footer-content.vue
 │           ├── language-switcher.vue
 │           └── layout.vue
+│
+├── navigation/
+│   └── index.js
 │
 ├── app.vue
 ├── i18n.js
@@ -191,15 +237,15 @@ Durante este primer sprint, el único producto desplegado corresponde a la Landi
 
 La Landing Page fue desarrollada utilizando HTML5, CSS3 y JavaScript, sin requerir herramientas de compilación, gestores de paquetes ni procesos de build adicionales. El despliegue se realiza directamente desde el repositorio remoto alojado en GitHub.
 
-| Configuración            | Valor                    |
-|:-------------------------|:-------------------------|
-| Producto                 | Landing Page             |
-| Plataforma de despliegue | GitHub Pages             |
-| Repositorio fuente       | `vitaltrek-landing-page` |
-| Rama de despliegue       | `main`                   |
-| Directorio publicado     | `/root`                  |
-| Tipo de despliegue       | Automático               |
-| URL pública              |                          |
+| Configuración            | Valor                                             |
+|:-------------------------|:--------------------------------------------------|
+| Producto                 | Landing Page                                      |
+| Plataforma de despliegue | GitHub Pages                                      |
+| Repositorio fuente       | `vitaltrek-landing-page`                          |
+| Rama de despliegue       | `main`                                            |
+| Directorio publicado     | `/root`                                           |
+| Tipo de despliegue       | Automático                                        |
+| URL pública              | https://vitaltrek-project.github.io/landing-page/ |
 
 ---
 
