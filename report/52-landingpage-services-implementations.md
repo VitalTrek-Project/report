@@ -152,3 +152,93 @@ A continuación se presentan capturas de las principales vistas implementadas:
 Durante el Sprint 1, el alcance del equipo se limitó exclusivamente a la implementación de la Landing Page estática de VitalTrek, desarrollada con HTML, CSS y JavaScript vanilla. En esta iteración no se implementaron Web Services ni endpoints de API REST, por lo que no aplica documentación de servicios con OpenAPI para este sprint.
 
 La implementación de endpoints y su documentación corresponderá a sprints posteriores, una vez que el equipo avance hacia el desarrollo de la Web Application y el Web Service de la plataforma.
+
+## 5.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 2 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación inicial de la **Web Application**, que constituye el núcleo funcional de la plataforma y habilita la interacción directa de los usuarios con los servicios de expediciones, monitoreo y gestión de tours.
+
+---
+
+### 5.2.2.1. Sprint Planning 2
+
+La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
+
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
+
+> **"Our focus is on** delivering the first functional version of the VitalTrek Web Application. **We believe it delivers** core capabilities such as user registration/login, tour catalog browsing, and initial monitoring features. **This will be confirmed when** users can create accounts, authenticate sessions, explore available tours, and visualize monitoring dashboards within the application."
+
+| Campo | Detalle |
+|:------|:--------|
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-05-16 |
+| **Time** | 9:00 PM |
+| **Location** | Discord |
+| **Prepared By** | Rodriguez Rojas, Miler |
+| **Attendees (to planning meeting)** | Alfaro, Joaquin / Quispe, Edu / Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel |
+| **Sprint n – 1 Review Summary** | El equipo completó la Landing Page bilingüe y estática, cumpliendo con todos los objetivos del Sprint 1. |
+| **Sprint n – 1 Retrospective Summary** | Se acordó mejorar la organización de commits, reforzar la documentación técnica y establecer un flujo de integración continua para la Web Application. |
+| **Sprint 2 Goal** | Our focus is on delivering the first functional version of the VitalTrek Web Application. We believe it delivers core capabilities such as user registration/login, tour catalog browsing, and initial monitoring features. This will be confirmed when users can create accounts, authenticate sessions, explore available tours, and visualize monitoring dashboards within the application. |
+| **Sprint 2 Velocity** | 30 Story Points |
+| **Sum of Story Points** | 30 Story Points |
+
+---
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo identificó seis aspectos principales correspondientes al alcance funcional de la Web Application de VitalTrek.
+
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access (Login/Register) | Tour Management (Catalog) | Safety & Monitoring (Dashboard) | Notification & Profile | IoT Integration | Deployment & CI/CD |
+|:-------------------------------------|:----------------|:----------------------------------|:--------------------------|:-------------------------------|:----------------------|:---------------|:------------------|
+| Quispe Perez, Edu | Eder_09 | L | C | C | C | C | C |
+| Rodriguez, Miler | Miler2003 | C | L | C | C | C | C |
+| Verastigue, Giancarlo | CaLoVM | C | C | L | C | C | C |
+| Alfaro, Joaquin | elprrr | C | C | C | L | C | C |
+| Vilchez, Gabriel | GZ-99 | C | C | C | C | L | L |
+
+---
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue implementar la primera versión funcional de la Web Application, habilitando el registro/login de usuarios, la exploración del catálogo de tours y el monitoreo inicial.
+
+| Sprint # | Sprint 2 |
+|:---------|:---------|
+
+| User Story | | Work-Item / Task | | | | |
+|:-----------|:-|:-----------------|:-|:-|:-|:-|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+|:---|:------|:---|:------|:------------|:-------------------|:------------|:-------|
+| US-WA01 | Registrar usuario | T01 | Implementar formulario de registro | Crear formulario con validación y conexión a backend. | 4 | Quispe, Edu | In Progress |
+| US-WA02 | Iniciar sesión | T02 | Implementar login con sesiones | Crear login con autenticación y manejo de sesiones. | 3 | Quispe, Edu | In Progress |
+| US-WA03 | Explorar catálogo de tours | T03 | Diseñar vista de catálogo | Implementar listado de tours con filtros y paginación. | 4 | Rodriguez, Miler | In Progress |
+| US-WA04 | Monitorear expedición | T04 | Implementar dashboard inicial | Crear dashboard con datos de ubicación y alertas básicas. | 5 | Verastigue, Giancarlo | To Do |
+| US-WA05 | Configurar perfil | T05 | Implementar vista de perfil | Crear vista de perfil con edición de datos y notificaciones. | 3 | Alfaro, Joaquin | To Do |
+| US-WA06 | Integrar IoT | T06 | Conectar dispositivos simulados | Implementar conexión con datos de sensores simulados. | 5 | Vilchez, Gabriel | To Do |
+| US-WA07 | Despliegue CI/CD | T07 | Configurar pipeline | Configurar integración continua y despliegue automático. | 3 | Vilchez, Gabriel | To Do |
+
+---
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **React.js** para la interfaz y **Node.js/Express** para el backend inicial. Se configuró la autenticación de usuarios, la vista de catálogo de tours y un dashboard básico de monitoreo.
+
+---
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **Vercel** y pipeline de integración continua en GitHub Actions.
+
+---
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este sprint se implementaron los primeros endpoints REST:
+
+- `POST /api/register` → Registro de usuarios  
+- `POST /api/login` → Autenticación de usuarios  
+- `GET /api/tours` → Listado de tours  
+- `GET /api/dashboard` → Datos iniciales de monitoreo  
+
+La documentación de servicios se realizó con **OpenAPI (Swagger)** y se incluyó en el repositorio.
