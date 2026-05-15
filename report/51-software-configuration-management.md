@@ -29,12 +29,12 @@ El proyecto utilizará Git como sistema de control de versiones distribuido y Gi
 
 Asimismo, cada componente del ecosistema VitalTrek contará con un repositorio independiente, facilitando la modularidad, el control de versiones y la administración de los distintos productos de software desarrollados por el equipo. En el caso de Web Services, el repositorio incluirá tanto el proyecto principal como los archivos correspondientes a pruebas unitarias y pruebas de integración/aceptación.
 
-| Producto | Repositorio | URL |
-|:--|:--|:--|
-| Landing Page | vitaltrek-landing-page |  |
-| Frontend Web Application | vitaltrek-frontend |  |
-| Web Services | vitaltrek-backend |  |
-| Documentation | NexumDevs |  |
+| Producto                 | Repositorio            | URL |
+|:-------------------------|:-----------------------|:----|
+| Landing Page             | vitaltrek-landing-page | https://github.com/VitalTrek-Project/landing-page.git    |
+| Frontend Web Application | vitaltrek-frontend     | https://github.com/VitalTrek-Project/web-application.git    |
+| Web Services             | vitaltrek-backend      |     |
+| Documentation            | NexumDevs              | https://github.com/VitalTrek-Project/report.git    |
 
 ---
 
@@ -134,41 +134,86 @@ La estructura general adoptada en el proyecto es la siguiente:
 ```text
 /src
 ├── assets/
+│
 ├── locales/
 │   ├── en.json
 │   └── es.json
 │
-├── news/
+├── monitoring/
 │   ├── application/
-│   │   └── news.store.js
+│   │   └── monitoring.store.js
 │   │
 │   ├── domain/
 │   │   └── model/
-│   │       ├── article.entity.js
-│   │       └── source.entity.js
+│   │       ├── alert.entity.js
+│   │       ├── incident.entity.js
+│   │       ├── location.entity.js
+│   │       ├── sign.entity.js
+│   │       └── tourist.entity.js
 │   │
 │   ├── infrastructure/
-│   │   ├── article.assembler.js
-│   │   ├── news-api.js
-│   │   └── source.assembler.js
+│   │   ├── alert.assembler.js
+│   │   ├── incident.assembler.js
+│   │   ├── location.assembler.js
+│   │   ├── monitoring-api.js
+│   │   ├── sign.assembler.js
+│   │   └── tourist.assembler.js
 │   │
 │   └── presentation/
-│       └── components/
-│           ├── article-item.vue
-│           ├── article-list.vue
-│           ├── source-item.vue
-│           ├── source-list.vue
-│           └── unavailable-content.vue
+│       ├── components/
+│       │   ├── alert-item.vue
+│       │   ├── alert-list.vue
+│       │   ├── incident-item.vue
+│       │   ├── incident-list.vue
+│       │   ├── location-item.vue
+│       │   ├── location-list.vue
+│       │   ├── sign-item.vue
+│       │   ├── sign-list.vue
+│       │   ├── tourist-item.vue
+│       │   └── tourist-list.vue
+│       │
+│       └── views/
+│           └── monitoring-view.vue
+│
+├── tour-management/
+│   ├── application/
+│   │   └── tour-management.store.js
+│   │
+│   ├── domain/
+│   │   └── model/
+│   │       ├── checkpoint.entity.js
+│   │       ├── tour.entity.js
+│   │       └── tourist.entity.js
+│   │
+│   ├── infrastructure/
+│   │   ├── checkpoint.assembler.js
+│   │   ├── tour.assembler.js
+│   │   └── tour-management-api.js
+│   │
+│   └── presentation/
+│       ├── components/
+│       │   ├── checkpoint-item.vue
+│       │   ├── checkpoint-list.vue
+│       │   ├── tour-item.vue
+│       │   ├── tour-list.vue
+│       │   └── tourist-item.vue
+│       │
+│       └── views/
+│           └── tour-management-view.vue
 │
 ├── shared/
 │   ├── infrastructure/
-│   │   └── logo-dev-api.js
+│   │   ├── base-api.js
+│   │   └── base-endpoint.js
 │   │
 │   └── presentation/
 │       └── components/
 │           ├── footer-content.vue
 │           ├── language-switcher.vue
 │           └── layout.vue
+│
+├── navigation/
+│   └── index.js
 │
 ├── app.vue
 ├── i18n.js
