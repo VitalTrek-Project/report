@@ -201,13 +201,6 @@ Durante el Sprint 2, el equipo identificó seis aspectos principales correspondi
 
 El objetivo principal del Sprint 2 fue implementar la primera versión funcional de la Web Application, habilitando el registro/login de usuarios, la exploración del catálogo de tours y el monitoreo inicial.
 
-| Sprint # | Sprint 2 |
-|:---------|:---------|
-
-| User Story | | Work-Item / Task | | | | |
-|:-----------|:-|:-----------------|:-|:-|:-|:-|
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
 |:---|:------|:---|:------|:------------|:-------------------|:------------|:-------|
 | US-WA01 | Registrar usuario | T01 | Implementar formulario de registro | Crear formulario con validación y conexión a backend. | 4 | Quispe, Edu | In Progress |
@@ -222,23 +215,23 @@ El objetivo principal del Sprint 2 fue implementar la primera versión funcional
 
 ### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **React.js** para la interfaz y **Node.js/Express** para el backend inicial. Se configuró la autenticación de usuarios, la vista de catálogo de tours y un dashboard básico de monitoreo.
+Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **Vue.js** junto con la biblioteca de componentes **PrimeVue** para la interfaz. El backend inicial se desarrolló con **ASP.NET Core Framework** empleando **C#** bajo el estilo arquitectónico **RESTful API**. Se configuró la autenticación de usuarios, la vista de catálogo de tours y un dashboard básico de monitoreo. El diseño visual siguió las guías de **Material Design** para asegurar consistencia y usabilidad.
 
 ---
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
-El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **Vercel** y pipeline de integración continua en GitHub Actions.
+El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **CloudFlare** y pipeline de integración continua en **GitHub Actions**, aplicando **GitFlow Workflow**, **Conventional Commits** y **Semantic Versioning** para el control de versiones.
 
 ---
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En este sprint se implementaron los primeros endpoints REST:
+En este sprint se implementaron los primeros endpoints REST bajo **ASP.NET Core**:
 
 - `POST /api/register` → Registro de usuarios  
 - `POST /api/login` → Autenticación de usuarios  
 - `GET /api/tours` → Listado de tours  
 - `GET /api/dashboard` → Datos iniciales de monitoreo  
 
-La documentación de servicios se realizó con **OpenAPI (Swagger)** y se incluyó en el repositorio.
+
