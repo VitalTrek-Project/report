@@ -122,7 +122,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como viajero europeo planificando una expedición en Perú, deseo crear una cuenta en VitalTrek desde mi país de origen para preparar mi viaje con anticipación y tener acceso a una plataforma confiable que opere en zonas remotas.*
 
-![User Flow 01 - Marco registra su cuenta](../assets/userflow-01-registro.png)
+![User Flow 01 - Marco registra su cuenta](../assets/images/userflow-1.png)
 
 **Explicación del flujo:** El happy path inicia en la pantalla de Login y conduce a Marco al formulario de creación de cuenta, donde completa sus datos personales (nombre, correo, contraseña, país de origen). Al enviar el formulario con información válida, el sistema crea la cuenta y redirige al Hero/landing como turista autenticado, con contenido localizado según su país. Los unhappy paths contemplados son: (a) correo ya registrado, donde el sistema retorna al formulario mostrando un mensaje de error y sugiriendo iniciar sesión o recuperar contraseña; (b) contraseña que no cumple los requisitos mínimos de seguridad, generando un mensaje inline bajo el campo afectado con los criterios pendientes; (c) campos obligatorios vacíos, donde el sistema impide el envío y resalta los campos pendientes; (d) términos y condiciones no aceptados, bloqueando el botón de envío hasta que el checkbox sea marcado; (e) error de conexión durante el registro, mostrando un mensaje de reintento sin perder los datos diligenciados.
 
@@ -132,7 +132,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como viajero experimentado con alto poder adquisitivo, deseo explorar el catálogo de rutas y seleccionar aquella que ofrezca una experiencia auténtica acorde a mi nivel técnico, con la confianza de que podré comunicarme con mi familia durante el recorrido.*
 
-![User Flow 02 - Marco se inscribe en una ruta](../assets/userflow-02-inscripcion-ruta.png)
+![User Flow 02 - Marco se inscribe en una ruta](../assets/images/userflow-2.png)
 
 **Explicación del flujo:** El happy path conduce a Marco desde el Hero/landing hasta la pantalla Explore routes, donde aplica filtros, selecciona una ruta y confirma su inscripción, retornando con una notificación de éxito y los detalles del tour en su perfil. Los unhappy paths considerados son: (a) ningún resultado coincide con los filtros aplicados, mostrando un estado vacío con sugerencia de ajustar criterios o ver rutas similares; (b) ruta sin cupos disponibles, donde el botón de inscripción se deshabilita y se ofrece la opción de unirse a una lista de espera o ver fechas alternativas; (c) usuario sin plan activo intentando inscribirse en una ruta premium, lo que dispara una redirección sugerida hacia la pantalla Plans and prices; (d) nivel de dificultad técnica de la ruta superior al perfil declarado por Marco, generando una advertencia que requiere confirmación explícita antes de continuar; (e) error de conexión durante la confirmación, mostrando un mensaje de reintento sin perder los datos seleccionados.
 
@@ -142,7 +142,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como turista durante una expedición activa en zona remota, deseo seguir mi recorrido en tiempo real y mantener informados a mis familiares sobre mi ubicación, incluso cuando pierdo señal GPS o conectividad continua durante varios días.*
 
-![User Flow 03 - Marco sigue su expedición](../assets/userflow-03-expedicion-tiempo-real.png)
+![User Flow 03 - Marco sigue su expedición](../assets/images/userflow-3.png)
 
 **Explicación del flujo:** El happy path corresponde a una expedición que avanza normalmente: el dispositivo IoT reporta posición continua a través de la red de baja conectividad, el mapa se actualiza, los familiares de Marco reciben notificaciones automáticas en cada checkpoint, y se completa la ruta con resumen final. Los unhappy paths cubiertos — que constituyen el diferencial central de VitalTrek frente a competidores — son: (a) pérdida temporal de señal GPS, donde el sistema muestra la última posición conocida con marca temporal y activa la búsqueda automática mediante el dispositivo IoT, manteniendo a Marco informado del estado de comunicación; (b) desvío del turista respecto a la ruta planificada, lo que dispara una alerta visual con instrucciones de retorno y notifica simultáneamente al guía responsable; (c) detección de valores anómalos en variables vitales (frecuencia cardiaca elevada, temperatura corporal alterada), generando una notificación a Marco y al equipo de la agencia; (d) imposibilidad temporal de enviar actualización familiar, donde el sistema encola el mensaje y lo despacha automáticamente al recuperar conectividad, mostrando claramente el estado de la comunicación a Marco; (e) cancelación voluntaria de la expedición, que conduce a una pantalla de confirmación y registra el evento para la agencia.
 
@@ -152,7 +152,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como gerente de operaciones de una agencia mediana en Cusco, deseo supervisar en tiempo real las variables vitales y la ubicación de los turistas de cada tour activo para reducir el tiempo de respuesta ante emergencias y profesionalizar la operación de mi agencia.*
 
-![User Flow 04 - Ana Lucía monitorea turistas](../assets/userflow-04-monitoreo-turistas.png)
+![User Flow 04 - Ana Lucía monitorea turistas](../assets/images/userflow-4.png)
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde Tour management hasta el dashboard de Security and monitoring, donde supervisa las variables sin incidentes durante toda la expedición y revisa el reporte de cierre al finalizar. Los unhappy paths definidos — que responden a los escenarios reales que actualmente Ana Lucía gestiona vía WhatsApp y radios analógicas — son: (a) alerta crítica por variable vital fuera de umbral, que activa una notificación destacada con protocolo de respuesta sugerido y permite contacto inmediato con el guía en campo; (b) pérdida de comunicación con un dispositivo IoT específico, que marca al turista afectado en estado "sin conexión" con tiempo transcurrido y dispara el protocolo de búsqueda; (c) múltiples alertas simultáneas en tours diferentes, donde el sistema prioriza por nivel de criticidad y guía a Ana Lucía en el orden de atención; (d) guía responsable no disponible para responder a una alerta, donde el sistema escala automáticamente a un guía de respaldo o a la propia Ana Lucía; (e) error en la carga del dashboard, mostrando un fallback con los últimos datos cacheados y un botón de reintento manual, garantizando continuidad operativa.
 
@@ -162,7 +162,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como responsable de coordinar la operación turística de mi agencia, deseo crear y publicar un nuevo tour dentro del catálogo para gestionar de manera profesional la oferta de servicios y mantener actualizada la información disponible a los turistas.*
 
-![User Flow 05 - Ana Lucía crea un tour](../assets/userflow-05-creacion-tour.png)
+![User Flow 05 - Ana Lucía crea un tour](../assets/images/userflow-5.png)
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde la tabla de tours hasta el formulario de creación, completando todos los campos requeridos (nombre, fechas, ruta, capacidad, guías asignados, precio) y guardando exitosamente el nuevo registro, que queda disponible inmediatamente en el catálogo. Los unhappy paths considerados son: (a) campos obligatorios incompletos al intentar guardar, donde el sistema resalta los pendientes con mensajes inline específicos; (b) fechas inconsistentes (fecha de inicio posterior a la de fin, o fechas en el pasado), mostrando un mensaje de validación contextual en los campos afectados; (c) capacidad máxima fuera del rango permitido por la política de la agencia, bloqueando el envío hasta corrección; (d) conflicto con otro tour ya programado en las mismas fechas con los mismos guías asignados, donde el sistema detecta la sobreposición y sugiere fechas o guías alternativos; (e) guía asignado sin las certificaciones requeridas para la dificultad técnica de la ruta, lo que dispara una validación que impide guardar hasta que se asigne un guía calificado; (f) error al guardar por pérdida de conexión, manteniendo los datos del formulario para reintento sin pérdida de información.
 
@@ -172,6 +172,6 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **User goal:** *Como gerente de operaciones, deseo gestionar los roles y permisos de los guías y personal de mi agencia para garantizar un control adecuado sobre quién accede a la información de cada tour, fortaleciendo la profesionalización operativa.*
 
-![User Flow 06 - Ana Lucía gestiona permisos](../assets/userflow-06-gestion-permisos.png)
+![User Flow 06 - Ana Lucía gestiona permisos](../assets/images/userflow-6.png)
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde la lista de usuarios de su agencia hasta el detalle del miembro del equipo seleccionado, donde modifica sus roles y guarda los cambios con éxito, viendo reflejado el cambio inmediatamente en la tabla. Los unhappy paths definidos son: (a) intento de remover el rol de Ana Lucía como única gerente con permisos completos, donde el sistema bloquea la acción y solicita asignar previamente otro responsable; (b) asignación de roles incompatibles entre sí (por ejemplo, guía de campo simultáneamente como administrador de identidad), generando una validación que impide guardar hasta resolver el conflicto; (c) usuario actualmente activo en una sesión con los roles previos, donde el sistema advierte que los cambios surtirán efecto al siguiente inicio de sesión y ofrece notificar al usuario afectado; (d) intento de asignar un permiso de monitoreo IoT a un usuario sin entrenamiento certificado en uso del sistema, donde el sistema sugiere agendar capacitación previa; (e) error de persistencia al guardar, mostrando un mensaje de reintento sin perder las modificaciones realizadas en pantalla.
