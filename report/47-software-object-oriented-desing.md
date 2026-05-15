@@ -50,4 +50,12 @@ de la cuenta y configuración de canales de comunicación.
 
 ![Class Diagram](../assets/images/VitalTrek_NotificationProfile_ClassDiagram.png)
 
+**Bounded Context: IoT**
+Permite la integración de dispositivos inteligentes y sensores durante las expediciones. Administra `IoTDevice` y `SensorReading` a través de `IoTStore`, habilitando el registro de datos en tiempo real y el envío de comandos a los dispositivos conectados. Se relaciona con el contexto de Safety & Monitoring para proveer lecturas de signos vitales y ubicación.
 
+![Class Diagram](../assets/images/iot-diagramClass.png)
+
+**Bounded Context: Subscriptions & Payment**  
+Gestiona los planes de suscripción y el procesamiento de pagos de los usuarios. Incluye `SubscriptionPlan`, `Subscription e Invoice`, administrados mediante `SubscriptionStore` para operaciones de contratación, cancelación y facturación. Se vincula con el contexto de Identity & Access para asociar las suscripciones a cada usuario registrado.
+
+![Class Diagram](../assets/images/subscription-classDiagram.png)
