@@ -2468,7 +2468,7 @@ A continuación se presenta el screenshot del board de control utilizado durante
 
 **Board:** https://trello.com/invite/b/6a0567247c8e53cf8fc17be3/ATTI7e5cdb3f9c2996b8b79b09dace8562264A21CD8D/vitaltrek-sprint-1(#)
 
-![VitalTrek Sprint Backlog 1](../assets/images/vitaltrek-sprint-backlog1.png)
+![VitalTrek Sprint Backlog 1](assets/images/vitaltrek-sprint-backlog1.png)
 
 ---
 
@@ -2551,7 +2551,7 @@ A continuación se presentan capturas de las principales vistas implementadas:
 
 ![VitalTrek Landing Page 4](assets/images/vitaltrek-landing-pag4.png)
 
-![VitalTrek Landing Page 5](.assets/images/vitaltrek-landing-pag5.png)
+![VitalTrek Landing Page 5](assets/images/vitaltrek-landing-pag5.png)
 
 ![VitalTrek Landing Page 6](assets/images/vitaltrek-landing-pag6.png)
 
@@ -2615,23 +2615,75 @@ Durante el Sprint 2, el equipo identificó seis aspectos principales correspondi
 
 ### 5.2.2.3. Sprint Backlog 2
 
-El objetivo principal del Sprint 2 fue implementar la primera versión funcional de la Web Application, habilitando el registro/login de usuarios, la exploración del catálogo de tours y el monitoreo inicial.
+El objetivo principal del Sprint 2 fue implementar la primera versión funcional de la Web Application, habilitando sección IOT, la exploración del catálogo de tours y el monitoreo inicial.
+A continuación, se presenta el tablero correspondiente al Sprint 2 junto con su enlace:
 
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-|:---|:------|:---|:------|:------------|:-------------------|:------------|:-------|
-| US-WA01 | Registrar usuario | T01 | Implementar formulario de registro | Crear formulario con validación y conexión a backend. | 4 | Quispe, Edu | In Progress |
-| US-WA02 | Iniciar sesión | T02 | Implementar login con sesiones | Crear login con autenticación y manejo de sesiones. | 3 | Quispe, Edu | In Progress |
-| US-WA03 | Explorar catálogo de tours | T03 | Diseñar vista de catálogo | Implementar listado de tours con filtros y paginación. | 4 | Rodriguez, Miler | In Progress |
-| US-WA04 | Monitorear expedición | T04 | Implementar dashboard inicial | Crear dashboard con datos de ubicación y alertas básicas. | 5 | Verastigue, Giancarlo | To Do |
-| US-WA05 | Configurar perfil | T05 | Implementar vista de perfil | Crear vista de perfil con edición de datos y notificaciones. | 3 | Alfaro, Joaquin | To Do |
-| US-WA06 | Integrar IoT | T06 | Conectar dispositivos simulados | Implementar conexión con datos de sensores simulados. | 5 | Vilchez, Gabriel | To Do |
-| US-WA07 | Despliegue CI/CD | T07 | Configurar pipeline | Configurar integración continua y despliegue automático. | 3 | Vilchez, Gabriel | To Do |
+https://trello.com/b/QKMh317p/vitaltrek-sprint2
+
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US09 | Crear tour | T01 | Diseñar UI de formulario | Implementar la vista web para configurar rutas y puntos de control. | 4 | Quispe, Edu | Done |
+| | | T02 | Simular creación (Fake API) | Conectar el frontend con endpoints simulados para el registro local sin backend real. | 3 | Vilchez, Gabriel | Done |
+| US18 | Consultar tours de la agencia | T03 | Implementar catálogo de tours | Desarrollar la vista principal de la web application para listar y filtrar los recorridos. | 5 | Rodriguez, Miler | Done |
+| | | T04 | Integrar Fake API de listado | Consumir datos estáticos (mock) para poblar las tablas del catálogo de agencia. | 2 | Alfaro, Joaquin | Done |
+| US19 | Iniciar expedición | T05 | Desarrollar vista de expedición | Crear el panel interactivo en la web para que el guía gestione el inicio del recorrido. | 4 | Verastigue, Giancarlo | In-Process |
+| | | T06 | Simular estado de expedición | Configurar Fake API para simular el cambio de estado de tour a expedición activa. | 3 | Quispe, Edu | In-Process |
+| US29 | Monitorear ubicación de turistas | T07 | Integrar mapa web | Incorporar un componente de mapa en el dashboard para mostrar coordenadas en la aplicación web. | 6 | Alfaro, Joaquin | To-Do |
+| | | T08 | Simular recepción de telemetría | Inyectar coordenadas simuladas vía Fake API para probar el rastreo en el mapa. | 4 | Vilchez, Gabriel | To-Do |
+| US32 | Consultar estado de salud básico | T09 | Construir dashboard IoT | Diseñar y programar los indicadores visuales (ritmo cardíaco, etc.) para el monitoreo de salud. | 5 | Rodriguez, Miler | To-Do |
+| | | T10 | Mockear datos biométricos | Crear servicios en frontend que consuman respuestas estáticas simulando un wearable IoT. | 3 | Verastigue, Giancarlo | To-Do |
+
 
 ---
 
 ### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **Vue.js** junto con la biblioteca de componentes **PrimeVue** para la interfaz. El backend inicial se desarrolló con **ASP.NET Core Framework** empleando **C#** bajo el estilo arquitectónico **RESTful API**. Se configuró la autenticación de usuarios, la vista de catálogo de tours y un dashboard básico de monitoreo. El diseño visual siguió las guías de **Material Design** para asegurar consistencia y usabilidad.
+Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **Vue.js** junto con la biblioteca de componentes **PrimeVue** para la interfaz. Se configuró  la vista de catálogo de tours y un dashboard básico de monitoreo. El diseño visual siguió las guías de **Material Design** para asegurar consistencia y usabilidad.
+
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| VitalTrek/web-application | develop | bac506c | Initial commit | 12/05/2026 |
+| VitalTrek/web-application | develop | 0a17524 | chore: initial setup | 12/05/2026 |
+| VitalTrek/web-application | feature/monitoring | 2dc2aef | feature: add sign entity | 13/05/2026 |
+| VitalTrek/web-application | feature/monitoring | d3d54f8 | feature: update sign-list | 13/05/2026 |
+| VitalTrek/web-application | feature/navigation | ae2cc09 | feat: add Tour entity class | 13/05/2026 |
+| VitalTrek/web-application | feature/monitoring | 18aa286 | feat: add Tourist entity class | 13/05/2026 |
+| VitalTrek/web-application | feature/navigation | a27e74c | feat: add Checkpoint entity class | 13/05/2026 |
+| VitalTrek/web-application | feature/iot | 9b3f35e | feat: add Checkpoint and Tour assembler classes | 13/05/2026 |
+| VitalTrek/web-application | feature/iot | 7f25948 | feat: add TourManagementApi for managing tours | 13/05/2026 |
+| VitalTrek/web-application | feature/iot | 2b31298 | feat: add TourManagement store for managing tour state and actions | 13/05/2026 |
+| VitalTrek/web-application | feature/navigation | 249e6f7 | feat: add TourForm component for creating and editing tours | 13/05/2026 |
+| VitalTrek/web-application | feature/iot | 101c63e | feat: add TourList component for displaying and managing tours | 13/05/2026 |
+| VitalTrek/web-application | feature/iot | bad0214 | feat: add TouristsAssignment component for assigning and unassigning tourists to tours | 13/05/2026 |
+| VitalTrek/web-application | feature/tour-management | f14cb3f | feature: add alert, incident, location and tourist entities | 13/05/2026 |
+| VitalTrek/web-application | feature/tour-management | 9020fd2 | feature: CRUD sing entity | 13/05/2026 |
+| VitalTrek/web-application | feature/tour-management | 9bed2f7 | feature: update file locales | 13/05/2026 |
+| VitalTrek/web-application | feature/tour-management | 9da5dbb | feat: add tourists management with fetching, assigning, and unassigning functionality | 14/05/2026 |
+| VitalTrek/web-application | feature/tour-management | 70b4348 | chore: initial commit. | 14/05/2026 |
+| VitalTrek/web-application | feature/tour-management | fa77486 | feat(store): Update navigation store. | 14/05/2026 |
+| VitalTrek/web-application | develop | 4d0de11 | feat(api): Update navigation api and store. | 14/05/2026 |
+| VitalTrek/web-application | develop | d95199f | feat(env): Update environment. | 14/05/2026 |
+| VitalTrek/web-application | develop | 579db68 | feat(presentation): Add expedition-dashboard.vue, experience-log.vue, route-map.vue and weather-widget.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | bdb3204 | feat(experience): Rename experience.assembler.js. | 14/05/2026 |
+| VitalTrek/web-application | develop | 2557952 | feat(env): Add VITE_VITALTREK_PLATFORM_API_URL to development environment | 14/05/2026 |
+| VitalTrek/web-application | develop | c154d5a | feat(about): Update about.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | 59cd339 | feat(api): Update base-api.js. | 14/05/2026 |
+| VitalTrek/web-application | develop | dc9c78d | feat(expedition): Update expedition-dashboard.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | 67d37e0 | feat(layout): Update layout.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | 00ea74a | feat(store): Update navigation store. | 14/05/2026 |
+| VitalTrek/web-application | develop | e9c97b1 | feat(route): Update route-map.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | 092755f | feat(router): Update router.js. | 14/05/2026 |
+| VitalTrek/web-application | develop | 9c57f11 | feat(weather): Update weather-widget.vue. | 14/05/2026 |
+| VitalTrek/web-application | develop | 26a182e | fix: fix layout | 14/05/2026 |
+| VitalTrek/web-application | develop | b7da88e | feature : merge monitoring bounded context to develop branch | 14/05/2026 |
+| VitalTrek/web-application | develop | 381bc0f | feat: enhance monitoring features with new alert management, improved navigation, and updated UI components | 15/05/2026 |
+| VitalTrek/web-application | develop | 1675266 | merge: feature/navigation into develop | 15/05/2026 |
+| VitalTrek/web-application | develop | a59057a | feat(tour-management): add search and stats to tour panel | 15/05/2026 |
+| VitalTrek/web-application | develop | 2b8c173 | fix : update comments and documentation for clarity and consistency across IoT and monitoring modules | 15/05/2026 |
 
 ---
 
@@ -2639,15 +2691,134 @@ Durante el Sprint 2, el equipo implementó la base de la Web Application utiliza
 
 El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **CloudFlare** y pipeline de integración continua en **GitHub Actions**, aplicando **GitFlow Workflow**, **Conventional Commits** y **Semantic Versioning** para el control de versiones.
 
+Video de Demostración de la Web Application:
+
+**Screenshots de la Web Application**
+
+- Home
+![VitalTrek Web Application Home](assets/images/screenshot-wa-home.png)
+
+- Dashboard IOT
+![VitalTrek Web Application IOT](assets/images/screenshot-wa-iot.png)
+
+- Dashboard Monitoring
+![VitalTrek Web Application Monitoring](assets/images/screenshot-wa-monitoring.png)
+
+- Dashboard Navigation and Expedition
+![VitalTrek Web Application NyE](assets/images/screenshot-wa-nye.png)
+
+- Dashboard Routes
+![VitalTrek Web Application Routes](assets/images/screenshot-wa-routes.png)
+
+- Dashboard Tour Management
+![VitalTrek Web Application Tour Management](assets/images/screenshot-wa-tm.png)
 ---
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En este sprint se implementaron los primeros endpoints REST bajo **ASP.NET Core**:
+En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de VitakTrek. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
 
-- `POST /api/register` → Registro de usuarios  
-- `POST /api/login` → Autenticación de usuarios  
-- `GET /api/tours` → Listado de tours  
-- `GET /api/dashboard` → Datos iniciales de monitoreo  
+Los servicios fueron integrados utilizando APIs simuladas mediante MockAPI, facilitando las pruebas funcionales de la aplicación frontend.
+
+A continuación, se presenta la relación de endpoints implementados y documentados para este Sprint. 
+
+| Contexto / Módulo | Endpoint Base | Acciones Implementadas |
+|---|---|---|
+| Tourist | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/tourist` | GET, POST, PUT, DELETE |
+| Checkpoints | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/checkpoints` | GET |
+| Tours | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/tours` | GET, POST, PUT, DELETE |
+| Weather | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/weather` | GET |
+| Expeditions | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/expeditions` | GET, POST |
+| Experiences | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/experiences` | GET, POST |
+| Progress | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/progress` | GET |
+| Alerts | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/alerts` | GET |
+| Incidents | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/incidents` | GET, POST, PUT |
+| Locations | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/locations` | GET, POST |
+| Signs | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/vital-sing-reading` | GET |
+| Sensors | `https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/sensors-readings` | GET, PUT |
+
+---
+
+Ejemplo de documentación de Endpoint
+
+Tourist Endpoint
+
+Base URL: https://6a02d7d90d92f63dd25442e3.mockapi.io/api/v1/tourist
+
+http (get, post, put, delete, patch)
+
+![VitalTrek Base Endpoint1](assets/images/base-endpoint1.png)
+![VitalTrek Base Endpoint2](assets/images/base-endpoint2.png)
+
+**Evidencias Visuales de interacción**
+
+Durante este Sprint, se ha logrado la definición y despliegue de los servicios web iniciales para la plataforma VitalTrek utilizando la plataforma MockAPI. Esta fase garantiza que el equipo de Front-end cuente con interfaces de datos consistentes antes de la migración definitiva a Spring Boot con OpenAPI.
+
+![MockApi Tourists](assets/images/mockapi-tourist.png)
+![MockApi Tours](assets/images/mockapi-tours.png)
+![MockApi Alerts](assets/images/mockapi-alerts.png)
+
+![Tourists json](assets/images/tourist-json.png)
+![Tours json](assets/images/tours-json.png)
+![Alerts json](assets/images/alerts-json.png)
+
+![Mock Api](assets/images/mock-api.png)
+
+**Repositorio de Web Services
+
+Repositorio: https://github.com/VitalTrek-Project/web-application
+
+### 5.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron las actividades relacionadas con el despliegue de la Web Application y configuración de servicios utilizados por ViltaTrek. Para ello, se utilizaron plataformas cloud y herramientas de integración que permitieron publicar la aplicación y conectar los servicios REST utilizados durante el desarrollo.
+
+En este Sprint se trabajó principalmente en la configuración del proyecto frontend, despliegue de la aplicación web y consumo de APIs simuladas mediante MockAPI para pruebas funcionales.
+
+### Infraestructura Utilizada
+
+- GitHub como repositorio principal del proyecto.
+- GitHub Pages para el despliegue del frontend.
+- MockAPI para simulación de endpoints REST.
+- Vue.js + Vite para la construcción de la Web Application.
+
+### Proceso de Deployment
+
+#### 1. Configuración del repositorio
+
+Se creó y configuró el repositorio principal de la Web Application en GitHub, organizando la estructura del proyecto y ramas de desarrollo.
+
+#### 2. Configuración de variables de entorno
+
+Se configuraron las variables de entorno necesarias para conectar la aplicación con los servicios REST simulados mediante MockAPI.
+
+![env](/assets/images/env-api-url.png)
+
+#### 3. Build de producción
+
+Se generó la versión de producción de la aplicación utilizando Vite.
+
+![Build](assets/images/run.png)
+
+#### 4. Configuración de Firebase
+
+Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
+
+![Firebase](assets/images/firebase.png)
+
+#### 5. Publicación de la aplicación
+
+La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
+
+![Publicacion](assets/images/web-application-home.PNG)
+
+### Resultado
+
+La Web Application de VitalTrek fue desplegada exitosamente, permitiendo acceder a los módulos implementados durante el Sprint 2, incluyendo gestión de tours, turists, monitoreo logístico e infraestructura IoT.
+
+URL de despliegue: https://vitaltrek.vitaltrek.workers.dev/home
 
 
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+
+![Sprint2](assets/images/evidencia-git.png)
