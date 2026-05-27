@@ -34,6 +34,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|-----------------------------|
 | AV1 | 26/04/2026 | Alfaro Mallma, Alberto Joaquin; Vilchez Vite, Gabriel Alejandro; Quispe Perez, Eder Edu; Rodriguez Rojas, Miler Alexander; Verastigue Martinez, Giancarlo Jose | Carátula; Registro de Versiones del Informe; Project Report Collaboration Insights; Contenido; Student Outcome; Capítulo I: Introducción; Capítulo II: Requirements Elicitation & Analysis; Capítulo III: Requirements Specification; Capítulo IV: Product Design; Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8; Primera versión de landing page implementada y desplegada. |
+| TB1 | 15/05/2026 | Alfaro Mallma, Alberto Joaquin; Vilchez Vite, Gabriel Alejandro; Quispe Perez, Eder Edu; Rodriguez Rojas, Miler Alexander; Verastigue Martinez, Giancarlo Jose |  |
 # Project Report Collaboration Insights
 
 Enlace del repositorio: https://github.com/VitalTrek-Project
@@ -2041,6 +2042,14 @@ Prototipo de la aplicación web VitalTrek en Figma:
 
 #### 4.6.1. Design-Level EventStorming
 
+![Event Storming](assets/images/Big-PictureEvent-Storming.png)
+
+![Event Storming](assets/images/Design-Level-EventStorming-1.jpg)
+![Event Storming](assets/images/Design-Level-EventStorming-2.jpg)
+![Event Storming](assets/images/Design-Level-EventStorming-3.jpg)
+![Event Storming](assets/images/Design-Level-EventStorming-4.jpg)
+
+![Event Storming](assets/images/Design-Level-EventStorming.jpg)
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -2809,7 +2818,7 @@ Se usó Firebase para alojar la aplicación web, configurando el hosting y conec
 
 La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
 
-![Publicacion](assets/images/web-application-home.PNG)
+![Publicacion](assets/images/web-application-home.png)
 
 ### Resultado
 
