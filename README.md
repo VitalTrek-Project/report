@@ -2815,6 +2815,7 @@ Se configuraron las variables de entorno necesarias para conectar la aplicación
 Se generó la versión de producción de la aplicación utilizando Vite.
 
 ![Build](assets/images/run.png)
+![Build](assets/images/run2.png)
 
 #### 4. Configuración de Firebase
 
