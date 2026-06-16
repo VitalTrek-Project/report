@@ -2708,7 +2708,7 @@ Durante el Sprint 2, el equipo implementó la base de la Web Application utiliza
 
 El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **CloudFlare** y pipeline de integración continua en **GitHub Actions**, aplicando **GitFlow Workflow**, **Conventional Commits** y **Semantic Versioning** para el control de versiones.
 
-Video de Demostración de la Web Application:
+[Video de demostracion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQD0xfEcQf5CRoJSFOJoNaR4AY9W9ZAsIunBWrLP7TKZfNU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bAuF0G)
 
 **Screenshots de la Web Application**
 
@@ -2815,17 +2815,16 @@ Se configuraron las variables de entorno necesarias para conectar la aplicación
 Se generó la versión de producción de la aplicación utilizando Vite.
 
 ![Build](assets/images/run.png)
-![Build](assets/images/run2.png)
 
 #### 4. Configuración de Firebase
 
-Se utilizó Wrangler, la herramienta CLI de Cloudflare, para alojar la aplicación web como un sitio estático mediante Cloudflare Workers. Se configuró el archivo wrangler.toml con el nombre del proyecto y se vinculó al entorno de producción.
+Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
 
-![Firebase](assets/images/wrangler.png)
+![Firebase](assets/images/firebase.png)
 
 #### 5. Publicación de la aplicación
 
-Se ejecutó el comando de despliegue con Wrangler, el cual subió los archivos del build de producción generado por Vite directamente a la red de Cloudflare. La aplicación quedó accesible mediante una URL pública de forma inmediata.
+La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
 
 ![Publicacion](assets/images/web-application-home.png)
 
@@ -2840,3 +2839,185 @@ URL de despliegue: https://vitaltrek.vitaltrek.workers.dev/home
 Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
 
 ![Sprint2](assets/images/evidencia-git.png)
+
+## 5.2.2. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+
+
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+
+
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+
+# 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de Entrevistas.
+
+
+Para asegurar una evaluación estructurada, se han definido los elementos a presentar y los flujos de usuario (User Flows) que cada segmento objetivo debe completar durante la sesión.
+
+### Segmento 1: Administradores de Agencia de Turismo
+*   **Elementos a incluir:** Landing Page (Sección agencias) y Web Application (Vista Administrador).
+*   **User Flows a validar:**
+    1.  **Comprensión de Valor:** Leer el Landing Page e identificar la solución principal.
+    2.  **Gestión de Catálogo:** Navegar por el sistema y registrar un nuevo tour con sus respectivos checkpoints.
+    3.  **Monitoreo de Expedición:** Acceder al dashboard de una expedición simulada en curso, identificar el estado de un grupo y localizar una alerta de incidente.
+
+### Segmento 2: Turistas / Trekkers
+*   **Elementos a incluir:** Landing Page (Sección turistas) y Mobile/Web App (Vista Turista).
+*   **User Flows a validar:**
+    1.  **Comprensión de Valor:** Leer el Landing Page e identificar los beneficios de seguridad y uso offline.
+    2.  **Inscripción en Ruta:** El turista explora el catálogo de la plataforma y completa el flujo donde *se inscribe en una ruta de aventura*.
+    3.  **Preparación para el Tour:** Buscar la ruta elegida y utilizar el botón para "Descargar ruta" para uso sin conexión.
+    4.  **Seguimiento en Ruta:** El usuario simula estar en acción y *sigue su expedición en tiempo real* mediante la vista de mapa, revisando su progreso y ubicación.
+    5.  **Acción de Emergencia:** Desde la vista de mapa del tour, ubicar y accionar el botón de "Reportar Incidente".
+
+---
+
+## Guía de Preguntas para las Entrevistas
+
+Durante las sesiones de validación, el moderador utilizará las siguientes preguntas estructuradas en tres fases: contexto previo, ejecución de tareas y apreciación final.
+
+### Preguntas para el Segmento 1 (Agencias de Turismo)
+
+**Fase 1: Preguntas de Contexto (Antes de mostrar la plataforma)**
+*   Actualmente, ¿cómo monitoreas la ubicación y el estado de tus grupos cuando están en una expedición?
+*   ¿Cuál es el mayor problema o riesgo que enfrentas cuando un grupo pierde la señal o cobertura en una ruta?
+
+**Fase 2: Ejecución de Tareas (Mostrando el Landing Page y la App Web)**
+*   *(Mostrando el Landing Page)* Basado en lo que ves en esta pantalla, ¿qué entiendes que hace VitalTrek por tu agencia?
+*   *(Tarea: Crear un Tour)* Por favor, intenta crear un nuevo tour en la plataforma. ¿Qué te pareció el proceso? ¿Sentiste que faltaba algún campo de información que sueles utilizar en tu día a día?
+*   *(Tarea: Monitoreo en Dashboard)* Imagina que tienes un grupo activo ahora mismo. Mirando este panel, ¿te queda claro cuál es el estado de los turistas? 
+*   ¿Qué acción tomarías al ver esta alerta roja (incidente/anomalía) en la pantalla?
+
+**Fase 3: Apreciación Final**
+*   Del 1 al 10, ¿qué tan útil consideras esta plataforma para resolver tus problemas de gestión y seguridad? ¿Por qué?
+*   ¿Estarías dispuesto a implementar un sistema como VitalTrek en tu agencia? ¿Qué te detendría de hacerlo?
+*   ¿Hay alguna funcionalidad adicional que consideres indispensable para tu operación diaria?
+
+### Preguntas para el Segmento 2 (Turistas / Trekkers)
+
+**Fase 1: Preguntas de Contexto (Antes de mostrar la plataforma)**
+*   Cuando vas de trekking o realizas un tour en zonas de naturaleza, ¿cuál es tu mayor preocupación respecto a tu seguridad o ubicación?
+*   ¿Sueles utilizar alguna aplicación en tu celular para guiarte durante estos recorridos? ¿Cuál y qué te gusta de ella?
+
+**Fase 2: Ejecución de Tareas (Mostrando el Landing Page y la App Web)**
+*   *(Mostrando el Landing Page)* Al revisar esta página, ¿qué beneficio principal te ofrece VitalTrek como turista? ¿Te genera confianza?
+*   *(Tarea: Inscribirse en una ruta)* Por favor, explora las opciones y completa el proceso para inscribirte en una ruta de aventura. ¿Te pareció intuitivo el proceso? ¿La información mostrada antes de confirmar es suficiente para ti?
+*   *(Tarea: Descargar Ruta)* Imagina que mañana sales al tour en el que te inscribiste y sabes que no habrá señal. ¿Cómo harías para guardar la ruta en tu teléfono? ¿Te pareció fácil encontrar la opción?
+*   *(Tarea: Seguimiento en tiempo real)* Ahora imagina que ya estás realizando el recorrido y miras tu pantalla para seguir tu expedición en tiempo real. ¿Puedes identificar claramente dónde te encuentras, cuál es tu próximo checkpoint y tu porcentaje de avance?
+*   *(Tarea: Reportar Incidente)* Supongamos que estás a mitad de la ruta, te has separado del grupo y necesitas ayuda. Sin dudarlo mucho, ¿dónde harías clic en esta pantalla para alertar al guía o a la agencia?
+
+**Fase 3: Apreciación Final**
+*   ¿Sientes que el uso de esta aplicación, junto con un dispositivo wearable (reloj inteligente), te daría más tranquilidad durante un recorrido?
+*   ¿Qué te pareció la apariencia general y la facilidad de uso de la aplicación?
+*   ¿Cambiarías, agregarías o quitarías algo para que la aplicación sea perfecta para tus viajes?
+
+## 5.3.1. Registro de Entrevistas.
+
+**Entrevista N° 1**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|---|---|---|
+|  |  |  |
+
+| **Segmento** | **URL** | **Inicio** | **Duración** |
+|---|---|---|---|
+| | [Ver entrevista](https://upcedupe-my.sharepoint.com) | 00:00 |  min |
+
+![Entrevista-1](assets/images/entrevista)
+
+**Resumen:** .
+
+## 5.3.1. Evaluaciones según heurísticas.
+
+
+
+**CARRERA** : Ingeniería de Software
+**CURSO** : Aplicaciones Web
+**SECCIÓN** : 2610
+**PROFESORES** : Todos
+**AUDITOR** : NexumDevs
+**CLIENTE(S)** : Nombre de las personas que participan en la sesión
+
+#### UX Heuristics & Principles Evaluation
+#### Usability - Inclusive Design - Information Architecture
+
+
+**SITE APP A EVALUAR:**
+VitalTrek
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. xxx
+2. xxx
+3. xx
+4. Etc.
+
+
+---
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| **1** | *ejemplo:No hay un control que permita regresar a la tienda durante el trámite de compra* | 3 | *ejemplo: Usability: Libertad y control del usuario* |
+| **2** |  | 1 |  |
+| **3** |  | 3 |  |
+| **4** |  | 3 |  |
+| **5** |  | 2 |  |
+
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** *ejemplo: No hay un control que permita regresar a la tienda durante el trámite de compra*
+* **Severidad:** 3
+* **Heurística violada:** *ejemplo: Usabilidad-Libertad y control del usuario*
+* **Problema:**
+    * *ejemplo: Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso asi lo Uno vez el cliente pase al tramite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicia de la web, lo cual nos obliga a efectuar el tromite y al momento de elegir más productos, realizar atro, incrementándose asi lo cantidad de esfuerzo del usuario.*
+    * *(Incluir además uno captura de pantalla ilustrando el problemo).*
+* **Recomendación:**
+    * *ejemplo: Lo más práctica es que al mamento en que queramos realizar dicho tramite, el navegador lo abra en una ventano aperte para no perder los cambios realizados en nuestro cartito de compras.*
