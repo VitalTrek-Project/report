@@ -2818,13 +2818,13 @@ Se generó la versión de producción de la aplicación utilizando Vite.
 
 #### 4. Configuración de Firebase
 
-Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
+Se utilizó Wrangler, la herramienta CLI de Cloudflare, para alojar la aplicación web como un sitio estático mediante Cloudflare Workers. Se configuró el archivo wrangler.toml con el nombre del proyecto y se vinculó al entorno de producción.
 
-![Firebase](assets/images/firebase.png)
+![Firebase](assets/images/wrangler.png)
 
 #### 5. Publicación de la aplicación
 
-La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
+Se ejecutó el comando de despliegue con Wrangler, el cual subió los archivos del build de producción generado por Vite directamente a la red de Cloudflare. La aplicación quedó accesible mediante una URL pública de forma inmediata.
 
 ![Publicacion](assets/images/web-application-home.png)
 
