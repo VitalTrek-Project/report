@@ -2969,7 +2969,23 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 ![Entrevista-2](assets/images/entrevista-Gabriel-Vilchez.png)
 
-**Resumen:** Resumen: Miguel Ángel Morales es un aficionado al trekking y a las actividades de aventura en entornos naturales. Durante la entrevista comentó que sus principales preocupaciones al realizar recorridos en zonas remotas son conocer con precisión la ubicación de destino, la seguridad de la zona y contar con los recursos necesarios para completar la actividad. Actualmente utiliza Google Maps como herramienta de apoyo, aunque reconoce que su cobertura y fiabilidad disminuyen considerablemente en áreas rurales, por lo que suele depender de mapas tradicionales o de la experiencia de otros integrantes del grupo. Al conocer la propuesta de VitalTrek, destacó como aspecto más atractivo la capacidad de ofrecer información en zonas donde herramientas convencionales como Google Maps no resultan efectivas. Asimismo, mostró interés por las funcionalidades relacionadas con el monitoreo de signos vitales y el seguimiento de la ubicación durante los recorridos, considerándolas características valiosas para mejorar la seguridad de los excursionistas. Durante la prueba de la plataforma completó satisfactoriamente tareas como la inscripción a una ruta, la descarga de recorridos, el seguimiento de una expedición en tiempo real y el reporte de incidentes. En todos los casos señaló que la navegación era intuitiva y que la información presentada era clara y fácil de comprender. También indicó que pudo identificar sin dificultad su ubicación, el avance de la ruta y los mecanismos disponibles para solicitar ayuda en caso de emergencia. Respecto a la experiencia general, manifestó que el uso conjunto de la aplicación y un dispositivo wearable le proporcionaría una mayor sensación de seguridad y tranquilidad durante los recorridos. Además, valoró positivamente el diseño de la plataforma, describiéndolo como minimalista, sencillo y adecuado para usuarios que realizan actividades de trekking, ya que evita elementos visuales innecesarios y prioriza la información relevante. Como sugerencia de mejora, propuso optimizar la navegación de la interfaz incorporando accesos directos que desplacen automáticamente al usuario hacia las secciones correspondientes al seleccionar las opciones del menú. Consideró que esta mejora facilitaría la exploración de la plataforma y haría más intuitiva la experiencia de uso para nuevos usuarios.
+**Resumen:** Miguel Ángel Morales es un aficionado al trekking y a las actividades de aventura en entornos naturales. Durante la entrevista comentó que sus principales preocupaciones al realizar recorridos en zonas remotas son conocer con precisión la ubicación de destino, la seguridad de la zona y contar con los recursos necesarios para completar la actividad. Actualmente utiliza Google Maps como herramienta de apoyo, aunque reconoce que su cobertura y fiabilidad disminuyen considerablemente en áreas rurales, por lo que suele depender de mapas tradicionales o de la experiencia de otros integrantes del grupo. Al conocer la propuesta de VitalTrek, destacó como aspecto más atractivo la capacidad de ofrecer información en zonas donde herramientas convencionales como Google Maps no resultan efectivas. Asimismo, mostró interés por las funcionalidades relacionadas con el monitoreo de signos vitales y el seguimiento de la ubicación durante los recorridos, considerándolas características valiosas para mejorar la seguridad de los excursionistas. Durante la prueba de la plataforma completó satisfactoriamente tareas como la inscripción a una ruta, la descarga de recorridos, el seguimiento de una expedición en tiempo real y el reporte de incidentes. En todos los casos señaló que la navegación era intuitiva y que la información presentada era clara y fácil de comprender. También indicó que pudo identificar sin dificultad su ubicación, el avance de la ruta y los mecanismos disponibles para solicitar ayuda en caso de emergencia. Respecto a la experiencia general, manifestó que el uso conjunto de la aplicación y un dispositivo wearable le proporcionaría una mayor sensación de seguridad y tranquilidad durante los recorridos. Además, valoró positivamente el diseño de la plataforma, describiéndolo como minimalista, sencillo y adecuado para usuarios que realizan actividades de trekking, ya que evita elementos visuales innecesarios y prioriza la información relevante. Como sugerencia de mejora, propuso optimizar la navegación de la interfaz incorporando accesos directos que desplacen automáticamente al usuario hacia las secciones correspondientes al seleccionar las opciones del menú. Consideró que esta mejora facilitaría la exploración de la plataforma y haría más intuitiva la experiencia de uso para nuevos usuarios.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO
+
+**Entrevista N° 3**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|-------------------------|----------|--------------|
+| Anamile Atalaya   | 20 años  | Callao         |
+
+| **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
+| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO)  | 00:00      | 10:12 min    |
+
+![Entrevista-3](assets/images/entrevista-validacion-3.png)
+
+**Resumen:** Durante la fase de preguntas iniciales, el entrevistador indaga sobre los hábitos de la usuaria, quien menciona que suele utilizar Google Maps para guiarse y que su mayor preocupación al perder la señal en una expedición es no saber su ubicación exacta. Posteriormente, al revisar la página de inicio, Anamile destaca que la plataforma parece muy útil para mantener la conexión mediante Bluetooth y mapas, resaltando positivamente la función de monitoreo de salud, como la medición del ritmo cardíaco, lo cual le genera confianza y una muy buena proyección visual. En la etapa de pruebas de usabilidad, la usuaria interactúa con el panel web para completar tres tareas específicas. Primero, navega por el catálogo y se inscribe en la ruta "Historic Lima City Tour", un proceso que le resulta fácil tras cambiar el idioma a español. Luego, ante un escenario sin conexión, localiza rápidamente la opción para descargar la ruta offline. Finalmente, en un caso simulado de emergencia, identifica sin problemas el botón para reportar incidentes en el mapa. Como apreciaciones finales, Anamile confirma que el uso de la aplicación en conjunto con dispositivos IoT como smartwatches le daría mucha tranquilidad y seguridad durante un recorrido. Considera que la apariencia general y la facilidad de uso están muy bien logradas, y concluye que no realizaría ningún cambio ni agregaría funciones adicionales, ya que la plataforma le parece completa tal como está.
 
 
 ## 5.3.1. Evaluaciones según heurísticas.
@@ -2982,6 +2998,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 **CLIENTE(S)** :
 - Valeri Rojas - Jefa de Operaciones y Seguridad Turística, Inco Explorers
 - Miguel Ángel Morales - Aficionado al trekking y actividades de aventura
+- Anami Atalaya - aficionada al trekking
 
 #### UX Heuristics & Principles Evaluation
 #### Usability - Inclusive Design - Information Architecture
@@ -3017,7 +3034,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | :---: | :--- | :---: | :--- |
 | **1** | El formulario de creación de tours no incluye un campo para registrar contactos de emergencia. | 3 | Usability: Correspondencia entre el sistema y el mundo real |
 | **2** | No existe un sistema de mensajería integrado entre la agencia, los guías y los turistas dentro de la plataforma. | 3 | Usability: Libertad y control del usuario |
-
+| **3** | Dificultad para ubicar la opción de "Crear Tour" | 3 | Usability - Reconocimiento en lugar de recuerdo |
+| **4** | Acceso confuso al panel de monitoreo de tours. | 3 | Flexibilidad y eficiencia de uso. |
+| **5** | Barrera idiomática inicial sin detección automática. | 2 | Usability - Relación entre el sistema y el mundo real. |
+| **6** | Falta de indicadores persistentes sobre las rutas descargadas (Modo Offline) | 2 | Usability - Visibilidad del estado del sistema / Prevención de errores. |
 ---
 
 **DESCRIPCIÓN DE PROBLEMAS:**
@@ -3047,3 +3067,52 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:**
   Desarrollar un módulo de mensajería in-app con canales diferenciados por tour activo, que permita comunicación en tiempo real entre la agencia, el guía responsable y los turistas del grupo.
 
+---
+
+**PROBLEMA #3:** Dificultad para ubicar la opción de "Crear Tour".
+
+- **Severidad:** 3
+- **Heurística violada:** Usability - Reconocimiento en lugar de recuerdo / Information Architecture: Is it findable?
+- **Problema:**
+  A la usuaria entrevistada no le resultó intuitivo ni fácil encontrar la sección o el botón exacto para iniciar el proceso de creación de un nuevo tour dentro de la plataforma. La opción parece estar oculta bajo categorías poco descriptivas o no tiene la jerarquía visual adecuada en el menú de navegación principal.
+  ![Sistema de mensajeria no existente](assets/images/encontrar-tour.png)
+- **Recomendación:**
+ Reestructurar el menú principal para incluir un botón de "Crear Tour" o "Nuevo Tour" de manera destacada y accesible permanentemente desde el dashboard de la agencia, utilizando un botón de llamado a la acción (CTA) claro y con un color contrastante.
+
+ ---
+
+ **PROBLEMA #4:** Acceso confuso al panel de monitoreo de tours.
+
+- **Severidad:** 3
+- **Heurística violada:** Usability - Visibilidad del estado del sistema / Flexibilidad y eficiencia de uso.
+- **Problema:**
+  La entrevistada presentó dificultades para acceder rápidamente al área donde se hace el monitoreo de los signos vitales y la ubicación en tiempo real. La ruta de navegación para llegar a este panel crítico requiere de múltiples clics innecesarios o la nomenclatura del menú no deja claro que allí se encuentra el monitoreo en vivo.
+  ![Sistema de mensajeria no existente](assets/images/dificultad-monitoreo.png)
+- **Recomendación:**
+ Implementar un acceso directo etiquetado como "Monitoreo en Vivo" o "Tours Activos" directamente en la pantalla de inicio. Adicionalmente, se podría mostrar un widget de resumen en el dashboard principal que enlace directamente al panel detallado de los grupos que están actualmente en ruta.
+
+ ---
+
+  **PROBLEMA #5:** Barrera idiomática inicial sin detección automática.
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Relación entre el sistema y el mundo real.
+- **Problema:**
+  Durante la prueba, se evidenció que la usuaria pudo completar las tareas (como la inscripción a la ruta) con mucha mayor facilidad solo después de localizar y utilizar la opción de cambiar el idioma de inglés a español. La plataforma carga en un idioma por defecto sin considerar el contexto del usuario, creando una fricción inicial.
+
+  ![Sistema de mensajeria no existente](assets/images/problema-idioma.png)
+- **Recomendación:**
+Implementar la detección automática del idioma basada en la configuración del navegador del usuario o su geolocalización. El botón para cambiar de idioma debe mantenerse en un lugar visible (como la cabecera superior), pero el sistema debería intentar mostrar la interfaz en el idioma nativo del usuario desde el primer momento.
+
+---
+
+  **PROBLEMA #6:** Falta de indicadores persistentes sobre las rutas descargadas (Modo Offline)
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Visibilidad del estado del sistema / Prevención de errores.
+- **Problema:**
+ Aunque existe la opción de "Descargar ruta offline" (lo cual es vital dado que la pérdida de señal es una preocupación principal), una vez descargada, el sistema no muestra un indicador claro, global y persistente que le confirme al turista qué mapas están listos para usarse sin conexión. El usuario tendría que entrar a los detalles de cada ruta para verificar si la descarga se completó.
+
+  ![Sistema de mensajeria no existente](assets/images/descargar-map.png)
+- **Recomendación:**
+Añadir un ícono visual claro (por ejemplo, una nube con un check verde) junto a las rutas en el catálogo general para aquellas que ya están descargadas. Además, se recomienda crear una pestaña de "Mis rutas offline" para que el usuario pueda corroborar rápidamente su disponibilidad antes de iniciar la expedición.
