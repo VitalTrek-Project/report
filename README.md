@@ -2947,15 +2947,15 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 | **Nombres y apellidos** | **Edad** | **Distrito** |
 |---|---|---|
-|  |  |  |
+| Valeri Rojas | 25 años | Cusco |
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| | [Ver entrevista](https://upcedupe-my.sharepoint.com) | 00:00 |  min |
+| Agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBYw8DLtMrmRJOENG7mRxkcAeHRhd7EZT2GydyERlkPBS4?e=FFndIG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:51 min |
 
-![Entrevista-1](assets/images/entrevista)
+![Entrevista-1](assets/images/entrevista-Eder-Quispe.png)
 
-**Resumen:** .
+**Resumen:** Valeri Rojas es Jefa de Operaciones y Seguridad Turística de la agencia Inco Explorers, con sede en Cusco y ocho años de experiencia en trekkings, rutas de montaña y expediciones al Camino Inca y Machu Picchu. Actualmente, el monitoreo de grupos en ruta depende de llamadas telefónicas cuando hay cobertura, lo que genera retrasos e incertidumbre ante la pérdida de señal, ya que no es posible distinguir si se trata de una zona sin cobertura o de una emergencia real. Al explorar la plataforma VitalTrek, Valeria destacó que la propuesta centraliza información que normalmente está dispersa entre llamadas, mensajes y reportes, facilitando el control de grupos y la reacción ante incidentes. El proceso de creación de tours le pareció sencillo e intuitivo, aunque sugirió añadir un campo de contactos de emergencia. Respecto al módulo de monitoreo de estado, valoró la organización visual de la información y la rapidez con que puede interpretar el estado de los turistas. Ante una alerta, su protocolo sería revisar los detalles, contactar al guía responsable y activar el protocolo de emergencia de ser necesario. Le otorgó un 9 de 10 a la plataforma, señalando que las principales barreras para su adopción serían el costo de implementación y la capacitación del equipo. Como funcionalidad adicional, solicitó un sistema de mensajería integrado entre la agencia, los guías y los turistas durante el tour.
 
 ## 5.3.1. Evaluaciones según heurísticas.
 
