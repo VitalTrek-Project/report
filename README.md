@@ -2957,6 +2957,21 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 **Resumen:** Valeri Rojas es Jefa de Operaciones y Seguridad Turística de la agencia Inca Explorers, con sede en Cusco y ocho años de experiencia en trekkings, rutas de montaña y expediciones al Camino Inca y Machu Picchu. Actualmente, el monitoreo de grupos en ruta depende de llamadas telefónicas cuando hay cobertura, lo que genera retrasos e incertidumbre ante la pérdida de señal, ya que no es posible distinguir si se trata de una zona sin cobertura o de una emergencia real. Al explorar la plataforma VitalTrek, Valeri destacó que la propuesta centraliza información que normalmente está dispersa entre llamadas, mensajes y reportes, facilitando el control de grupos y la reacción ante incidentes. El proceso de creación de tours le pareció sencillo e intuitivo, aunque sugirió añadir un campo de contactos de emergencia. Respecto al módulo de monitoreo de estado, valoró la organización visual de la información y la rapidez con que puede interpretar el estado de los turistas. Ante una alerta, su protocolo sería revisar los detalles, contactar al guía responsable y activar el protocolo de emergencia de ser necesario. Le otorgó un 9 de 10 a la plataforma, señalando que las principales barreras para su adopción serían el costo de implementación y la capacitación del equipo. Como funcionalidad adicional, solicitó un sistema de mensajería integrado entre la agencia, los guías y los turistas durante el tour.
 
+**Entrevista N° 2**
+
+| **Nombres y apellidos** | **Edad** | **Distrito** |
+|-------------------------|----------|--------------|
+| Miguel Angel Morales    | 39 años  | Lima         |
+
+| **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
+| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCBBCyU5RX7Tp_-SKCmKpLaATHf8YjEABhv9EEgrqmz8mk?e=s4NB67&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 11:45 min    |
+
+![Entrevista-2](assets/images/entrevista-Gabriel-Vilchez.png)
+
+**Resumen:** Resumen: Miguel Ángel Morales es un aficionado al trekking y a las actividades de aventura en entornos naturales. Durante la entrevista comentó que sus principales preocupaciones al realizar recorridos en zonas remotas son conocer con precisión la ubicación de destino, la seguridad de la zona y contar con los recursos necesarios para completar la actividad. Actualmente utiliza Google Maps como herramienta de apoyo, aunque reconoce que su cobertura y fiabilidad disminuyen considerablemente en áreas rurales, por lo que suele depender de mapas tradicionales o de la experiencia de otros integrantes del grupo. Al conocer la propuesta de VitalTrek, destacó como aspecto más atractivo la capacidad de ofrecer información en zonas donde herramientas convencionales como Google Maps no resultan efectivas. Asimismo, mostró interés por las funcionalidades relacionadas con el monitoreo de signos vitales y el seguimiento de la ubicación durante los recorridos, considerándolas características valiosas para mejorar la seguridad de los excursionistas. Durante la prueba de la plataforma completó satisfactoriamente tareas como la inscripción a una ruta, la descarga de recorridos, el seguimiento de una expedición en tiempo real y el reporte de incidentes. En todos los casos señaló que la navegación era intuitiva y que la información presentada era clara y fácil de comprender. También indicó que pudo identificar sin dificultad su ubicación, el avance de la ruta y los mecanismos disponibles para solicitar ayuda en caso de emergencia. Respecto a la experiencia general, manifestó que el uso conjunto de la aplicación y un dispositivo wearable le proporcionaría una mayor sensación de seguridad y tranquilidad durante los recorridos. Además, valoró positivamente el diseño de la plataforma, describiéndolo como minimalista, sencillo y adecuado para usuarios que realizan actividades de trekking, ya que evita elementos visuales innecesarios y prioriza la información relevante. Como sugerencia de mejora, propuso optimizar la navegación de la interfaz incorporando accesos directos que desplacen automáticamente al usuario hacia las secciones correspondientes al seleccionar las opciones del menú. Consideró que esta mejora facilitaría la exploración de la plataforma y haría más intuitiva la experiencia de uso para nuevos usuarios.
+
+
 ## 5.3.1. Evaluaciones según heurísticas.
 
 **CARRERA** : Ingeniería de Software
@@ -2964,7 +2979,9 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 **SECCIÓN** : 2610
 **PROFESORES** : Todos
 **AUDITOR** : NexumDevs
-**CLIENTE(S)** : Valeri Rojas - Jefa de Operaciones y Seguridad Turística, Inco Explorers
+**CLIENTE(S)** :
+- Valeri Rojas - Jefa de Operaciones y Seguridad Turística, Inco Explorers
+- Miguel Ángel Morales - Aficionado al trekking y actividades de aventura
 
 #### UX Heuristics & Principles Evaluation
 #### Usability - Inclusive Design - Information Architecture
