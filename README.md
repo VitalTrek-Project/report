@@ -2955,22 +2955,19 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 ![Entrevista-1](assets/images/entrevista-Eder-Quispe.png)
 
-**Resumen:** Valeri Rojas es Jefa de Operaciones y Seguridad Turística de la agencia Inco Explorers, con sede en Cusco y ocho años de experiencia en trekkings, rutas de montaña y expediciones al Camino Inca y Machu Picchu. Actualmente, el monitoreo de grupos en ruta depende de llamadas telefónicas cuando hay cobertura, lo que genera retrasos e incertidumbre ante la pérdida de señal, ya que no es posible distinguir si se trata de una zona sin cobertura o de una emergencia real. Al explorar la plataforma VitalTrek, Valeria destacó que la propuesta centraliza información que normalmente está dispersa entre llamadas, mensajes y reportes, facilitando el control de grupos y la reacción ante incidentes. El proceso de creación de tours le pareció sencillo e intuitivo, aunque sugirió añadir un campo de contactos de emergencia. Respecto al módulo de monitoreo de estado, valoró la organización visual de la información y la rapidez con que puede interpretar el estado de los turistas. Ante una alerta, su protocolo sería revisar los detalles, contactar al guía responsable y activar el protocolo de emergencia de ser necesario. Le otorgó un 9 de 10 a la plataforma, señalando que las principales barreras para su adopción serían el costo de implementación y la capacitación del equipo. Como funcionalidad adicional, solicitó un sistema de mensajería integrado entre la agencia, los guías y los turistas durante el tour.
+**Resumen:** Valeri Rojas es Jefa de Operaciones y Seguridad Turística de la agencia Inca Explorers, con sede en Cusco y ocho años de experiencia en trekkings, rutas de montaña y expediciones al Camino Inca y Machu Picchu. Actualmente, el monitoreo de grupos en ruta depende de llamadas telefónicas cuando hay cobertura, lo que genera retrasos e incertidumbre ante la pérdida de señal, ya que no es posible distinguir si se trata de una zona sin cobertura o de una emergencia real. Al explorar la plataforma VitalTrek, Valeri destacó que la propuesta centraliza información que normalmente está dispersa entre llamadas, mensajes y reportes, facilitando el control de grupos y la reacción ante incidentes. El proceso de creación de tours le pareció sencillo e intuitivo, aunque sugirió añadir un campo de contactos de emergencia. Respecto al módulo de monitoreo de estado, valoró la organización visual de la información y la rapidez con que puede interpretar el estado de los turistas. Ante una alerta, su protocolo sería revisar los detalles, contactar al guía responsable y activar el protocolo de emergencia de ser necesario. Le otorgó un 9 de 10 a la plataforma, señalando que las principales barreras para su adopción serían el costo de implementación y la capacitación del equipo. Como funcionalidad adicional, solicitó un sistema de mensajería integrado entre la agencia, los guías y los turistas durante el tour.
 
 ## 5.3.1. Evaluaciones según heurísticas.
-
-
 
 **CARRERA** : Ingeniería de Software
 **CURSO** : Aplicaciones Web
 **SECCIÓN** : 2610
 **PROFESORES** : Todos
 **AUDITOR** : NexumDevs
-**CLIENTE(S)** : Nombre de las personas que participan en la sesión
+**CLIENTE(S)** : Valeri Rojas - Jefa de Operaciones y Seguridad Turística, Inco Explorers
 
 #### UX Heuristics & Principles Evaluation
 #### Usability - Inclusive Design - Information Architecture
-
 
 **SITE APP A EVALUAR:**
 VitalTrek
@@ -2978,11 +2975,10 @@ VitalTrek
 **TAREAS A EVALUAR:**
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-1. xxx
-2. xxx
-3. xx
-4. Etc.
-
+1. Crear un nuevo tour desde el módulo de Gestión de Tours.
+2. Publicar un tour creado en estado borrador.
+3. Monitorear el estado de un grupo activo desde el panel de Monitoreo de Estado.
+4. Revisar y gestionar alertas rojas y amarillas generadas durante una expedición.
 
 ---
 
@@ -2991,8 +2987,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 | Nivel | Descripción |
 | :---: | :--- |
-| **1** | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
 | **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
 | **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
@@ -3002,22 +2998,35 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 | :---: | :--- | :---: | :--- |
-| **1** | *ejemplo:No hay un control que permita regresar a la tienda durante el trámite de compra* | 3 | *ejemplo: Usability: Libertad y control del usuario* |
-| **2** |  | 1 |  |
-| **3** |  | 3 |  |
-| **4** |  | 3 |  |
-| **5** |  | 2 |  |
-
+| **1** | El formulario de creación de tours no incluye un campo para registrar contactos de emergencia. | 3 | Usability: Correspondencia entre el sistema y el mundo real |
+| **2** | No existe un sistema de mensajería integrado entre la agencia, los guías y los turistas dentro de la plataforma. | 3 | Usability: Libertad y control del usuario |
 
 ---
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**PROBLEMA #1:** *ejemplo: No hay un control que permita regresar a la tienda durante el trámite de compra*
-* **Severidad:** 3
-* **Heurística violada:** *ejemplo: Usabilidad-Libertad y control del usuario*
-* **Problema:**
-    * *ejemplo: Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso asi lo Uno vez el cliente pase al tramite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicia de la web, lo cual nos obliga a efectuar el tromite y al momento de elegir más productos, realizar atro, incrementándose asi lo cantidad de esfuerzo del usuario.*
-    * *(Incluir además uno captura de pantalla ilustrando el problemo).*
-* **Recomendación:**
-    * *ejemplo: Lo más práctica es que al mamento en que queramos realizar dicho tramite, el navegador lo abra en una ventano aperte para no perder los cambios realizados en nuestro cartito de compras.*
+---
+
+**PROBLEMA #1:** El formulario de creación de tours no incluye un campo para registrar contactos de emergencia.
+
+- **Severidad:** 3
+- **Heurística violada:** Usabilidad - Correspondencia entre el sistema y el mundo real
+- **Problema:**
+  Durante la sesión de evaluación, Valeri Rojas identificó que al completar el formulario de creación de un nuevo tour, no existe un campo destinado a los contactos de emergencia. En su operación diaria, este dato es uno de los primeros que revisa antes de cada salida. La ausencia de este campo obliga a la coordinadora a gestionar esa información por fuera de la plataforma (mensajes, llamadas o documentos externos), fragmentando el flujo de trabajo y aumentando el riesgo operativo.
+  ![Formulario de creación de tours](assets/images/captura-alertas2.png)
+
+- **Recomendación:**
+  Añadir en el formulario de creación de tours una sección de "Contactos de emergencia" que permita registrar al menos nombre, teléfono y rol (familiar, médico, guía líder). Este campo debería ser obligatorio antes de publicar el tour.
+
+---
+
+**PROBLEMA #2:** No existe un sistema de mensajería integrado entre la agencia, los guías y los turistas dentro de la plataforma.
+
+- **Severidad:** 3
+- **Heurística violada:** Usabilidad - Libertad y control del usuario
+- **Problema:**
+  Valeri señaló como funcionalidad indispensable un canal de comunicación directo dentro de VitalTrek que conecte a la agencia, los guías y los turistas durante el transcurso del tour. Actualmente, toda la coordinación se realiza mediante llamadas y mensajes externos, lo que fragmenta la información y dificulta el seguimiento centralizado. La falta de esta funcionalidad obliga a los coordinadores a salir de la plataforma para gestionar comunicaciones críticas.
+  ![Sistema de mensajeria no existente](assets/images/captura-alertas1.png)
+- **Recomendación:**
+  Desarrollar un módulo de mensajería in-app con canales diferenciados por tour activo, que permita comunicación en tiempo real entre la agencia, el guía responsable y los turistas del grupo.
+
