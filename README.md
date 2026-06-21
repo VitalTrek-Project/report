@@ -3045,6 +3045,138 @@ Se adjunta un video donde se muestra la navegación y funcionamiento de las func
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo desplegó la primera versión funcional del RESTful API propio de VitalTrek, dejando atrás el uso de servidores provisionales. La API fue implementada en ASP.NET Core (.NET 10) bajo una arquitectura de monolito modular basada en Domain-Driven Design, organizada en los bounded contexts de Monitoring, Engagement, TourManagement, Navigation e IoT. A continuación se documentan todos los endpoints disponibles en la API que el frontend puede consumir a partir de este sprint.
+
+**Figura**
+
+![Swagger UI Endpoints](assets/images/backend-5.png)
+
+*Panel de Swagger con los endpoints configurados para VitalTrek*
+
+URL base: `https://backend-vitaltrek-production.up.railway.app/api/v1`
+
+---
+
+**Alerts**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/alerts` | POST | `POST /alerts` | Body JSON con los datos de la alerta | Genera (levanta) una nueva alerta | `{ "id": 1, "touristId": 42, "type": "HealthAlert", "severity": "High", "status": "Active", "message": "Tourist heart rate above safe threshold", "raisedAt": "2026-06-20T14:35:00+00:00" }` |
+| `/alerts/expedition/{expeditionId}` | GET | `GET /alerts/expedition/{expeditionId}` | `expeditionId` (path, requerido) | Retorna las alertas activas de una expedición | `[{ "id": 1, "touristId": 42, "type": "HealthAlert", "severity": "High", "status": "Active", ... }]` |
+| `/alerts/{alertId}/acknowledge` | PUT | `PUT /alerts/{alertId}/acknowledge` | `alertId` (path, requerido) | Reconoce (marca como vista) una alerta | `{ "id": 1, "status": "Acknowledged", "touristId": 42, "type": "HealthAlert", ... }` |
+| `/alerts/{alertId}/dismiss` | PUT | `PUT /alerts/{alertId}/dismiss` | `alertId` (path, requerido) | Descarta una alerta | `{ "id": 1, "status": "Dismissed", "touristId": 42, "type": "HealthAlert", ... }` |
+
+**BinnacleReadings**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/binnacle-readings` | POST | `POST /binnacle-readings` | Body JSON con los datos de la lectura | Registra una lectura de bitácora | `{ "expeditionId": 3, "touristId": 42, "note": "Reached the Sun Gate after 4 hours of hiking", "mediaUrl": "https://storage.vitaltrek.com/media/exp3/tourist42/sungate.jpg", "createdAt": "2026-06-20T12:30:00" }` |
+| `/binnacle-readings/expedition/{expeditionId}` | GET | `GET /binnacle-readings/expedition/{expeditionId}` | `expeditionId` (path, requerido) | Retorna las lecturas de bitácora de una expedición | `[{ "expeditionId": 3, "touristId": 42, "note": "Reached the Sun Gate after 4 hours of hiking", ... }]` |
+
+**Expeditions**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/expeditions` | GET | `GET /expeditions` | Sin parámetros | Retorna todas las expediciones registradas | `[{ "id": 3, "tourID": 12, "guideID": 7, "expeditionName": "Inca Trail Expedition - Group A", "status": "Active" }]` |
+| `/expeditions/{expeditionId}` | GET | `GET /expeditions/{expeditionId}` | `expeditionId` (path, requerido) | Retorna el detalle de una expedición específica | `{ "id": 3, "tourID": 12, "guideID": 7, "expeditionName": "Inca Trail Expedition - Group A", "status": "Active" }` |
+| `/expeditions` | POST | `POST /expeditions` | Body JSON con los datos de la expedición | Crea una nueva expedición | `{ "id": 3, "tourID": 12, "guideID": 7, "expeditionName": "Inca Trail Expedition - Group A", "status": "Active" }` |
+
+**Experiences**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/experiences` | GET | `GET /experiences` | Sin parámetros | Retorna todas las experiencias registradas | `[{ "id": 15, "expeditionID": 3, "touristID": 42, "note": "Stunning view from Wiñay Wayna — unforgettable moment", "mediaUrl": "https://storage.vitaltrek.com/media/exp3/tourist42/winaywayna.jpg" }]` |
+| `/experiences/{experienceId}` | GET | `GET /experiences/{experienceId}` | `experienceId` (path, requerido) | Retorna el detalle de una experiencia específica | `{ "id": 15, "expeditionID": 3, "touristID": 42, "note": "Stunning view from Wiñay Wayna — unforgettable moment", "mediaUrl": "https://storage.vitaltrek.com/media/exp3/tourist42/winaywayna.jpg" }` |
+| `/experiences` | POST | `POST /experiences` | Body JSON con los datos de la experiencia | Crea una nueva experiencia | `{ "id": 15, "expeditionID": 3, "touristID": 42, "note": "Stunning view from Wiñay Wayna — unforgettable moment", "mediaUrl": "https://storage.vitaltrek.com/media/exp3/tourist42/winaywayna.jpg" }` |
+
+**Incidents**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/incidents` | GET | `GET /incidents` | Sin parámetros | Retorna todos los incidentes registrados | `[{ "id": 5, "expeditionId": 3, "reportedBy": 101, "description": "Tourist suffered minor ankle sprain near checkpoint 2", "severity": "Low", "status": "Open", "reportedAt": "2026-06-20T11:20:00" }]` |
+| `/incidents/{incidentId}` | GET | `GET /incidents/{incidentId}` | `incidentId` (path, requerido) | Retorna el detalle de un incidente específico | `{ "id": 5, "expeditionId": 3, "reportedBy": 101, "description": "Tourist suffered minor ankle sprain near checkpoint 2", "severity": "Low", "status": "Open", "reportedAt": "2026-06-20T11:20:00" }` |
+| `/incidents` | POST | `POST /incidents` | Body JSON con los datos del incidente | Crea un nuevo incidente | `{ "id": 5, "expeditionId": 3, "reportedBy": 101, "description": "Tourist suffered minor ankle sprain near checkpoint 2", "severity": "Low", "status": "Open", "reportedAt": "2026-06-20T11:20:00" }` |
+
+**IoTDevices**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/devices` | GET | `GET /devices` | Sin parámetros | Retorna todos los dispositivos IoT registrados | `[{ "id": 7, "name": "SmartBand-A42", "type": "Wearable", "status": "Active", "lastSeen": "2026-06-20T10:00:00", "lastCommand": null, "expeditionId": 3, "touristId": 42 }]` |
+| `/devices/{deviceId}` | GET | `GET /devices/{deviceId}` | `deviceId` (path, requerido) | Retorna el detalle de un dispositivo específico | `{ "id": 7, "name": "SmartBand-A42", "type": "Wearable", "status": "Active", "lastSeen": "2026-06-20T10:00:00", "lastCommand": null, "expeditionId": 3, "touristId": 42 }` |
+| `/devices` | POST | `POST /devices` | Body JSON con los datos del dispositivo | Registra un nuevo dispositivo IoT | `{ "id": 7, "name": "SmartBand-A42", "type": "Wearable", "status": "Active", "lastSeen": "2026-06-20T10:00:00", "lastCommand": null, "expeditionId": 3, "touristId": 42 }` |
+| `/devices/{deviceId}` | PUT | `PUT /devices/{deviceId}` | `deviceId` (path, requerido). Body JSON con el comando | Despacha un comando a un dispositivo | `{ "id": 7, "name": "SmartBand-A42", "status": "Active", "lastSeen": "2026-06-20T10:15:00", "lastCommand": "SYNC", "expeditionId": 3, "touristId": 42 }` |
+| `/devices/{deviceId}` | DELETE | `DELETE /devices/{deviceId}` | `deviceId` (path, requerido) | Elimina un dispositivo registrado | `204 No Content` |
+
+**LocationReadings**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/location-readings` | POST | `POST /location-readings` | Body JSON con los datos de ubicación | Registra una lectura de ubicación | `{ "id": 88, "expeditionId": 3, "touristId": 42, "latitude": -13.163141, "longitude": -72.545128, "accuracyMeters": 4.5, "recordedAt": "2026-06-20T10:00:00" }` |
+| `/location-readings/expedition/{expeditionId}` | GET | `GET /location-readings/expedition/{expeditionId}` | `expeditionId` (path, requerido) | Retorna las lecturas de ubicación de una expedición | `[{ "id": 88, "expeditionId": 3, "touristId": 42, "latitude": -13.163141, "longitude": -72.545128, "accuracyMeters": 4.5, "recordedAt": "2026-06-20T10:00:00" }]` |
+
+**Loyalty**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/loyalty/profiles/{id}` | GET | `GET /loyalty/profiles/{id}` | `id` (path, requerido) | Retorna el perfil de gamificación/lealtad de un usuario | `{ "profileId": "e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b", "totalPoints": 340, "rank": "Explorer", "unlockedBadges": ["FirstSummit", "IronLegs", "EarlyBird"] }` |
+| `/loyalty/profiles/{id}/award` | POST | `POST /loyalty/profiles/{id}/award` | `id` (path, requerido). Body JSON con los puntos/recompensa | Otorga una recompensa al perfil de lealtad | `{ "profileId": "e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b", "totalPoints": 440, "rank": "Explorer", "unlockedBadges": ["FirstSummit", "IronLegs", "EarlyBird", "CenturyClub"] }` |
+
+**Progress**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/progress/{progressId}` | GET | `GET /progress/{progressId}` | `progressId` (path, requerido) | Retorna el detalle de un progreso específico | `{ "id": 9, "expeditionId": 3, "completedCheckpoints": 4, "totalCheckpoints": 7, "percentage": 57.14 }` |
+| `/progress` | POST | `POST /progress` | Body JSON con los datos del progreso | Crea un nuevo registro de progreso | `{ "id": 9, "expeditionId": 3, "completedCheckpoints": 4, "totalCheckpoints": 7, "percentage": 57.14 }` |
+
+**SensorReadings**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/sensor-readings` | GET | `GET /sensor-readings` | Sin parámetros | Retorna todas las lecturas de sensores | `[{ "id": 512, "deviceId": 7, "type": "HeartRate", "value": 98.0, "unit": "bpm", "recordedAt": "2026-06-20T10:02:00" }]` |
+| `/sensor-readings/device/{deviceId}` | GET | `GET /sensor-readings/device/{deviceId}` | `deviceId` (path, requerido) | Retorna las lecturas de un sensor específico | `[{ "id": 512, "deviceId": 7, "type": "HeartRate", "value": 98.0, "unit": "bpm", "recordedAt": "2026-06-20T10:02:00" }]` |
+| `/sensor-readings` | POST | `POST /sensor-readings` | Body JSON con los datos de la lectura | Registra una nueva lectura de sensor | `{ "id": 512, "deviceId": 7, "type": "HeartRate", "value": 98.0, "unit": "bpm", "recordedAt": "2026-06-20T10:02:00" }` |
+
+**TourAssignments**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/tours/{tourId}/assignments` | GET | `GET /tours/{tourId}/assignments` | `tourId` (path, requerido) | Retorna las asignaciones de un tour | `[{ "id": "d1e2f3a4-5b6c-7d8e-9f0a-1b2c3d4e5f6a", "tourId": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "touristId": "e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b", "status": "Assigned", "assignedAt": "2026-06-20T09:00:00+00:00" }]` |
+| `/tours/{tourId}/assignments` | POST | `POST /tours/{tourId}/assignments` | `tourId` (path, requerido). Body JSON con datos del turista | Asigna un turista a un tour | `{ "id": "d1e2f3a4-5b6c-7d8e-9f0a-1b2c3d4e5f6a", "tourId": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "touristId": "e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b", "status": "Assigned", "assignedAt": "2026-06-20T09:00:00+00:00" }` |
+| `/tours/{tourId}/assignments/{touristId}` | DELETE | `DELETE /tours/{tourId}/assignments/{touristId}` | `tourId`, `touristId` (path, requeridos) | Elimina la asignación de un turista a un tour | `204 No Content` |
+
+**Tours**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/tours` | POST | `POST /tours` | Body JSON con los datos del tour | Crea un nuevo tour | `{ "id": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "title": "Classic Inca Trail 4 Days", "description": "Trek through the legendary Inca Trail passing Wiñay Wayna and arriving at the Sun Gate", "difficulty": "Moderate", "status": "Active", "capacity": 16 }` |
+| `/tours/{tourId}` | GET | `GET /tours/{tourId}` | `tourId` (path, requerido) | Retorna el detalle de un tour específico | `{ "id": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "title": "Classic Inca Trail 4 Days", "difficulty": "Moderate", "status": "Active", "capacity": 16 }` |
+| `/tours/{tourId}` | PUT | `PUT /tours/{tourId}` | `tourId` (path, requerido). Body JSON con campos a actualizar | Actualiza los datos de un tour | `{ "id": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "title": "Classic Inca Trail 4 Days — Premium", "status": "Active", "capacity": 12 }` |
+| `/tours/{tourId}` | DELETE | `DELETE /tours/{tourId}` | `tourId` (path, requerido) | Elimina un tour registrado | `204 No Content` |
+| `/tours/agency/{agencyId}` | GET | `GET /tours/agency/{agencyId}` | `agencyId` (path, requerido) | Retorna los tours de una agencia específica | `[{ "id": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "title": "Classic Inca Trail 4 Days", "status": "Active", "capacity": 16 }]` |
+| `/tours/search` | GET | `GET /tours/search?term=inca` | Query params de búsqueda | Busca tours según criterios de filtrado | `[{ "id": "a3f2c1d4-8b7e-4f6a-9c3d-2e1f0a5b4c7d", "title": "Classic Inca Trail 4 Days", "status": "Active", "capacity": 16 }]` |
+| `/tours/{tourId}/duplicate` | POST | `POST /tours/{tourId}/duplicate` | `tourId` (path, requerido) | Duplica un tour existente | `{ "id": "c9d3e4f5-6a7b-4c8d-9e1f-0a2b3c4d5e6f", "title": "Classic Inca Trail 4 Days", "status": "Draft", "capacity": 16 }` |
+
+**VitalSignReadings**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/vital-sign-readings` | POST | `POST /vital-sign-readings` | Body JSON con los datos de signos vitales | Registra una lectura de signos vitales | `{ "id": 210, "expeditionId": 3, "touristId": 42, "heartRate": 98, "bloodOxygen": 95.4, "bodyTemperature": 36.8, "recordedAt": "2026-06-20T10:02:00" }` |
+| `/vital-sign-readings/expedition/{expeditionId}` | GET | `GET /vital-sign-readings/expedition/{expeditionId}` | `expeditionId` (path, requerido) | Retorna las lecturas de signos vitales de una expedición | `[{ "id": 210, "expeditionId": 3, "touristId": 42, "heartRate": 98, "bloodOxygen": 95.4, "bodyTemperature": 36.8, "recordedAt": "2026-06-20T10:02:00" }]` |
+
+**Weather**
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Descripción | Ejemplo de Response |
+|---|---|---|---|---|---|
+| `/weather/{weatherId}` | GET | `GET /weather/{weatherId}` | `weatherId` (path, requerido) | Retorna el detalle de un registro climático específico | `{ "id": 21, "expeditionId": 3, "temperatureCelsius": 14.5, "condition": "PartlyCloudy", "humidity": 68.3, "windSpeedKmh": 12.0 }` |
+| `/weather` | POST | `POST /weather` | Body JSON con los datos climáticos | Crea un nuevo registro climático | `{ "id": 21, "expeditionId": 3, "temperatureCelsius": 14.5, "condition": "PartlyCloudy", "humidity": 68.3, "windSpeedKmh": 12.0 }` |
+
+---
+
+URL del repositorio Backend: [VitalTrek-Project/vital-trek-platform](https://github.com/VitalTrek-Project/vital-trek-platform)
+
+URL de documentación interactiva (Swagger): [https://backend-vitaltrek-production.up.railway.app/swagger](https://backend-vitaltrek-production.up.railway.app/swagger)
+
+Commits relacionados con la implementación de estos endpoints en este Sprint: `c096f41`, `1bb7ef2`, `f3a3e50`, `653414b`, `20e928b`
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -3064,7 +3196,6 @@ Se verificó el correcto funcionamiento de la API exponiendo la documentación i
 [https://backend-vitaltrek-production.up.railway.app/swagger](https://backend-vitaltrek-production.up.railway.app/swagger)
 
 ---
-<br>
 
 **Figura**
 *Evidencia de deployment 1*
