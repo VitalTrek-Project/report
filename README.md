@@ -2861,11 +2861,63 @@ Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
+Durante el desarrollo del presente Sprint se realizaron avances relacionados con la implementación de los productos principales de la solución **VitalTrek**, abarcando la **Landing Page**, la **Web Application** y los **Web Services**.
 
+Los principales avances estuvieron enfocados en la construcción de la interfaz web, la integración de funcionalidades orientadas al usuario y la implementación de servicios necesarios para soportar las operaciones principales de la plataforma.
 
----
+Asimismo, se realizaron mejoras en la estructura del proyecto, corrección de errores, optimización de componentes y actualización de funcionalidades según el alcance definido para este Sprint.
+
+A continuación, se presentan los commits relacionados con la implementación realizados en cada repositorio:
+
+| Repository                             | Branch                  | Commit Id | Commit Message                                         | Commit Message Body                                                                                        | Commited on (Date) |
+|----------------------------------------|-------------------------|-----------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|
+| VitalTrek-Project/web-application      |                         |           |                                                        |                                                                                                            | 20/06/2026         |
+| VitalTrek-Project/web-application      |                         |           |                                                        |                                                                                                            | 20/06/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/tour-management | 5914f2b   | feat: add tourrepository for managing tour data access | Se agregó el TourRepository para gestionar el acceso y manejo de datos de los tours.                       | 10/06/2026         |
+| VitalTrek-Project/vital-trek-platform  |                         |           |                                                        |                                                                                                            | 20/06/2026         |
+| VitalTrek-Project/landing-page         | feature/call-to-action  | 44d19c3   | feat: add call-to-action in landing page               | Se agregó un llamado a la acción en la landing page para mejorar la interacción y navegación del usuario.  | 18/06/2026         |
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se logró avanzar en la implementación de las funcionalidades principales de **VitalTrek**, enfocándose en mejorar la experiencia del usuario y consolidar la solución propuesta.
+
+Entre los principales resultados obtenidos se encuentran:
+
+- Implementación y mejora de la **Landing Page**, mostrando información relevante sobre la plataforma y su propuesta de valor.
+- Desarrollo de nuevas funcionalidades dentro de la **Web Application**, permitiendo una navegación más fluida y una mejor interacción con los usuarios.
+- Implementación y actualización de **Web Services**, permitiendo la comunicación entre los diferentes componentes de la solución.
+- Integración progresiva de las funcionalidades relacionadas con turismo, ubicación y gestión de información dentro de la plataforma.
+
+Como evidencia del trabajo realizado durante el Sprint se presentan capturas de pantalla de las funcionalidades implementadas y mejoras realizadas en la solución.
+
+#### Evidencias de Implementación
+
+##### Landing Page
+
+> Captura de la Landing Page actualizada.
+
+![Landing Page](ruta_de_la_imagen.png)
+
+
+##### Web Application
+
+> Captura de la plataforma web mostrando las funcionalidades desarrolladas.
+
+![Web Application](ruta_de_la_imagen.png)
+
+
+##### Web Services
+
+> Evidencia de la implementación y funcionamiento de los servicios.
+
+![Web Services](ruta_de_la_imagen.png)
+
+
+##### Video de demostración
+
+Se adjunta un video donde se muestra la navegación y funcionamiento de las funcionalidades implementadas durante este Sprint:
+
+[Ver video de demostración](URL_DEL_VIDEO)
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3142,3 +3194,4 @@ Esto puede generar incertidumbre en situaciones de emergencia, ya que el usuario
 
 * **Recomendación:**
   Implementar un panel permanente de seguimiento de incidencias donde el usuario pueda visualizar el estado actual de su reporte. Se recomienda mostrar información como la fecha y hora del reporte, ubicación enviada, nivel de prioridad, tiempo estimado de respuesta y actualizaciones en tiempo real por parte de la agencia. Además, utilizar indicadores visuales de progreso para comunicar claramente el avance de la atención de la incidencia.
+
