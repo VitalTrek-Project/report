@@ -3229,6 +3229,18 @@ Se verificó el correcto funcionamiento de la API exponiendo la documentación i
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
+Durante el Sprint 3, el equipo desarrolló colaborativamentew la tercera version de Landing Page,  segunda versión de la Web Application y primera version de Web Sevices de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+
+Landing Page:
+![Landing Sprint3](assets/images/landing-sprint-3.png)
+
+Landing Page:
+![Web Sprint3](assets/images/web-sprint-3.png)
+
+Landing Page:
+![ServicesvSprint3](assets/images/back-sprint-3.png)
+
+
 # 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de Entrevistas.
@@ -3495,3 +3507,42 @@ Esto puede generar incertidumbre en situaciones de emergencia, ya que el usuario
 * **Recomendación:**
   Implementar un panel permanente de seguimiento de incidencias donde el usuario pueda visualizar el estado actual de su reporte. Se recomienda mostrar información como la fecha y hora del reporte, ubicación enviada, nivel de prioridad, tiempo estimado de respuesta y actualizaciones en tiempo real por parte de la agencia. Además, utilizar indicadores visuales de progreso para comunicar claramente el avance de la atención de la incidencia.
 
+
+# 5.4 Video About The Product
+
+La presente sección tiene como propósito introducir y detallar el contenido del Video About-the-Product de VitalTrek. Este recurso audiovisual ha sido desarrollado como una herramienta de comunicación estratégica orientada a dos audiencias clave.
+
+Por un lado, está diseñado para los visitantes de la Landing Page, brindándoles una visión clara, visual y dinámica sobre el modelo de negocio y las características principales que diferencian a nuestro ecosistema de software. Por otro lado, sirve como una guía introductoria para los futuros usuarios de las aplicaciones, ilustrando de manera práctica cómo interactuar con el sistema y ejecutar las tareas fundamentales relacionadas con los procesos operativos que la solución busca optimizar en el contexto del turismo de aventura.
+
+| **URL** | **Inicio** | **Duración** |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
+| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 00:57 min    |
+
+![Video About The Product](assets/images/product.png)
+
+### Conclusiones
+Viabilidad de la Arquitectura Offline-First: El desarrollo de VitalTrek demuestra la factibilidad de resolver la "ceguera operativa" en el turismo de aventura peruano mediante un ecosistema IoT asincrónico. La sincronización basada en ráfagas de datos a través de checkpoints Bluetooth se confirma como una alternativa técnica y financieramente viable frente a las costosas soluciones 100% satelitales en zonas de baja o nula conectividad.
+
+Diseño Centrado en el Usuario y el Dominio: La aplicación rigurosa de metodologías de descubrimiento (Lean UX, Empathy Mapping) y modelado (Event Storming, Domain-Driven Design) permitió estructurar un software que atiende con precisión las necesidades reales de dos segmentos distintos: el control operativo para las agencias (B2B) y la experiencia segura e interactiva para los turistas (B2C).
+
+Escalabilidad Tecnológica: La estructuración del sistema mediante Bounded Contexts e interfaces basadas en APIs RESTful garantiza que VitalTrek sea una plataforma altamente desacoplada y escalable, preparada para asimilar un mayor volumen de usuarios y nuevos dispositivos wearables en el futuro sin comprometer el rendimiento general.
+
+Cumplimiento del Outcome 5 de ABET: La adopción de prácticas ágiles de desarrollo (Scrum) y herramientas de gestión de configuración de software (GitFlow, Conventional Commits en GitHub) fomentó un entorno de trabajo organizado, inclusivo y colaborativo. Esto permitió al equipo Nexum Devs distribuir el liderazgo efectivamente, cumplir con los objetivos de cada Sprint y garantizar la trazabilidad completa del ciclo de vida del producto.
+
+### Recomendaciones
+Validación en Entornos Reales: Se recomienda realizar pruebas de campo piloto (Beta Testing) en rutas de alta exigencia geográfica y climática (como la cordillera en Áncash o el Camino Inca en Cusco) para medir empíricamente la tolerancia a fallos del hardware IoT y la latencia real en la sincronización de los checkpoints.
+
+Evolución hacia Tecnologías Satelitales: A mediano plazo, se sugiere investigar la integración de tecnologías emergentes de conectividad (como Starlink Direct to Cell) dentro de la capa de infraestructura del sistema. Esto permitiría complementar la propuesta de sincronización asincrónica con envíos de alertas SOS satelitales sin necesidad de rediseñar la arquitectura modular de la plataforma.
+
+Estrategia de Adopción Digital: Dado el bajo nivel de digitalización identificado en el segmento de las micro y pequeñas agencias turísticas, se recomienda implementar un plan de onboarding simplificado y capacitaciones continuas que reduzcan la curva de aprendizaje del personal administrativo y los guías en campo.
+
+Expansión de la Gamificación: Para fortalecer la adopción por parte del turista (B2C), se sugiere profundizar en el módulo de Loyalty (Gamification), incluyendo recompensas, insignias y métricas sociales que incentiven al usuario a seguir contratando agencias afiliadas a la red de VitalTrek.
+
+### Video About-the-Team
+En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovisual diseñado para dar a conocer a los miembros fundadores de la startup Nexum Devs. El video tiene como propósito generar confianza técnica y comercial al mostrar los rostros y perfiles profesionales detrás del desarrollo de VitalTrek. Durante el material, cada integrante expone su rol específico dentro del ciclo de desarrollo, la forma en que se estructuró el trabajo colaborativo y la visión compartida que impulsó al equipo a crear una solución tecnológica innovadora para salvaguardar la vida de los turistas en el ecosistema de aventura peruano.
+
+| **URL** | **Inicio** | **Duración** |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
+| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
+
+![Video About The Team](assets/images/video-team.png)
