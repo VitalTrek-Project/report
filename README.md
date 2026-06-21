@@ -2840,22 +2840,95 @@ Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión
 
 ![Sprint2](assets/images/evidencia-git.png)
 
-## 5.2.2. Sprint 3
+## 5.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 3 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación del backend RESTful API, abordando los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement, los cuales constituyen el núcleo funcional del servidor y habilitan la comunicación entre la web application y los servicios de la plataforma.
+
+---
 
 ### 5.2.3.1. Sprint Planning 3
 
+La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las Technical Stories que serían abordadas durante la iteración.
 
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
+
+> **"Our focus is on** implementing the core RESTful API endpoints for the Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts, providing agency administrators, tour guides and tourists the backend capabilities needed to manage tours, run expeditions, monitor safety in real time and track loyalty progress through the platform. **We believe it delivers** centralized tour and expedition control to agency administrators and tour guides, continuous biometric and location monitoring with automated anomaly alerts to keep tourists safe during active recorridos, and a complete set of reliable endpoints to frontend developers for implementing all expedition-related, monitoring and gamification features in the VitalTrek ecosystem without backend team intervention. **This will be confirmed when** agency administrators can create and manage tours and assign tourists through the implemented endpoints, tour guides can start and finish expeditions with offline sync support, the system automatically ingests IoT telemetry and generates real-time alerts for route deviation, communication loss and critical vital signs, agency administrators can access the operational dashboard and export finished expedition reports in CSV format, tourists receive points and badges upon expedition completion with duplicate award protection, and frontend developers can consume all implemented endpoints returning the correct status codes and resource representations without additional backend support."
+
+| Campo | Detalle |
+|:------|:--------|
+| **Sprint #** | Sprint 3 |
+| **Date** | 2026-06-07 |
+| **Time** | 10:00 PM |
+| **Location** | Discord |
+| **Prepared By** | Quispe Perez, Eder Edu |
+| **Attendees (to planning meeting)** | Alfaro, Joaquin / Quispe, Eder Edu / Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel |
+| **Sprint n – 1 Review Summary** | El equipo completó la implementación de la Web Application con las vistas principales de los bounded contexts, incluyendo exploración de tours, seguimiento de expediciones y el dashboard del turista. Los flujos de usuario fueron validados por el product owner, quien expresó conformidad con la experiencia de navegación y señaló como prioridad contar con el backend real para la siguiente iteración. |
+| **Sprint n – 1 Retrospective Summary** | Se identificó que la distribución de tareas fue desbalanceada durante los últimos días del sprint, generando presión en la integración final. Para el Sprint 3 se acordó definir los contratos de endpoints desde el inicio, asignar tareas de forma individual al comienzo de cada semana y realizar check-ins diarios en Discord para visibilizar bloqueos a tiempo. |
+| **Sprint 3 Goal** | Our focus is on implementing the core RESTful API endpoints for the Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts, providing agency administrators, tour guides and tourists the backend capabilities needed to manage tours, run expeditions, monitor safety in real time and track loyalty progress through the platform. We believe it delivers centralized tour and expedition control to agency administrators and tour guides, continuous biometric and location monitoring with automated anomaly alerts to keep tourists safe during active recorridos, and a complete set of reliable endpoints to frontend developers for implementing all expedition-related, monitoring and gamification features in the VitalTrek ecosystem without backend team intervention. This will be confirmed when agency administrators can create and manage tours and assign tourists through the implemented endpoints, tour guides can start and finish expeditions with offline sync support, the system automatically ingests IoT telemetry and generates real-time alerts for route deviation, communication loss and critical vital signs, agency administrators can access the operational dashboard and export finished expedition reports in CSV format, tourists receive points and badges upon expedition completion with duplicate award protection, and frontend developers can consume all implemented endpoints returning the correct status codes and resource representations without additional backend support. |
+| **Sprint 3 Velocity** | 50 Story Points |
+| **Sum of Story Points** | 50 Story Points |
 
 ---
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
+Durante el Sprint 3, el equipo identificó cinco aspectos principales correspondientes al alcance funcional del backend RESTful API de VitalTrek.
+
+| Team Member (Last Name, First Name) | GitHub Username | Tour Management | Navigation & Exploration | Safety & Monitoring | Loyalty & Engagement | Deployment & CI/CD |
+|:-------------------------------------|:----------------|:----------------|:------------------------|:--------------------|:---------------------|:------------------|
+| Quispe Perez, Eder Edu | DuDu-tech | C | C | C | L | C |
+| Rodriguez, Miler | Miler2003 | L | C | C | C | C |
+| Verastigue, Giancarlo | CaLoVM | C | C | L | C | C |
+| Alfaro, Joaquin | elprrr | C | C | C | C | L |
+| Vilchez, Gabriel | GZ-99 | C | L | C | C | C |
 
 ---
 
 ### 5.2.3.3. Sprint Backlog 3
 
+El objetivo principal del Sprint 3 fue implementar el backend RESTful API de VitalTrek, cubriendo los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement bajo arquitectura DDD en ASP.NET Core.
 
+A continuación se presenta el tablero correspondiente al Sprint 3 junto con su enlace:
+
+https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS-TM-03 | Endpoint de gestión de tours | T01 | Implementar Tour Aggregate y Repository | Crear el agregado Tour con sus value objects, definir ITourRepository e implementar TourRepository con EF Core. | 4 | Rodriguez, Miler | Done |
+| | | T02 | Implementar TourCommandService y TourQueryService | Desarrollar los servicios de aplicación para creación, actualización y eliminación de tours con validaciones de dominio. | 4 | Rodriguez, Miler | Done |
+| | | T03 | Implementar ToursController | Exponer los endpoints POST, GET, PUT y DELETE en /api/v1/tours con autorización por token y mapeo a TourResource. | 3 | Rodriguez, Miler | Done |
+| TS-TM-04 | Endpoint de asignación de turistas | T04 | Implementar TourParticipant Entity y Repository | Crear la entidad TourParticipant, definir ITourParticipantRepository e implementar con EF Core incluyendo reglas de conflicto. | 3 | Rodriguez, Miler | Done |
+| | | T05 | Implementar TourParticipantCommandService | Desarrollar los métodos AssignTouristAsync y RemoveTouristAsync con validaciones de duplicado y estado del tour. | 3 | Rodriguez, Miler | Done |
+| | | T06 | Implementar TourParticipantsController | Exponer los endpoints POST, DELETE y GET en /api/v1/tours/{tourId}/tourists con mapeo a TouristAssignmentResource. | 2 | Rodriguez, Miler | Done |
+| TS-TO-05 | Endpoint de gestión de expediciones | T07 | Implementar Expedition Aggregate y Repository | Crear el agregado Expedition con ExpeditionStatus, definir IExpeditionRepository e implementar con EF Core. | 4 | Vilchez, Gabriel | Done |
+| | | T08 | Implementar ExpeditionCommandService y QueryService | Desarrollar los métodos StartExpeditionAsync y FinishExpeditionAsync con manejo de progreso parcial y validación de rol guía. | 5 | Vilchez, Gabriel | Done |
+| | | T09 | Implementar ExpeditionsController | Exponer los endpoints POST, GET y PUT /finish en /api/v1/expeditions con autorización y mapeo a ExpeditionResource. | 3 | Vilchez, Gabriel | Done |
+| TS-TO-06 | Endpoint de sincronización offline | T10 | Implementar OfflineEvent Entity y lógica de deduplicación | Crear la entidad OfflineEvent con el método IsDuplicate y definir IOfflineSyncRepository con soporte de inserción por lotes. | 3 | Vilchez, Gabriel | Done |
+| | | T11 | Implementar OfflineSyncCommandService | Desarrollar el método SyncEventsAsync con deduplicación contra registros existentes y retorno de resumen de sincronización. | 3 | Vilchez, Gabriel | Done |
+| | | T12 | Implementar ExpeditionSyncController | Exponer el endpoint POST /api/v1/expeditions/{id}/sync con manejo de error 500 y retorno de resumen de sincronización. | 2 | Vilchez, Gabriel | Done |
+| TS-MON-07 | Endpoint de ingesta de telemetría IoT | T13 | Implementar TelemetryRecord Entity y Repository | Crear la entidad TelemetryRecord con sus value objects, definir ITelemetryRepository e implementar con EF Core. | 3 | Verastigue, Giancarlo | Done |
+| | | T14 | Implementar TelemetryCommandService | Desarrollar el método IngestTelemetryAsync con validación de DeviceId autorizado y descarte controlado sin expedición activa. | 3 | Verastigue, Giancarlo | Done |
+| | | T15 | Implementar TelemetryController | Exponer el endpoint POST /api/v1/telemetry con retorno 201, 403 y 400 según el resultado de la validación. | 2 | Verastigue, Giancarlo | Done |
+| TS-MON-08 | Endpoint de gestión de incidentes | T16 | Implementar Incident Aggregate y Repository | Crear el agregado Incident con IncidentSeverity e IncidentStatus, definir IIncidentRepository e implementar con EF Core. | 4 | Verastigue, Giancarlo | Done |
+| | | T17 | Implementar IncidentCommandService y QueryService | Desarrollar los métodos ReportIncidentAsync y ResolveIncidentAsync con disparo de alerta y actualización de estado. | 4 | Verastigue, Giancarlo | Done |
+| | | T18 | Implementar IncidentsController | Exponer los endpoints POST, GET y PUT /resolve en /api/v1/incidents con mapeo a IncidentResource. | 3 | Verastigue, Giancarlo | Done |
+| TS-MON-09 | Endpoint de alertas automáticas | T19 | Implementar Alert Entity y AnomalyRuleEngine | Crear la entidad Alert con AlertType, implementar AnomalyRuleEngine con reglas para desvío de ruta, pérdida de comunicación y signos vitales críticos. | 5 | Verastigue, Giancarlo | Done |
+| | | T20 | Implementar AlertCommandService y QueryService | Desarrollar EvaluateAndGenerateAlertsAsync integrando el motor de reglas y la notificación en tiempo real vía WebSocket o Push. | 5 | Verastigue, Giancarlo | Done |
+| | | T21 | Implementar AlertsController | Exponer el endpoint GET /api/v1/expeditions/{id}/alerts con retorno de array de AlertResource y autorización por token. | 2 | Verastigue, Giancarlo | Done |
+| TS-DASH-11 | Endpoint de métricas de agencia | T22 | Implementar AgencyDashboardQueryService | Desarrollar el método GetDashboardMetricsAsync agregando contadores de expediciones activas, incidentes y turistas participantes. | 3 | Verastigue, Giancarlo | Done |
+| | | T23 | Implementar AnalyticsController (dashboard) | Exponer el endpoint GET /api/v1/analytics/agency-dashboard con restricción de rol administrador y retorno de AgencyDashboardResource. | 2 | Verastigue, Giancarlo | Done |
+| TS-DASH-12 | Endpoint de exportación de reportes | T24 | Implementar ExpeditionReportExporter | Desarrollar el exportador CSV que compila participantes, checkpoints, incidentes y resumen de telemetría en un MemoryStream text/csv. | 4 | Verastigue, Giancarlo | Done |
+| | | T25 | Implementar AnalyticsController (export) | Exponer el endpoint GET /api/v1/analytics/expeditions/{id}/export con validación de estado finalizado, formato soportado y retorno FileStreamResult. | 3 | Verastigue, Giancarlo | Done |
+| TS-ENG-13 | Endpoint de perfil de Gamification | T26 | Implementar LoyaltyProfile Aggregate y Repository | Crear el agregado LoyaltyProfile con Badge como value object y LoyaltyRank enum, definir ILoyaltyProfileRepository e implementar con EF Core. | 4 | Quispe, Eder Edu | Done |
+| | | T27 | Implementar LoyaltyProfileQueryService | Desarrollar el método GetProfileByTouristIdAsync retornando perfil existente o GamificationResource base para turistas sin historial. | 3 | Quispe, Eder Edu | Done |
+| | | T28 | Implementar LoyaltyProfilesController (consulta) | Exponer el endpoint GET /api/v1/loyalty/profiles/{id} con autorización por token y retorno de GamificationResource. | 2 | Quispe, Eder Edu | Done |
+| TS-ENG-14 | Endpoint de otorgamiento de puntos | T29 | Implementar BadgeEvaluationService | Desarrollar el servicio de dominio con reglas de desbloqueo de badges basadas en puntos acumulados y expediciones completadas. | 3 | Quispe, Eder Edu | Done |
+| | | T30 | Implementar AwardCommandService | Desarrollar el método AwardPointsAsync con control de idempotencia por expedición, actualización de balance y evaluación de badges. | 4 | Quispe, Eder Edu | Done |
+| | | T31 | Implementar LoyaltyProfilesController (award) | Exponer el endpoint POST /api/v1/loyalty/profiles/{id}/award con retorno 201, 409 y 400 según resultado de validación. | 2 | Quispe, Eder Edu | Done |
+| TS-DEP-01 | Deployment & CI/CD | T32 | Configurar pipeline de integración continua | Configurar el workflow de GitHub Actions para build, test y validación automática del backend en cada push a la rama principal. | 4 | Alfaro, Joaquin | Done |
+| | | T33 | Configurar despliegue en entorno de producción | Preparar la configuración de despliegue del backend en el entorno cloud con variables de entorno y cadena de conexión a base de datos. | 4 | Alfaro, Joaquin | Done |
 
 ---
 
