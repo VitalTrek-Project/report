@@ -3042,7 +3042,7 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 Se adjunta un video donde se muestra la navegación y funcionamiento de las funcionalidades implementadas durante este Sprint:
 
-[Ver video de demostración](URL_DEL_VIDEO)
+[Ver video de demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQB_RXGV--VQSLSPl1xwcGVeAcFsIlJbw8uShFUMwrIu-hk?e=cGXghl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
