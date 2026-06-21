@@ -2987,6 +2987,16 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 **Resumen:** Durante la fase de preguntas iniciales, el entrevistador indaga sobre los hábitos de la usuaria, quien menciona que suele utilizar Google Maps para guiarse y que su mayor preocupación al perder la señal en una expedición es no saber su ubicación exacta. Posteriormente, al revisar la página de inicio, Anamile destaca que la plataforma parece muy útil para mantener la conexión mediante Bluetooth y mapas, resaltando positivamente la función de monitoreo de salud, como la medición del ritmo cardíaco, lo cual le genera confianza y una muy buena proyección visual. En la etapa de pruebas de usabilidad, la usuaria interactúa con el panel web para completar tres tareas específicas. Primero, navega por el catálogo y se inscribe en la ruta "Historic Lima City Tour", un proceso que le resulta fácil tras cambiar el idioma a español. Luego, ante un escenario sin conexión, localiza rápidamente la opción para descargar la ruta offline. Finalmente, en un caso simulado de emergencia, identifica sin problemas el botón para reportar incidentes en el mapa. Como apreciaciones finales, Anamile confirma que el uso de la aplicación en conjunto con dispositivos IoT como smartwatches le daría mucha tranquilidad y seguridad durante un recorrido. Considera que la apariencia general y la facilidad de uso están muy bien logradas, y concluye que no realizaría ningún cambio ni agregaría funciones adicionales, ya que la plataforma le parece completa tal como está.
 
+**Entrevista N° 4**
+
+| **Nombres y apellidos**                         | **Edad**                                                                                                                                                                                                                                                                                                                               | **Distrito**   |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Maria Fernanda Ttito                            | 18 años                                                                                                                                                                                                                                                                                                                                | Lima           |
+| **Segmento**                                    | **URL**                                                                                                                                                                                                                                                                                                                                | **Inicio**     | **Duración** |
+| Trekkers                                        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQCEkDYr6rMhTpmwXJGnUesHAWJOIjQv1Ta59QbTiIsOoYY?e=8Zo3yN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00          | 6:40 min     |
+![Entrevista-4](assets/images/entrevista-4.png)
+
+**Resumen:** Durante la entrevista de validación, María Fernanda expresó que una de sus principales preocupaciones al realizar actividades de trekking es perderse o no poder solicitar ayuda en caso de emergencia. Tras interactuar con la landing page y la aplicación web de VitalTrek, destacó que la solución transmite seguridad y confianza gracias a sus funciones de orientación, navegación y reporte de incidentes. Además, consideró que la aplicación es intuitiva, fácil de usar y adecuada para cualquier tipo de usuario. También señaló que la integración con dispositivos wearables podría brindarle mayor tranquilidad durante sus recorridos. Finalmente, sugirió incorporar más información sobre puntos de emergencia, opciones de comunicación con familiares y la posibilidad de utilizar un tema claro dentro de la aplicación.
 
 ## 5.3.1. Evaluaciones según heurísticas.
 
@@ -3116,3 +3126,16 @@ Implementar la detección automática del idioma basada en la configuración del
   ![Sistema de mensajeria no existente](assets/images/descargar-map.png)
 - **Recomendación:**
 Añadir un ícono visual claro (por ejemplo, una nube con un check verde) junto a las rutas en el catálogo general para aquellas que ya están descargadas. Además, se recomienda crear una pestaña de "Mis rutas offline" para que el usuario pueda corroborar rápidamente su disponibilidad antes de iniciar la expedición.
+
+**PROBLEMA #7:** Falta de confirmación detallada después de reportar una incidencia
+
+* **Severidad:** 3
+* **Heurística violada:** Visibilidad del estado del sistema.
+* **Problema:**
+  Al reportar una incidencia mediante el botón **"Report Incident"**, el sistema únicamente muestra una notificación temporal indicando que la agencia ha sido notificada. Sin embargo, una vez que la alerta desaparece, el usuario no cuenta con información persistente sobre el estado de su reporte, como la hora de envío, el nivel de prioridad asignado o si la agencia ya está atendiendo el incidente.
+Esto puede generar incertidumbre en situaciones de emergencia, ya que el usuario no tiene evidencia clara de que su solicitud continúa siendo procesada ni conoce el progreso de la atención.
+
+![Confirmación de incidencia insuficiente](assets/images/incident-capture.jpeg)
+
+* **Recomendación:**
+  Implementar un panel permanente de seguimiento de incidencias donde el usuario pueda visualizar el estado actual de su reporte. Se recomienda mostrar información como la fecha y hora del reporte, ubicación enviada, nivel de prioridad, tiempo estimado de respuesta y actualizaciones en tiempo real por parte de la agencia. Además, utilizar indicadores visuales de progreso para comunicar claramente el avance de la atención de la incidencia.
