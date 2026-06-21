@@ -2970,22 +2970,71 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 > Captura de la Landing Page actualizada.
 
-![Landing Page](ruta_de_la_imagen.png)
+![VitalTrek Landing Page 1](assets/images/vitaltrek-landing-pag1.png)
 
+![VitalTrek Landing Page 2](assets/images/screenshot-landing-1.png)
+
+![VitalTrek Landing Page 3](assets/images/screenshot-landing-2.png)
+
+![VitalTrek Landing Page 4](assets/images/vitaltrek-landing-pag2.png)
+
+![VitalTrek Landing Page 5](assets/images/vitaltrek-landing-pag3.png)
+
+![VitalTrek Landing Page 6](assets/images/vitaltrek-landing-pag4.png)
+
+![VitalTrek Landing Page 7](assets/images/vitaltrek-landing-pag5.png)
+
+![VitalTrek Landing Page 8](assets/images/vitaltrek-landing-pag6.png)
+
+![VitalTrek Landing Page 9](assets/images/vitaltrek-landing-pag7.png)
+
+![VitalTrek Landing Page 10](assets/images/vitaltrek-landing-pag8.png)
+
+![VitalTrek Landing Page 11](assets/images/vitaltrek-landing-pag9.png)
+
+---
 
 ##### Web Application
 
 > Captura de la plataforma web mostrando las funcionalidades desarrolladas.
 
-![Web Application](ruta_de_la_imagen.png)
+- Home
+![VitalTrek Web Application Home](assets/images/screenshot-wa-home.png)
 
+- Dashboard IOT
+![VitalTrek Web Application IOT](assets/images/screenshot-wa-iot.png)
+
+- Dashboard Monitoring
+![VitalTrek Web Application Monitoring](assets/images/screenshot-wa-monitoring.png)
+
+- Dashboard Navigation and Expedition
+![VitalTrek Web Application NyE](assets/images/screenshot-wa-nye.png)
+
+- Dashboard Routes
+![VitalTrek Web Application Routes](assets/images/screenshot-wa-routes.png)
+
+- Dashboard Tour Management
+![VitalTrek Web Application Tour Management](assets/images/screenshot-wa-tm.png)
 
 ##### Web Services
 
 > Evidencia de la implementación y funcionamiento de los servicios.
 
-![Web Services](ruta_de_la_imagen.png)
+![Web Services](assets/images/web-service-2.png)
 
+![Web Services](assets/images/web-service-3.png)
+
+![Web Services](assets/images/web-service-4.png)
+
+![Web Services](assets/images/web-service-5.png)
+
+![Web Services](assets/images/web-service-6.png)
+
+![Web Services](assets/images/web-service-7.png)
+
+![Web Services](assets/images/web-service-8.png)
+
+![Web Services](assets/images/web-service-9.png)
 
 ##### Video de demostración
 
