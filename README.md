@@ -2896,7 +2896,7 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 > Captura de la Landing Page actualizada.
 
-![Landing Page](ruta_de_la_imagen.png)
+![Landing Page](ruta_de_la_image.png)
 
 
 ##### Web Application
