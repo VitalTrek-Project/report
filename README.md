@@ -2872,8 +2872,6 @@ El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
-### 5.2.3.2. Aspect Leaders and Collaborators
-
 Durante el Sprint 3, el equipo identificó cinco aspectos principales correspondientes al alcance funcional del backend RESTful API de VitalTrek.
 
 | Team Member (Last Name, First Name) | GitHub Username | Tour Management | Navigation & Exploration | Safety & Monitoring | Loyalty & Engagement | Deployment & CI/CD |
@@ -2885,8 +2883,6 @@ Durante el Sprint 3, el equipo identificó cinco aspectos principales correspond
 | Vilchez, Gabriel | GZ-99 | C | L | C | C | C |
 
 ---
-
-### 5.2.3.3. Sprint Backlog 3
 
 ### 5.2.3.3. Sprint Backlog 3
 
