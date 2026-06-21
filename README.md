@@ -3048,6 +3048,50 @@ Se adjunta un video donde se muestra la navegación y funcionamiento de las func
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se realizaron las actividades necesarias para desplegar la primera versión funcional del Backend API de VitalTrek. A continuación se describe el proceso ejecutado y se presenta la evidencia correspondiente.
+
+Como primer paso, se consolidó el código de la solución ASP.NET Core (.NET 10) en el repositorio del backend, incorporando un Dockerfile multi-stage para garantizar un proceso de build reproducible. Una vez estabilizado el código, se configuró el entorno de despliegue en Railway, provisionando una instancia de base de datos MySQL administrada y configurando las variables de entorno necesarias para la conexión a la base de datos y el entorno de ejecución de la aplicación. Se habilitó el dominio público y se publicó la API de forma accesible desde internet.
+
+Se verificó el correcto funcionamiento de la API exponiendo la documentación interactiva (Swagger), comprobando que los endpoints de los módulos de Monitoring, Engagement, TourManagement, Navigation e IoT respondieran correctamente en producción, así como la correcta aplicación automática de las migraciones de base de datos al iniciar el servicio.
+
+**Repositorio Backend:**
+[https://github.com/VitalTrek-Project/vital-trek-platform](https://github.com/VitalTrek-Project/vital-trek-platform)
+
+**URL de la API desplegada:**
+[https://backend-vitaltrek-production.up.railway.app](https://backend-vitaltrek-production.up.railway.app)
+
+**URL de documentación (Swagger):**
+[https://backend-vitaltrek-production.up.railway.app/swagger](https://backend-vitaltrek-production.up.railway.app/swagger)
+
+---
+<br>
+
+**Figura**
+*Evidencia de deployment 1*
+![Backend - Servicios en Railway](assets/images/backend-1.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 2*
+![Backend - Variables de entorno](assets/images/backend-2.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 3*
+![Backend - Build y deploy exitoso](assets/images/backend-3.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 4*
+![Backend - Dominio público generado](assets/images/backend-4.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 5*
+![Backend - Swagger funcionando en producción](assets/images/backend-5.png)
+*Nota.* Elaboración propia.
+
+
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
