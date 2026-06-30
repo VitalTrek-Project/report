@@ -2635,6 +2635,54 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el **Sprint 1**, el equipo trabajó de manera colaborativa para desarrollar la **primera versión funcional de la Landing Page de VitalTrek**, aplicando una estrategia de trabajo basada en **GitFlow** y utilizando **GitHub** como plataforma para el control de versiones y la integración del código fuente.
+
+Al inicio del Sprint, las tareas fueron planificadas y distribuidas entre los cinco integrantes del equipo, asignando a cada uno la responsabilidad del desarrollo de una sección específica de la Landing Page. Esta distribución permitió que las actividades se desarrollaran de forma paralela, optimizando el tiempo de implementación y facilitando la integración progresiva de los cambios en la rama **develop**.
+
+Durante todo el Sprint, la comunicación entre los integrantes fue constante mediante reuniones de coordinación y seguimiento, donde se revisó el avance de las tareas, se resolvieron dudas técnicas y se verificó que todas las secciones implementadas mantuvieran una estructura visual consistente con la identidad del producto.
+
+#### Distribución de responsabilidades
+
+Durante el Sprint 1, el equipo distribuyó el desarrollo de la primera versión funcional de la Landing Page entre los cinco integrantes, asignando a cada uno una sección específica de la interfaz. En esta primera iteración se priorizó la implementación de la estructura principal del sitio web, dejando para los siguientes Sprints la incorporación de nuevas funcionalidades, mejoras visuales y elementos multimedia.
+
+| Integrante | Sección desarrollada | Responsabilidades |
+|------------|----------------------|-------------------|
+| **Alberto Joaquin Alfaro Mallma** | Navbar | Implementó la barra de navegación principal de la Landing Page, incorporando la estructura de navegación y los enlaces necesarios para acceder a las secciones disponibles durante el Sprint 1. |
+| **Eder Edu Quispe Perez** | Plans | Desarrolló la sección de planes, presentando la información inicial de los servicios ofrecidos por la plataforma mediante una estructura organizada y responsive. |
+| **Gabriel Alejandro Vilchez Vite** | Benefits | Implementó la sección de beneficios, describiendo las ventajas que la plataforma ofrece tanto para los turistas como para los trabajadores de agencias de viaje. |
+| **Miler Alexander Rodriguez Rojas** | About Us y Footer | Desarrolló las secciones **About Us** y **Footer**, incorporando la información institucional del proyecto, enlaces de navegación y datos de contacto básicos. |
+| **Giancarlo Jose Verastigue Martinez** | Integración y soporte de desarrollo | Colaboró en la integración de las diferentes secciones implementadas durante el Sprint, apoyando en la corrección de detalles de la interfaz y en la consolidación de la primera versión funcional de la Landing Page. |
+
+##### Flujo de colaboración
+
+Durante el Sprint se siguió un flujo de trabajo colaborativo que permitió mantener organizado el desarrollo del proyecto:
+
+- Planificación de las actividades durante el Sprint Planning.
+- Desarrollo individual de las secciones asignadas a cada integrante.
+- Implementación de funcionalidades mediante ramas de trabajo.
+- Registro continuo del avance mediante commits en GitHub.
+- Integración progresiva de los cambios en la rama `develop`.
+- Revisión conjunta de la Landing Page antes de finalizar el Sprint para validar su funcionamiento y consistencia visual.
+
+##### Evidencias de colaboración
+
+Las siguientes figuras muestran las evidencias del trabajo colaborativo realizado durante el Sprint 1.
+
+##### Contributors
+
+![Contribuors](assets/images/contributors-sprint-1.png)
+
+Como se aprecia en la figura anterior, todos los integrantes realizaron contribuciones al repositorio durante el Sprint, evidenciando una participación activa en el desarrollo de la primera versión de la Landing Page.
+
+##### Historial de commmits de la lading page v1.0.0
+
+![Commits first version - 2](assets/images/commits-sprint-1-part-2.png)
+
+El historial de commits evidencia el desarrollo progresivo del proyecto y la participación continua de los integrantes mediante la incorporación de nuevas funcionalidades y mejoras en las diferentes secciones de la Landing Page.
+
+##### Conclusiones del Sprint
+
+El trabajo colaborativo desarrollado durante el Sprint 1 permitió completar satisfactoriamente la primera versión funcional de la Landing Page de **VitalTrek**. La adecuada distribución de responsabilidades, el uso de GitHub como herramienta de control de versiones y la comunicación permanente entre los integrantes facilitaron la integración del trabajo realizado por cada miembro del equipo. Asimismo, la planificación de las actividades y el seguimiento continuo del progreso permitieron cumplir los objetivos establecidos para el Sprint y sentar una base sólida para las siguientes iteraciones del proyecto.
 
 #### 5.2.2.1. Sprint Planning 2
 
@@ -2878,11 +2926,72 @@ La Web Application de VitalTrek fue desplegada exitosamente, permitiendo acceder
 
 URL de despliegue: https://vitaltrek.vitaltrek.workers.dev/home
 
+### 5.2.2.8. Team Collaboration Insights during Sprint
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
-Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+Durante el **Sprint 2**, el equipo continuó trabajando de manera colaborativa en la evolución del producto, enfocándose en dos objetivos principales: mejorar la experiencia de usuario de la **Landing Page** e iniciar el desarrollo de la **versión v1.0.0 de la Web Application de VitalTrek**.
 
-![Sprint2](assets/images/evidencia-git.png)
+En la Landing Page se realizaron mejoras sobre la versión desarrollada durante el Sprint 1, refinando la identidad visual mediante la actualización de la paleta de colores y optimizando la redacción de los contenidos para comunicar con mayor claridad la propuesta de valor de la plataforma. Estas mejoras estuvieron orientadas a que los usuarios comprendieran con mayor facilidad el propósito de VitalTrek y se sintieran motivados a explorar la aplicación.
+
+Paralelamente, el equipo inició el desarrollo de la **Web Application v1.0.0**, organizando la implementación mediante **Bounded Contexts** definidos siguiendo los principios de **Domain-Driven Design (DDD)**. Esta distribución permitió que cada integrante trabajara de forma independiente sobre un dominio específico del sistema, facilitando posteriormente la integración de los distintos módulos en una única aplicación.
+
+La comunicación entre los integrantes se mantuvo de forma constante mediante reuniones de seguimiento, donde se revisó el progreso de las actividades, se resolvieron dificultades técnicas y se coordinó la integración de los avances desarrollados tanto en la Landing Page como en la Web Application.
+
+#### Distribución de responsabilidades
+
+Durante este Sprint, las actividades fueron distribuidas entre los integrantes del equipo de la siguiente manera:
+
+| Integrante | Responsabilidad | Actividades realizadas |
+|------------|-----------------|------------------------|
+| **Alberto Joaquin Alfaro Mallma** | Dashboard | Implementó el Bounded Context **Dashboard**, desarrollando la primera versión de los componentes principales asociados a la visualización de información para los usuarios. |
+| **Eder Edu Quispe Perez** | Landing Page | Mejoró la Landing Page desarrollada durante el Sprint anterior, actualizando la paleta de colores e incorporando una redacción más clara y persuasiva para comunicar la propuesta de valor de VitalTrek. |
+| **Miler Alexander Rodriguez Rojas** | Tour Management | Implementó el Bounded Context **Tour Management**, desarrollando las funcionalidades iniciales relacionadas con la administración de recorridos turísticos. |
+| **Giancarlo Jose Verastigue Martinez** | Monitoring | Desarrolló el Bounded Context **Monitoring**, implementando la primera versión de los componentes asociados al monitoreo de información dentro de la plataforma. |
+| **Gabriel Alejandro Vilchez Vite** | Navigation and Expedition | Implementó el Bounded Context **Navigation and Expedition**, desarrollando las funcionalidades iniciales relacionadas con la navegación y la gestión de expediciones. |
+
+#### Flujo de colaboración
+
+Durante el Sprint 2, el equipo siguió un flujo de trabajo colaborativo basado en GitFlow para garantizar una integración organizada del desarrollo realizado por cada integrante.
+
+Las principales actividades colaborativas fueron las siguientes:
+
+- Revisión y mejora de la versión inicial de la Landing Page.
+- Actualización de la identidad visual mediante una nueva paleta de colores.
+- Optimización del contenido textual para mejorar la comprensión del producto.
+- Desarrollo paralelo de los Bounded Contexts de la Web Application.
+- Registro continuo del progreso mediante commits en GitHub.
+- Integración progresiva de los cambios en la rama `develop`.
+- Revisión conjunta de las funcionalidades implementadas antes del cierre del Sprint.
+
+#### Evidencias de colaboración
+
+Las siguientes figuras presentan las evidencias del trabajo colaborativo realizado durante el Sprint 2.
+
+#### Contributors de la landing page
+
+![Contributors landing page](assets/images/contributors-sprint-1.png)
+
+#### Contributors de la web application
+
+![Contributors web application](assets/images/contributors-sprint-2.png)
+
+La figura evidencia la participación activa de todos los integrantes mediante contribuciones distribuidas en el repositorio durante el desarrollo del Sprint.
+
+#### Historial de commits del Sprint 2.
+
+#### Historial de commmits de la landing page v2.0.0
+
+![Historial de commit landing page](assets/images/commits-sprint-1-part-1.png)
+
+#### Historial de commmits de la web application v1.0.0
+
+![Contributors web application](assets/images/commits-sprint-2-part-2.png)
+![Contributors web application](assets/images/commits-sprint-2-part-1.png)
+
+El historial de commits refleja el desarrollo continuo tanto de la Landing Page como de la primera versión de la Web Application, evidenciando la implementación paralela de los diferentes Bounded Contexts y la integración progresiva de las funcionalidades desarrolladas por cada integrante.
+
+#### Conclusiones del Sprint
+
+El Sprint 2 representó un avance importante en la evolución del proyecto, ya que permitió mejorar significativamente la presentación de la Landing Page mediante una identidad visual más consistente y contenidos mejor estructurados para comunicar la propuesta de valor de VitalTrek. Asimismo, se inició el desarrollo de la **Web Application v1.0.0**, distribuyendo la implementación en diferentes Bounded Contexts de acuerdo con los principios de **Domain-Driven Design**, lo que favoreció el trabajo paralelo, la organización del desarrollo y la integración eficiente de los componentes implementados por cada integrante del equipo.
 
 ### 5.2.3. Sprint 3
 
@@ -3268,18 +3377,86 @@ Se verificó el correcto funcionamiento de la API exponiendo la documentación i
 ![Backend - Swagger funcionando en producción](assets/images/backend-5.png)
 *Nota.* Elaboración propia.
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint
+### 5.2.3.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 3, el equipo desarrolló colaborativamentew la tercera version de Landing Page,  segunda versión de la Web Application y primera version de Web Sevices de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+Durante el **Sprint 3**, el equipo consolidó el desarrollo del proyecto mediante la evolución de los productos implementados en los Sprints anteriores. Las actividades se enfocaron en tres objetivos principales: completar la **tercera versión de la Landing Page**, continuar con la evolución de la **Web Application hacia la versión v2.0.0** e iniciar el desarrollo de la **versión v1.0.0 del Backend de VitalTrek Platform**.
 
-Landing Page:
-![Landing Sprint3](assets/images/landing-sprint-3.png)
+Como parte de la evolución de la Landing Page, se incorporaron nuevas funcionalidades que fortalecieron la interacción con los usuarios. Entre las principales mejoras se implementó la sección **Call to Action (CTA)**, diseñada para incentivar a los visitantes a conocer y utilizar la plataforma, así como la incorporación del **video de About Us**, permitiendo presentar de manera más dinámica la misión del proyecto y la propuesta de valor de VitalTrek. Estas mejoras complementaron la identidad visual definida en el Sprint anterior, ofreciendo una experiencia más atractiva y completa para el usuario.
 
-Landing Page:
-![Web Sprint3](assets/images/web-sprint-3.png)
+Paralelamente, el equipo continuó el desarrollo de la **Web Application**, alcanzando la **versión v2.0.0** mediante la ampliación y mejora de las funcionalidades implementadas previamente. Asimismo, se inició el desarrollo de la **versión v1.0.0 del Backend**, implementando la arquitectura basada en **Bounded Contexts** siguiendo los principios de **Domain-Driven Design (DDD)**.
 
-Landing Page:
-![ServicesvSprint3](assets/images/back-sprint-3.png)
+A diferencia del Sprint anterior, donde cada integrante desarrolló un único Bounded Context de manera independiente, durante este Sprint se adoptó una estrategia de **colaboración cruzada**, en la que todos los integrantes participaron activamente en el desarrollo de cada uno de los Bounded Contexts del Backend. Esta forma de trabajo permitió compartir conocimientos, resolver problemas técnicos de manera conjunta y acelerar el desarrollo de la solución, manteniendo una arquitectura consistente entre el Frontend y el Backend.
+
+La comunicación permanente mediante reuniones de seguimiento, revisiones de código y la integración continua en GitHub permitió coordinar eficientemente las tareas desarrolladas por cada integrante, garantizando la correcta integración de todos los componentes implementados durante el Sprint.
+
+#### Distribución de responsabilidades
+
+Durante el Sprint 3, las responsabilidades se organizaron de la siguiente manera:
+
+| Integrante | Responsabilidad principal | Actividades realizadas |
+|------------|---------------------------|------------------------|
+| **Alberto Joaquin Alfaro Mallma** | Dashboard, Deployment y Backend | Continuó la evolución del Bounded Context **Dashboard** en el Frontend, lideró el **despliegue (deployment)** de la Landing Page, la Web Application y el Backend en los servicios de alojamiento definidos por el equipo, además de participar activamente en el desarrollo colaborativo de los diferentes Bounded Contexts del Backend. |
+| **Eder Edu Quispe Perez** | Loyalty & Engagement Backend | Implementó el Bounded Context **Loyalty & Engagement** en la plataforma Backend de VitalTrek y colaboró con el equipo en el desarrollo e integración de los diferentes Bounded Contexts para garantizar el correcto funcionamiento de la arquitectura de la aplicación. |
+| **Miler Alexander Rodriguez Rojas** | Tour Management, Backend y Landing Page | Continuó la evolución del Bounded Context **Tour Management** en el Frontend, colaboró en la implementación de los diferentes Bounded Contexts del Backend y desarrolló la sección **Call to Action (CTA)** de la tercera versión de la Landing Page para fortalecer la interacción de los usuarios con la plataforma. |
+| **Giancarlo Jose Verastigue Martinez** | Monitoring, Backend y Landing Page | Mejoró el Bounded Context **Monitoring** en la Web Application, participó en el desarrollo colaborativo de la arquitectura Backend e incorporó el **video de About Us** en la Landing Page, enriqueciendo la presentación de la startup y su propuesta de valor. |
+| **Gabriel Alejandro Vilchez Vite** | Navigation and Expedition y Backend | Evolucionó el Bounded Context **Navigation and Expedition** en el Frontend y colaboró en la implementación conjunta de los diferentes Bounded Contexts del Backend, apoyando en la integración de las funcionalidades desarrolladas por el equipo. |
+#### Flujo de colaboración
+
+Durante el Sprint 3, el equipo fortaleció su dinámica de trabajo colaborativo mediante una estrategia de integración continua y desarrollo paralelo entre el Frontend y el Backend.
+
+Las principales actividades colaborativas desarrolladas fueron:
+
+- Implementación de la tercera versión de la Landing Page.
+- Incorporación de la sección **Call to Action (CTA)**.
+- Integración del video institucional en la sección **About Us**.
+- Evolución de la **Web Application** hacia la versión **v2.0.0**.
+- Inicio del desarrollo de la **versión v1.0.0 del Backend**.
+- Implementación colaborativa de los diferentes **Bounded Contexts** del Backend.
+- Revisión conjunta del código desarrollado por cada integrante.
+- Resolución colaborativa de incidencias técnicas durante la integración.
+- Registro continuo del avance mediante commits en GitHub.
+- Integración progresiva de las funcionalidades en la rama `develop`.
+
+#### Evidencias de colaboración
+
+Las siguientes figuras presentan las evidencias del trabajo colaborativo desarrollado durante el Sprint 3.
+
+#### Contribution Insights Landing Page v3.0.0
+
+![Contributors landing page v3.0.0](assets/images/contributors-sprint-3-landing-page.png)
+
+#### Contribution Insights Web Application v2.0.0
+
+![Contributors web application v2.0.0](assets/images/contributors-sprint-3-web-application.png)
+
+#### Contribution Insights Vitaltrek Platform v1.0.0
+
+![Contributors vitaltrek platform v1.0.0](assets/images/contributors-sprint-3-web-platform.png)
+
+Los analíticos muestran la participación activa de todos los integrantes durante el Sprint, evidenciando un incremento en las contribuciones como resultado del desarrollo simultáneo de la Landing Page, la Web Application y el Backend.
+
+#### Historial de commits del Sprint 3.
+
+##### Historial de commmits de la landing page v2.0.0
+
+![Commits landing page v3.0.0](assets/images/commits-sprint-3-part-1.png)
+
+##### Historial de commmits de la web application v1.0.0
+
+![Commits web application v2.0.0](assets/images/commits-sprint-3-part-2.png)
+
+##### Historial de commmits de VitalTrek Platform v1.0.0
+
+![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-6.png)
+![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-5.png)
+![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-4.png)
+![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-3.png)
+
+El historial de commits refleja el trabajo continuo realizado por el equipo durante la evolución de la Web Application y la implementación del Backend, evidenciando la integración progresiva de nuevas funcionalidades y la colaboración constante entre los integrantes.
+
+#### Conclusiones del Sprint
+
+El Sprint 3 representó una etapa de consolidación para el proyecto, permitiendo completar la tercera versión de la Landing Page mediante la incorporación de nuevas funcionalidades orientadas a mejorar la experiencia del usuario. Asimismo, la evolución de la **Web Application** hacia la versión **v2.0.0** y el inicio del desarrollo del **Backend v1.0.0** marcaron un avance significativo hacia una arquitectura distribuida basada en **Domain-Driven Design**. La estrategia de colaboración cruzada adoptada por el equipo permitió que todos los integrantes participaran activamente en el desarrollo de los diferentes Bounded Contexts del Backend, fortaleciendo el trabajo en equipo, la transferencia de conocimientos y el cumplimiento de los objetivos establecidos para el Sprint.
 
 ## 5.3. Validation Interviews.
 
