@@ -47,109 +47,126 @@ Enlace del repositorio: https://github.com/VitalTrek-Project
 | Eder Edu Quispe Perez                 | Capítulo I (2.2.3. Análisis de entrevistas, 2.3. Needfinding, 2.3.1. User Personas, 2.3.2. User Task Matrix), Capítulo II ()                                                                                     |
 | Miler Alexander Rodriguez Rojas       | Capítulo I (1.1. Startup Profile, 1.1.1. Descripción de la Startup, 1.1.2. Perfiles de integrantes del equipo, 1.2. Solution Profile, 1.2.1 Antecedentes y problemática), Capítulo II ()                         |
 | Eduardo David Velasquez Laquihuanaco  | Capítulo I (1.2.2 Lean UX Process, 1.2.2.1. Lean UX Problem Statements, 1.2.2.2. Lean UX Assumptions, 1.2.2.3. Lean UX Hypothesis Statements, 1.2.2.4. Lean UX Canvas, 1.3. Segmentos objetivo.), Capítulo II () |
-# Contenido
-# Tabla de Contenido 
-## Student Outcome
 
-## Capítulo I: Introducción
-### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
-#### 1.1.2. Perfiles de integrantes del equipo
-### 1.2. Solution Profile
-#### 1.2.1 Antecedentes y problemática
-#### 1.2.2 Lean UX Process
-##### 1.2.2.1. Lean UX Problem Statements
-##### 1.2.2.2. Lean UX Assumptions
-##### 1.2.2.3. Lean UX Hypothesis Statements
-##### 1.2.2.4. Lean UX Canvas
-### 1.3. Segmentos objetivo
+# Tabla de Contenido
 
-## Capítulo II: Requirements Elicitation & Analysis
-### 2.1. Competidores
-#### 2.1.1. Análisis competitivo
-#### 2.1.2. Estrategias y tácticas frente a competidores
-### 2.2. Entrevistas
-#### 2.2.1. Diseño de entrevistas
-#### 2.2.2. Registro de entrevistas
-#### 2.2.3. Análisis de entrevistas
-### 2.3. Needfinding
-#### 2.3.1. User Personas
-#### 2.3.2. User Task Matrix
-#### 2.3.3. User Journey Mapping
-#### 2.3.4. Empathy Mapping
-### 2.4. Big Picture EventStorming
-### 2.5. Ubiquitous Language
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-## Capítulo III: Requirements Specification
-### 3.1. User Stories
-### 3.2. Impact Mapping
-### 3.3. Product Backlog
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
-## Capítulo IV: Product Design
-### 4.1. Style Guidelines
-#### 4.1.1. General Style Guidelines
-#### 4.1.2. Web Style Guidelines
-### 4.2. Information Architecture
-#### 4.2.1. Organization Systems
-#### 4.2.2. Labeling Systems
-#### 4.2.3. SEO Tags and Meta Tags
-#### 4.2.4. Searching Systems
-#### 4.2.5. Navigation Systems
-### 4.3. Landing Page UI Design
-#### 4.3.1. Landing Page Wireframe
-#### 4.3.2. Landing Page Mock-up
-### 4.4. Web Applications UX/UI Design
-#### 4.4.1. Web Applications Wireframes
-#### 4.4.2. Web Applications Wireflow Diagrams
-#### 4.4.3. Web Applications Mock-ups
-#### 4.4.4. Web Applications User Flow Diagrams
-### 4.5. Web Applications Prototyping
-### 4.6. Domain-Driven Software Architecture
-#### 4.6.1. Design-Level EventStorming
-#### 4.6.2. Software Architecture Context Diagram
-#### 4.6.3. Software Architecture Container Diagrams
-#### 4.6.4. Software Architecture Components Diagrams
-### 4.7. Software Object-Oriented Design
-#### 4.7.1. Class Diagrams
-### 4.8. Database Design
-#### 4.8.1. Database Diagrams
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
 
-## Capítulo V: Product Implementation, Validation & Deployment
-### 5.1. Software Configuration Management
-#### 5.1.1. Software Development Environment Configuration
-#### 5.1.2. Source Code Management
-#### 5.1.3. Source Code Style Guide & Conventions
-#### 5.1.4. Software Deployment Configuration
-### 5.2. Landing Page, Services & Applications Implementation
-#### 5.2.1. Sprint n
-##### 5.2.X.1. Sprint Planning n
-##### 5.2.X.2. Aspect Leaders and Collaborators
-##### 5.2.X.3. Sprint Backlog n
-##### 5.2.X.4. Development Evidence for Sprint Review
-##### 5.2.X.5. Execution Evidence for Sprint Review
-##### 5.2.X.6. Services Documentation Evidence for Sprint Review
-##### 5.2.X.7. Software Deployment Evidence for Sprint Review
-##### 5.2.X.8. Team Collaboration Insights during Sprint
-### 5.3. Validation Interviews
-#### 5.3.1. Diseño de Entrevistas
-#### 5.3.2. Registro de Entrevistas
-#### 5.3.3. Evaluaciones según heurísticas
-### 5.4. Video About-the-Product
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 
-## Conclusiones
-### Conclusiones y recomendaciones
-### Video About-the-Team
-### Bibliografía
-### Anexos
-# Student Outcome
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones y recomendaciones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
+  - [Video About-the-Team](#video-about-the-team)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
+
+# Criterios y acciones
 El curso contribuye al cumplimiento del Student Outcome ABET - EAC - Student Outcome 5, cuyo criterio es la capacidad de funcionar efectivamente en un equipo cuyos miembros
 juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
 establecen objetivos, planifican tareas y cumplen objetivos.
 
-## Criterios y acciones
-
-### Trabaja en equipo para proporcionar liderazgo en forma conjunta
+## Trabaja en equipo para proporcionar liderazgo en forma conjunta
 
 - **Alfaro Mallma, Alberto Joaquin - U20241A267**
   - AV1: Coordinó la integración técnica del sistema VitalTrek, liderando la implementación de la arquitectura de clases y asegurando la coherencia entre los bounded contexts.
@@ -164,7 +181,7 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 **Conclusión:** El equipo logró distribuir el liderazgo de manera efectiva, asignando a cada integrante la responsabilidad de un área específica del proyecto (arquitectura, requerimientos, documentación, UX y UI). Esto permitió un trabajo organizado, reduciendo dependencias y facilitando el avance paralelo, lo que contribuyó al cumplimiento exitoso de los objetivos del Sprint.
 
-### Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+# Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
 
 - **Alfaro Mallma, Alberto Joaquin - U20241A267**
   - AV1: Coordinó la planificación técnica en Trello y GitHub, asegurando la integración de los módulos.
@@ -193,7 +210,7 @@ Su producto principal, VitalTrek, es una plataforma web y móvil que centraliza 
 A nivel técnico, VitalTrek integra un ecosistema IoT con dispositivos wearables y checkpoints Bluetooth que capturan datos de geolocalización y signos vitales. Estos se sincronizan de forma asincrónica, asegurando operatividad incluso sin conexión continua, lo que permite un sistema escalable, resiliente y orientado a la prevención de riesgos.
 
 
-### 1.1.2 Perfiles de integrantes del equipo 
+### 1.1.2 Perfiles de integrantes del equipo
 
 | Foto | Integrante |
 |------|-----------|
@@ -349,7 +366,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-### Statement 1: Preventive Biometric Monitoring
+#### Statement 1: Preventive Biometric Monitoring
 
 *Creemos que* equipar a los turistas con wearables IoT que monitorean sus signos vitales permitirá a los guías anticiparse a problemas de salud severos como el mal de altura o agotamiento extremo antes de que se conviertan en emergencias críticas.
 
@@ -357,7 +374,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 ---
 
-### Statement 2: Asynchronous BLE Synchronization
+#### Statement 2: Asynchronous BLE Synchronization
 
 *Creemos que* implementar checkpoints Bluetooth estratégicos a lo largo de la ruta para sincronizar datos de forma asincrónica garantizará la trazabilidad logística en zonas sin cobertura celular, sin necesidad de costosos equipos satelitales.
 
@@ -365,7 +382,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 ---
 
-### Statement 3: Offline Navigation and Autonomy
+#### Statement 3: Offline Navigation and Autonomy
 
 *Creemos que* proveer a los turistas con una aplicación móvil que contenga mapas topográficos interactivos e información contextual disponible 100% offline reducirá su ansiedad ante la desconexión y mejorará su percepción de seguridad durante el recorrido.
 
@@ -373,7 +390,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 ---
 
-### Statement 4: Centralized Dashboards and Alerts
+#### Statement 4: Centralized Dashboards and Alerts
 
 *Creemos que* centralizar la información de múltiples grupos simultáneos en un único dashboard web con alertas automatizadas por anomalías reducirá la carga operativa de los responsables de la agencia y mejorará su capacidad de respuesta ante incidentes.
 
@@ -381,7 +398,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 ---
 
-### Statement 5: Digital Experience Record
+#### Statement 5: Digital Experience Record
 
 *Creemos que* generar un resumen digital interactivo al finalizar el recorrido, que incluya la ruta trazada, hitos alcanzados y métricas físicas, incentivará a los turistas a compartir su logro en redes sociales, generando visibilidad orgánica para la agencia operadora.
 
@@ -389,7 +406,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 ---
 
-### Statement 6: Hybrid SaaS/HaaS Model Adoption
+#### Statement 6: Hybrid SaaS/HaaS Model Adoption
 
 *Creemos que* ofrecer la infraestructura (wearables y checkpoints) bajo un modelo de alquiler combinado con una suscripción de software escalable según el volumen de turistas derribará la barrera de entrada económica para las agencias medianas y acelerará su adopción.
 
@@ -409,7 +426,7 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 |---|---|---|
 | - El monitoreo biométrico continuo mediante wearables permitirá reducir en un 40% las evacuaciones de emergencia; - La sincronización asincrónica BLE garantizará trazabilidad del 95% de turistas sin cobertura celular; - La navegación offline reducirá la ansiedad del turista y logrará que el 85% califique su seguridad como alta; - Los dashboards centralizados reducirán el tiempo de respuesta ante alertas a menos de 5 minutos; - El modelo híbrido HaaS/SaaS logrará una conversión del 25% de pilotos a suscripciones pagadas en 3 meses. | ¿Es la precisión y latencia de los datos capturados por los wearables y sincronizados mediante checkpoints Bluetooth suficiente para activar alertas de rescate confiables en entornos de clima extremo y geografía compleja? | Desarrollar un MVP consistente en un wearable básico conectado a un checkpoint BLE, y realizar una prueba de campo en una ruta de senderismo conocida con 5 usuarios reales, midiendo la latencia de sincronización de datos y la tasa de pérdida de paquetes bajo condiciones climáticas variables. |
 
-# 1.3 Segmentos Objetivo
+## 1.3 Segmentos Objetivo
  
 A partir del análisis del dominio del problema, la falta de sistemas de monitoreo en tiempo real para turismo de aventura en zonas remotas del Perú, se han identificado dos segmentos objetivo claramente diferenciados a los que VitalTrek dirige su propuesta de valor. El primero corresponde a las agencias y operadores turísticos de aventura que requieren herramientas de gestión, supervisión y trazabilidad operativa de sus tours; el segundo corresponde a los turistas de aventura nacionales y extranjeros que demandan experiencias seguras, guiadas y enriquecidas en entornos naturales del país. A continuación se describen ambos segmentos junto con sus características demográficas y la información estadística que sustenta su relevancia.
  
@@ -455,8 +472,11 @@ Personas que viajan al Perú, ya sea desde el extranjero o desde otras regiones 
 - El segmento global de turismo de aventura registró un crecimiento del 65% en número de viajeros atendidos respecto al 2019, y un 54% adicional respecto al 2022, consolidándose como uno de los nichos de mayor expansión a nivel mundial.
 - El 51.5% de las visitas registradas en sitios turísticos peruanos en 2025 corresponde a turistas internacionales y el 48.5% a nacionales, lo que confirma que la propuesta de VitalTrek debe atender a ambos perfiles bajo experiencias multilingües y adaptadas culturalmente.
 - Regiones clave para el turismo de aventura como Cusco e Ica ya están a solo 2.6% y 3.6% de alcanzar sus cifras prepandemia, evidenciando la consolidación de los destinos donde opera el segmento.
-## Capítulo II: Requirements Elicitation & Analysis
-### 2.1. Competidores
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
 En esta sección se identifican y describen los principales competidores directos que operan en el dominio del problema que VitalTrek aborda: la gestión, monitoreo y trazabilidad de tours de aventura mediante productos digitales similares. Los tres competidores seleccionados comparten con VitalTrek el modelo de negocio basado en plataformas digitales orientadas al turismo de aventura, con funcionalidades superpuestas en gestión de tours, navegación, seguimiento en tiempo real y experiencia del turista.
 
 **TrekkSoft:** Empresa suiza fundada en 2010 en Interlaken, conocida como la capital europea de la aventura. Ofrece una plataforma de reservas y gestión operativa orientada a operadores turísticos de aventura, con módulos de pago, sincronización con OTAs, gestión de inventario y panel administrativo. Su enfoque comercial está dirigido a agencias pequeñas y medianas en mercados europeos y latinoamericanos.
@@ -465,7 +485,7 @@ En esta sección se identifican y describen los principales competidores directo
 
 **AllTrails:** Aplicación móvil desarrollada en Estados Unidos, líder mundial en navegación para senderismo y trekking. Posee un catálogo superior a 500,000 rutas en todo el mundo, navegación GPS giro a giro, mapas offline para suscriptores premium y una comunidad activa de senderistas. Se posiciona como la herramienta de referencia para turistas que realizan rutas de aventura por su cuenta o con agencias.
 
-#### 2.1.1. Análisis Competitivo
+### 2.1.1. Análisis Competitivo
 
 **Competitive Analysis Landscape**
 
@@ -488,7 +508,7 @@ A continuación se presenta el cuadro Competitive Analysis Landscape, en el cual
 | Análisis SWOT | Oportunidades | Crecimiento sostenido del turismo de aventura en el Perú con 14.1 millones de visitas a sitios turísticos en 2025 y aumento del 33.2 por ciento respecto a 2024. Alta demanda de soluciones de seguridad por parte de turistas y agencias. Bajo nivel de digitalización del sector permite posicionarse como referente. | Expansión hacia mercados latinoamericanos donde su presencia es limitada. Demanda creciente de digitalización en operadores turísticos. | Expansión hacia mercados emergentes de turismo de aventura como Sudamérica y Asia. Integración futura con dispositivos satelitales o IoT podría ampliar su propuesta de valor. | Incorporación de funcionalidades para agencias podría ampliar su mercado. Crecimiento del turismo experiencial a nivel global. |
 | Análisis SWOT | Amenazas | Llegada de competidores internacionales con mayor capital al mercado peruano. Adopción masiva de tecnologías satelitales como Starlink Direct to Cell que reduzcan la barrera de la conectividad. Competencia con plataformas globales con mayor presupuesto de marketing. | Aparición de competidores locales con propuestas adaptadas culturalmente. Posible canibalización por parte de plataformas como Bokun o FareHarbor en mercados emergentes. | Competidores con soluciones más completas que integren hardware propio. Saturación del mercado norteamericano de software para turismo. | Competidores especializados en navegación offline regional con mejor cobertura local. Apps de mapas gratuitos como Google Maps incorporando funciones similares. |
 
-#### 2.1.2. Estrategias y Tácticas frente a Competidores
+### 2.1.2. Estrategias y Tácticas frente a Competidores
 
 A partir del análisis competitivo realizado, hemos definido un conjunto de estrategias y tácticas preliminares orientadas a afrontar las fortalezas de los competidores, aprovechar sus debilidades y posicionar a VitalTrek como la solución de referencia para turismo de aventura en el Perú.
 
@@ -503,7 +523,8 @@ A partir del análisis competitivo realizado, hemos definido un conjunto de estr
 **Estrategia de mitigación frente a la amenaza satelital emergente:** Ante el avance de tecnologías como Starlink Direct to Cell que podrían reducir la dependencia de hardware satelital costoso, VitalTrek prevé mantener una arquitectura modular que permita integrar futuras tecnologías de conectividad sin rediseñar la plataforma. La táctica consiste en diseñar la capa de comunicaciones bajo principios de abstracción que permitan reemplazar o complementar wearables Bluetooth con módulos satelitales económicos cuando estos estén disponibles en el mercado peruano, manteniendo la propuesta de valor centrada en software y datos más que en el dispositivo.
 
 **Estrategia de captación de turistas mediante experiencia enriquecida:** Frente a AllTrails, cuya propuesta es funcional pero impersonal, y a Wayward, que se concentra en la dimensión operativa, VitalTrek apunta a ofrecer una experiencia turística enriquecida con información cultural, registro fotográfico contextualizado y narrativa del recorrido. La táctica consiste en colaborar con guías locales certificados para construir contenido auténtico, integrar elementos de gamificación que motiven al turista a completar la ruta y generar memorias digitales compartibles que sirvan también como herramienta de marketing orgánico para las agencias asociadas.
-### 2.2. Entrevistas
+
+## 2.2. Entrevistas
 
 #### 2.2.1. Diseño de Entrevistas
 
@@ -612,11 +633,10 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 ---
 
-#### 2.2.2. Registro de Entrevistas
+### 2.2.2. Registro de Entrevistas
 
 ##### Segmento 1: Dueños o Responsables de Agencias de Turismo de Aventura
 
----
 
 **Entrevista N° 1**
 
@@ -748,7 +768,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 ---
 
-#### 2.2.3. Análisis de Entrevistas
+### 2.2.3. Análisis de Entrevistas
 
 ##### Análisis del Segmento 2: Turistas de Aventura
 
@@ -811,11 +831,12 @@ El 80% muestra un perfil aventurero con disposición a explorar entornos desafia
 ---
 
 *El análisis del Segmento 1 (Dueños o Responsables de Agencias de Turismo de Aventura) será incorporado una vez completado el registro de entrevistas de dicho segmento.*
-### 2.3. Needfinding
+
+## 2.3. Needfinding
  
 En esta sección se presentan los artefactos resultantes del proceso de análisis de la información recolectada durante la fase de Needfinding. A partir de las entrevistas realizadas a los segmentos objetivo y del análisis competitivo desarrollado en el capítulo anterior, el equipo ha sintetizado los hallazgos en artefactos que permiten visualizar de forma estructurada las características, comportamientos, motivaciones y necesidades de los usuarios potenciales de VitalTrek. Estos artefactos servirán como base para la definición de requerimientos funcionales y de diseño de la solución, asegurando que cada decisión esté centrada en el usuario y respaldada por evidencia recolectada en campo.
  
-#### 2.3.1. User Personas
+### 2.3.1. User Personas
  
 A continuación se presentan las fichas de User Persona elaboradas para cada uno de los dos segmentos objetivo de VitalTrek, identificados previamente en la sección de Segmentos Objetivo del capítulo anterior. La elaboración de estos arquetipos se sustenta en el análisis cualitativo de las entrevistas realizadas a representantes de cada segmento, así como en los hallazgos obtenidos del análisis competitivo, donde se evidenciaron brechas en la oferta actual de productos digitales para turismo de aventura en zonas de baja conectividad.
  
@@ -835,7 +856,7 @@ Representa al segmento de agencias y operadores de turismo de aventura. Este arq
 
 Representa al segmento de turistas de aventura nacionales y extranjeros. Este arquetipo encarna al viajero europeo experimentado, con alto poder adquisitivo, dominio tecnológico y pasión por las experiencias outdoor auténticas. Sus motivaciones se centran en vivir aventuras seguras y memorables, mantener informados a sus familiares durante el recorrido y enriquecer su experiencia con información cultural e histórica del entorno. Sus frustraciones más relevantes son la incertidumbre sobre su ubicación al perder señal GPS, la imposibilidad de avisar a su familia durante varios días, y la carencia de aplicaciones móviles que funcionen sin conectividad continua en zonas remotas del Perú.
 
-#### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
 
 A continuación se presenta el User Task Matrix, artefacto que concentra las principales tareas que los User Personas realizan para cumplir sus objetivos en el dominio del turismo de aventura. Es importante precisar que las tareas listadas corresponden a actividades que ambos segmentos llevan a cabo de manera independiente a la existencia de VitalTrek, ya que reflejan el comportamiento natural y las responsabilidades inherentes a cada rol dentro del ecosistema del turismo de aventura. Los segmentos considerados en esta matriz son las agencias y operadores de turismo de aventura, representados por Ana Lucía Quispe, y los turistas de aventura nacionales y extranjeros, representados por Marco Rodriguez.
 
@@ -883,7 +904,7 @@ El User Journey Mapping es una herramienta que permite visualizar de forma estru
 <b>User Journey Map del 2do segmento objetivo - turistas de aventura </b>
 ![](assets/images/jm-segmento-2.png)
 
-#### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 El Empathy Mapping es una herramienta que nos permite profundizar en la experiencia emocional y cognitiva del usuario. A través de categorías como lo que el usuario piensa, siente, dice y hace, se busca comprender su contexto, así como sus principales miedos, frustraciones y motivaciones.
 
@@ -894,11 +915,13 @@ Para VitalTrek, elaborar un Empathy Mapping para cada segmento objetivo fue clav
 
 <b>Empathy Mapping del 2do segmento objetivo – turistas de aventura </b>
 ![](assets/images/Empathy-Map2.png)
-## 2.4. Big Picture Evenstorming
+
+## 2.4. Big Picture Event Storming
 
 En esta sección se presenta el Big Picture Event Storming del proyecto VitalTrek, elaborado como una visión general del dominio del turismo de aventura en zonas de baja conectividad. Mediante una sesión colaborativa, el equipo identificó y ordenó los eventos más importantes que ocurren durante un tour, desde la planificación hasta el cierre.
 
 ![Big Picture EventStorming](assets/images/Big-PictureEvent-Storming.png)
+
 ## 2.5 Ubiquitous Language
 
 ### Introducción
@@ -965,8 +988,10 @@ Post-Tour Evaluation (Evaluación Post-Tour): Proceso de revisión de la experie
 
 
 Tour Experience (Experiencia del Tour): Percepción general del usuario respecto a la calidad, seguridad y disfrute del recorrido.
-### Capítulo III: Requirements Specification
-#### 3.1. User Stories
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
 
 La presente sección consolida el conjunto completo de Epics, User Stories, 
 Landing Page Stories y Technical Stories que definen los requerimientos 
@@ -1086,23 +1111,20 @@ directa cuando aplican.
 | TS-ENG-13 | Endpoint de perfil de Gamification | Como frontend developer, quiero consultar el progreso, puntos totales y badges desbloqueados de un turista mediante la API para renderizar su perfil de lealtad en pantalla. | **Escenario 1: Consulta exitosa**; Given que el request consulta un identificador de perfil válido; When el cliente consume el endpoint GET `/api/v1/loyalty/profiles/{id}`; Then el sistema retorna código 200 y un payload con el `GamificationResource` (puntos, rango y badges); **Escenario 2: Perfil no inicializado**; Given que el turista nunca ha participado en un tour; When el cliente consume el endpoint; Then el sistema retorna código 200 con un `GamificationResource` en estado base; **Escenario 3: Acceso denegado**; Given que el request no contiene un token de acceso válido; When el cliente consume el endpoint; Then el sistema retorna código 401 Unauthorized | EP07 |
 | TS-ENG-14 | Endpoint de otorgamiento de puntos | Como frontend developer, quiero enviar la confirmación de finalización de ruta mediante la API para que asigne puntos al historial del turista y actualizar dinámicamente su progreso de engagement. | **Escenario 1: Entrega de puntos exitosa**; Given que el request contiene el id de la expedición y los puntos ganados; When el cliente consume el endpoint POST `/api/v1/loyalty/profiles/{id}/award`; Then el sistema actualiza el balance, evalúa nuevos badges y retorna código 201; **Escenario 2: Expedición ya puntuada**; Given que el request intenta otorgar puntos por una expedición previamente procesada; When el cliente consume el endpoint; Then el sistema retorna código 409 Conflict indicando que los puntos ya fueron otorgados; **Escenario 3: Datos inválidos**; Given que el payload contiene un valor de puntos menor a cero o formato incorrecto; When el cliente consume el endpoint; Then el sistema retorna código 400 Bad Request por validación de datos | EP07 |
 
-
-  
-
-### 3.2. Impact Mapping
+## 3.2. Impact Mapping
 
 El Impact Mapping es una herramienta de planificación estrategica que nos permite conectar los objetivos de negocio de VitalTrek con los comportamientos de cada segmento objetivo.
 
-#### Impact Map - Segmento 1: Trekker
+### Impact Map - Segmento 1: Trekker
 
 ![Impact-mapping-trekker](assets/images/impact-map-vitaltrek-trekker.png)
 
-#### Impact Map - Segmento 2: Agencia de turismo
+### Impact Map - Segmento 2: Agencia de turismo
 
 ![Impact-mapping-agencia-turismo](assets/images/impact-map-vitaltrek-tourist-agency.png)
 
 
-### 3.3. Product Backlog
+## 3.3. Product Backlog
 
 A continuación se presenta el Product Backlog de VitalTrek con la priorización y estimación de todas las historias identificadas. El orden refleja el valor para el negocio, priorizando las funcionalidades del Landing Page y las capacidades core de monitoreo y seguridad en campo.
 
@@ -1183,9 +1205,12 @@ Para acceder al Product Backlog en la herramienta de gestión del equipo, visita
 | 69 | US48 | Cerrar sesión actual | Como usuario registrado, quiero cerrar mi sesión actual para proteger el acceso a mi cuenta cuando termino de utilizar la plataforma. | 1 |
 | 70 | US07 | Cierre de sesiones activas | Como usuario registrado, quiero cerrar todas mis sesiones activas en otros dispositivos para proteger mi cuenta. | 2 |
 | 71 | US49 | Desactivar cuenta personal | Como usuario registrado, quiero desactivar mi cuenta para dejar de utilizar la plataforma cuando lo considere necesario. | 2 |
-## Capítulo IV: Product Design
-### 4.1. Style Guidelines
-#### 4.1.1. General Style Guidelines
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
 
 **Branding**
 
@@ -1290,7 +1315,7 @@ El sistema de espaciado de VitalTrek sigue una escala consistente basada en múl
 
 ---
 
-#### 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines
 
 **Layout y Grid System**
 
@@ -1440,13 +1465,14 @@ La interfaz web soporta dos locales:
 | Latin American Spanish | `es-419` | No |
 
 El sistema i18n se implementa mediante atributos `data-i18n` en el HTML y un objeto `translations` en `main.js`. La función `toggleLanguage()` actualiza `document.documentElement.lang`, todos los elementos `[data-i18n]`, el pill del botón de idioma y anuncia el cambio mediante `aria-live`. El modal de Join también responde al toggle de idioma. El idioma predeterminado al cargar la página es inglés, conforme al statement del proyecto.
-### 4.2. Information Architecture
+
+## 4.2. Information Architecture
 
 La arquitectura de información de VitalTrek está diseñada para servir a tres perfiles de usuario con necesidades distintas: el **turista aventurero**, el **administrador de agencia** y el **guía de tour**. Las decisiones de organización, etiquetado, navegación y búsqueda se orientan a reducir la carga cognitiva en contextos de uso exigentes — en campo, sin señal, bajo presión — garantizando que cada usuario encuentre lo que necesita sin esfuerzo y en el menor número de pasos posible.
 
 ---
 
-#### 4.2.1. Organization Systems
+### 4.2.1. Organization Systems
 
 **Organización visual del contenido**
 
@@ -1501,7 +1527,7 @@ Se aplica en vistas donde el tiempo es el criterio de relevancia más importante
 
 ---
 
-#### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems
 
 Las etiquetas de VitalTrek siguen el principio de mínimo número de palabras sin sacrificar claridad. Se prioriza el uso de términos del dominio de la aventura y el turismo para que los usuarios reconozcan las funciones sin necesidad de aprendizaje adicional.
 
@@ -1559,7 +1585,7 @@ Las etiquetas de VitalTrek siguen el principio de mínimo número de palabras si
 
 ---
 
-#### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page (index.html)**
 
@@ -1656,7 +1682,7 @@ Las etiquetas de VitalTrek siguen el principio de mínimo número de palabras si
 
 ---
 
-#### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems
 
 **Landing Page**
 
@@ -1705,7 +1731,7 @@ La landing page no implementa búsqueda textual dado que su contenido es estáti
 
 ---
 
-#### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems
 
 **Landing Page**
 
@@ -1749,6 +1775,7 @@ El estado de conectividad (online / offline) se comunica mediante un indicador p
 ---
 
 ## 4.3 Landing Page UI Design
+
 ###  4.3.1 Landing Page Wireframe
 
 Para la landing page se realizaron low-fi Wireframes de cada una de las pantallas del sitio:
@@ -1865,7 +1892,8 @@ El Mock-Up considera principios de accesibilidad mediante contrastes adecuados, 
 ![Testimonials](assets/images/mock-up-pantalla-7.png)
 ![Contact](assets/images/mock-up-pantalla-8.png)
 ![Footer](assets/images/mock-up-pantalla-9.png)
-# 4.4. Web Applications UX/UI Design
+
+## 4.4. Web Applications UX/UI Design
 
 La presente sección documenta la propuesta visual y de interacción correspondiente a la aplicación web de VitalTrek, plataforma orientada al turismo de aventura asistido por dispositivos IoT en zonas de baja conectividad. La propuesta integra los principios de diseño centrado en el usuario, los lineamientos de diseño inclusivo y la arquitectura de información definida en sprints anteriores, garantizando coherencia con el Design System establecido para los productos digitales del proyecto.
 
@@ -1875,7 +1903,7 @@ Los dos User Personas considerados son: **Ana Lucía Quispe**, gerente de operac
 
 ---
 
-## 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes
 
 Los Wireframes presentados a continuación constituyen la propuesta estructural de baja fidelidad de la aplicación web de VitalTrek. Cada wireframe fue diseñado aplicando los principios de jerarquía visual, consistencia y proximidad, junto con los criterios de diseño inclusivo (áreas de toque amplias, contraste adecuado en estado de borrador, etiquetas explícitas en elementos interactivos) y la arquitectura de información validada en etapas previas. La herramienta utilizada para su elaboración fue **Figma**, considerando un viewport base de 1920w para la versión light.
 
@@ -1891,7 +1919,7 @@ En cuanto a diseño inclusivo, los wireframes contemplan áreas táctiles amplia
 
 ---
 
-## 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
 La presente sección documenta los **Wireflows** diseñados para el sistema VitalTrek, los cuales representan la integración entre los wireframes propuestos y los flujos de interacción que cada User Persona sigue para alcanzar sus respectivos User goals. A diferencia de un Task Flow tradicional, el Wireflow permite visualizar simultáneamente la estructura visual de cada pantalla y la secuencia de transiciones que ocurren como respuesta a las acciones del usuario, evidenciando los cambios de estado mediante la incorporación de un nuevo wireframe por cada paso relevante del flujo.
 
@@ -1899,7 +1927,7 @@ Para la elaboración de estos diagramas, el equipo trabajó previamente los Task
 
 A continuación se presentan los seis Wireflows correspondientes a los User goals más representativos del sistema, tres por cada User Persona.
 
-### 4.4.2.1. Wireflow 01 — Marco registra su cuenta en VitalTrek
+#### 4.4.2.1. Wireflow 01 — Marco registra su cuenta en VitalTrek
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -1909,7 +1937,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 **Explicación del flujo:** El flujo se inicia en la pantalla de Login, donde Marco, como nuevo usuario, selecciona la opción "Crear cuenta", lo que dispara una transición hacia el wireframe del formulario de registro en su estado inicial (campos vacíos). Marco procede a diligenciar la información solicitada (nombre, correo, contraseña y confirmación), generando un nuevo estado del wireframe en el que se visualizan los datos ingresados. Al presionar el botón "Registrar", el sistema valida la información y conduce a Marco al wireframe del Hero/landing en su versión autenticada, donde tiene acceso completo a las funcionalidades del rol turista. Este flujo responde a la motivación de Marco de planificar con anticipación una experiencia outdoor auténtica y atiende su frustración por la falta de aplicaciones confiables para el contexto peruano.
 
-### 4.4.2.2. Wireflow 02 — Marco se inscribe en una ruta de aventura
+#### 4.4.2.2. Wireflow 02 — Marco se inscribe en una ruta de aventura
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -1919,7 +1947,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 **Explicación del flujo:** El flujo parte del wireframe Hero/landing, desde donde Marco accede al módulo de rutas mediante el menú lateral. Al ingresar, visualiza el wireframe Explore routes con el catálogo completo de rutas disponibles presentadas en formato de tarjetas. Marco aplica filtros de búsqueda (dificultad técnica, duración, ubicación geográfica), generando un nuevo estado del wireframe que refleja únicamente los resultados que cumplen sus criterios. Al hacer clic sobre una tarjeta específica, el flujo transiciona a un nuevo estado del wireframe con el detalle completo de la ruta (descripción cultural e histórica, mapa de la ruta, equipamiento requerido, características de conectividad). Al confirmar la inscripción con el botón "Inscribirme", el flujo retorna al Hero/landing en un estado actualizado. Este Wireflow capitaliza dos motivaciones clave de Marco: enriquecer su experiencia con información cultural del entorno y tener la seguridad de un sistema diseñado para zonas remotas del Perú.
 
-### 4.4.2.3. Wireflow 03 — Marco sigue su expedición en tiempo real
+#### 4.4.2.3. Wireflow 03 — Marco sigue su expedición en tiempo real
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -1929,7 +1957,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 **Explicación del flujo:** Este Wireflow representa el caso de uso más diferenciador de VitalTrek y responde directamente a las dos frustraciones principales de Marco: la incertidumbre por pérdida de señal GPS y la imposibilidad de avisar a su familia. El flujo es predominantemente reactivo: los cambios de estado se disparan por eventos del dispositivo IoT, no por interacciones explícitas del usuario. El flujo inicia con el wireframe Navigation en su estado de "expedición iniciada", mostrando el mapa de la ruta y el punto de partida. A medida que el dispositivo IoT reporta nueva información de ubicación a través de la red de baja conectividad del sistema, el wireframe transiciona hacia un nuevo estado donde el mapa se actualiza y el panel lateral refleja los datos del trayecto, incluyendo el estado de comunicación con familiares. Al alcanzar un punto de control predefinido, el wireframe presenta un estado de notificación que confirma el envío automático de actualización familiar. Finalmente, al completar la ruta, el flujo conduce a un estado final con el resumen de la expedición. Este Wireflow encarna el diferencial tecnológico IoT que distingue a VitalTrek de competidores como AllTrails o Wayward.
 
-### 4.4.2.4. Wireflow 04 — Ana Lucía monitorea a sus turistas durante un tour
+#### 4.4.2.4. Wireflow 04 — Ana Lucía monitorea a sus turistas durante un tour
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -1939,7 +1967,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 **Explicación del flujo:** El flujo se origina en el wireframe Tour management, donde Ana Lucía visualiza la lista de tours activos coordinados por su agencia. Al seleccionar un tour específico mediante la acción "Monitorear tour", el flujo transiciona al wireframe Security and monitoring en su estado de dashboard general, presentando las visualizaciones gráficas de los datos recibidos desde los dispositivos IoT de los turistas. Ana Lucía puede aplicar filtros por turista, por guía responsable o por tipo de variable vital, generando un nuevo estado del wireframe con la información segmentada. Si una variable supera un umbral crítico predefinido, el sistema transiciona automáticamente a un nuevo estado del wireframe donde se destaca visualmente la alerta correspondiente, indicando la naturaleza del evento y las acciones recomendadas según el protocolo de la agencia. Este Wireflow atiende directamente la frustración de Ana Lucía por la pérdida de comunicación con los guías por horas y la dependencia de WhatsApp y radios analógicas, posicionando a VitalTrek como herramienta de diferenciación competitiva para su agencia.
 
-### 4.4.2.5. Wireflow 05 — Ana Lucía crea un nuevo tour
+#### 4.4.2.5. Wireflow 05 — Ana Lucía crea un nuevo tour
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -1949,7 +1977,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 **Explicación del flujo:** El flujo inicia en el wireframe Tour management con la tabla de tours existentes visible. Al presionar el botón "+ Nuevo tour", el wireframe transiciona a un nuevo estado donde se presenta el formulario de creación con todos los campos vacíos (nombre del tour, fechas, capacidad máxima, ruta asociada, guías asignados, precio, descripción). Ana Lucía procede a completar la información requerida, generando un nuevo estado del wireframe con los datos diligenciados. Al confirmar mediante el botón "Guardar", el sistema valida la información y conduce al wireframe final con la tabla de tours actualizada, donde se evidencia el nuevo registro creado al inicio de la lista. Este Wireflow responde a la motivación de Ana Lucía de profesionalizar la operación de su agencia mediante herramientas digitales adaptadas al contexto y presupuesto de una micro o pequeña empresa peruana, contrastando con la oferta limitada y costosa de competidores como TrekkSoft.
 
-### 4.4.2.6. Wireflow 06 — Ana Lucía gestiona los permisos de su equipo de guías
+#### 4.4.2.6. Wireflow 06 — Ana Lucía gestiona los permisos de su equipo de guías
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -1961,7 +1989,7 @@ A continuación se presentan los seis Wireflows correspondientes a los User goal
 
 ---
 
-## 4.4.3. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
 Los Mock-ups documentados en esta sección constituyen la materialización visual de alta fidelidad de los wireframes presentados previamente. Su elaboración aplica de manera integral el Design System definido para los productos digitales de VitalTrek, incluyendo la paleta cromática institucional, la familia tipográfica seleccionada, el sistema de espaciados, los componentes UI estandarizados y los lineamientos de iconografía. La herramienta utilizada para su construcción fue **Figma**, manteniendo coherencia visual con los wireframes y permitiendo trazabilidad directa entre ambos niveles de fidelidad.
 
@@ -1977,13 +2005,13 @@ El diseño inclusivo se materializa mediante el uso de contrastes que cumplen lo
 
 ---
 
-## 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 Los User Flow Diagrams documentados en esta sección representan la evolución de alta fidelidad de los Wireflows presentados previamente. Mientras los Wireflows trabajan con representaciones esquemáticas en baja fidelidad, los User Flows integran los Mock-ups finales junto con el detalle completo de los caminos que un usuario puede recorrer en el sistema: tanto la ruta esperada (**happy path**) como las rutas alternativas (**unhappy paths**) que se presentan cuando ocurren errores, validaciones fallidas o decisiones del usuario que se desvían del flujo principal.
 
 Estos User Flows mantienen consistencia directa con los Wireflows definidos en la sección 4.4.2, garantizando trazabilidad de extremo a extremo en el proceso de diseño. Cada diagrama incluye los puntos de decisión, las condiciones de validación y las transiciones entre pantallas, complementados con anotaciones que documentan el comportamiento del sistema en cada bifurcación. Las rutas alternativas fueron diseñadas considerando los escenarios reales identificados durante las entrevistas con representantes de los segmentos objetivo.
 
-### 4.4.4.1. User Flow 01 — Marco registra su cuenta en VitalTrek
+#### 4.4.4.1. User Flow 01 — Marco registra su cuenta en VitalTrek
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -1993,7 +2021,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **Explicación del flujo:** El happy path inicia en la pantalla de Login y conduce a Marco al formulario de creación de cuenta, donde completa sus datos personales (nombre, correo, contraseña, país de origen). Al enviar el formulario con información válida, el sistema crea la cuenta y redirige al Hero/landing como turista autenticado, con contenido localizado según su país. Los unhappy paths contemplados son: (a) correo ya registrado, donde el sistema retorna al formulario mostrando un mensaje de error y sugiriendo iniciar sesión o recuperar contraseña; (b) contraseña que no cumple los requisitos mínimos de seguridad, generando un mensaje inline bajo el campo afectado con los criterios pendientes; (c) campos obligatorios vacíos, donde el sistema impide el envío y resalta los campos pendientes; (d) términos y condiciones no aceptados, bloqueando el botón de envío hasta que el checkbox sea marcado; (e) error de conexión durante el registro, mostrando un mensaje de reintento sin perder los datos diligenciados.
 
-### 4.4.4.2. User Flow 02 — Marco se inscribe en una ruta de aventura
+#### 4.4.4.2. User Flow 02 — Marco se inscribe en una ruta de aventura
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -2003,7 +2031,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **Explicación del flujo:** El happy path conduce a Marco desde el Hero/landing hasta la pantalla Explore routes, donde aplica filtros, selecciona una ruta y confirma su inscripción, retornando con una notificación de éxito y los detalles del tour en su perfil. Los unhappy paths considerados son: (a) ningún resultado coincide con los filtros aplicados, mostrando un estado vacío con sugerencia de ajustar criterios o ver rutas similares; (b) ruta sin cupos disponibles, donde el botón de inscripción se deshabilita y se ofrece la opción de unirse a una lista de espera o ver fechas alternativas; (c) usuario sin plan activo intentando inscribirse en una ruta premium, lo que dispara una redirección sugerida hacia la pantalla Plans and prices; (d) nivel de dificultad técnica de la ruta superior al perfil declarado por Marco, generando una advertencia que requiere confirmación explícita antes de continuar; (e) error de conexión durante la confirmación, mostrando un mensaje de reintento sin perder los datos seleccionados.
 
-### 4.4.4.3. User Flow 03 — Marco sigue su expedición en tiempo real
+#### 4.4.4.3. User Flow 03 — Marco sigue su expedición en tiempo real
 
 **User Persona:** Marco Rodriguez (turista de aventura)
 
@@ -2013,7 +2041,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **Explicación del flujo:** El happy path corresponde a una expedición que avanza normalmente: el dispositivo IoT reporta posición continua a través de la red de baja conectividad, el mapa se actualiza, los familiares de Marco reciben notificaciones automáticas en cada checkpoint, y se completa la ruta con resumen final. Los unhappy paths cubiertos — que constituyen el diferencial central de VitalTrek frente a competidores — son: (a) pérdida temporal de señal GPS, donde el sistema muestra la última posición conocida con marca temporal y activa la búsqueda automática mediante el dispositivo IoT, manteniendo a Marco informado del estado de comunicación; (b) desvío del turista respecto a la ruta planificada, lo que dispara una alerta visual con instrucciones de retorno y notifica simultáneamente al guía responsable; (c) detección de valores anómalos en variables vitales (frecuencia cardiaca elevada, temperatura corporal alterada), generando una notificación a Marco y al equipo de la agencia; (d) imposibilidad temporal de enviar actualización familiar, donde el sistema encola el mensaje y lo despacha automáticamente al recuperar conectividad, mostrando claramente el estado de la comunicación a Marco; (e) cancelación voluntaria de la expedición, que conduce a una pantalla de confirmación y registra el evento para la agencia.
 
-### 4.4.4.4. User Flow 04 — Ana Lucía monitorea a sus turistas durante un tour
+#### 4.4.4.4. User Flow 04 — Ana Lucía monitorea a sus turistas durante un tour
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -2023,7 +2051,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde Tour management hasta el dashboard de Security and monitoring, donde supervisa las variables sin incidentes durante toda la expedición y revisa el reporte de cierre al finalizar. Los unhappy paths definidos — que responden a los escenarios reales que actualmente Ana Lucía gestiona vía WhatsApp y radios analógicas — son: (a) alerta crítica por variable vital fuera de umbral, que activa una notificación destacada con protocolo de respuesta sugerido y permite contacto inmediato con el guía en campo; (b) pérdida de comunicación con un dispositivo IoT específico, que marca al turista afectado en estado "sin conexión" con tiempo transcurrido y dispara el protocolo de búsqueda; (c) múltiples alertas simultáneas en tours diferentes, donde el sistema prioriza por nivel de criticidad y guía a Ana Lucía en el orden de atención; (d) guía responsable no disponible para responder a una alerta, donde el sistema escala automáticamente a un guía de respaldo o a la propia Ana Lucía; (e) error en la carga del dashboard, mostrando un fallback con los últimos datos cacheados y un botón de reintento manual, garantizando continuidad operativa.
 
-### 4.4.4.5. User Flow 05 — Ana Lucía crea un nuevo tour
+#### 4.4.4.5. User Flow 05 — Ana Lucía crea un nuevo tour
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -2033,7 +2061,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde la tabla de tours hasta el formulario de creación, completando todos los campos requeridos (nombre, fechas, ruta, capacidad, guías asignados, precio) y guardando exitosamente el nuevo registro, que queda disponible inmediatamente en el catálogo. Los unhappy paths considerados son: (a) campos obligatorios incompletos al intentar guardar, donde el sistema resalta los pendientes con mensajes inline específicos; (b) fechas inconsistentes (fecha de inicio posterior a la de fin, o fechas en el pasado), mostrando un mensaje de validación contextual en los campos afectados; (c) capacidad máxima fuera del rango permitido por la política de la agencia, bloqueando el envío hasta corrección; (d) conflicto con otro tour ya programado en las mismas fechas con los mismos guías asignados, donde el sistema detecta la sobreposición y sugiere fechas o guías alternativos; (e) guía asignado sin las certificaciones requeridas para la dificultad técnica de la ruta, lo que dispara una validación que impide guardar hasta que se asigne un guía calificado; (f) error al guardar por pérdida de conexión, manteniendo los datos del formulario para reintento sin pérdida de información.
 
-### 4.4.4.6. User Flow 06 — Ana Lucía gestiona los permisos de su equipo de guías
+#### 4.4.4.6. User Flow 06 — Ana Lucía gestiona los permisos de su equipo de guías
 
 **User Persona:** Ana Lucía Quispe (agencia/operador)
 
@@ -2042,14 +2070,14 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 ![User Flow 06 - Ana Lucía gestiona permisos](assets/images/userflow-6.png)
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde la lista de usuarios de su agencia hasta el detalle del miembro del equipo seleccionado, donde modifica sus roles y guarda los cambios con éxito, viendo reflejado el cambio inmediatamente en la tabla. Los unhappy paths definidos son: (a) intento de remover el rol de Ana Lucía como única gerente con permisos completos, donde el sistema bloquea la acción y solicita asignar previamente otro responsable; (b) asignación de roles incompatibles entre sí (por ejemplo, guía de campo simultáneamente como administrador de identidad), generando una validación que impide guardar hasta resolver el conflicto; (c) usuario actualmente activo en una sesión con los roles previos, donde el sistema advierte que los cambios surtirán efecto al siguiente inicio de sesión y ofrece notificar al usuario afectado; (d) intento de asignar un permiso de monitoreo IoT a un usuario sin entrenamiento certificado en uso del sistema, donde el sistema sugiere agendar capacitación previa; (e) error de persistencia al guardar, mostrando un mensaje de reintento sin perder las modificaciones realizadas en pantalla.
-### 4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping
 
 Prototipo de la aplicación web VitalTrek en Figma:
 [Prototipo-VitalTrek](https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=1825-73&t=QlXWry40dvBZPTwC-0)
 
-### 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture
 
-#### 4.6.1. Design-Level EventStorming
+### 4.6.1. Design-Level EventStorming
 
 ![Event Storming](assets/images/Big-PictureEvent-Storming.png)
 
@@ -2060,19 +2088,21 @@ Prototipo de la aplicación web VitalTrek en Figma:
 
 ![Event Storming](assets/images/Design-Level-EventStorming.jpg)
 
-#### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram
 
 ![ContexDiagram](assets/images/contex-diagram.png)
 
-#### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 
 ![ContainerDiagram](assets/images/container-diagram.png)
 
-#### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 
 ![ComponentDiagram](assets/images/component-diagram.png)
-### 4.7. Software Object-Oriented Design
-#### 4.7.1. Class Diagrams
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
 
 **Bounded Context: Shared**
 Agrupa los componentes y servicios transversales reutilizados por toda 
@@ -2132,8 +2162,9 @@ Permite la integración de dispositivos inteligentes y sensores durante las expe
 Gestiona los planes de suscripción y el procesamiento de pagos de los usuarios. Incluye `SubscriptionPlan`, `Subscription e Invoice`, administrados mediante `SubscriptionStore` para operaciones de contratación, cancelación y facturación. Se vincula con el contexto de Identity & Access para asociar las suscripciones a cada usuario registrado.
 
 ![Class Diagram](assets/images/subscription-classDiagram.png)
-### 4.8. Database Design
-#### 4.8.1. Database Diagrams
+
+## 4.8. Database Design
+### 4.8.1. Database Diagrams
 
 El diseño de base de datos de VitalTrek está estructurado en 5 bounded
 contexts con 15 tablas, siguiendo los principios de Domain-Driven Design
@@ -2149,11 +2180,12 @@ del recorrido, monitoreo biométrico continuo, sincronización offline y una
 gestión eficiente de toda la operación de turismo de aventura.
 
 ![Imagen de la base de datos](assets/images/VitalTrek_DatabaseDiagram.png)
-## Capítulo V: Product Implementation, Validation & Deployment
 
-### 5.1. Software Configuration Management
+# Capítulo V: Product Implementation, Validation & Deployment
 
-#### 5.1.1. Software Development Environment Configuration
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
 
 Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente entre todos los miembros del equipo Nexum Devs, se ha definido el siguiente entorno de desarrollo para el ecosistema VitalTrek:
 
@@ -2175,7 +2207,7 @@ Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente 
 | Documentation                       | Markdown           | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto.                                                       |                                                                                                                                                                            |
 
 
-#### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management
 
 El proyecto utilizará Git como sistema de control de versiones distribuido y GitHub como plataforma de alojamiento de repositorios. Con el propósito de garantizar la trazabilidad, consistencia y control de cambios durante el ciclo de vida del producto digital, se adoptará una estrategia de trabajo basada en GitFlow, permitiendo organizar el desarrollo colaborativo, la integración continua y el mantenimiento de versiones estables del sistema.
 
@@ -2190,7 +2222,7 @@ Asimismo, cada componente del ecosistema VitalTrek contará con un repositorio i
 
 ---
 
-##### Estrategia de Ramas (GitFlow)
+#### Estrategia de Ramas (GitFlow)
 
 El flujo de trabajo del proyecto seguirá el modelo GitFlow propuesto por Vincent Driessen, estableciendo ramas específicas para desarrollo, integración, liberación y mantenimiento correctivo.
 
@@ -2205,7 +2237,7 @@ Las funcionalidades serán desarrolladas en ramas `feature/*` y posteriormente i
 
 ---
 
-##### Convención para el Nombre de Ramas
+#### Convención para el Nombre de Ramas
 
 Con el objetivo de mantener consistencia y facilitar la identificación de cambios dentro del repositorio, se definieron las siguientes convenciones para el nombramiento de ramas:
 
@@ -2216,7 +2248,7 @@ Con el objetivo de mantener consistencia y facilitar la identificación de cambi
 
 ---
 
-##### Semantic Versioning
+#### Semantic Versioning
 
 El versionado de liberaciones seguirá el estándar Semantic Versioning 2.0.0 bajo el siguiente formato:
 
@@ -2238,7 +2270,7 @@ v1.0.0
 
 ---
 
-##### Convención de Commits (Conventional Commits)
+#### Convención de Commits (Conventional Commits)
 
 Todos los mensajes de commit seguirán el estándar Conventional Commits con el objetivo de mantener un historial de cambios claro, consistente y fácilmente rastreable.
 
@@ -2250,7 +2282,7 @@ La estructura definida para los mensajes de commit es la siguiente:
 
 ---
 
-##### Tipos de Commits Permitidos
+#### Tipos de Commits Permitidos
 
 | Tipo | Uso recomendado | Ejemplo |
 |:--|:--|:--|
@@ -2264,9 +2296,9 @@ La estructura definida para los mensajes de commit es la siguiente:
 | **build** | Cambios relacionados con compilación, CI/CD o despliegue | `build(deploy): configurar pipeline de despliegue` |
 | **perf** | Mejoras orientadas al rendimiento del sistema | `perf(search): optimizar tiempo de respuesta del filtrado` |
 
-#### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions
 
-##### Organización del Código
+#### Organización del Código
 
 El proyecto seguirá una arquitectura basada en Domain-Driven Design (DDD) y organización modular por funcionalidades (Feature-Based Structure), permitiendo mantener un código desacoplado, reutilizable, escalable y fácil de mantener tanto en frontend como en backend.
 
@@ -2375,7 +2407,7 @@ La estructura general adoptada en el proyecto es la siguiente:
 
 Esta estructura arquitectónica será utilizada de manera consistente tanto para aplicaciones frontend como para servicios backend desarrollados por el equipo, garantizando uniformidad en la organización del código, separación clara de responsabilidades y facilidad de escalabilidad del sistema.
 
-#### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration
 
 
 Esta sección describe la configuración de despliegue adoptada para los productos digitales del ecosistema VitalTrek, especificando el proceso necesario para publicar correctamente cada solución a partir de sus respectivos repositorios de código fuente.
@@ -2384,7 +2416,7 @@ Durante este primer sprint, el único producto desplegado corresponde a la Landi
 
 ---
 
-##### Landing Page Deployment
+#### Landing Page Deployment
 
 La Landing Page fue desarrollada utilizando HTML5, CSS3 y JavaScript, sin requerir herramientas de compilación, gestores de paquetes ni procesos de build adicionales. El despliegue se realiza directamente desde el repositorio remoto alojado en GitHub.
 
@@ -2400,7 +2432,7 @@ La Landing Page fue desarrollada utilizando HTML5, CSS3 y JavaScript, sin requer
 
 ---
 
-##### Procedimiento de Despliegue
+#### Procedimiento de Despliegue
 
 El proceso de despliegue configurado para la Landing Page sigue los siguientes pasos:
 
@@ -2417,7 +2449,7 @@ El proceso de despliegue configurado para la Landing Page sigue los siguientes p
 
 ---
 
-##### Automatización del Despliegue
+#### Automatización del Despliegue
 
 El despliegue está configurado bajo un esquema de publicación automática. Cada actualización enviada mediante `git push` hacia la rama `main` genera automáticamente una nueva versión desplegada de la Landing Page.
 
@@ -2425,20 +2457,25 @@ Este enfoque permite mantener sincronizada la versión publicada con el estado a
 
 ---
 
-##### Consideraciones Técnicas
+#### Consideraciones Técnicas
 
 - El despliegue está orientado exclusivamente a contenido estático.
 - No se requiere infraestructura de servidores dedicada.
 - No se utilizan contenedores ni pipelines CI/CD personalizados durante este sprint.
 - El entorno de publicación es completamente administrado por GitHub Pages.
 - La solución desplegada es accesible públicamente mediante una URL permanente.
-## 5.2.1. Sprint 1
+
+---
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 1 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación de la Landing Page estática de la plataforma, que constituye el primer punto de contacto con los segmentos objetivo: turistas aventureros y administradores de agencias de tours de aventura.
 
 ---
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 A continuación se presenta el resumen de la reunión de Sprint Planning correspondiente al Sprint 1, llevada a cabo de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
 
@@ -2462,7 +2499,7 @@ El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva
 
 ---
 
-### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 1, el equipo identificó seis aspectos principales correspondientes al alcance funcional de la Landing Page de VitalTrek. Cada aspecto agrupa un conjunto de User Stories relacionadas y representa una unidad de trabajo coherente dentro de la iteración. La distribución de líderes y colaboradores se estableció en función de las fortalezas de cada integrante y tiene correspondencia directa con la selección de tasks en el Sprint Backlog.
 
@@ -2478,7 +2515,7 @@ Los aspectos considerados para este sprint son: Hero & Navigation, Benefits & Fe
 
 ---
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1
 
 El objetivo principal del Sprint 1 fue implementar la Landing Page completa y bilingüe de VitalTrek, cubriendo todas las secciones informativas dirigidas a los segmentos de turistas aventureros y administradores de agencias de tours. Al cierre del sprint, todas las User Stories comprometidas fueron completadas satisfactoriamente.
 
@@ -2528,7 +2565,7 @@ A continuación se presenta el screenshot del board de control utilizado durante
 | | | T27 | Despliegue en GitHub Pages | Configurar y publicar la landing page en GitHub Pages bajo el repositorio de NexumDevs. | 1 | Quispe Perez, Edu | Done |
 | | | T28 | Diseñar Footer | Implementar el footer con links de navegación, redes sociales e información de contacto. | 1 | Quispe Perez, Edu | Done |
 
-### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante el Sprint 1, el equipo implementó la Landing Page estática y bilingüe de VitalTrek utilizando HTML, CSS y JavaScript vanilla. Los avances cubrieron la estructura semántica completa del sitio, los estilos visuales con variables CSS, la funcionalidad de cambio de idioma EN/ES mediante atributos `data-i18n`, el menú responsive para dispositivos móviles y el despliegue en GitHub Pages. A continuación se presenta la tabla de commits relacionados con la implementación durante este sprint.
 
@@ -2555,7 +2592,7 @@ Durante el Sprint 1, el equipo implementó la Landing Page estática y bilingüe
 
 ---
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante el Sprint 1, el equipo completó la implementación de la Landing Page estática y bilingüe de VitalTrek. Se implementaron todas las secciones comprometidas en el Sprint Backlog: Hero con propuesta de valor y CTA, navegación responsive con toggle de idioma EN/ES, beneficios diferenciados por segmento (turistas y agencias), funcionalidades principales de la plataforma, demostración del sistema, compatibilidad offline, formulario de contacto con validación, medidas de seguridad de datos, testimonios y casos de uso, y sección del equipo. La landing page fue desplegada en GitHub Pages al cierre del sprint.
 
@@ -2581,19 +2618,25 @@ A continuación se presentan capturas de las principales vistas implementadas:
 
 ---
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 1, el alcance del equipo se limitó exclusivamente a la implementación de la Landing Page estática de VitalTrek, desarrollada con HTML, CSS y JavaScript vanilla. En esta iteración no se implementaron Web Services ni endpoints de API REST, por lo que no aplica documentación de servicios con OpenAPI para este sprint.
 
 La implementación de endpoints y su documentación corresponderá a sprints posteriores, una vez que el equipo avance hacia el desarrollo de la Web Application y el Web Service de la plataforma.
 
-## 5.2.2. Sprint 2
+### 5.2.2. Sprint 2
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 2 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación inicial de la **Web Application**, que constituye el núcleo funcional de la plataforma y habilita la interacción directa de los usuarios con los servicios de expediciones, monitoreo y gestión de tours.
 
 ---
 
-### 5.2.2.1. Sprint Planning 2
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+#### 5.2.2.1. Sprint Planning 2
 
 La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
 
@@ -2617,7 +2660,7 @@ El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva
 
 ---
 
-### 5.2.2.2. Aspect Leaders and Collaborators
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 2, el equipo identificó seis aspectos principales correspondientes al alcance funcional de la Web Application de VitalTrek.
 
@@ -2631,7 +2674,7 @@ Durante el Sprint 2, el equipo identificó seis aspectos principales correspondi
 
 ---
 
-### 5.2.2.3. Sprint Backlog 2
+#### 5.2.2.3. Sprint Backlog 2
 
 El objetivo principal del Sprint 2 fue implementar la primera versión funcional de la Web Application, habilitando sección IOT, la exploración del catálogo de tours y el monitoreo inicial.
 A continuación, se presenta el tablero correspondiente al Sprint 2 junto con su enlace:
@@ -2657,7 +2700,7 @@ https://trello.com/b/QKMh317p/vitaltrek-sprint2
 
 ---
 
-### 5.2.2.4. Development Evidence for Sprint Review
+#### 5.2.2.4. Development Evidence for Sprint Review
 
 Durante el Sprint 2, el equipo implementó la base de la Web Application utilizando **Vue.js** junto con la biblioteca de componentes **PrimeVue** para la interfaz. Se configuró  la vista de catálogo de tours y un dashboard básico de monitoreo. El diseño visual siguió las guías de **Material Design** para asegurar consistencia y usabilidad.
 
@@ -2705,7 +2748,7 @@ Durante el Sprint 2, el equipo implementó la base de la Web Application utiliza
 
 ---
 
-### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
 El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **CloudFlare** y pipeline de integración continua en **GitHub Actions**, aplicando **GitFlow Workflow**, **Conventional Commits** y **Semantic Versioning** para el control de versiones.
 
@@ -2732,7 +2775,7 @@ El equipo completó la primera versión funcional de la Web Application. Los usu
 ![VitalTrek Web Application Tour Management](assets/images/screenshot-wa-tm.png)
 ---
 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de VitakTrek. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
 
@@ -2786,68 +2829,68 @@ Durante este Sprint, se ha logrado la definición y despliegue de los servicios 
 
 Repositorio: https://github.com/VitalTrek-Project/web-application
 
-### 5.2.2.7. Services Documentation Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 se realizaron las actividades relacionadas con el despliegue de la Web Application y configuración de servicios utilizados por ViltaTrek. Para ello, se utilizaron plataformas cloud y herramientas de integración que permitieron publicar la aplicación y conectar los servicios REST utilizados durante el desarrollo.
 
 En este Sprint se trabajó principalmente en la configuración del proyecto frontend, despliegue de la aplicación web y consumo de APIs simuladas mediante MockAPI para pruebas funcionales.
 
-### Infraestructura Utilizada
+#### Infraestructura Utilizada
 
 - GitHub como repositorio principal del proyecto.
 - GitHub Pages para el despliegue del frontend.
 - MockAPI para simulación de endpoints REST.
 - Vue.js + Vite para la construcción de la Web Application.
 
-### Proceso de Deployment
+#### Proceso de Deployment
 
-#### 1. Configuración del repositorio
+##### 1. Configuración del repositorio
 
 Se creó y configuró el repositorio principal de la Web Application en GitHub, organizando la estructura del proyecto y ramas de desarrollo.
 
-#### 2. Configuración de variables de entorno
+##### 2. Configuración de variables de entorno
 
 Se configuraron las variables de entorno necesarias para conectar la aplicación con los servicios REST simulados mediante MockAPI.
 
 ![env](/assets/images/env-api-url.png)
 
-#### 3. Build de producción
+##### 3. Build de producción
 
 Se generó la versión de producción de la aplicación utilizando Vite.
 
 ![Build](assets/images/run.png)
 
-#### 4. Configuración de Firebase
+##### 4. Configuración de Firebase
 
 Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
 
 ![Firebase](assets/images/firebase.png)
 
-#### 5. Publicación de la aplicación
+##### 5. Publicación de la aplicación
 
 La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
 
 ![Publicacion](assets/images/web-application-home.png)
 
-### Resultado
+##### Resultado
 
 La Web Application de VitalTrek fue desplegada exitosamente, permitiendo acceder a los módulos implementados durante el Sprint 2, incluyendo gestión de tours, turists, monitoreo logístico e infraestructura IoT.
 
 URL de despliegue: https://vitaltrek.vitaltrek.workers.dev/home
 
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
 
 ![Sprint2](assets/images/evidencia-git.png)
 
-## 5.2.3. Sprint 3
+### 5.2.3. Sprint 3
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 3 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación del backend RESTful API, abordando los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement, los cuales constituyen el núcleo funcional del servidor y habilitan la comunicación entre la web application y los servicios de la plataforma.
 
 ---
 
-### 5.2.3.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3
 
 La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las Technical Stories que serían abordadas durante la iteración.
 
@@ -2871,7 +2914,7 @@ El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva
 
 ---
 
-### 5.2.3.2. Aspect Leaders and Collaborators
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 3, el equipo identificó cinco aspectos principales correspondientes al alcance funcional del backend RESTful API de VitalTrek.
 
@@ -2885,7 +2928,7 @@ Durante el Sprint 3, el equipo identificó cinco aspectos principales correspond
 
 ---
 
-### 5.2.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3
 
 El objetivo principal del Sprint 3 fue implementar el backend RESTful API de VitalTrek, cubriendo los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement bajo arquitectura DDD en ASP.NET Core.
 
@@ -2933,7 +2976,7 @@ https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
 
 ---
 
-### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.4. Development Evidence for Sprint Review
 
 Durante el desarrollo del presente Sprint se realizaron avances relacionados con la implementación de los productos principales de la solución **VitalTrek**, abarcando la **Landing Page**, la **Web Application** y los **Web Services**.
 
@@ -2954,7 +2997,7 @@ A continuación, se presentan los commits relacionados con la implementación re
 | VitalTrek-Project/vital-trek-platform | feature/iot | f3a3e50 | chore(db): add EF migration for IoT bounded context | Se generó la migración de Entity Framework Core correspondiente al bounded context IoT, incluyendo el archivo Designer.cs y la actualización del Model Snapshot. | 20/06/2026 |
 | VitalTrek-Project/landing-page         | feature/call-to-action  | 44d19c3   | feat: add call-to-action in landing page               | Se agregó un llamado a la acción en la landing page para mejorar la interacción y navegación del usuario.  | 18/06/2026         |
 
-### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
 Durante este Sprint se logró avanzar en la implementación de las funcionalidades principales de **VitalTrek**, enfocándose en mejorar la experiencia del usuario y consolidar la solución propuesta.
 
@@ -2967,9 +3010,9 @@ Entre los principales resultados obtenidos se encuentran:
 
 Como evidencia del trabajo realizado durante el Sprint se presentan capturas de pantalla de las funcionalidades implementadas y mejoras realizadas en la solución.
 
-#### Evidencias de Implementación
+##### Evidencias de Implementación
 
-##### Landing Page
+###### Landing Page
 
 > Captura de la Landing Page actualizada.
 
@@ -3019,7 +3062,7 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 - Dashboard Tour Management
 ![VitalTrek Web Application Tour Management](assets/images/screenshot-wa-tm.png)
 
-##### Web Services
+###### Web Services
 
 > Evidencia de la implementación y funcionamiento de los servicios.
 
@@ -3039,14 +3082,14 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 ![Web Services](assets/images/web-service-9.png)
 
-##### Video de demostración
+###### Video de demostración
 
 Se adjunta un video donde se muestra la navegación y funcionamiento de las funcionalidades implementadas durante este Sprint:
 
 [Ver video de demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQB_RXGV--VQSLSPl1xwcGVeAcFsIlJbw8uShFUMwrIu-hk?e=cGXghl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3, el equipo desplegó la primera versión funcional del RESTful API propio de VitalTrek, dejando atrás el uso de servidores provisionales. La API fue implementada en ASP.NET Core (.NET 10) bajo una arquitectura de monolito modular basada en Domain-Driven Design, organizada en los bounded contexts de Monitoring, Engagement, TourManagement, Navigation e IoT. A continuación se documentan todos los endpoints disponibles en la API que el frontend puede consumir a partir de este sprint.
 
@@ -3181,7 +3224,7 @@ URL de documentación interactiva (Swagger): [https://backend-vitaltrek-producti
 
 Commits relacionados con la implementación de estos endpoints en este Sprint: `c096f41`, `1bb7ef2`, `f3a3e50`, `653414b`, `20e928b`
 
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 3 se realizaron las actividades necesarias para desplegar la primera versión funcional del Backend API de VitalTrek. A continuación se describe el proceso ejecutado y se presenta la evidencia correspondiente.
 
@@ -3225,10 +3268,7 @@ Se verificó el correcto funcionamiento de la API exponiendo la documentación i
 ![Backend - Swagger funcionando en producción](assets/images/backend-5.png)
 *Nota.* Elaboración propia.
 
-
-
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+#### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 3, el equipo desarrolló colaborativamentew la tercera version de Landing Page,  segunda versión de la Web Application y primera version de Web Sevices de VitalTrek, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
 
@@ -3241,22 +3281,21 @@ Landing Page:
 Landing Page:
 ![ServicesvSprint3](assets/images/back-sprint-3.png)
 
+## 5.3. Validation Interviews.
 
-# 5.3. Validation Interviews.
-
-## 5.3.1. Diseño de Entrevistas.
+### 5.3.1. Diseño de Entrevistas.
 
 
 Para asegurar una evaluación estructurada, se han definido los elementos a presentar y los flujos de usuario (User Flows) que cada segmento objetivo debe completar durante la sesión.
 
-### Segmento 1: Administradores de Agencia de Turismo
+#### Segmento 1: Administradores de Agencia de Turismo
 *   **Elementos a incluir:** Landing Page (Sección agencias) y Web Application (Vista Administrador).
 *   **User Flows a validar:**
     1.  **Comprensión de Valor:** Leer el Landing Page e identificar la solución principal.
     2.  **Gestión de Catálogo:** Navegar por el sistema y registrar un nuevo tour con sus respectivos checkpoints.
     3.  **Monitoreo de Expedición:** Acceder al dashboard de una expedición simulada en curso, identificar el estado de un grupo y localizar una alerta de incidente.
 
-### Segmento 2: Turistas / Trekkers
+#### Segmento 2: Turistas / Trekkers
 *   **Elementos a incluir:** Landing Page (Sección turistas) y Mobile/Web App (Vista Turista).
 *   **User Flows a validar:**
     1.  **Comprensión de Valor:** Leer el Landing Page e identificar los beneficios de seguridad y uso offline.
@@ -3267,11 +3306,11 @@ Para asegurar una evaluación estructurada, se han definido los elementos a pres
 
 ---
 
-## Guía de Preguntas para las Entrevistas
+#### Guía de Preguntas para las Entrevistas
 
 Durante las sesiones de validación, el moderador utilizará las siguientes preguntas estructuradas en tres fases: contexto previo, ejecución de tareas y apreciación final.
 
-### Preguntas para el Segmento 1 (Agencias de Turismo)
+#### Preguntas para el Segmento 1 (Agencias de Turismo)
 
 **Fase 1: Preguntas de Contexto (Antes de mostrar la plataforma)**
 *   Actualmente, ¿cómo monitoreas la ubicación y el estado de tus grupos cuando están en una expedición?
@@ -3288,7 +3327,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 *   ¿Estarías dispuesto a implementar un sistema como VitalTrek en tu agencia? ¿Qué te detendría de hacerlo?
 *   ¿Hay alguna funcionalidad adicional que consideres indispensable para tu operación diaria?
 
-### Preguntas para el Segmento 2 (Turistas / Trekkers)
+#### Preguntas para el Segmento 2 (Turistas / Trekkers)
 
 **Fase 1: Preguntas de Contexto (Antes de mostrar la plataforma)**
 *   Cuando vas de trekking o realizas un tour en zonas de naturaleza, ¿cuál es tu mayor preocupación respecto a tu seguridad o ubicación?
@@ -3306,7 +3345,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 *   ¿Qué te pareció la apariencia general y la facilidad de uso de la aplicación?
 *   ¿Cambiarías, agregarías o quitarías algo para que la aplicación sea perfecta para tus viajes?
 
-## 5.3.1. Registro de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
 
 **Entrevista N° 1**
 
@@ -3366,7 +3405,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 **Resumen:** Durante la entrevista de validación, María Fernanda expresó que una de sus principales preocupaciones al realizar actividades de trekking es perderse o no poder solicitar ayuda en caso de emergencia. Tras interactuar con la landing page y la aplicación web de VitalTrek, destacó que la solución transmite seguridad y confianza gracias a sus funciones de orientación, navegación y reporte de incidentes. Además, consideró que la aplicación es intuitiva, fácil de usar y adecuada para cualquier tipo de usuario. También señaló que la integración con dispositivos wearables podría brindarle mayor tranquilidad durante sus recorridos. Finalmente, sugirió incorporar más información sobre puntos de emergencia, opciones de comunicación con familiares y la posibilidad de utilizar un tema claro dentro de la aplicación.
 
-## 5.3.1. Evaluaciones según heurísticas.
+### 5.3.3. Evaluaciones según heurísticas.
 
 **CARRERA** : Ingeniería de Software
 **CURSO** : Aplicaciones Web
@@ -3509,7 +3548,7 @@ Esto puede generar incertidumbre en situaciones de emergencia, ya que el usuario
   Implementar un panel permanente de seguimiento de incidencias donde el usuario pueda visualizar el estado actual de su reporte. Se recomienda mostrar información como la fecha y hora del reporte, ubicación enviada, nivel de prioridad, tiempo estimado de respuesta y actualizaciones en tiempo real por parte de la agencia. Además, utilizar indicadores visuales de progreso para comunicar claramente el avance de la atención de la incidencia.
 
 
-# 5.4 Video About The Product
+## 5.4 Video About The Product
 
 La presente sección tiene como propósito introducir y detallar el contenido del Video About-the-Product de VitalTrek. Este recurso audiovisual ha sido desarrollado como una herramienta de comunicación estratégica orientada a dos audiencias clave.
 
@@ -3521,7 +3560,9 @@ Por un lado, está diseñado para los visitantes de la Landing Page, brindándol
 
 ![Video About The Product](assets/images/product.png)
 
-### Conclusiones
+# Conclusiones y Recomendaciones
+
+## Conclusiones
 Viabilidad de la Arquitectura Offline-First: El desarrollo de VitalTrek demuestra la factibilidad de resolver la "ceguera operativa" en el turismo de aventura peruano mediante un ecosistema IoT asincrónico. La sincronización basada en ráfagas de datos a través de checkpoints Bluetooth se confirma como una alternativa técnica y financieramente viable frente a las costosas soluciones 100% satelitales en zonas de baja o nula conectividad.
 
 Diseño Centrado en el Usuario y el Dominio: La aplicación rigurosa de metodologías de descubrimiento (Lean UX, Empathy Mapping) y modelado (Event Storming, Domain-Driven Design) permitió estructurar un software que atiende con precisión las necesidades reales de dos segmentos distintos: el control operativo para las agencias (B2B) y la experiencia segura e interactiva para los turistas (B2C).
@@ -3530,7 +3571,7 @@ Escalabilidad Tecnológica: La estructuración del sistema mediante Bounded Cont
 
 Cumplimiento del Outcome 5 de ABET: La adopción de prácticas ágiles de desarrollo (Scrum) y herramientas de gestión de configuración de software (GitFlow, Conventional Commits en GitHub) fomentó un entorno de trabajo organizado, inclusivo y colaborativo. Esto permitió al equipo Nexum Devs distribuir el liderazgo efectivamente, cumplir con los objetivos de cada Sprint y garantizar la trazabilidad completa del ciclo de vida del producto.
 
-### Recomendaciones
+## Recomendaciones
 Validación en Entornos Reales: Se recomienda realizar pruebas de campo piloto (Beta Testing) en rutas de alta exigencia geográfica y climática (como la cordillera en Áncash o el Camino Inca en Cusco) para medir empíricamente la tolerancia a fallos del hardware IoT y la latencia real en la sincronización de los checkpoints.
 
 Evolución hacia Tecnologías Satelitales: A mediano plazo, se sugiere investigar la integración de tecnologías emergentes de conectividad (como Starlink Direct to Cell) dentro de la capa de infraestructura del sistema. Esto permitiría complementar la propuesta de sincronización asincrónica con envíos de alertas SOS satelitales sin necesidad de rediseñar la arquitectura modular de la plataforma.
@@ -3539,7 +3580,7 @@ Estrategia de Adopción Digital: Dado el bajo nivel de digitalización identific
 
 Expansión de la Gamificación: Para fortalecer la adopción por parte del turista (B2C), se sugiere profundizar en el módulo de Loyalty (Gamification), incluyendo recompensas, insignias y métricas sociales que incentiven al usuario a seguir contratando agencias afiliadas a la red de VitalTrek.
 
-### Video About-the-Team
+## Video About-the-Team
 En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovisual diseñado para dar a conocer a los miembros fundadores de la startup Nexum Devs. El video tiene como propósito generar confianza técnica y comercial al mostrar los rostros y perfiles profesionales detrás del desarrollo de VitalTrek. Durante el material, cada integrante expone su rol específico dentro del ciclo de desarrollo, la forma en que se estructuró el trabajo colaborativo y la visión compartida que impulsó al equipo a crear una solución tecnológica innovadora para salvaguardar la vida de los turistas en el ecosistema de aventura peruano.
 
 | **URL** | **Inicio** | **Duración** |
@@ -3547,3 +3588,7 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
 
 ![Video About The Team](assets/images/video-team.png)
+
+# Bibliografía
+
+# Anexos
