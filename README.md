@@ -2630,8 +2630,34 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 ---
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 1, el equipo desplegó la Landing Page de VitalTrek utilizando **GitHub Pages** como plataforma de publicación, siguiendo la configuración descrita en la sección 5.1.4. El proceso se ejecutó directamente desde el repositorio `vitaltrek-landing-page`, sin requerir procesos de build ni infraestructura adicional, dado que el sitio fue desarrollado con HTML5, CSS3 y JavaScript puro.
+
+El despliegue se configuró desde la sección **Settings > Pages** del repositorio, seleccionando la rama `main` como fuente de publicación y el directorio raíz (`/root`) como contenido servido. Una vez guardada la configuración, GitHub Pages generó automáticamente la URL pública del sitio, verificándose el correcto renderizado de todas las secciones implementadas durante el sprint (Hero, Beneficios por segmento, Funcionalidades, Demo, Compatibilidad offline, Contacto, Seguridad de datos, Testimonios, Equipo y Footer), incluyendo el correcto funcionamiento del toggle de idioma EN/ES.
+
+**Repositorio fuente:** https://github.com/VitalTrek-Project/landing-page
+
+**URL pública desplegada:** https://vitaltrek-project.github.io/landing-page/
+
+**Figura**
+*Evidencia de deployment 1 — Configuración de GitHub Pages*
+![Landing Page - Configuración GitHub Pages](assets/images/landing-deploy-1.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 2 — Repositorio y commit de despliegue*
+![Landing Page - Repositorio y commits](assets/images/landing-deploy-2.png)
+*Nota.* Elaboración propia.
+
+**Figura**
+*Evidencia de deployment 3 — Sitio publicado y accesible públicamente*
+![Landing Page - Sitio en producción](assets/images/landing-deploy-3.png)
+*Nota.* Elaboración propia.
+
+Esta automatización garantiza que cada `push` a la rama `main` actualice automáticamente la versión publicada, cumpliendo con el criterio de aceptación del Sprint Goal referido a la disponibilidad pública y bilingüe del sitio.
+
+---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
