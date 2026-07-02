@@ -716,7 +716,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 ![Entrevista-2](assets/images/Entrevista2.png)
 
-**Resumen:** Gabriela, aficionada a conocer lugares nuevos y realizar actividades fuera de lo común, suele organizar expediciones como escalada en nevados con amigos del trabajo aprovechando fechas especiales o promociones en redes sociales. Utiliza principalmente Google Maps para ubicarse y comparte su ruta con sus padres. Durante su última experiencia en el nevado Rajuntay experimentó miedo y dificultades respiratorias al quedarse rezagada, notando que los mecanismos de seguridad de la agencia eran deficientes y los guías estaban muy distanciados para atender emergencias a tiempo. Le preocupa enormemente la falta de señal en zonas remotas, ya que esto le impidió comunicarse con la agencia cuando una de sus compañeras necesitó ayuda médica. Aunque el uso de tecnología para emergencias podría serle útil, muestra una fuerte desconfianza respecto a la privacidad de sus datos, temiendo que las agencias hagan un mal uso de su información personal. Su dispositivo principal es el celular y su canal digital preferido es Instagram para descubrir actividades de aventura.
+**Resumen:** Gabriela, aficionada a conocer lugares nuevos y realizar actividades fuera de lo común, suele organizar expediciones como escalada en nevados con amigos del trabajo aprovechando fechas especiales o promociones en redes sociales. Utiliza principalmente Google Maps para ubicarse y comparte su ruta con sus padres. Durante su última experiencia en el nevado Rajuntay experimentó miedo y dificultades respiratorias al quedarse rezagada, notando que los mecanismos de seguridad de la agencia eran deficientes y los guías estaban muy distanciados para atender emergencias a tiempo. Le preocupa enormemente la falta de señal en zonas remotas, ya que esto le impidió comunicarse con la agencia cuando una de sus compañeras necesitó ayuda médica. Aunque el uso de tecnología para emergencias podría serle útil, muestra una fuerte desconfianza respecto a la privacidad de sus datos, temiendo que las agencias hagan un mal uso de su información personal. Su dispositivo principal es el celular iPhone y su canal digital preferido es Instagram para descubrir actividades de aventura.
 
 ---
 
@@ -844,13 +844,13 @@ Las principales características consideradas para la construcción de los User 
  
 Se ha elaborado una ficha de User Persona por cada segmento objetivo, utilizando la herramienta UXPressia siguiendo las mejores prácticas de la industria. El primer User Persona, Ana Lucía Quispe, representa al segmento de agencias y operadores de turismo de aventura, mientras que el segundo, Marco Rodriguez, representa al segmento de turistas de aventura nacionales y extranjeros que contratan los servicios de estas agencias.
  
-**User Persona 1: Ana Lucía Quispe**
+**User Persona 1: Ana Lucía Quispe - Segmento de Dueños o Responsables de Agencias de Turismo de Aventura**
  
 ![](assets/images/User-Persona1.png)
 
 Representa al segmento de agencias y operadores de turismo de aventura. Este arquetipo encarna a la gerente de operaciones de una agencia mediana en Cusco, responsable de coordinar guías, supervisar tours simultáneos y garantizar la seguridad de los grupos en zonas remotas. Sus motivaciones giran en torno a la profesionalización operativa, la reducción del tiempo de respuesta ante emergencias y la diferenciación competitiva mediante el uso de tecnología. Sus principales frustraciones se relacionan con la pérdida de comunicación con los guías por horas, la dependencia de WhatsApp y radios analógicas, y la ausencia de herramientas digitales adaptadas al contexto y al presupuesto de una micro o pequeña empresa peruana.
 
-**User Persona 2: Marco Rodriguez**
+**User Persona 2: Marco Rodriguez - Segmento de Turistas de Aventura**
  
 ![](assets/images/User-Persona2.png)
 
