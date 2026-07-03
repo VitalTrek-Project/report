@@ -31,11 +31,16 @@
 **Abril 2026-10**
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor                                | Descripción de modificación                                                                                                                                                                                          |
-|---------|-------------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0.1     | 15/04/2026  | Rodriguez Rojas, Miler Alexander     | Se creo la caratula, el registro de versiones, la tabla con los colaboration insights, el student outcome, la descripción del startup, los perfiles de los integrantes y la sección de antecedentes y problematicas. |
-| 0.2     | 16/04/2026  | Alfaro Mallma, Alberto Joaquin       | Se añadio la sección de competidores, el análisis competitivo, las estrategias y las táticas frente a los competidores, el diseño de las entrevistas y las consideraciones metodológicas.                            |
-| 0.3     | 16/04/2026  | Verastigue Martinez, Giancarlo Jose  | Se añadieron los Lean UX Problem Statements, los Lean UX Assumptions, el Lean UX Hypothesis Statements y el Lean Ux Canvas.                                                                                          |
+| Versión | Fecha       | Autor                               | Descripción de modificación                                                                                                                                                                                          |
+|---------|-------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.1     | 15/04/2026  | Rodriguez Rojas, Miler Alexander    | Se creo la caratula, el registro de versiones, la tabla con los colaboration insights, el student outcome, la descripción del startup, los perfiles de los integrantes y la sección de antecedentes y problematicas. |
+| 0.2     | 16/04/2026  | Alfaro Mallma, Alberto Joaquin      | Se añadio la sección de competidores, el análisis competitivo, las estrategias y las táticas frente a los competidores, el diseño de las entrevistas y las consideraciones metodológicas.                            |
+| 0.3     | 16/04/2026  | Verastigue Martinez, Giancarlo Jose | Se añadieron los Lean UX Problem Statements, los Lean UX Assumptions, el Lean UX Hypothesis Statements y el Lean Ux Canvas.                                                                                          |
+| 0.4     | 18/04/2026  | Alfaro Mallma, Alberto Joaquin      | Se actualizó el análisis competitivo, las estrategias y tácticas frente a Competidores; aparte, se añadio el registro de la 1ra, 2da y 3ra entrevista.                                                               |
+| 0.5     | 19/04/2026  | Vilchez Vite, Gabriel Alejandro     | Se añadio el el registro de la 4ta entrevista.                                                                                                                                                                       |
+| 0.6     | 20/04/2026  | Rodriguez Rojas, Miler Alexander    | Se actualizó el registro de las primeras 4 entrevistas.                                                                                                                                                              |
+| 0.7     | 21/04/2026  | Verastigue Martinez, Giancarlo Jose | Se añadieron los user-stories.                                                                                                                                                                                       |
+| 0.8     | 21/04/2026  | Quispe Perez, Eder Edu              | Se añadieron los user Persona.                                                                                                                                                                                       |
 # Project Report Collaboration Insights
 
 Enlace del repositorio: https://github.com/VitalTrek-Project
