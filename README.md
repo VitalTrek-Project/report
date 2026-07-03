@@ -625,7 +625,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCTR9ftr5EBSqyKIiaLu-InAfHmA15wMaRtQdTGF4vHQHI?e=SLgOLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 11:30 min |
+| Dueño o responsable de agencia de turismo de aventura | [ttps://surl.li/aghnmp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCTR9ftr5EBSqyKIiaLu-InAfHmA15wMaRtQdTGF4vHQHI?e=SLgOLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 11:30 min |
 
 ![Entrevista-1](assets/images/entrevista-agencia-1.png)
 
@@ -641,7 +641,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
+| Dueño o responsable de agencia de turismo de aventura | [https://surl.li/bxfsht](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
 
 ![Entrevista-2](assets/images/entrevista-agencia-2.png)
 
@@ -675,7 +675,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Miler Rodriguez 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQDmL-DP2xwmQ4BbvtwR-lGLAS0P8EhgPotM1JXGatn2fwg?e=TgCalk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 5:49 min |
+| Turista de aventura | [https://surl.li/wtbakg](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQDmL-DP2xwmQ4BbvtwR-lGLAS0P8EhgPotM1JXGatn2fwg?e=TgCalk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 5:49 min |
 
 ![Entrevista-1](assets/images/Entrevista1.png)
 
@@ -691,7 +691,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Edu Quispe 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAFRDJfQqYVS4y0Y-mceqLcAXUAkL-9vmY98O6DfQsNapw?e=iSQlI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:03 min |
+| Turista de aventura | [https://surl.li/wrchlv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAFRDJfQqYVS4y0Y-mceqLcAXUAkL-9vmY98O6DfQsNapw?e=iSQlI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:03 min |
 
 ![Entrevista-2](assets/images/Entrevista2.png)
 
@@ -707,7 +707,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 1do seg obj - Joaquin Alfaro 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAzzJK1Z2EjRKwAnDDhYymlASIYaE0KOMWSH67esO8b9GA?e=Aav4mr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:05 min |
+| Turista de aventura | [https://surl.li/scgbfh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAzzJK1Z2EjRKwAnDDhYymlASIYaE0KOMWSH67esO8b9GA?e=Aav4mr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:05 min |
 
 ![Entrevista-3](assets/images/Entrevista3.png)
 
@@ -723,7 +723,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Miguel Morales.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQDH0cMptlBfRIQ0xnwLJmCxAaaNZU0UNPGppb0A9gLqCO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bINUkT) | 00:00 | 9:49 min |
+| Turista de aventura | [https://surl.li/qqabud](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQDH0cMptlBfRIQ0xnwLJmCxAaaNZU0UNPGppb0A9gLqCO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bINUkT) | 00:00 | 9:49 min |
 
 ![Entrevista-4](assets/images/Entrevista4.png)
 
@@ -739,7 +739,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Edu Quispe.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBLNNCNz8paSbQPCQy2fF26AewW2P1FYWEaHIDfdOiuAw4?e=ZlxA2l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:33 min |
+| Turista de aventura | [https://surl.li/lvxaav](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBLNNCNz8paSbQPCQy2fF26AewW2P1FYWEaHIDfdOiuAw4?e=ZlxA2l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:33 min |
 
 ![Entrevista-5](assets/images/Entrevista5.png)
 
@@ -2045,6 +2045,7 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 
 Prototipo de la aplicación web VitalTrek en Figma:
 [Prototipo-VitalTrek](https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=1825-73&t=QlXWry40dvBZPTwC-0)
+https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=1825-73&t=QlXWry40dvBZPTwC-0
 
 ### 4.6. Domain-Driven Software Architecture
 
@@ -3315,7 +3316,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBYw8DLtMrmRJOENG7mRxkcAeHRhd7EZT2GydyERlkPBS4?e=FFndIG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:51 min |
+| Agencia de turismo de aventura | [https://surl.li/dzpeqt](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBYw8DLtMrmRJOENG7mRxkcAeHRhd7EZT2GydyERlkPBS4?e=FFndIG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:51 min |
 
 ![Entrevista-1](assets/images/entrevista-Eder-Quispe.png)
 
@@ -3329,7 +3330,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 | **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCBBCyU5RX7Tp_-SKCmKpLaATHf8YjEABhv9EEgrqmz8mk?e=s4NB67&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 11:45 min    |
+| Turistas / Trekkers  | [https://surl.li/fuxtlu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCBBCyU5RX7Tp_-SKCmKpLaATHf8YjEABhv9EEgrqmz8mk?e=s4NB67&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 11:45 min    |
 
 ![Entrevista-2](assets/images/entrevista-Gabriel-Vilchez.png)
 
@@ -3345,7 +3346,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 | **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO)  | 00:00      | 10:12 min    |
+| Turistas / Trekkers  | [https://surl.li/aayhte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO)  | 00:00      | 10:12 min    |
 
 ![Entrevista-3](assets/images/entrevista-validacion-3.png)
 
@@ -3359,7 +3360,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 | **Segmento** | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Trekkers     | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQCEkDYr6rMhTpmwXJGnUesHAefk8bDpdLb-04qhnGCEvOE?e=fXC63b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 06:39 min    |
+| Trekkers     | [https://surl.li/vpvmiq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQCEkDYr6rMhTpmwXJGnUesHAefk8bDpdLb-04qhnGCEvOE?e=fXC63b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 06:39 min    |
 
 ![Entrevista-4](assets/images/entrevista-4.png)
 
@@ -3516,7 +3517,7 @@ Por un lado, está diseñado para los visitantes de la Landing Page, brindándol
 
 | **URL** | **Inicio** | **Duración** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 00:57 min    |
+| [https://surl.li/taewvi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 00:57 min    |
 
 ![Video About The Product](assets/images/product.png)
 
@@ -3543,6 +3544,6 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 | **URL** | **Inicio** | **Duración** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
+| [https://surl.li/wcwjrb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
 
 ![Video About The Team](assets/images/video-team.png)
