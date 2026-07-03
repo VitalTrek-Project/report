@@ -673,7 +673,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCTR9ftr5EBSqyKIiaLu-InAfHmA15wMaRtQdTGF4vHQHI?e=SLgOLa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 11:30 min |
+| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAbgU4zD7UFwS-wKDqt4aTbA) | 00:00 | 11:30 min |
 
 ![Entrevista-1](assets/images/entrevista-agencia-1.png)
 
@@ -705,7 +705,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAem8RgDlGJlKqcoQkWc_28A?e=233heE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:25 min |
+| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAZYq8UmbUTzux0Ck11ZWVq8) | 00:00 | 10:25 min |
 
 ![Entrevista-3](assets/images/entrevista-agencia-3.png)
 
