@@ -23,13 +23,13 @@
 
 ## Integrantes
 
-| N.º | Integrante | Código |
-|:--:|:-----------|:-------:|
-| 1 | Alfaro Mallma, Alberto Joaquin | U20241A267 |
-| 2 | Quispe Perez, Eder Edu | U202324623 |
-| 3 | Rodriguez Rojas, Miler Alexander | U20241A827 |
-| 4 | Verastigue Martinez, Giancarlo Jose | U202419483 |
-| 5 | Vilchez Vite, Gabriel Alejandro | U202416903 |
+| N.º | Integrante                          |   Código   |
+|:---:|:------------------------------------|:----------:|
+|  1  | Alfaro Mallma, Alberto Joaquin      | U20241A267 |
+|  2  | Quispe Perez, Eder Edu              | U202324623 |
+|  3  | Rodriguez Rojas, Miler Alexander    | U20241A827 |
+|  4  | Verastigue Martinez, Giancarlo Jose | U202419483 |
+|  5  | Vilchez Vite, Gabriel Alejandro     | U202416903 |
 
 **Abril 2026-10**
 
@@ -70,7 +70,20 @@
 | 0.31    | 12/05/2026  | Verastigue Martinez, Giancarlo Jose | Se añadio el Software Architecture Context Diagram, el Software Architecture Container Diagrams y el Software Architecture Components Diagrams.                                                                                                                                |
 | 0.32    | 12/05/2026  | Rodriguez Rojas, Miler Alexander    | Se actualizó el Product Backlog.                                                                                                                                                                                                                                               |
 | 0.33    | 13/05/2026  | Alfaro Mallma, Alberto Joaquin      | Se actualizó el registro de las 3 primeras entrevistas; aparte, se añadio los Landing Page Wireframes, los Landing Page Mock-ups y el registro de la entrevista a Rodrigo Quispe Mendoza.                                                                                      |
-| 0.34    | 13/05/2026  | Vilchez Vite, Gabriel Alejandro     | Se actualizaron los User Goals.                                                                                                                                                                                                                                                |
+| 0.34    | 13/05/2026  | Vilchez Vite, Gabriel Alejandro     | Se actualizó los User Goals.                                                                                                                                                                                                                                                   |
+| 0.35    | 15/05/2026  | Rodriguez Rojas, Miler Alexander    | Se actualizó el Software Configuration Managment.                                                                                                                                                                                                                              |
+| 0.36    | 15/05/2026  | Alfaro Mallma, Alberto Joaquin      | Se añadio el Web Applications Prototyping y el Sprint 2; aparte, se actualizó el Student Outcome, el Web Applications UX/UI Design, el Source Code Management y el Sprint 1.                                                                                                   |
+| 0.37    | 15/05/2026  | Vilchez Vite, Gabriel Alejandro     | Se actualizó el Software Configuration Management.                                                                                                                                                                                                                             |
+| 0.38    | 26/05/2026  | Verastigue Martinez, Giancarlo Jose | Se corrigió el Sprint Backlog 1 y 2, el Development Evidence for Sprint Review, el Execution Evidence for Sprint Review, el Services Documentation Evidence for Sprint Review, el Team Collaboration Insights during Sprint y el Design-Level EventStorming.                   |
+| 0.39    | 07/06/2025  | Verastigue Martinez, Giancarlo Jose | Se actualizó las Tecnical Stories.                                                                                                                                                                                                                                             |
+| 0.40    | 16/06/2026  | Alfaro Mallma, Alberto Joaquin      | Se actualizó la sección de Configuración de Firebase y de Publicación de la aplicación.                                                                                                                                                                                        |
+| 0.41    | 16/06/2026  | Verastigue Martinez, Giancarlo Jose | Se añadio el Sprint 3.                                                                                                                                                                                                                                                         |
+| 0.42    | 20/06/2026  | Quispe Perez, Eder Edu              | Se añadio la 1ra entrevista de validación, las Evaluaciones según heurísticas y el video de demostración; aparte, se actualizó el Sprint 3 y el Execution Evidence for Sprint Review.                                                                                          |
+| 0.43    | 20/06/2026  | Vilchez Vite, Gabriel Alejandro     | Se añadio la 2da entrevista de evaluación.                                                                                                                                                                                                                                     |
+| 0.44    | 20/06/2026  | Verastigue Martinez, Giancarlo Jose | Se añadio la 3ra entrevista de validación, el Team Collaboration Insights during Sprint, los Validation Interviews y el Video About The Product.                                                                                                                               |
+| 0.45    | 20/06/2026  | Rodriguez Rojas, Miler Alexander    | Se añadio la 4ta entrevista de validación.                                                                                                                                                                                                                                     |
+| 0.46    | 20/06/2026  | Alfaro Mallma, Alberto Joaquin      | Se aãdio la sección de Software Deployment Evidence for Sprint Review y la sección de Services Documentation Evidence for Sprint Review.                                                                                                                                       |
+
 # Project Report Collaboration Insights
 
 Enlace del repositorio: https://github.com/VitalTrek-Project
