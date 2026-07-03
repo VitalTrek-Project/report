@@ -1,34 +1,38 @@
 ﻿![Logo de la Universidad Peruana de Ciencias Aplicadas](assets/images/upc-logoo.png)
 
-# Universidad Peruana de Ciencias Aplicadas
+# Universidad Peruana de Ciencias Aplicadas (UPC)
 
-**Facultad de Ingeniería**
+## Carrera de Ingeniería de Software
 
-**Ingeniería de Software**
+### Aplicaciones Web
 
-**Ciclo:** 5
+---
 
-**Aplicaciones Web - 1ASI0730**
+| **Curso** | **NRC** | **Sección** |
+|:----------|:-------:|:-----------:|
+| 1ASI0730 | 12206 | Aplicaciones Web |
 
-**NRC:** 12206
+**Profesor:** Angel Augusto Velásquez Nuñez
 
-**Profesor:** Velásquez Nuñez, Angel Augusto
+**Informe de Trabajo Final**
 
-**"Informe de Trabajo Final"**
-
-**Startup:** Nexum Devs
-
+**Startup:** Nexum Devs  
 **Producto:** VitalTrek
 
-**Integrantes:**
+---
 
-- Alfaro Mallma, Alberto Joaquin - U20241A267
-- Quispe Perez, Eder Edu - U202324623
-- Rodriguez Rojas, Miler Alexander - U20241A827
-- Verastigue Martinez, Giancarlo Jose - U202419483
-- Vilchez Vite, Gabriel Alejandro - U202416903
+## Integrantes
+
+| N.º | Integrante | Código |
+|:--:|:-----------|:-------:|
+| 1 | Alfaro Mallma, Alberto Joaquin | U20241A267 |
+| 2 | Quispe Perez, Eder Edu | U202324623 |
+| 3 | Rodriguez Rojas, Miler Alexander | U20241A827 |
+| 4 | Verastigue Martinez, Giancarlo Jose | U202419483 |
+| 5 | Vilchez Vite, Gabriel Alejandro | U202416903 |
 
 **Abril 2026-10**
+
 # Registro de Versiones del Informe
 
 | Versión | Fecha       | Autor                               | Descripción de modificación                                                                                                                                                                                                                                                    |
@@ -68,7 +72,10 @@ Enlace del repositorio: https://github.com/VitalTrek-Project
 
 # Tabla de Contenido
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
+
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -95,6 +102,7 @@ Enlace del repositorio: https://github.com/VitalTrek-Project
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
@@ -166,18 +174,24 @@ Enlace del repositorio: https://github.com/VitalTrek-Project
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 
-- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-  - [Conclusiones y recomendaciones](#conclusiones)
-  - [Recomendaciones](#recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
-  - [Bibliografía](#bibliografía)
-  - [Anexos](#anexos)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 # Criterios y acciones
 El curso contribuye al cumplimiento del Student Outcome ABET - EAC - Student Outcome 5, cuyo criterio es la capacidad de funcionar efectivamente en un equipo cuyos miembros
@@ -384,51 +398,75 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### Statement 1: Preventive Biometric Monitoring
+### Hypothesis Statement 01
 
-*Creemos que* equipar a los turistas con wearables IoT que monitorean sus signos vitales permitirá a los guías anticiparse a problemas de salud severos como el mal de altura o agotamiento extremo antes de que se conviertan en emergencias críticas.
+**Creemos que** lograremos mejorar la seguridad y la capacidad de respuesta ante emergencias durante las rutas de trekking.
 
-*Sabremos que hemos tenido éxito cuando* los reportes operativos de las agencias muestren una reducción del 40% en evacuaciones médicas de emergencia durante los primeros seis meses de uso en campo.
+**Si** los turistas y las agencias de turismo de aventura
 
----
+**Obtienen** un monitoreo continuo de los signos vitales y la ubicación de los excursionistas durante todo el recorrido,
 
-#### Statement 2: Asynchronous BLE Synchronization
-
-*Creemos que* implementar checkpoints Bluetooth estratégicos a lo largo de la ruta para sincronizar datos de forma asincrónica garantizará la trazabilidad logística en zonas sin cobertura celular, sin necesidad de costosos equipos satelitales.
-
-*Sabremos que hemos tenido éxito cuando* los dashboards de la agencia registren exitosamente el paso del 95% de los turistas por los puntos de control con una pérdida de paquetes de datos inferior al 5%.
+**Con** un ecosistema de dispositivos IoT y una plataforma web que permita visualizar la información en tiempo real.
 
 ---
 
-#### Statement 3: Offline Navigation and Autonomy
+### Hypothesis Statement 02
 
-*Creemos que* proveer a los turistas con una aplicación móvil que contenga mapas topográficos interactivos e información contextual disponible 100% offline reducirá su ansiedad ante la desconexión y mejorará su percepción de seguridad durante el recorrido.
+**Creemos que** lograremos garantizar el seguimiento de los excursionistas incluso en zonas sin cobertura de red.
 
-*Sabremos que hemos tenido éxito cuando* las encuestas de satisfacción post-tour indiquen que al menos el 85% de los usuarios califiquen su sensación de seguridad como "Alta" o "Muy Alta" durante los tramos de cero conectividad.
+**Si** las agencias de turismo de aventura
 
----
+**Obtienen** la sincronización automática de los datos recopilados durante la ruta sin depender de una conexión a Internet,
 
-#### Statement 4: Centralized Dashboards and Alerts
-
-*Creemos que* centralizar la información de múltiples grupos simultáneos en un único dashboard web con alertas automatizadas por anomalías reducirá la carga operativa de los responsables de la agencia y mejorará su capacidad de respuesta ante incidentes.
-
-*Sabremos que hemos tenido éxito cuando* el tiempo promedio de respuesta de la agencia ante una alerta temprana, desde que se detecta la anomalía hasta que se notifica al guía en campo, se reduzca a menos de 5 minutos.
+**Con** una infraestructura basada en tecnología Bluetooth Low Energy (BLE) y puntos de sincronización estratégicamente ubicados.
 
 ---
 
-#### Statement 5: Digital Experience Record
+### Hypothesis Statement 03
 
-*Creemos que* generar un resumen digital interactivo al finalizar el recorrido, que incluya la ruta trazada, hitos alcanzados y métricas físicas, incentivará a los turistas a compartir su logro en redes sociales, generando visibilidad orgánica para la agencia operadora.
+**Creemos que** lograremos incrementar la confianza y autonomía de los turistas durante las rutas de trekking.
 
-*Sabremos que hemos tenido éxito cuando* al menos el 20% de los turistas que finalizan un tour compartan su resumen en redes sociales etiquetando a la agencia en los primeros 30 días posteriores al lanzamiento.
+**Si** los excursionistas
+
+**Obtienen** acceso a mapas topográficos, información relevante de la ruta y herramientas de navegación sin necesidad de conexión a Internet,
+
+**Con** una aplicación móvil que funcione completamente en modo offline.
 
 ---
 
-#### Statement 6: Hybrid SaaS/HaaS Model Adoption
+### Hypothesis Statement 04
 
-*Creemos que* ofrecer la infraestructura (wearables y checkpoints) bajo un modelo de alquiler combinado con una suscripción de software escalable según el volumen de turistas derribará la barrera de entrada económica para las agencias medianas y acelerará su adopción.
+**Creemos que** lograremos optimizar la gestión operativa de las agencias de turismo de aventura.
 
-*Sabremos que hemos tenido éxito cuando* logremos una tasa de conversión del 25% de agencias que pasan de la fase de piloto gratuito a suscripción anual pagada dentro de un periodo de 3 meses.
+**Si** los operadores turísticos
+
+**Obtienen** una visualización centralizada del estado de todos los grupos de excursionistas y alertas automáticas ante posibles incidentes,
+
+**Con** un dashboard web inteligente que consolide la información y genere notificaciones en tiempo real.
+
+---
+
+### Hypothesis Statement 05
+
+**Creemos que** lograremos aumentar la satisfacción de los turistas y fortalecer la visibilidad de las agencias de turismo.
+
+**Si** los excursionistas
+
+**Obtienen** un resumen digital de su experiencia con la ruta recorrida, estadísticas del viaje y logros alcanzados,
+
+**Con** una plataforma que genere automáticamente un historial interactivo y fácil de compartir en redes sociales.
+
+---
+
+### Hypothesis Statement 06
+
+**Creemos que** lograremos facilitar la adopción de VitalTrek por parte de las agencias de turismo de aventura.
+
+**Si** las agencias de turismo
+
+**Obtienen** acceso a una solución tecnológica escalable sin realizar una alta inversión inicial en infraestructura,
+
+**Con** un modelo híbrido de suscripción SaaS y alquiler de dispositivos IoT según la demanda de sus operaciones.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -3813,3 +3851,86 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 # Bibliografía
 
 # Anexos
+
+## Anexo A. Videos de exposiciones
+
+- Exposición Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
+- Exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
+- Exposición AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQBNbZRIWFzfSZQT4mSa7cCyAa-felpel01CsMzjW-O3eFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BKHhcW
+
+<div style="page-break-before: always;"></div>
+
+## Anexo B. Videos de entrevistas
+
+- Entrevista 1 - Vicente Alacutte, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M
+- Entrevista 2 - Rebeca Reyes, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Entrevista 3 - Porfirio Sandoval, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
+- Entrevista 4 - Angela Moran, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx
+- Entrevista 5 - Aldahir Sillo, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi
+
+## Anexo C. Videos de entrevistas de validación
+
+- Entrevista 1 - Rodrigo Alfaro: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI
+- Entrevista 2 - Kiara Gallardo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD
+- Entrevista 3 - Vicente: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0
+- Entrevista 4 - Andrea Solis: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Entrevista 5 - Hugo Jorge: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN
+
+## Anexo D. Materiales de ideación y diseño
+
+- Lean UX Canvas del proyecto AniTec: https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
+- Big Picture EventStorming y Design-Level EventStorming: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
+- Big Picture EventStorming, enlace alternativo usado en el capítulo 2: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
+- Wireframe de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1
+- Mock-up de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1
+- Wireframes de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
+- Wireflows de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
+- Mock-ups de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
+- Prototipo de la aplicación web: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw
+- Diagrama de clases del sistema: https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13
+
+## Anexo E. Repositorios y despliegues
+
+- Repositorio del informe del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
+- Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- Repositorio del frontend web: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- Repositorio del backend web: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
+- Repositorio de datos de prueba: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
+- Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Despliegue del frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Despliegue del backend web: https://anitec-backend.onrender.com/swagger/index.html
+- API mock del frontend: https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
+- Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1
+- Tablero del Sprint Backlog 2: https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2
+- Tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTIe8f4417969b123401b08cdf15fc123be01FAB4B6/sprint3-anitec
+
+## Anexo F. Herramientas utilizadas
+
+- Trello, para gestión del backlog y tareas del proyecto: https://trello.com
+- Gherkin, para criterios de aceptación en formato Given-When-Then: https://cucumber.io/docs/gherkin/
+- Miro, para dinámicas de EventStorming: https://miro.com/
+- Figma, para wireframes, mock-ups y prototipos: https://www.figma.com
+- Canva, para recursos visuales del producto: https://www.canva.com
+- UXPressia, para User Personas y Customer Journey Maps: https://uxpressia.com
+- Lucidchart, para diagramas del sistema: https://www.lucidchart.com/ / https://lucidchart.com
+- GitHub, para control de versiones y colaboración: https://github.com
+- Visual Studio Code, para edición de código y archivos Markdown: https://code.visualstudio.com/
+- WebStorm, para desarrollo del frontend: https://www.jetbrains.com/webstorm/
+- Rider, para desarrollo del backend ASP.NET Core: https://www.jetbrains.com/rider/
+- GitHub Pages, para despliegue de la landing page y frontend web: https://pages.github.com
+- Render, para despliegue del backend web: https://render.com/
+- My JSON Server, para datos de prueba: https://my-json-server.typicode.com/
+- Structurizr, para diagramas C4: https://structurizr.com
+- Vertabelo, para diagramas de base de datos: https://vertabelo.com
+
+## Anexo G. Referencias bibliográficas con enlace
+
+- Guía para ejecutar Big Picture Event Storming: https://bit.ly/bpes-guide
+- Guía práctica de EventStorming remoto: https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+- Material sobre historias de usuario: https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+- Libro de ingeniería de software usado como referencia: https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+
+## Anexo H. Videos de cierre
+
+- Video About The Team: https://www.youtube.com/watch?v=Ai-0rShYlvI
+- Video About The Product: https://www.youtube.com/watch?v=U_xCv93ybkI
