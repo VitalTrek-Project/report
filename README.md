@@ -2608,8 +2608,6 @@ Este enfoque permite mantener sincronizada la versión publicada con el estado a
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 1 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación de la Landing Page estática de la plataforma, que constituye el primer punto de contacto con los segmentos objetivo: turistas aventureros y administradores de agencias de tours de aventura.
 
----
-
 #### 5.2.1.1. Sprint Planning 1
 
 A continuación se presenta el resumen de la reunión de Sprint Planning correspondiente al Sprint 1, llevada a cabo de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
@@ -3159,7 +3157,6 @@ El Sprint 2 representó un avance importante en la evolución del proyecto, ya q
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 3 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación del backend RESTful API, abordando los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement, los cuales constituyen el núcleo funcional del servidor y habilitan la comunicación entre la web application y los servicios de la plataforma.
 
----
 
 #### 5.2.3.1. Sprint Planning 3
 
@@ -3167,7 +3164,8 @@ La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En
 
 El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
 
-> **"Our focus is on** implementing the core RESTful API endpoints for the Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts, providing agency administrators, tour guides and tourists the backend capabilities needed to manage tours, run expeditions, monitor safety in real time and track loyalty progress through the platform. **We believe it delivers** centralized tour and expedition control to agency administrators and tour guides, continuous biometric and location monitoring with automated anomaly alerts to keep tourists safe during active recorridos, and a complete set of reliable endpoints to frontend developers for implementing all expedition-related, monitoring and gamification features in the VitalTrek ecosystem without backend team intervention. **This will be confirmed when** agency administrators can create and manage tours and assign tourists through the implemented endpoints, tour guides can start and finish expeditions with offline sync support, the system automatically ingests IoT telemetry and generates real-time alerts for route deviation, communication loss and critical vital signs, agency administrators can access the operational dashboard and export finished expedition reports in CSV format, tourists receive points and badges upon expedition completion with duplicate award protection, and frontend developers can consume all implemented endpoints returning the correct status codes and resource representations without additional backend support."
+**Nuestro enfoque se centra en** implementar los *endpoints* fundamentales de la API RESTful para Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts; proporcionando así a los administradores de agencias, guías turísticos y turistas las capacidades de *backend* necesarias para gestionar tours, realizar expediciones, monitorear la seguridad en tiempo real y seguir el progreso de fidelización a través de la plataforma. **Consideramos que esto aporta** un control centralizado de tours y expediciones para administradores y guías, un monitoreo continuo de datos biométricos y ubicación con alertas automatizadas de anomalías para garantizar la seguridad de los turistas durante los recorridos activos, y un conjunto completo de *endpoints* fiables para que los desarrolladores de *frontend* implementen todas las funcionalidades relacionadas con expediciones, monitoreo y gamificación en el ecosistema VitalTrek sin necesidad de intervención del equipo de *backend*. **Esto se confirmará cuando** los administradores de agencias puedan crear y gestionar tours y asignar turistas mediante los *endpoints* implementados; los guías puedan iniciar y finalizar expediciones con soporte de sincronización *offline*; el sistema ingiera automáticamente telemetría IoT y genere alertas en tiempo real ante desviaciones de ruta, pérdida de comunicación y signos vitales críticos; los administradores puedan acceder al panel operativo y exportar informes de expediciones finalizadas en formato CSV; los turistas reciban puntos e insignias al completar la expedición, con protección contra duplicidad de recompensas; y los desarrolladores de *frontend* puedan consumir todos los *endpoints* implementados, obteniendo los códigos de estado y las representaciones de recursos correctos sin requerir soporte adicional del *backend*.
+
 
 | Campo | Detalle |
 |:------|:--------|
@@ -3205,7 +3203,7 @@ El objetivo principal del Sprint 3 fue implementar el backend RESTful API de Vit
 
 A continuación se presenta el tablero correspondiente al Sprint 3 junto con su enlace:
 
-https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
+**link trello :** https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
 
 | Sprint # | Sprint 3 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -3358,6 +3356,7 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 Se adjunta un video donde se muestra la navegación y funcionamiento de las funcionalidades implementadas durante este Sprint:
 
 [Ver video de demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQB_RXGV--VQSLSPl1xwcGVeAcFsIlJbw8uShFUMwrIu-hk?e=cGXghl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQB_RXGV--VQSLSPl1xwcGVeAcFsIlJbw8uShFUMwrIu-hk?e=cGXghl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3621,10 +3620,50 @@ El historial de commits refleja el trabajo continuo realizado por el equipo dura
 El Sprint 3 representó una etapa de consolidación para el proyecto, permitiendo completar la tercera versión de la Landing Page mediante la incorporación de nuevas funcionalidades orientadas a mejorar la experiencia del usuario. Asimismo, la evolución de la **Web Application** hacia la versión **v2.0.0** y el inicio del desarrollo del **Backend v1.0.0** marcaron un avance significativo hacia una arquitectura distribuida basada en **Domain-Driven Design**. La estrategia de colaboración cruzada adoptada por el equipo permitió que todos los integrantes participaran activamente en el desarrollo de los diferentes Bounded Contexts del Backend, fortaleciendo el trabajo en equipo, la transferencia de conocimientos y el cumplimiento de los objetivos establecidos para el Sprint.
 
 ### 5.2.4. Sprint 4 
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 4 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en icluir los bounded contexts de IAM, Subscriptions, Loyalty and Engagement, en la Web Aplication y Web Services. Ademas corregir algunos errores del sprint 3.
+#### 5.2.4.1. Sprint Planning 4
 
-#### 5.2.4.1. Spring Planning 4
+La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó los *User Stories* correspondientes a los módulos finales, así como las tareas de refactorización necesarias para estabilizar la plataforma.
+
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
+
+**Nuestro enfoque se centra en** la implementación *frontend* y *backend* de los *bounded contexts* de IAM, Subscriptions, Loyalty and Engagement, así como en la liberación de nuevas versiones de la *Landing Page*, *Web Services* y *Web Application* que resuelvan la *technical debt* acumulada en los sprints anteriores. **Consideramos que esto aporta** un ecosistema completamente seguro, listo para la monetización y atractivo para la retención de usuarios, al mismo tiempo que garantiza una plataforma robusta, libre de errores y altamente mantenible. **Esto se confirmará cuando** los usuarios puedan registrarse, autenticarse de forma segura, gestionar sus suscripciones y visualizar su progreso de gamificación; las nuevas versiones de los componentes web y servicios operen correctamente en sus respectivos entornos; y todos los *bugs* críticos y la deuda técnica identificada previamente hayan sido corregidos y verificados.
+
+| Campo | Detalle |
+|:------|:--------|
+| **Sprint #** | Sprint 4 |
+| **Date** | 2026-07-04 |
+| **Time** | 05:30 PM |
+| **Location** | Discord |
+| **Prepared By** | Verastigue Martinez, Giancarlo Jose |
+| **Attendees (to planning meeting)** | Alfaro, Joaquin / Quispe, Eder Edu / Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel |
+| **Sprint 4 Review Summary** | El equipo completó la implementación de los *bounded contexts* de Tour Management y Safety & Monitoring. Durante la revisión, el *Product Owner* validó los flujos principales, pero señaló la presencia de algunos *bugs* de integración y acumulación de *technical debt*. Se estableció como prioridad para esta iteración el desarrollo de los módulos de identidad, suscripciones y fidelidad, a la par de la estabilización del código base existente. |
+| **Sprint 4 Retrospective Summary** | El equipo identificó que el desarrollo acelerado del sprint anterior generó *technical debt* que podría afectar la escalabilidad. Para el Sprint 4 se acordó destinar un porcentaje específico del *capacity* exclusivamente a la refactorización y corrección de errores, además de mejorar la sincronización diaria entre los desarrolladores de *frontend* y *backend* para la integración de los nuevos módulos. |
+| **Sprint 4 Goal** | Nuestro enfoque se centra en implementar los *bounded contexts* de IAM, Subscriptions, Loyalty and Engagement tanto en *frontend* como en *backend*, además de entregar nuevas versiones de la *Landing Page*, *Web Services* y *Web Application* para solucionar la *technical debt* previa. Consideramos que esto aporta una plataforma segura, monetizable y orientada a la fidelización del usuario, respaldada por un sistema estable, pulido y libre de errores. Esto se confirmará cuando los usuarios puedan completar exitosamente los flujos de registro, inicio de sesión, suscripción y gamificación; los nuevos despliegues funcionen correctamente sin regresiones; y la deuda técnica priorizada haya sido resuelta y validada por el equipo de QA. |
+| **Sprint 4 Velocity** | 45 Story Points |
+| **Sum of Story Points** | 45 Story Points |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+En esta sección se presenta el artefacto *Leadership-and-Collaboration Matrix* (LACX) correspondiente al Sprint 4. El propósito de esta matriz es brindar mayor claridad, responsabilidad compartida y efectividad en la comunicación al interior del equipo, asegurando que la selección posterior de tareas (tasks) esté alineada con estas responsabilidades.
+
+Para este Sprint 4, los aspectos principales toman en cuenta la culminación de la arquitectura del sistema y la corrección de errores. Se han definido los siguientes aspectos enfocados en la implementación *frontend* y *backend* de los últimos módulos, así como la actualización de componentes para mitigar la deuda técnica:
+1. **IAM Bounded Context** (Registro, autenticación y seguridad).
+2. **Subscriptions Bounded Context** (Gestión de planes y pagos).
+3. **Loyalty and Engagement Bounded Context** (Gamificación, puntos e insignias).
+4. **Landing Page** (Nueva versión con optimizaciones y correcciones).
+5. **Web Services & Web Application** (Refactorización, mitigación de *technical debt* y nuevas versiones).
+
+A continuación se presenta la matriz de líderes y colaboradores:
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM Bounded Context | Subscriptions Bounded Context | Loyalty & Engagement Bounded Context | Landing Page (New Version) | Web Services & Web App (Refactoring) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Alfaro, Joaquin | elprrr | C | - | - | L | C |
+| Quispe Perez, Eder Edu | Eder_09 | C | L | C | - | - |
+| Rodriguez, Miler | Miler2003 | - | C | L | C | - |
+| Verastigue Martinez, Giancarlo Jose | CaLoVM | L | - | C | - | C |
+| Vilchez, Gabriel | GZ-99 | - | C | - | C | L |
+
+
 
 #### 5.2.4.3. Sprint Backlog 4 
 
