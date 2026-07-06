@@ -1,37 +1,71 @@
-﻿![Logo de la Universidad Peruana de Ciencias Aplicadas](assets/images/upc-logoo.png)
+﻿<div style="font-size: 16px; line-height: 1.65;">
 
-# Universidad Peruana de Ciencias Aplicadas (UPC)
+<br/>
+<div align="center">
+  <img src="assets/images/upc-logoo.png" alt="UPC Logo" width="80">
+</div>
+<br/>
+<h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
+<h2 align="center"><strong>Carrera de Ingeniería de Software</strong></h2>
 
-## Carrera de Ingeniería de Software
+<h2 align="center"><strong>1ASI0730</strong></h2>
+<h2 align="center"><strong>Aplicaciones Web</strong></h2>
+<h2 align="center">NRC</h2>
+<h2 align="center"><strong>12206</strong></h2>
+<h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
+<h2 align="center">Docente</h2>
+<h2 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h2>
+<h2 align="center">Equipo</h2>
+<h2 align="center"><strong>NexumDevs</strong></h2>
+<h2 align="center">Proyecto</h2>
+<h2 align="center"><strong>VitalTrek</strong></h2>
 
-### Aplicaciones Web
+<h2 align="center"><strong>Integrantes:</strong></h2>
+
+
+<div align="center">
+  <table align="center">
+    <thead>
+      <tr>
+        <th align="center" >Código</th>
+        <th align="center" >Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" >U20241A267</td>
+        <td align="center" >Alfaro Mallma, Alberto Joaquin</td>
+      </tr>
+      <tr>
+        <td align="center" >U202324623</td>
+        <td align="center" >Quispe Perez, Eder Edu</td>
+      </tr>
+      <tr>
+        <td align="center" >U20241A827</td>
+        <td align="center" >Rodriguez Rojas, Miler Alexander</td>
+      </tr>
+      <tr>
+        <td align="center" >U202419483</td>
+        <td align="center" >Verastigue Martinez, Giancarlo Jose</td>
+      </tr>
+      <tr>
+        <td align="center" >U202416903</td>
+        <td align="center" >Vilchez Vite, Gabriel Alejandro</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 align="center"><strong>Período 202610</strong></h2>
+<h2 align="center"><strong>Julio 2026</strong></h2>
+
+<div style="page-break-before: always;"></div>
 
 ---
 
-| **Curso** | **NRC** | **Sección** |
-|:----------|:-------:|:-----------:|
-| 1ASI0730 | 12206 | Aplicaciones Web |
 
-**Profesor:** Angel Augusto Velásquez Nuñez
 
-**Informe de Trabajo Final**
 
-**Startup:** Nexum Devs  
-**Producto:** VitalTrek
-
----
-
-## Integrantes
-
-| N.º | Integrante                          |   Código   |
-|:---:|:------------------------------------|:----------:|
-|  1  | Alfaro Mallma, Alberto Joaquin      | U20241A267 |
-|  2  | Quispe Perez, Eder Edu              | U202324623 |
-|  3  | Rodriguez Rojas, Miler Alexander    | U20241A827 |
-|  4  | Verastigue Martinez, Giancarlo Jose | U202419483 |
-|  5  | Vilchez Vite, Gabriel Alejandro     | U202416903 |
-
-**Abril 2026-10**
 
 # Registro de Versiones del Informe
 
@@ -254,6 +288,9 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 **Conclusión:** El equipo logró establecer un entorno colaborativo mediante la correcta distribución de responsabilidades, el uso de herramientas como GitHub, Trello y Figma, y la comunicación constante entre los integrantes. Esto permitió planificar adecuadamente las tareas, cumplir con los objetivos del Sprint y entregar un producto funcional junto con su respectiva documentación.
 
+<div style="page-break-before: always;"></div>
+
+---
 
 # Capítulo I: Introducción
 
@@ -555,6 +592,10 @@ Personas que viajan al Perú, ya sea desde el extranjero o desde otras regiones 
 - El 51.5% de las visitas registradas en sitios turísticos peruanos en 2025 corresponde a turistas internacionales y el 48.5% a nacionales, lo que confirma que la propuesta de VitalTrek debe atender a ambos perfiles bajo experiencias multilingües y adaptadas culturalmente.
 - Regiones clave para el turismo de aventura como Cusco e Ica ya están a solo 2.6% y 3.6% de alcanzar sus cifras prepandemia, evidenciando la consolidación de los destinos donde opera el segmento.
 
+<div style="page-break-before: always;"></div>
+
+---
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
@@ -728,7 +769,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAbgU4zD7UFwS-wKDqt4aTbA) | 00:00 | 11:30 min |
+| Dueño o responsable de agencia de turismo de aventura | [ttps://surl.li/aghnmp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAbgU4zD7UFwS-wKDqt4aTbA) | 00:00 | 11:30 min |
 
 ![Entrevista-1](assets/images/entrevista-agencia-1.png)
 
@@ -744,7 +785,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
+| Dueño o responsable de agencia de turismo de aventura | [https://surl.li/bxfsht](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
 
 ![Entrevista-2](assets/images/entrevista-agencia-2.png)
 
@@ -760,7 +801,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAZYq8UmbUTzux0Ck11ZWVq8) | 00:00 | 10:25 min |
+| Dueño o responsable de agencia de turismo de aventura | [https://goo.su/ANC6ox](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAZYq8UmbUTzux0Ck11ZWVq8) | 00:00 | 10:25 min |
 
 ![Entrevista-3](assets/images/entrevista-agencia-3.png)
 
@@ -778,7 +819,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Miler Rodriguez 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQDmL-DP2xwmQ4BbvtwR-lGLAS0P8EhgPotM1JXGatn2fwg?e=TgCalk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 5:49 min |
+| Turista de aventura | [https://surl.li/wtbakg](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQDmL-DP2xwmQ4BbvtwR-lGLAS0P8EhgPotM1JXGatn2fwg?e=TgCalk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 5:49 min |
 
 ![Entrevista-1](assets/images/Entrevista1.png)
 
@@ -794,7 +835,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Edu Quispe 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAFRDJfQqYVS4y0Y-mceqLcAXUAkL-9vmY98O6DfQsNapw?e=iSQlI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:03 min |
+| Turista de aventura | [https://surl.li/wrchlv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAFRDJfQqYVS4y0Y-mceqLcAXUAkL-9vmY98O6DfQsNapw?e=iSQlI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:03 min |
 
 ![Entrevista-2](assets/images/Entrevista2.png)
 
@@ -810,7 +851,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 1do seg obj - Joaquin Alfaro 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAzzJK1Z2EjRKwAnDDhYymlASIYaE0KOMWSH67esO8b9GA?e=Aav4mr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:05 min |
+| Turista de aventura | [https://surl.li/scgbfh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAzzJK1Z2EjRKwAnDDhYymlASIYaE0KOMWSH67esO8b9GA?e=Aav4mr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:05 min |
 
 ![Entrevista-3](assets/images/Entrevista3.png)
 
@@ -826,7 +867,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Miguel Morales.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQDH0cMptlBfRIQ0xnwLJmCxAaaNZU0UNPGppb0A9gLqCO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bINUkT) | 00:00 | 9:49 min |
+| Turista de aventura | [https://surl.li/qqabud](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQDH0cMptlBfRIQ0xnwLJmCxAaaNZU0UNPGppb0A9gLqCO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bINUkT) | 00:00 | 9:49 min |
 
 ![Entrevista-4](assets/images/Entrevista4.png)
 
@@ -842,7 +883,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Turista de aventura | [Entrevista - 2do seg obj - Edu Quispe.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBLNNCNz8paSbQPCQy2fF26AewW2P1FYWEaHIDfdOiuAw4?e=ZlxA2l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:33 min |
+| Turista de aventura | [https://surl.li/lvxaav](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBLNNCNz8paSbQPCQy2fF26AewW2P1FYWEaHIDfdOiuAw4?e=ZlxA2l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:33 min |
 
 ![Entrevista-5](assets/images/Entrevista5.png)
 
@@ -1071,6 +1112,10 @@ Post-Tour Evaluation (Evaluación Post-Tour): Proceso de revisión de la experie
 
 Tour Experience (Experiencia del Tour): Percepción general del usuario respecto a la calidad, seguridad y disfrute del recorrido.
 
+<div style="page-break-before: always;"></div>
+
+---
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
@@ -1211,6 +1256,7 @@ El Impact Mapping es una herramienta de planificación estrategica que nos permi
 A continuación se presenta el Product Backlog de VitalTrek con la priorización y estimación de todas las historias identificadas. El orden refleja el valor para el negocio, priorizando las funcionalidades del Landing Page y las capacidades core de monitoreo y seguridad en campo.
 
 Para acceder al Product Backlog en la herramienta de gestión del equipo, visitar el siguiente enlace: [Product Backlog — VitalTrek](https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog)
+https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog
 
 ![Product Backlog VitalTrek](assets/images/product-backlog-vitaltrek.png)
 
@@ -1287,6 +1333,10 @@ Para acceder al Product Backlog en la herramienta de gestión del equipo, visita
 | 69 | US48 | Cerrar sesión actual | Como usuario registrado, quiero cerrar mi sesión actual para proteger el acceso a mi cuenta cuando termino de utilizar la plataforma. | 1 |
 | 70 | US07 | Cierre de sesiones activas | Como usuario registrado, quiero cerrar todas mis sesiones activas en otros dispositivos para proteger mi cuenta. | 2 |
 | 71 | US49 | Desactivar cuenta personal | Como usuario registrado, quiero desactivar mi cuenta para dejar de utilizar la plataforma cuando lo considere necesario. | 2 |
+
+<div style="page-break-before: always;"></div>
+
+---
 
 # Capítulo IV: Product Design
 
@@ -2263,6 +2313,9 @@ gestión eficiente de toda la operación de turismo de aventura.
 
 ![Imagen de la base de datos](assets/images/VitalTrek_DatabaseDiagram.png)
 
+<div style="page-break-before: always;"></div>
+
+---
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
@@ -2908,7 +2961,8 @@ Durante el Sprint 2, el equipo implementó la base de la Web Application utiliza
 
 El equipo completó la primera versión funcional de la Web Application. Los usuarios pueden registrarse, iniciar sesión, explorar el catálogo de tours y visualizar un dashboard inicial de monitoreo. Se configuró despliegue en **CloudFlare** y pipeline de integración continua en **GitHub Actions**, aplicando **GitFlow Workflow**, **Conventional Commits** y **Semantic Versioning** para el control de versiones.
 
-[Video de demostracion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQD0xfEcQf5CRoJSFOJoNaR4AY9W9ZAsIunBWrLP7TKZfNU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bAuF0G)
+**Video demostración**
+[https://goo.su/QZUI1L](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQD0xfEcQf5CRoJSFOJoNaR4AY9W9ZAsIunBWrLP7TKZfNU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bAuF0G)
 
 **Screenshots de la Web Application**
 
@@ -3640,7 +3694,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 | **Segmento** | **URL** | **Inicio** | **Duración** |
 |---|---|---|---|
-| Agencia de turismo de aventura | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBYw8DLtMrmRJOENG7mRxkcAeHRhd7EZT2GydyERlkPBS4?e=FFndIG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:51 min |
+| Agencia de turismo de aventura | [https://surl.li/dzpeqt](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBYw8DLtMrmRJOENG7mRxkcAeHRhd7EZT2GydyERlkPBS4?e=FFndIG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:51 min |
 
 ![Entrevista-1](assets/images/entrevista-Eder-Quispe.png)
 
@@ -3654,7 +3708,7 @@ Durante las sesiones de validación, el moderador utilizará las siguientes preg
 
 | **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCBBCyU5RX7Tp_-SKCmKpLaATHf8YjEABhv9EEgrqmz8mk?e=s4NB67&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 11:45 min    |
+| Turistas / Trekkers  | [https://surl.li/fuxtlu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCBBCyU5RX7Tp_-SKCmKpLaATHf8YjEABhv9EEgrqmz8mk?e=s4NB67&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 11:45 min    |
 
 ![Entrevista-2](assets/images/entrevista-Gabriel-Vilchez.png)
 
@@ -3670,7 +3724,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 | **Segmento**         | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Turistas / Trekkers  | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO)  | 00:00      | 10:12 min    |
+| Turistas / Trekkers  | [https://surl.li/aayhte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfvZXIQTZhYNRDHjUlRAfZmSQa_rcEk9L3b6ETY018?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PCBRWO)  | 00:00      | 10:12 min    |
 
 ![Entrevista-3](assets/images/entrevista-validacion-3.png)
 
@@ -3684,7 +3738,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQDurnfv
 
 | **Segmento** | **URL**                                                                                                                                                                                                                                                                                                                                    | **Inicio** | **Duración** |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| Trekkers     | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQCEkDYr6rMhTpmwXJGnUesHAefk8bDpdLb-04qhnGCEvOE?e=fXC63b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 06:39 min    |
+| Trekkers     | [https://surl.li/vpvmiq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQCEkDYr6rMhTpmwXJGnUesHAefk8bDpdLb-04qhnGCEvOE?e=fXC63b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 06:39 min    |
 
 ![Entrevista-4](assets/images/entrevista-4.png)
 
@@ -3841,7 +3895,7 @@ Por un lado, está diseñado para los visitantes de la Landing Page, brindándol
 
 | **URL** | **Inicio** | **Duración** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 00:57 min    |
+| [https://surl.li/taewvi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  | 00:00      | 00:57 min    |
 
 ![Video About The Product](assets/images/product.png)
 
@@ -3865,12 +3919,12 @@ Estrategia de Adopción Digital: Dado el bajo nivel de digitalización identific
 
 Expansión de la Gamificación: Para fortalecer la adopción por parte del turista (B2C), se sugiere profundizar en el módulo de Loyalty (Gamification), incluyendo recompensas, insignias y métricas sociales que incentiven al usuario a seguir contratando agencias afiliadas a la red de VitalTrek.
 
-## Video About-the-Team
+## Video About-The-Product
 En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovisual diseñado para dar a conocer a los miembros fundadores de la startup Nexum Devs. El video tiene como propósito generar confianza técnica y comercial al mostrar los rostros y perfiles profesionales detrás del desarrollo de VitalTrek. Durante el material, cada integrante expone su rol específico dentro del ciclo de desarrollo, la forma en que se estructuró el trabajo colaborativo y la visión compartida que impulsó al equipo a crear una solución tecnológica innovadora para salvaguardar la vida de los turistas en el ecosistema de aventura peruano.
 
 | **URL** | **Inicio** | **Duración** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
+| [https://surl.li/wcwjrb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
 
 ![Video About The Team](assets/images/video-team.png)
 
@@ -3880,22 +3934,26 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo A. Videos de exposiciones
 
-- Exposición Avance 1: 
+- Exposición AV1: 
 - Exposición TB1: 
 - Exposición AV2: 
+-
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo B. Videos de entrevistas
 
-- Entrevista 1 - 
+- Entrevista 1 -
+-
+-
+- 
 
 ## Anexo C. Videos de entrevistas de validación
 
 - Entrevista 1 - 
 ## Anexo D. Materiales de ideación y diseño
 
-- Lean UX Canvas del proyecto 
+- Lean UX Canvas del proyecto :
 - Big Picture EventStorming y Design-Level EventStorming: 
 
 - Wireframe de la landing page: 
