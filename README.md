@@ -3620,6 +3620,24 @@ El historial de commits refleja el trabajo continuo realizado por el equipo dura
 
 El Sprint 3 representó una etapa de consolidación para el proyecto, permitiendo completar la tercera versión de la Landing Page mediante la incorporación de nuevas funcionalidades orientadas a mejorar la experiencia del usuario. Asimismo, la evolución de la **Web Application** hacia la versión **v2.0.0** y el inicio del desarrollo del **Backend v1.0.0** marcaron un avance significativo hacia una arquitectura distribuida basada en **Domain-Driven Design**. La estrategia de colaboración cruzada adoptada por el equipo permitió que todos los integrantes participaran activamente en el desarrollo de los diferentes Bounded Contexts del Backend, fortaleciendo el trabajo en equipo, la transferencia de conocimientos y el cumplimiento de los objetivos establecidos para el Sprint.
 
+### 5.2.4. Sprint 4 
+
+#### 5.2.4.1. Spring Planning 4
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+#### 5.2.4.3. Sprint Backlog 4 
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas.
@@ -3919,14 +3937,14 @@ Estrategia de Adopción Digital: Dado el bajo nivel de digitalización identific
 
 Expansión de la Gamificación: Para fortalecer la adopción por parte del turista (B2C), se sugiere profundizar en el módulo de Loyalty (Gamification), incluyendo recompensas, insignias y métricas sociales que incentiven al usuario a seguir contratando agencias afiliadas a la red de VitalTrek.
 
-## Video About-The-Product
+## Video About-The-Team
 En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovisual diseñado para dar a conocer a los miembros fundadores de la startup Nexum Devs. El video tiene como propósito generar confianza técnica y comercial al mostrar los rostros y perfiles profesionales detrás del desarrollo de VitalTrek. Durante el material, cada integrante expone su rol específico dentro del ciclo de desarrollo, la forma en que se estructuró el trabajo colaborativo y la visión compartida que impulsó al equipo a crear una solución tecnológica innovadora para salvaguardar la vida de los turistas en el ecosistema de aventura peruano.
 
 | **URL** | **Inicio** | **Duración** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [https://surl.li/wcwjrb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQCKlCjhb9tgRbm5RFRhvSNPAad1neW4zfbGbVrStEeAbHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ht9Akt)  | 00:00      | 00:57 min    |
+| [https://goo.su/OBdc9y](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQBkvoy60zGpSpi-_v3eNykOAUvjFFoOe5ZILRBPDf_MiqM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YHZNBQ)  | 00:00      | 13:30 min    |
 
-![Video About The Team](assets/images/video-team.png)
+![Video About The Team](assets/images/video-team.jpg)
 
 # Bibliografía
 
