@@ -433,89 +433,97 @@ El despliegue inicial apuntará a agencias de turismo de aventura de tamaño med
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-### Hypothesis Statement 01
+#### Hypothesis Statement 01
 
-**Creemos que** lograremos mejorar la seguridad y la capacidad de respuesta ante emergencias durante las rutas de trekking.
-
-**Si** los turistas y las agencias de turismo de aventura
-
-**Obtienen** un monitoreo continuo de los signos vitales y la ubicación de los excursionistas durante todo el recorrido,
-
-**Con** un ecosistema de dispositivos IoT y una plataforma web que permita visualizar la información en tiempo real.
-
----
-
-### Hypothesis Statement 02
-
-**Creemos que** lograremos garantizar el seguimiento de los excursionistas incluso en zonas sin cobertura de red.
+**Creemos que** lograremos incrementar la adopción de VitalTrek por parte de las agencias de turismo de aventura.
 
 **Si** las agencias de turismo de aventura
 
-**Obtienen** la sincronización automática de los datos recopilados durante la ruta sin depender de una conexión a Internet,
+**Obtienen** una solución que les permita ofrecer expediciones más seguras mediante el monitoreo continuo de sus turistas.
 
-**Con** una infraestructura basada en tecnología Bluetooth Low Energy (BLE) y puntos de sincronización estratégicamente ubicados.
-
----
-
-### Hypothesis Statement 03
-
-**Creemos que** lograremos incrementar la confianza y autonomía de los turistas durante las rutas de trekking.
-
-**Si** los excursionistas
-
-**Obtienen** acceso a mapas topográficos, información relevante de la ruta y herramientas de navegación sin necesidad de conexión a Internet,
-
-**Con** una aplicación móvil que funcione completamente en modo offline.
+**Con** una plataforma integrada con wearables IoT para el seguimiento de signos vitales y ubicación en tiempo real.
 
 ---
 
-### Hypothesis Statement 04
+#### Hypothesis Statement 02
 
-**Creemos que** lograremos optimizar la gestión operativa de las agencias de turismo de aventura.
+**Creemos que** lograremos aumentar la confianza de las agencias de turismo en nuestra solución tecnológica.
 
-**Si** los operadores turísticos
+**Si** las agencias de turismo de aventura
 
-**Obtienen** una visualización centralizada del estado de todos los grupos de excursionistas y alertas automáticas ante posibles incidentes,
+**Obtienen** la posibilidad de supervisar expediciones incluso en zonas sin cobertura de Internet.
 
-**Con** un dashboard web inteligente que consolide la información y genere notificaciones en tiempo real.
-
----
-
-### Hypothesis Statement 05
-
-**Creemos que** lograremos aumentar la satisfacción de los turistas y fortalecer la visibilidad de las agencias de turismo.
-
-**Si** los excursionistas
-
-**Obtienen** un resumen digital de su experiencia con la ruta recorrida, estadísticas del viaje y logros alcanzados,
-
-**Con** una plataforma que genere automáticamente un historial interactivo y fácil de compartir en redes sociales.
+**Con** una infraestructura basada en checkpoints Bluetooth Low Energy (BLE) que sincroniza automáticamente la información recolectada.
 
 ---
 
-### Hypothesis Statement 06
+#### Hypothesis Statement 03
 
-**Creemos que** lograremos facilitar la adopción de VitalTrek por parte de las agencias de turismo de aventura.
+**Creemos que** lograremos incrementar la preferencia de los turistas por las agencias que utilicen VitalTrek.
 
-**Si** las agencias de turismo
+**Si** los turistas
 
-**Obtienen** acceso a una solución tecnológica escalable sin realizar una alta inversión inicial en infraestructura,
+**Obtienen** una experiencia de navegación segura y continua durante toda la expedición.
 
-**Con** un modelo híbrido de suscripción SaaS y alquiler de dispositivos IoT según la demanda de sus operaciones.
+**Con** una aplicación móvil con mapas topográficos completamente disponibles en modo offline.
+
+---
+
+#### Hypothesis Statement 04
+
+**Creemos que** lograremos mejorar la eficiencia operativa de las agencias de turismo, permitiéndoles administrar un mayor número de expediciones de manera simultánea.
+
+**Si** los operadores y guías de turismo
+
+**Obtienen** una visualización centralizada del estado, ubicación y alertas de todos los grupos.
+
+**Con** un dashboard web de monitoreo en tiempo casi real.
+
+---
+
+#### Hypothesis Statement 05
+
+**Creemos que** lograremos fortalecer la reputación y competitividad de las agencias de turismo que utilicen VitalTrek.
+
+**Si** las agencias de turismo de aventura
+
+**Obtienen** notificaciones automáticas que les permitan responder oportunamente ante posibles incidentes durante las expediciones.
+
+**Con** un sistema inteligente de alertas basado en parámetros biométricos.
+
+---
+
+#### Hypothesis Statement 06
+
+**Creemos que** lograremos incrementar la fidelización de los turistas y generar una mayor recomendación de los servicios ofrecidos por las agencias.
+
+**Si** los turistas
+
+**Obtienen** un registro digital de sus expediciones con estadísticas, logros y recorridos realizados.
+
+**Con** un resumen interactivo generado automáticamente al finalizar cada experiencia.
+
+---
+
+#### Hypothesis Statement 07
+
+**Creemos que** lograremos aumentar la comercialización y escalabilidad de VitalTrek como solución tecnológica para el turismo de aventura.
+
+**Si** las agencias de turismo de aventura
+
+**Obtienen** acceso a una plataforma con un modelo de pago flexible, sin necesidad de realizar una elevada inversión inicial en infraestructura.
+
+**Con** un modelo de negocio basado en suscripción SaaS complementado con el alquiler de wearables IoT y checkpoints Bluetooth Low Energy (BLE).
 
 #### 1.2.2.4. Lean UX Canvas
 
-| 1. Business Problem | 5. Solutions | 2. Business Outcomes |
-|---|---|---|
-| Las agencias de turismo de aventura del Perú carecen de herramientas accesibles para monitorear en tiempo real la ubicación y el estado de salud de sus clientes en zonas remotas con baja o nula conectividad celular. Esto genera ceguera operativa, tiempos de respuesta lentos ante emergencias médicas y extravíos, y expone a las agencias a riesgos legales y reputacionales. Los turistas, por su parte, no cuentan con herramientas de navegación funcionales sin señal, lo que incrementa su ansiedad y reduce su autonomía durante el recorrido. | - Plataforma web con dashboard centralizado para monitoreo de múltiples grupos en tiempo cuasi-real y alertas automatizadas ante anomalías; - Wearables IoT de bajo costo para captura continua de signos vitales y geolocalización; - Checkpoints Bluetooth para sincronización asincrónica de datos sin necesidad de cobertura celular; - Aplicación móvil para turistas con mapas topográficos interactivos y navegación 100% offline; - Generación automática de resumen digital de la experiencia del recorrido al finalizar el tour. | - Reducción del 40% en evacuaciones médicas de emergencia en los primeros 6 meses de uso; - Registro exitoso del 95% de turistas en puntos de control con pérdida de datos inferior al 5%; - Tasa de conversión del 25% de agencias de piloto gratuito a suscripción anual en 3 meses; - El 85% de turistas califica su sensación de seguridad como "Alta" o "Muy Alta" en encuestas post-tour. |
+El Lean UX Canvas es una herramienta utilizada en el marco del diseño centrado en el usuario (UX) y la metodología Lean, cuyo objetivo es apoyar la creación y mejora de productos de manera ágil y eficiente. Su propósito principal es proporcionar una estructura organizada que fomente la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas elaborado por el equipo utilizando la plataforma digital Mural.
 
-| 3. Users & Customers | 4. User Outcomes & Benefits |
-|---|---|
-| *B2B (Operativo):* Agencias de turismo de aventura, directores de ruta y guías de montaña que gestionan expediciones en zonas remotas del Perú; *B2C (Usuario Final):* Turistas nacionales e internacionales, senderistas y exploradores que contratan estos servicios y transitan por rutas de baja o nula conectividad. | - Respuesta inmediata ante emergencias de salud como taquicardia, hipotermia o fatiga extrema gracias a alertas preventivas; - Navegación segura y autónoma sin dependencia de red móvil mediante mapas offline; - Registro digital interactivo de la experiencia del recorrido compartible en redes sociales; - Reducción de costos logísticos en misiones de búsqueda y rescate; - Escalabilidad en la gestión simultánea de múltiples rutas y grupos desde un solo dashboard. |
+![Lean-UX-canvas-vitaltrek](assets/images/lean-ux-canvas.png)
 
-| 6. Hypotheses | 7. What's the Most Important Thing We Need to Learn First? | 8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing? |
-|---|---|---|
-| - El monitoreo biométrico continuo mediante wearables permitirá reducir en un 40% las evacuaciones de emergencia; - La sincronización asincrónica BLE garantizará trazabilidad del 95% de turistas sin cobertura celular; - La navegación offline reducirá la ansiedad del turista y logrará que el 85% califique su seguridad como alta; - Los dashboards centralizados reducirán el tiempo de respuesta ante alertas a menos de 5 minutos; - El modelo híbrido HaaS/SaaS logrará una conversión del 25% de pilotos a suscripciones pagadas en 3 meses. | ¿Es la precisión y latencia de los datos capturados por los wearables y sincronizados mediante checkpoints Bluetooth suficiente para activar alertas de rescate confiables en entornos de clima extremo y geografía compleja? | Desarrollar un MVP consistente en un wearable básico conectado a un checkpoint BLE, y realizar una prueba de campo en una ruta de senderismo conocida con 5 usuarios reales, midiendo la latencia de sincronización de datos y la tasa de pérdida de paquetes bajo condiciones climáticas variables. |
+Enlace para acceder al Lean UX Canvas en Mural: [https://l1nq.com/oa73grw](https://l1nq.com/oa73grw)
+
+---
 
 ## 1.3 Segmentos Objetivo
  
@@ -586,22 +594,109 @@ En esta sección se identifican y describen los principales competidores directo
 
 A continuación se presenta el cuadro Competitive Analysis Landscape, en el cual se contrasta el perfil de Nexum Devs y su producto VitalTrek frente a los tres competidores directos identificados, considerando dimensiones de perfil, marketing, producto y análisis SWOT.
 
-| ¿Por qué llevar a cabo este análisis? | El objetivo es comprender el posicionamiento real de los competidores en el mercado de gestión y monitoreo de turismo de aventura, identificar brechas en sus propuestas de valor y validar los espacios de oportunidad que VitalTrek puede ocupar en el mercado peruano. |
-|---|---|
-
-| Dimensión | Categoría | VitalTrek (Nexum Devs) | TrekkSoft | Wayward | AllTrails |
-|---|---|---|---|---|---|
-| Perfil | Overview | Plataforma web y móvil peruana que centraliza la gestión de tours de aventura para agencias y ofrece a turistas navegación offline, registro de experiencia e información contextual del recorrido, integrando un ecosistema IoT con wearables y checkpoints Bluetooth. | Plataforma suiza de software como servicio para reservas y gestión operativa de operadores turísticos, con foco en pagos online y conexión con OTAs. | Plataforma estadounidense todo en uno para operadores de aventura, con énfasis en seguimiento de viaje en vivo, chat en tiempo real entre guías y viajeros, waivers digitales e itinerarios personalizados. | Aplicación móvil estadounidense con el mayor catálogo mundial de rutas de senderismo, navegación GPS y comunidad de usuarios. |
-| Perfil | Ventaja competitiva. ¿Qué valor ofrece a los clientes? | Solución integral con sincronización asincrónica que opera sin conexión continua, dashboards de monitoreo en tiempo real para agencias, alertas ante anomalías y captura de signos vitales mediante wearables. Diseñada específicamente para el contexto peruano. | Reduce la fricción del proceso de reserva y centraliza pagos. Permite a agencias vender sus tours en múltiples canales desde una sola plataforma. | Unifica reservas, comunicación, seguridad y experiencia del viajero en una sola interfaz. Permite a las agencias mostrar la marca propia sin que aparezca el branding de Wayward, y comparte la ubicación con contactos de emergencia. | Acceso instantáneo a más de 500,000 rutas verificadas con reseñas, fotografías y mapas offline en versión premium. |
-| Perfil de Marketing | Mercado objetivo | Agencias formales de turismo de aventura y turistas nacionales y extranjeros que realizan rutas en regiones del Perú con baja conectividad como Cusco, Áncash, Arequipa, Puno y Madre de Dios. | Operadores turísticos de actividades y tours en Europa y Latinoamérica, principalmente pequeñas y medianas empresas con foco en ventas online. | Operadores de turismo de aventura, organizadores de rallies, retiros outdoor y organizaciones turísticas regionales (DMOs) en Norteamérica y Europa. | Senderistas, ciclistas, corredores y turistas de aventura individuales a nivel global, mayoritariamente en Norteamérica y Europa. |
-| Perfil de Marketing | Estrategias de marketing | Marketing digital orientado a segmentos B2B mediante alianzas con DIRCETUR, asociaciones de agencias como AATC y participación en ferias de turismo. Estrategia B2C centrada en redes sociales, contenido de valor sobre rutas peruanas y posicionamiento SEO local. | Marketing de contenidos en blog corporativo, webinars para operadores, presencia en plataformas de reseñas como Capterra y participación en eventos de la industria turística europea. | Marketing basado en casos de éxito de operadores reales, alianzas con DMOs regionales, contenido educativo para gestores de turismo y enfoque en testimonios sobre seguridad y conexión con viajeros. | Modelo freemium con conversión a suscripción AllTrails Plus. Crecimiento basado en comunidad de usuarios, contenido generado por usuarios y posicionamiento orgánico en buscadores. |
-| Perfil de Producto | Productos y Servicios | Plataforma web para agencias con dashboard de monitoreo, gestión de tours y alertas. Aplicación móvil para turistas con mapas offline y registro de experiencia. Wearables IoT y checkpoints Bluetooth para captura de geolocalización y signos vitales. | Software de reservas, gestión de pagos, sincronización con OTAs como Viator y GetYourGuide, panel de control y aplicación para guías. | Plataforma con seguimiento de ubicación en vivo, chat instantáneo entre guías y viajeros, waivers digitales, encuestas posteriores al viaje, mapas con itinerarios destacados y módulo de reservas con marca personalizada. | Aplicación móvil con búsqueda de rutas, navegación GPS giro a giro, mapas offline en plan Plus, registro de actividad y comunidad social. |
-| Perfil de Producto | Precios y Costos | Modelo de suscripción mensual diferenciado para agencias según tamaño y volumen de tours. Aplicación móvil gratuita para turistas con funciones premium opcionales. Costo adicional por hardware de wearables y checkpoints. | Planes mensuales para operadores turísticos con comisión sobre reservas. Tarifas variables según volumen y módulos contratados. | Precios bajo cotización personalizada según tamaño del operador y módulos contratados. Modelo SaaS sin comisión por reserva. | Versión gratuita con funciones básicas. Suscripción AllTrails Plus alrededor de 35.99 dólares anuales para mapas offline y funcionalidades avanzadas. |
-| Perfil de Producto | Canales de distribución (Web y/o Móvil) | Plataforma web responsive para agencias y aplicación móvil nativa Android e iOS para turistas. Distribución directa a través del sitio web corporativo y alianzas con asociaciones de agencias. | Aplicación web SaaS y aplicación móvil para guías. Distribución mediante sitio corporativo, comparadores de software y partnerships. | Plataforma web SaaS y experiencia móvil para viajeros sin necesidad de descargar aplicación adicional, accesible vía enlace directo. Distribución a través del sitio web corporativo. | Aplicación móvil Android e iOS, sitio web complementario. Distribución a través de App Store, Google Play y posicionamiento orgánico. |
-| Análisis SWOT | Fortalezas | Solución integral única en el mercado peruano que combina gestión para agencias, experiencia para turistas e integración IoT. Funcionamiento offline mediante sincronización asincrónica. Conocimiento profundo del contexto local y rutas peruanas. Captura de signos vitales para prevención de riesgos. | Plataforma robusta y madura con más de quince años en el mercado. Integración consolidada con OTAs líderes. Reconocimiento en el sector europeo de actividades de aventura. | Propuesta integral que une seguridad, comunicación y reservas. Live Tracking validado por operadores de rallies y aventuras de varios días. Experiencia móvil sin fricción, sin login para el viajero. | Comunidad masiva de usuarios y volumen de rutas inigualable. Marca reconocida globalmente. Interfaz intuitiva y experiencia de usuario altamente pulida. |
-| Análisis SWOT | Debilidades | Marca nueva sin reconocimiento en el mercado. Necesidad de inversión inicial en desarrollo y despliegue de hardware. Curva de adopción tecnológica en agencias con baja madurez digital. | Plataforma orientada principalmente a reservas, sin capacidades de monitoreo en tiempo real ni integración con dispositivos de tracking en campo. Interfaz no diseñada para uso en zonas sin conectividad. | Su tracking depende de la conectividad celular del dispositivo del viajero, lo que limita su utilidad en zonas remotas sin señal. No incorpora hardware IoT propio ni captura de signos vitales. Presencia inexistente en el mercado peruano. | No ofrece herramientas de gestión para agencias ni dashboards de supervisión. Cobertura limitada de rutas peruanas. Mapas offline restringidos a la versión de pago. Sin integración con dispositivos IoT. |
-| Análisis SWOT | Oportunidades | Crecimiento sostenido del turismo de aventura en el Perú con 14.1 millones de visitas a sitios turísticos en 2025 y aumento del 33.2 por ciento respecto a 2024. Alta demanda de soluciones de seguridad por parte de turistas y agencias. Bajo nivel de digitalización del sector permite posicionarse como referente. | Expansión hacia mercados latinoamericanos donde su presencia es limitada. Demanda creciente de digitalización en operadores turísticos. | Expansión hacia mercados emergentes de turismo de aventura como Sudamérica y Asia. Integración futura con dispositivos satelitales o IoT podría ampliar su propuesta de valor. | Incorporación de funcionalidades para agencias podría ampliar su mercado. Crecimiento del turismo experiencial a nivel global. |
-| Análisis SWOT | Amenazas | Llegada de competidores internacionales con mayor capital al mercado peruano. Adopción masiva de tecnologías satelitales como Starlink Direct to Cell que reduzcan la barrera de la conectividad. Competencia con plataformas globales con mayor presupuesto de marketing. | Aparición de competidores locales con propuestas adaptadas culturalmente. Posible canibalización por parte de plataformas como Bokun o FareHarbor en mercados emergentes. | Competidores con soluciones más completas que integren hardware propio. Saturación del mercado norteamericano de software para turismo. | Competidores especializados en navegación offline regional con mejor cobertura local. Apps de mapas gratuitos como Google Maps incorporando funciones similares. |
+<html>
+<body>
+    <table>
+        <tr>
+           <td colspan="6" class="sub">  <h1>Competitive Analysis Landscape</h1></td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="sub">¿Por qué llevar a cabo este análisis?</td>
+            <td colspan="4" class="sub"><h3>¿Quiénes son nuestros principales competidores?</h3></td>
+        </tr>
+        <tr>
+            <td colspan="4">El objetivo es comprender el posicionamiento real de los competidores en el mercado de gestión y monitoreo de turismo de aventura, identificar brechas en sus propuestas de valor y validar los espacios de oportunidad que VitalTrek puede ocupar en el mercado peruano.</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="sub">PERFIL</td>
+            <td rowspan="2" class="sub">Overview</td>
+            <td> VitalTrek <img src="assets/images/vitaltrek-logo.png"></td>
+            <td> TrekkSoft <img src="assets/images/trekk-soft.png"></td>
+            <td> Wayward <img src="assets/images/wayward.png"></td>
+            <td> AllTrails <img src="assets/images/all-trails.png"></td> 
+        </tr>
+        <tr>
+            <td>Plataforma web y móvil peruana que centraliza la gestión de tours de aventura para agencias y ofrece a turistas navegación offline, registro de experiencia e información contextual del recorrido, integrando un ecosistema IoT con wearables y checkpoints Bluetooth.</td>
+            <td>Plataforma suiza de software como servicio para reservas y gestión operativa de operadores turísticos, con foco en pagos online y conexión con OTAs.</td>
+            <td>Plataforma estadounidense todo en uno para operadores de aventura, con énfasis en seguimiento de viaje en vivo, chat en tiempo real entre guías y viajeros, waivers digitales e itinerarios personalizados.</td>
+            <td>Aplicación móvil estadounidense con el mayor catálogo mundial de rutas de senderismo, navegación GPS y comunidad de usuarios.</td>      
+        </tr>
+        <tr>
+            <td class="sub">Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
+            <td>Solución integral con sincronización asincrónica que opera sin conexión continua, dashboards de monitoreo en tiempo real para agencias, alertas ante anomalías y captura de signos vitales mediante wearables. Diseñada específicamente para el contexto peruano.</td>
+            <td>Reduce la fricción del proceso de reserva y centraliza pagos. Permite a agencias vender sus tours en múltiples canales desde una sola plataforma.</td>
+            <td>Unifica reservas, comunicación, seguridad y experiencia del viajero en una sola interfaz. Permite a las agencias mostrar la marca propia sin que aparezca el branding de Wayward, y comparte la ubicación con contactos de emergencia.</td>
+            <td>Acceso instantáneo a más de 500,000 rutas verificadas con reseñas, fotografías y mapas offline en versión premium.</td>      
+        </tr>
+        <tr>
+            <td rowspan="2" class="sub">PERFIL DEL MARKETING</td>
+            <td class="sub" >Mercado Objetivo</td>
+            <td>Agencias formales de turismo de aventura y turistas nacionales y extranjeros que realizan rutas en regiones del Perú con baja conectividad como Cusco, Áncash, Arequipa, Puno y Madre de Dios.</td>
+            <td>Operadores turísticos de actividades y tours en Europa y Latinoamérica, principalmente pequeñas y medianas empresas con foco en ventas online.</td>
+            <td>Operadores de turismo de aventura, organizadores de rallies, retiros outdoor y organizaciones turísticas regionales (DMOs) en Norteamérica y Europa.</td>
+            <td>Senderistas, ciclistas, corredores y turistas de aventura individuales a nivel global, mayoritariamente en Norteamérica y Europa.</td>
+        </tr>
+        <tr>
+            <td class="sub">Estrategias de Marketing</td>
+            <td>Marketing digital orientado a segmentos B2B mediante alianzas con DIRCETUR, asociaciones de agencias como AATC y participación en ferias de turismo. Estrategia B2C centrada en redes sociales, contenido de valor sobre rutas peruanas y posicionamiento SEO local.</td>
+            <td>Marketing de contenidos en blog corporativo, webinars para operadores, presencia en plataformas de reseñas como Capterra y participación en eventos de la industria turística europea.</td>
+            <td>Marketing basado en casos de éxito de operadores reales, alianzas con DMOs regionales, contenido educativo para gestores de turismo y enfoque en testimonios sobre seguridad y conexión con viajeros.</td>
+            <td>Modelo freemium con conversión a suscripción AllTrails Plus. Crecimiento basado en comunidad de usuarios, contenido generado por usuarios y posicionamiento orgánico en buscadores.</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="sub">PERFIL DEL PRODUCTO</td>
+            <td class="sub">Productos & Servicios</td>
+            <td>Plataforma web para agencias con dashboard de monitoreo, gestión de tours y alertas. Aplicación móvil para turistas con mapas offline y registro de experiencia. Wearables IoT y checkpoints Bluetooth para captura de geolocalización y signos vitales.</td>
+            <td>Software de reservas, gestión de pagos, sincronización con OTAs como Viator y GetYourGuide, panel de control y aplicación para guías.</td>
+            <td>Plataforma con seguimiento de ubicación en vivo, chat instantáneo entre guías y viajeros, waivers digitales, encuestas posteriores al viaje, mapas con itinerarios destacados y módulo de reservas con marca personalizada.</td>
+            <td>Aplicación móvil con búsqueda de rutas, navegación GPS giro a giro, mapas offline en plan Plus, registro de actividad y comunidad social.</td>
+        </tr>
+        <tr>
+            <td class="sub">Precios & Costos</td>
+            <td>Modelo de suscripción mensual diferenciado para agencias según tamaño y volumen de tours. Aplicación móvil gratuita para turistas con funciones premium opcionales. Costo adicional por hardware de wearables y checkpoints.</td>
+            <td>Planes mensuales para operadores turísticos con comisión sobre reservas. Tarifas variables según volumen y módulos contratados.</td>
+            <td>Precios bajo cotización personalizada según tamaño del operador y módulos contratados. Modelo SaaS sin comisión por reserva.</td>
+            <td>Versión gratuita con funciones básicas. Suscripción AllTrails Plus alrededor de 35.99 dólares anuales para mapas offline y funcionalidades avanzadas.</td>
+        </tr>
+        <tr>
+            <td class="sub">Canales de distribución (web/móvil)</td>
+            <td>Plataforma web responsive para agencias y aplicación móvil nativa Android e iOS para turistas. Distribución directa a través del sitio web corporativo y alianzas con asociaciones de agencias.</td>
+            <td>Aplicación web SaaS y aplicación móvil para guías. Distribución mediante sitio corporativo, comparadores de software y partnerships.</td>
+            <td>Plataforma web SaaS y experiencia móvil para viajeros sin necesidad de descargar aplicación adicional, accesible vía enlace directo. Distribución a través del sitio web corporativo.</td>
+            <td>Aplicación móvil Android e iOS, sitio web complementario. Distribución a través de App Store, Google Play y posicionamiento orgánico.</td>        
+        </tr>
+        <tr>
+            <td rowspan="4" class="sub">ANÁLISIS SWOT</td>
+            <td class="sub">Fortalezas</td>
+            <td>Solución integral única en el mercado peruano que combina gestión para agencias, experiencia para turistas e integración IoT. Funcionamiento offline mediante sincronización asincrónica. Conocimiento profundo del contexto local y rutas peruanas. Captura de signos vitales para prevención de riesgos.</td>
+            <td>Plataforma robusta y madura con más de quince años en el mercado. Integración consolidada con OTAs líderes. Reconocimiento en el sector europeo de actividades de aventura.</td>
+            <td>Propuesta integral que une seguridad, comunicación y reservas. Live Tracking validado por operadores de rallies y aventuras de varios días. Experiencia móvil sin fricción, sin login para el viajero.</td>
+            <td>Comunidad masiva de usuarios y volumen de rutas inigualable. Marca reconocida globalmente. Interfaz intuitiva y experiencia de usuario altamente pulida.</td>
+        </tr>
+        <tr>
+            <td class="sub">Debilidades</td>
+            <td>Marca nueva sin reconocimiento en el mercado. Necesidad de inversión inicial en desarrollo y despliegue de hardware. Curva de adopción tecnológica en agencias con baja madurez digital.</td>
+            <td>Plataforma orientada principalmente a reservas, sin capacidades de monitoreo en tiempo real ni integración con dispositivos de tracking en campo. Interfaz no diseñada para uso en zonas sin conectividad.</td>
+            <td>Su tracking depende de la conectividad celular del dispositivo del viajero, lo que limita su utilidad en zonas remotas sin señal. No incorpora hardware IoT propio ni captura de signos vitales. Presencia inexistente en el mercado peruano.</td>
+            <td>No ofrece herramientas de gestión para agencias ni dashboards de supervisión. Cobertura limitada de rutas peruanas. Mapas offline restringidos a la versión de pago. Sin integración con dispositivos IoT.</td>  
+        </tr>
+        <tr>
+            <td class="sub">Oportunidades</td>
+            <td>Crecimiento sostenido del turismo de aventura en el Perú con 14.1 millones de visitas a sitios turísticos en 2025 y aumento del 33.2 por ciento respecto a 2024. Alta demanda de soluciones de seguridad por parte de turistas y agencias. Bajo nivel de digitalización del sector permite posicionarse como referente.</td>
+            <td>Expansión hacia mercados latinoamericanos donde su presencia es limitada. Demanda creciente de digitalización en operadores turísticos.</td>
+            <td>Expansión hacia mercados emergentes de turismo de aventura como Sudamérica y Asia. Integración futura con dispositivos satelitales o IoT podría ampliar su propuesta de valor.</td>
+            <td>Incorporación de funcionalidades para agencias podría ampliar su mercado. Crecimiento del turismo experiencial a nivel global.</td> 
+        </tr>
+        <tr>
+            <td class="sub">Amenazas</td>
+            <td>Llegada de competidores internacionales con mayor capital al mercado peruano. Adopción masiva de tecnologías satelitales como Starlink Direct to Cell que reduzcan la barrera de la conectividad. Competencia con plataformas globales con mayor presupuesto de marketing.</td>
+            <td>Aparición de competidores locales con propuestas adaptadas culturalmente. Posible canibalización por parte de plataformas como Bokun o FareHarbor en mercados emergentes.</td>
+            <td>Competidores con soluciones más completas que integren hardware propio. Saturación del mercado norteamericano de software para turismo.</td>
+            <td>Competidores especializados en navegación offline regional con mejor cobertura local. Apps de mapas gratuitos como Google Maps incorporando funciones similares.</td>          
+        </tr>
+    </table>
+</body>
+</html>
 
 ### 2.1.2. Estrategias y Tácticas frente a Competidores
 
@@ -730,202 +825,250 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 ### 2.2.2. Registro de Entrevistas
 
-##### Segmento 1: Dueños o Responsables de Agencias de Turismo de Aventura
+##### Segmento 1: Dueños o responsables de agencia de turismo de aventura
 
+<div align="center">
 
-**Entrevista N° 1**
+| Campo | Información |
+|-------|-------------|
+| Segmento | Dueño o responsable de agencia de turismo de aventura |
+| Nombres y apellidos | Mateo León Paredes |
+| Edad | 25 años |
+| Distrito | Lima |
+| Ocupación | Encargado logístico de transporte turístico |
+| Rutas atendidas | Cusco, Arequipa y selva central |
+| Flota / Volumen | Hasta 10 vehículos, 80-120 turistas semanales |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:11:30 |
+| URL del video | https://surl.li/aghnmp |
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Mateo León Paredes | 25 | Lima |
-
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [ttps://surl.li/aghnmp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAbgU4zD7UFwS-wKDqt4aTbA) | 00:00 | 11:30 min |
-
-![Entrevista-1](assets/images/entrevista-agencia-1.png)
+</div>
+<div align="center">
+    <img src="assets/images/entrevista-agencia-1.png" width="600">
+</div>
 
 **Resumen:** Mateo León Paredes, 25 años, opera como encargado logístico de transporte turístico desde Lima, gestionando hasta 10 vehículos y entre 80-120 turistas semanales en rutas hacia Cusco, Arequipa y selva central. Su mayor problema es el seguimiento de flota: el GPS instalado está desactualizado y pierde señal en sierra, por lo que todo depende de WhatsApp y un Excel manual, con zonas de hasta 2 horas sin cobertura que han generado fricciones comerciales con agencias clientes. Vivió un incidente crítico con 12 turistas extranjeros varados de noche sin señal, lo que evidenció la fragilidad total del sistema. Necesita una solución con funcionamiento offline, botón de emergencia para conductores y panel en tiempo real desde Lima, y estaría dispuesto a pagar entre 60-120 USD/mes si puede justificar el ROI ante el dueño, quien representa la principal barrera para adoptar nueva tecnología.
-
+ 
 ---
 
-**Entrevista N° 2**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Rodrigo Quispe Mendoza | 29 | Miraflores |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Dueño o responsable de agencia de turismo de aventura |
+| Nombres y apellidos | Rodrigo Quispe Mendoza |
+| Edad | 29 años |
+| Distrito | Miraflores |
+| Ocupación | Cofundador y responsable de operaciones de Cumbres Vivas Expediciones |
+| Rutas atendidas | Cusco, Puno y selva alta de Amazonas |
+| Flota / Volumen | Hasta 5 grupos simultáneos, 8-10 guías, 30-40 turistas activos |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:10:55 |
+| URL del video | https://surl.li/bxfsht |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [https://surl.li/bxfsht](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQCNVCnGAkBaRLaCzBnng6gTAcslNAeBLBagBhTF8qiFCRs?e=JWQzWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 10:55 min |
-
-![Entrevista-2](assets/images/entrevista-agencia-2.png)
-
+</div>
+<div align="center">
+    <img src="assets/images/entrevista-agencia-2.png" width="600">
+</div>
 **Resumen:** Rodrigo Quispe Mendoza, 29 años, es cofundador y responsable de operaciones de Cumbres Vivas Expediciones, agencia boutique de trekking y montañismo en Miraflores con cuatro años de operación, grupos máximos de ocho personas y presencia en Cusco, Puno y selva alta de Amazonas. En temporada alta gestiona hasta cinco grupos simultáneos con ocho a diez guías en campo y entre treinta y cuarenta turistas activos. El seguimiento es completamente manual vía WhatsApp desde puntos de señal, con silencios de hasta seis a ocho horas en zonas altas donde entre el 60-70% del recorrido no tiene cobertura. Vivió un incidente crítico en el Ausangate donde un turista con mal de altura se deterioró de noche y el guía tardó casi cuatro horas en conseguir señal para pedir ayuda, exponiendo la ausencia de protocolos claros de escalamiento. Ha probado GPS de mano y apps de rastreo sin éxito por problemas de batería, falta de transmisión en tiempo real y dependencia de señal. Sus necesidades indispensables son ubicación en tiempo real con conectividad satelital y alertas de emergencia activables por el guía, y pagaría entre 80-150 USD/mes por una solución robusta. Usa Bokun, WhatsApp y Google Sheets, y tiene alta conciencia del riesgo operativo y legal.
-
+ 
 ---
 
-**Entrevista N° 3**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Paola Paz Collazos | 38 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Dueño o responsable de agencia de turismo de aventura |
+| Nombres y apellidos | Paola Paz Collazos |
+| Edad | 38 años |
+| Distrito | Lima |
+| Ocupación | Fundadora y dueña de empresa de transporte turístico |
+| Rutas atendidas | Cusco, Arequipa y selva central |
+| Flota / Volumen | 12 unidades, hasta 10 vehículos activos, 100-140 turistas semanales |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:10:25 |
+| URL del video | https://goo.su/ANC6ox |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Dueño o responsable de agencia de turismo de aventura | [https://goo.su/ANC6ox](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQBgLcL1AU8bQpt6G5qxCLSuAZYq8UmbUTzux0Ck11ZWVq8) | 00:00 | 10:25 min |
-
-![Entrevista-3](assets/images/entrevista-agencia-3.png)
+</div>
+<div align="center">
+    <img src="assets/images/entrevista-agencia-3.png" width="600">
+</div>
 
 **Resumen:** Paola Paz Collazos, 38 años, es fundadora y dueña de una empresa de transporte turístico con doce unidades y ocho años de operación en Lima, atendiendo rutas hacia Cusco, Arequipa y selva central con hasta diez vehículos activos simultáneos y entre cien y ciento cuarenta turistas semanales. El seguimiento actual combina un GPS de flota inestable en sierra, WhatsApp y un Excel manual que actualiza su encargado, con tramos de hasta dos horas sin señal que ya le generaron fricciones comerciales y casi la pérdida de un contrato con una agencia grande. Vivió un incidente de avería mecánica nocturna con doce turistas extranjeros sin señal por más de una hora, donde la incapacidad de informar a los clientes fue el mayor daño. Como dueña reconoce que depender del celular en esas rutas no es un sistema sino suerte, y esa responsabilidad le pesa. Ha probado soluciones de rastreo sin éxito por costo y falta de funcionalidad offline, e identifica como barreras la conectividad, la simplicidad necesaria para conductores mayores sin habilidades digitales y el costo justificable. Ve valor no solo operativo sino comercial en la solución: poder mostrar a las agencias en tiempo real dónde está su grupo como argumento de diferenciación frente a otros transportistas. Sus funcionalidades indispensables son operatividad offline, alerta de emergencia simple y panel en tiempo real desde Lima, y pagaría entre 85-150 USD/mes.
-
+ 
 ---
 
 ##### Segmento 2: Turistas de Aventura
 
-**Entrevista N° 1**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Tamara Velasquez | 20 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turista de aventura |
+| Nombres y apellidos | Tamara Velasquez |
+| Edad | 20 años |
+| Distrito | Lima |
+| Actividades practicadas | Parapente anual, montañismo y escalada |
+| Dispositivo principal | Celular Android |
+| App de referencia | Google Maps |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:05:49 |
+| URL del video | https://surl.li/wtbakg |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Turista de aventura | [https://surl.li/wtbakg](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQDmL-DP2xwmQ4BbvtwR-lGLAS0P8EhgPotM1JXGatn2fwg?e=TgCalk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 5:49 min |
-
-![Entrevista-1](assets/images/Entrevista1.png)
+</div>
+<div align="center">
+    <img src="assets/images/Entrevista1.png" width="600">
+</div>
 
 **Resumen:** Tamara, residente de Lima, es una aficionada a los deportes de aventura que realiza parapente anualmente y expediciones de montañismo o escalada. Utiliza principalmente el GPS de su celular y comparte su ubicación con familiares para mantenerse comunicada, mientras que la organización de las actividades la delega a su prima o a guías de confianza. Durante sus recorridos se guía por la información de los instructores, pero ha experimentado desorientación y miedo al quedarse sin señal telefónica en zonas remotas. Reconoce que manipular el celular en plena actividad extrema resulta poco práctico y riesgoso, y se apoya mucho en el seguimiento constante de sus guías para sentirse segura. Le gustaría contar con una herramienta en formato smartwatch que registre su ubicación, signos vitales y recorrido de forma automática, siempre que sea más segura de llevar que un celular y respete la privacidad de sus datos. Su dispositivo principal es el celular Android y utiliza Google Maps como aplicación de referencia.
-
+ 
 ---
 
-**Entrevista N° 2**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Gaby Valencia | 20 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turista de aventura |
+| Nombres y apellidos | Gaby Valencia |
+| Edad | 20 años |
+| Distrito | Lima |
+| Actividades practicadas | Escalada en nevados, expediciones con amigos |
+| Dispositivo principal | Celular iPhone |
+| App / canal de referencia | Google Maps e Instagram |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:04:03 |
+| URL del video | https://surl.li/wrchlv |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Turista de aventura | [https://surl.li/wrchlv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAFRDJfQqYVS4y0Y-mceqLcAXUAkL-9vmY98O6DfQsNapw?e=iSQlI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:03 min |
-
-![Entrevista-2](assets/images/Entrevista2.png)
+</div>
+<div align="center">
+    <img src="assets/images/Entrevista2.png" width="600">
+</div>
 
 **Resumen:** Gabriela, aficionada a conocer lugares nuevos y realizar actividades fuera de lo común, suele organizar expediciones como escalada en nevados con amigos del trabajo aprovechando fechas especiales o promociones en redes sociales. Utiliza principalmente Google Maps para ubicarse y comparte su ruta con sus padres. Durante su última experiencia en el nevado Rajuntay experimentó miedo y dificultades respiratorias al quedarse rezagada, notando que los mecanismos de seguridad de la agencia eran deficientes y los guías estaban muy distanciados para atender emergencias a tiempo. Le preocupa enormemente la falta de señal en zonas remotas, ya que esto le impidió comunicarse con la agencia cuando una de sus compañeras necesitó ayuda médica. Aunque el uso de tecnología para emergencias podría serle útil, muestra una fuerte desconfianza respecto a la privacidad de sus datos, temiendo que las agencias hagan un mal uso de su información personal. Su dispositivo principal es el celular iPhone y su canal digital preferido es Instagram para descubrir actividades de aventura.
-
+ 
 ---
 
-**Entrevista N° 3**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Antonella Chavez | 20 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turista de aventura |
+| Nombres y apellidos | Antonella Chavez |
+| Edad | 20 años |
+| Distrito | Lima |
+| Actividades practicadas | Esquí en el extranjero y trekking en Huaraz |
+| Dispositivo principal | iPhone y Apple Watch |
+| App / canal de referencia | Google Maps e Instagram |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:04:05 |
+| URL del video | https://surl.li/scgbfh |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Turista de aventura | [https://surl.li/scgbfh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a267_upc_edu_pe/IQAzzJK1Z2EjRKwAnDDhYymlASIYaE0KOMWSH67esO8b9GA?e=Aav4mr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 4:05 min |
-
-![Entrevista-3](assets/images/Entrevista3.png)
+</div>
+<div align="center">
+    <img src="assets/images/Entrevista3.png" width="600">
+</div>
 
 **Resumen:** Antonella, estudiante de publicidad de 20 años y apasionada por conocer nuevos lugares, suele realizar actividades de aventura como esquiar en el extranjero o hacer trekking en Huaraz. Utiliza principalmente Google Maps para ubicarse y comparte su ubicación con su padre. Está muy familiarizada con el uso de su Apple Watch para registrar rutas y medir su salud, siendo uno de los perfiles más tecnológicamente maduros del segmento. Durante sus expediciones en el Perú ha presenciado emergencias médicas por la altura y percibe que las agencias locales carecen de la preparación y el personal experto necesarios para atender incidentes en zonas remotas, contando apenas con botiquines básicos. Aunque la falta de señal en estas áreas le resulta un inconveniente habitual, afirma que su mayor prioridad durante un tour es el monitoreo constante de sus signos vitales, considerando fundamental controlar su salud al someter su cuerpo a altitudes y entornos extremos a los que no está acostumbrada. Sus dispositivos principales son iPhone y Apple Watch, y su canal digital de referencia es Instagram.
-
+ 
 ---
 
-**Entrevista N° 4**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Miguel Morales | 38 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turista de aventura |
+| Nombres y apellidos | Miguel Morales |
+| Edad | 38 años |
+| Distrito | Lima |
+| Ocupación | Paramédico |
+| Actividades practicadas | Viajes grupales de aventura a Paracas |
+| Dispositivo principal | Celular Android |
+| App / canal de referencia | Google Maps y WhatsApp |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:09:49 |
+| URL del video | https://surl.li/qqabud |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Turista de aventura | [https://surl.li/qqabud](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQDH0cMptlBfRIQ0xnwLJmCxAaaNZU0UNPGppb0A9gLqCO0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bINUkT) | 00:00 | 9:49 min |
-
-![Entrevista-4](assets/images/Entrevista4.png)
+</div>
+<div align="center">
+    <img src="assets/images/Entrevista4.png" width="600">
+</div>
 
 **Resumen:** Miguel Ángel Morales, paramédico de 38 años, realiza actividades de aventura de forma ocasional y es conocido por organizar viajes grupales a Paracas con amigos. Aunque antes organizaba sus viajes de forma independiente, actualmente prefiere contratar agencias por la mayor organización, seguridad e itinerario definido que ofrecen. Por su formación en emergencias, mantiene una mirada crítica sobre la preparación de las agencias y advierte la invisibilización de protocolos mínimos, la falta de personal capacitado y la ausencia de equipamiento básico como botiquines durante las excursiones. En sus viajes utiliza Google Maps como única herramienta de orientación y no lleva dispositivos de rastreo adicionales. Le gustaría contar con información contextual en tiempo real como clima, puntos de interés y estado del entorno, así como la posibilidad de monitorear signos vitales, principalmente en situaciones de alta demanda física. Considera que la incorporación de tecnología de monitoreo y mejores protocolos de seguridad impactaría positivamente en su elección de agencia. Su dispositivo principal es el celular Android y se comunica principalmente por WhatsApp.
-
+ 
 ---
 
-**Entrevista N° 5**
+<div align="center">
 
-| **Nombres y apellidos** | **Edad** | **Distrito** |
-|---|---|---|
-| Valeria Quiliano | 21 | Lima |
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turista de aventura |
+| Nombres y apellidos | Valeria Quiliano |
+| Edad | 21 años |
+| Distrito | Lima |
+| Actividades practicadas | Camino Inca hasta Machu Picchu, sandboarding en Lunahuaná |
+| Dispositivo principal | iPhone y Apple Watch |
+| App / canal de referencia | Google Maps, Instagram y TikTok |
+| Inicio de la entrevista | 00:00 |
+| Duración | 00:08:33 |
+| URL del video | https://surl.li/lvxaav |
 
-| **Segmento** | **URL** | **Inicio** | **Duración** |
-|---|---|---|---|
-| Turista de aventura | [https://surl.li/lvxaav](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324623_upc_edu_pe/IQBLNNCNz8paSbQPCQy2fF26AewW2P1FYWEaHIDfdOiuAw4?e=ZlxA2l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 00:00 | 8:33 min |
-
-![Entrevista-5](assets/images/Entrevista5.png)
+</div>
+<div align="center">
+    <img src="assets/images/Entrevista5.png" width="600">
+</div>
 
 **Resumen:** Valeria, estudiante de Psicología de 21 años, ha realizado dos actividades de aventura destacadas: el Camino Inca en Cusco hasta Machu Picchu con un grupo de cinco amigos a través de una agencia, y sandboarding en Lunahuana con su familia. Debido a las obligaciones académicas y laborales de su entorno, estas actividades no son frecuentes. Durante el Camino Inca experimentó momentos de inseguridad por las rutas desconocidas y el soroche, que afectó a varios miembros del grupo, aunque el guía actuó con preparación y llevaba botiquín. Reconoce que la falta de señal en ciertos tramos le generó inquietud respecto a cómo pedir ayuda en caso de emergencia. Utiliza Google Maps como herramienta principal de orientación y un Apple Watch para monitorear su ritmo cardíaco, altitud y GPS. Durante el tour compartió su ubicación con su padre, aunque la señal intermitente interrumpía la conexión. Le hubiera gustado tener mayor precisión en los mapas, información histórica y cultural del recorrido, y la posibilidad de registrar su experiencia con fotos georreferenciadas. Estaría dispuesta a usar un wearable de monitoreo ofrecido por la agencia siempre que considere la empresa confiable. Sus dispositivos principales son iPhone y Apple Watch, y su canal digital de referencia es Instagram y TikTok.
-
+ 
 ---
 
 ### 2.2.3. Análisis de Entrevistas
 
-##### Análisis del Segmento 2: Turistas de Aventura
+### Análisis del segmento de Dueños o Responsables de Agencias de Turismo de Aventura
 
-A continuación se presenta el análisis de las entrevistas realizadas al segmento de turistas de aventura, identificando con sustento estadístico las características objetivas y subjetivas más representativas del segmento que servirán de base para la construcción del User Persona correspondiente.
+Para el segmento de dueños o responsables de agencias se analizaron 3 entrevistas: Mateo León Paredes, Rodrigo Quispe Mendoza y Paola Paz Collazos. La muestra evidencia un perfil de operadores con responsabilidad directa sobre flotas o grupos de turistas, dependencia total de procesos manuales para el seguimiento en campo, y alta conciencia del riesgo operativo y comercial derivado de la pérdida de señal en zonas remotas.
 
----
+<div align="center">
 
-**Características demográficas**
+| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
+|-----------------------------|----------------------|-------------------------|---------------------------|
+| Responsabilidad operativa sobre volúmenes altos de turistas | 3 de 3 entrevistados (100%) gestionan operaciones con volumen considerable de vehículos, grupos o turistas semanales. | Mateo gestiona hasta 10 vehículos y 80-120 turistas semanales; Rodrigo coordina hasta 5 grupos simultáneos con 30-40 turistas activos; Paola administra 12 unidades y 100-140 turistas semanales. | El arquetipo debe representar a un operador con alta carga logística y necesidad de visibilidad total sobre sus recursos en campo. |
+| Seguimiento manual vía WhatsApp y Excel | 3 de 3 entrevistados (100%) dependen de WhatsApp, Excel o registros manuales para monitorear su operación. | Mateo depende de WhatsApp y un Excel manual; Rodrigo hace seguimiento manual vía WhatsApp desde puntos de señal; Paola combina un GPS inestable, WhatsApp y Excel actualizado por su encargado. | VitalTrek debe reemplazar estos procesos dispersos con un panel centralizado y automatizado. |
+| Pérdida prolongada de señal en zonas remotas | 3 de 3 entrevistados (100%) reportan tramos sin cobertura de entre 2 y 8 horas en sierra o zonas altas. | Mateo reporta hasta 2 horas sin señal; Rodrigo señala silencios de 6 a 8 horas y hasta 70% del recorrido sin cobertura; Paola identifica tramos de hasta 2 horas sin señal. | El funcionamiento offline es un requisito no negociable para el arquetipo. |
+| Incidentes críticos por falta de comunicación | 3 de 3 entrevistados (100%) narran un incidente grave vinculado a la pérdida de señal. | Mateo vivió 12 turistas varados de noche sin señal; Rodrigo relató un caso de mal de altura donde el guía tardó casi 4 horas en pedir ayuda; Paola sufrió una avería mecánica nocturna sin poder informar a los clientes. | El arquetipo prioriza un botón de emergencia y protocolos claros de escalamiento ante incidentes. |
+| Necesidad de panel de monitoreo en tiempo real | 3 de 3 entrevistados (100%) mencionan explícitamente la necesidad de visibilidad en tiempo real desde su oficina. | Mateo requiere un panel en tiempo real desde Lima; Rodrigo necesita ubicación en tiempo real con conectividad satelital; Paola pide un panel en tiempo real desde Lima. | La solución debe ofrecer un dashboard centralizado como eje de valor para este segmento. |
+| Disposición de pago en rango medio-alto | 3 de 3 entrevistados (100%) estarían dispuestos a pagar entre 60 y 150 USD al mes. | Mateo pagaría entre 60-120 USD/mes; Rodrigo entre 80-150 USD/mes; Paola entre 85-150 USD/mes. | El modelo de precios de VitalTrek para agencias debe ubicarse dentro de este rango. |
+| Barreras de adopción vinculadas a terceros | 2 de 3 entrevistados (66.7%) identifican barreras relacionadas con el dueño del negocio o la capacidad digital de los conductores. | Mateo necesita justificar el ROI ante el dueño, quien es la principal barrera; Paola señala la simplicidad necesaria para conductores mayores sin habilidades digitales como barrera de adopción. | El arquetipo requiere argumentos claros de retorno de inversión y una interfaz simple para el personal de campo. |
+| Valor comercial adicional percibido | 1 de 3 entrevistados (33.3%) identifica un beneficio comercial más allá de lo operativo. | Paola ve valor en mostrar a las agencias clientes la ubicación en tiempo real de sus unidades como argumento de diferenciación frente a otros transportistas. | VitalTrek puede posicionarse también como herramienta de diferenciación comercial, no solo de control operativo. |
 
-El rango de edad de los entrevistados oscila entre los 20 y 38 años, con una edad promedio de 23.8 años. El 80% de los entrevistados son del género femenino y el 20% del género masculino. El 80% son estudiantes universitarios en carreras no relacionadas al turismo (Psicología y Publicidad), mientras que el 20% restante cuenta con formación y ejercicio profesional en el área de emergencias médicas (paramédico).
+</div>
 
----
+En conjunto, el análisis muestra que el operador objetivo de VitalTrek es un usuario con alta responsabilidad logística y de seguridad, cuyos procesos actuales dependen casi por completo de canales manuales como WhatsApp y Excel. La característica más fuerte del segmento es la necesidad de un panel de monitoreo en tiempo real y funcionamiento offline, ya que el 100% de los entrevistados reporta tramos prolongados sin señal y ha vivido al menos un incidente crítico derivado de esta limitación.
 
-**Frecuencia y tipo de actividades realizadas**
+Desde el punto de vista subjetivo, los responsables de agencia entrevistados valoran la tranquilidad operativa, la posibilidad de responder rápido ante emergencias y la justificación económica de nuevas herramientas. Mateo necesita convencer al dueño del negocio antes de invertir; Rodrigo muestra alta conciencia del riesgo legal y operativo; Paola reconoce que depender del celular en rutas remotas "no es un sistema sino suerte". Por ello, el arquetipo de responsable de agencia debe construirse como una persona pragmática, orientada al control y la prevención de riesgos, y dispuesta a pagar por una solución siempre que resuelva de forma concreta el problema de conectividad y visibilidad de su operación.
 
-El 60% ha realizado rutas de trekking de varios días en zonas remotas del Perú, incluyendo el Camino Inca y rutas en Huaraz. El 60% ha practicado al menos un deporte extremo como parapente, sandboarding o esquí. El 20% ha realizado expediciones a nevados como el Rajuntay. El 100% realiza estas actividades de forma esporádica, condicionadas por disponibilidad de tiempo, amigos o familia. El 100% contrata agencias para actividades de mayor riesgo o duración, reconociendo que es necesario por razones de seguridad y organización.
+### Análisis del segmento de Turistas de Aventura
 
----
+Para el segmento de turistas de aventura se analizaron 5 entrevistas: Tamara Velasquez, Gaby Valencia, Antonella Chavez, Miguel Morales y Valeria Quiliano. La muestra evidencia un perfil joven, mayoritariamente femenino y con estudios universitarios, que depende de agencias para actividades de mayor riesgo y valora fuertemente la seguridad frente a la pérdida de señal en zonas remotas.
 
-**Herramientas y dispositivos utilizados**
+<div align="center">
 
-El 100% utiliza Google Maps como herramienta principal de orientación durante sus actividades. El 40% utiliza dispositivos wearables como Apple Watch para monitorear ritmo cardíaco, altitud y GPS durante el recorrido. El 100% comparte su ubicación con un familiar durante el recorrido, aunque la señal intermitente interrumpe esta comunicación de forma frecuente. El 80% utiliza iPhone o Android como dispositivo principal. El 60% menciona Instagram como canal digital de referencia para descubrir actividades y agencias de aventura.
+| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
+|-----------------------------|----------------------|-------------------------|---------------------------|
+| Perfil joven, mayoritariamente femenino y universitario | 4 de 5 entrevistados (80%) son mujeres de 20-21 años, con edad promedio de 23.8 años; 80% son estudiantes universitarios. | Tamara, Gaby, Antonella y Valeria tienen entre 20 y 21 años y cursan estudios universitarios; Miguel, de 38 años, es paramédico y representa el único perfil profesional del grupo. | El arquetipo principal debe representar a una persona joven y universitaria, con un perfil profesional minoritario que aporta una mirada crítica sobre seguridad. |
+| Dependencia de agencias para actividades de riesgo | 5 de 5 entrevistados (100%) contrata agencias para actividades de mayor riesgo o duración; 60% ha realizado trekking de varios días. | Valeria contrató una agencia para el Camino Inca; Gaby y Tamara organizan expediciones con guías o agencias de confianza; Miguel prefiere agencias por la organización y seguridad que ofrecen. | El arquetipo confía la gestión de riesgo a terceros, por lo que la tecnología de la agencia influye directamente en su percepción de seguridad. |
+| Uso de Google Maps y dependencia de señal intermitente | 5 de 5 entrevistados (100%) usa Google Maps como referencia y comparte ubicación con un familiar, aunque la señal se interrumpe con frecuencia. | Todos los entrevistados mencionan Google Maps; Valeria y Gaby señalan explícitamente cortes de señal durante el recorrido. | El arquetipo necesita navegación y comunicación que funcionen de forma confiable sin depender de señal celular continua. |
+| Adopción de wearables de salud | 2 de 5 entrevistados (40%) usa un Apple Watch para monitorear ritmo cardíaco, altitud y GPS. | Antonella y Valeria usan Apple Watch de forma habitual para registrar su actividad física y salud. | El arquetipo tecnológicamente más activo ya está familiarizado con wearables, lo que facilita la adopción de un dispositivo similar ofrecido por la agencia. |
+| Incidentes de riesgo por pérdida de señal | 5 de 5 entrevistados (100%) identifica la pérdida de señal como un momento de inseguridad; 60% experimentó soroche; 20% presenció una emergencia médica de otro turista. | Gaby no pudo comunicarse cuando una compañera necesitó ayuda médica; Valeria sintió inquietud por el soroche de miembros de su grupo; Miguel critica la falta de protocolos y personal capacitado en las agencias. | El arquetipo prioriza el monitoreo de salud y la posibilidad de pedir ayuda incluso sin cobertura celular. |
+| Percepción crítica sobre la preparación de las agencias | 3 de 5 entrevistados (60%) percibe una preparación mínima aceptable; 2 de 5 (40%) identifica deficiencias graves en protocolos o personal. | Valeria destaca que su guía llevaba botiquín y actuó con preparación; Gaby y Miguel critican la falta de personal capacitado, protocolos visibles y equipamiento básico. | El nivel de preparación percibido de la agencia es un criterio central en la decisión de compra del arquetipo. |
+| Necesidad de monitoreo de signos vitales y mapas offline | 5 de 5 entrevistados (100%) considera prioritario el monitoreo de signos vitales y la navegación sin señal; 60% desea información contextual e histórica del recorrido. | Antonella prioriza el control de su salud en altitudes extremas; Tamara y Miguel desean información contextual y registro automático de su actividad. | La propuesta de valor de VitalTrek debe centrarse en salud, seguridad y contexto cultural del recorrido. |
+| Disposición condicionada a usar wearables de la agencia | 5 de 5 entrevistados (100%) aceptaría un wearable ofrecido por la agencia si esta es confiable; 2 de 5 (40%) expresa preocupación explícita por la privacidad de sus datos. | Valeria usaría un wearable siempre que confíe en la empresa; Gaby muestra fuerte desconfianza sobre el uso que las agencias podrían dar a su información personal. | El arquetipo exige transparencia y políticas claras de manejo de datos como condición para adoptar la tecnología. |
+| Influencia decisiva en la elección de agencia | 5 de 5 entrevistados (100%) afirma que contar con monitoreo en tiempo real y protocolos de emergencia influiría en su decisión de contratar una agencia. | Todos los entrevistados coinciden en que la tecnología de seguridad sería un factor determinante frente a otras opciones del mercado. | Esta característica valida a VitalTrek como un diferenciador clave para las agencias que lo adopten frente a la competencia. |
 
----
+</div>
 
-**Incidentes y situaciones de riesgo vividas**
+El análisis del segmento de turistas muestra que las principales necesidades giran en torno a la seguridad personal, el monitoreo de salud y la confianza en la agencia contratada. El 100% de los entrevistados identifica la pérdida de señal como un momento de inseguridad y el 100% considera que la tecnología de monitoreo influiría en su decisión de elegir una agencia, lo que evidencia una oportunidad clara para que VitalTrek se convierta en un factor de diferenciación comercial para las agencias que lo implementen.
 
-El 60% experimentó síntomas de soroche o mal de altura durante rutas de altura. El 100% identificó la pérdida de señal celular como un momento de inseguridad, miedo o incertidumbre durante el recorrido. El 20% presenció emergencias médicas de otros turistas donde la respuesta de la agencia fue deficiente o tardía.
-
----
-
-**Percepción sobre las agencias**
-
-El 60% considera que las agencias con las que viajó contaban con preparación mínima aceptable, incluyendo botiquín y guía capacitado. El 40% percibió deficiencias en los mecanismos de seguridad de las agencias, incluyendo guías demasiado distanciados del grupo, ausencia de protocolos visibles y falta de personal con formación en emergencias. El 100% reconoce que la presencia de un guía preparado es indispensable para sentirse seguro durante el recorrido.
-
----
-
-**Funcionalidades deseadas en una solución tecnológica**
-
-El 100% considera prioritario tener acceso a monitoreo de signos vitales en tiempo real durante el recorrido. El 100% desearía contar con mapas precisos y navegación que funcionen sin señal celular. El 60% le gustaría acceder a información contextual del recorrido como datos históricos, culturales y puntos de interés. El 60% desearía que fotos, rutas y datos de salud se registren automáticamente sin necesidad de intervención manual. El 40% menciona explícitamente querer recibir alertas ante condiciones climáticas o de salud adversas durante el tour.
-
----
-
-**Disposición a usar wearables de monitoreo**
-
-El 100% estaría dispuesto a usar un wearable ofrecido por la agencia, siempre que la empresa sea percibida como confiable y transparente en el uso de los datos. El 40% expresa preocupaciones sobre privacidad, temiendo un uso invasivo o inadecuado de su información personal por parte de la agencia.
-
----
-
-**Impacto en la decisión de contratar una agencia**
-
-El 100% considera que contar con tecnología de monitoreo en tiempo real y protocolos de emergencia avanzados influiría significativamente en su decisión de contratar una agencia específica frente a otra que no cuente con estas características.
-
----
-
-**Personalidad y habilidades blandas identificadas**
-
-El 80% muestra un perfil aventurero con disposición a explorar entornos desafiantes, aunque con alta valoración de la seguridad como condición no negociable. El 60% presenta un perfil tecnológicamente activo, adoptando herramientas digitales de forma natural en su vida cotidiana. El 20% presenta un perfil analítico y crítico, con capacidad para evaluar protocolos de seguridad desde una perspectiva profesional.
-
----
-
-*El análisis del Segmento 1 (Dueños o Responsables de Agencias de Turismo de Aventura) será incorporado una vez completado el registro de entrevistas de dicho segmento.*
+En cuanto a características subjetivas, el segmento combina un perfil aventurero con una fuerte valoración de la seguridad como condición no negociable: el 80% muestra disposición a explorar entornos desafiantes, el 60% presenta un perfil tecnológicamente activo y el 20%, representado por Miguel, aporta una mirada analítica y crítica desde su formación en emergencias médicas. Por ello, el arquetipo de turista de aventura debe construirse como una persona joven, curiosa y activa, que delega la gestión del riesgo en la agencia, pero que exige tecnología confiable, transparente y centrada en su salud para sentirse segura durante el recorrido.
 
 ## 2.3. Needfinding
  
@@ -957,25 +1100,25 @@ A continuación se presenta el User Task Matrix, artefacto que concentra las pri
 
 Para cada User Persona se evalúan dos dimensiones por tarea. La frecuencia indica con qué regularidad realiza la tarea, expresada en una escala cualitativa de Muy Alta, Alta, Media, Baja o Muy Baja. La importancia indica el grado en que la tarea es crítica para el cumplimiento de los objetivos del User Persona, expresada en la misma escala. Cuando una tarea no aplica para un User Persona específico, se indica con la abreviatura N/A.
 
-| Tarea | Ana Lucía Quispe (Agencia) - Frecuencia | Ana Lucía Quispe (Agencia) - Importancia | Marco Rodriguez (Turista) - Frecuencia | Marco Rodriguez (Turista) - Importancia |
-|---|---|---|---|---|
-| Planificar el itinerario y la logística del recorrido | Muy Alta | Muy Alta | Alta | Alta |
-| Coordinar con guías y personal operativo en campo | Muy Alta | Muy Alta | N/A | N/A |
-| Supervisar la ubicación y el estado de los grupos durante el tour | Muy Alta | Muy Alta | N/A | N/A |
-| Comunicarse con familiares para informar el estado durante el viaje | Baja | Media | Muy Alta | Muy Alta |
-| Reaccionar ante emergencias o anomalías en ruta | Media | Muy Alta | Baja | Muy Alta |
-| Registrar la asistencia y datos personales de los turistas | Alta | Alta | Alta | Media |
-| Investigar y comparar agencias o servicios turísticos | Media | Alta | Muy Alta | Muy Alta |
-| Reservar y pagar los servicios de tours de aventura | Alta | Alta | Alta | Muy Alta |
-| Orientarse y navegar durante el recorrido en zonas remotas | Media | Alta | Muy Alta | Muy Alta |
-| Documentar la experiencia mediante fotografías y notas | Baja | Media | Muy Alta | Alta |
-| Acceder a información cultural e histórica del recorrido | Baja | Media | Alta | Muy Alta |
-| Monitorear los signos vitales y el estado físico durante la actividad | Baja | Alta | Alta | Alta |
-| Generar reportes operativos y financieros del tour | Muy Alta | Muy Alta | N/A | N/A |
-| Recopilar feedback y reseñas posteriores al servicio | Alta | Alta | Media | Media |
-| Compartir la experiencia en redes sociales y comunidades de viajeros | Media | Media | Alta | Alta |
-| Gestionar la facturación y los pagos a guías o proveedores | Muy Alta | Muy Alta | N/A | N/A |
-| Capacitarse en protocolos de seguridad y rutas nuevas | Media | Alta | Baja | Media |
+| **User Task**                                                         | **Ana Lucía Quispe (Frecuencia)** | **Ana Lucía Quispe (Importancia)** | **Marco Rodríguez (Frecuencia)** | **Marco Rodríguez (Importancia)** |
+|-----------------------------------------------------------------------|-----------------------------------|------------------------------------|----------------------------------|-----------------------------------|
+| Planificar el itinerario y la logística del recorrido                 | Always                            | Very High                          | Often                            | High                              |
+| Coordinar con guías y personal operativo en campo                     | Always                            | Very High                          | N/A                              | N/A                               |
+| Supervisar la ubicación y el estado de los grupos durante el tour     | Always                            | Very High                          | N/A                              | N/A                               |
+| Comunicarse con familiares para informar el estado durante el viaje   | Rarely                            | Medium                             | Always                           | Very High                         |
+| Reaccionar ante emergencias o anomalías en ruta                       | Sometimes                         | Very High                          | Rarely                           | Very High                         |
+| Registrar la asistencia y datos personales de los turistas            | Often                             | High                               | Often                            | Medium                            |
+| Investigar y comparar agencias o servicios turísticos                 | Sometimes                         | High                               | Always                           | Very High                         |
+| Reservar y pagar los servicios de tours de aventura                   | Often                             | High                               | Often                            | Very High                         |
+| Orientarse y navegar durante el recorrido en zonas remotas            | Sometimes                         | High                               | Always                           | Very High                         |
+| Documentar la experiencia mediante fotografías y notas                | Rarely                            | Medium                             | Always                           | High                              |
+| Acceder a información cultural e histórica del recorrido              | Rarely                            | Medium                             | Often                            | Very High                         |
+| Monitorear los signos vitales y el estado físico durante la actividad | Rarely                            | High                               | Often                            | High                              |
+| Generar reportes operativos y financieros del tour                    | Always                            | Very High                          | N/A                              | N/A                               |
+| Recopilar feedback y reseñas posteriores al servicio                  | Often                             | High                               | Sometimes                        | Medium                            |
+| Compartir la experiencia en redes sociales y comunidades de viajeros  | Sometimes                         | Medium                             | Often                            | High                              |
+| Gestionar la facturación y los pagos a guías o proveedores            | Always                            | Very High                          | N/A                              | N/A                               |
+| Capacitarse en protocolos de seguridad y rutas nuevas                 | Sometimes                         | High                               | Rarely                           | Medium                            |
 
 **Análisis de los resultados de la matriz**
 
@@ -1011,11 +1154,45 @@ Para VitalTrek, elaborar un Empathy Mapping para cada segmento objetivo fue clav
 <b>Empathy Mapping del 2do segmento objetivo – turistas de aventura </b>
 ![](assets/images/Empathy-Map2.png)
 
+### 2.3.5. As-is Scenario Mapping.
+
+El As-is Scenario Mapping permite representar cómo los usuarios realizan actualmente sus actividades antes de utilizar VitalTrek. Este análisis se construye a partir de las entrevistas, los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps. Su objetivo es identificar acciones, pensamientos, emociones y oportunidades de mejora dentro del flujo actual de trabajo de cada segmento.
+
+### As-is Scenario Mapping: Agencia y Operador de Turismo de Aventura
+
+**User Persona:** Ana Lucía Quispe  
+**Escenario:** Coordinación y supervisión manual de tours en zonas remotas sin herramientas digitales de monitoreo.
+
+| Etapa | Actividades actuales | Pensamientos del usuario | Emociones | Pain points | Oportunidades para VitalTrek |
+|-------|----------------------|--------------------------|-----------|-------------|-------------------------------|
+| Planificación del tour | Organiza el itinerario, asigna guías y coordina la logística mediante hojas de cálculo y conversaciones directas con su equipo. | "Espero no haber olvidado coordinar algo con los guías." | Concentración y responsabilidad. | La planificación depende de múltiples canales dispersos, sin un sistema único de gestión. | Centralizar la creación y gestión de tours, guías y rutas en un solo panel operativo. |
+| Salida del grupo a campo | Envía a los guías con instrucciones verbales o por WhatsApp y radios analógicas, sin visibilidad continua de su ubicación. | "Una vez que salen a la ruta, ya no sé mucho de ellos hasta que regresan o me escriben." | Incertidumbre y confianza forzada. | La ausencia de monitoreo en tiempo real genera una desconexión total durante horas. | Ofrecer un dashboard con ubicación y estado de los grupos en tiempo real, incluso en zonas sin señal continua. |
+| Seguimiento durante el recorrido | Espera mensajes intermitentes de los guías cuando logran obtener señal, sin poder anticipar problemas de salud o seguridad. | "Si algo pasa y no tengo señal, no me voy a enterar a tiempo." | Ansiedad y sensación de vulnerabilidad. | La dependencia de la señal celular expone a la agencia a horas de comunicación perdida. | Habilitar sincronización asincrónica y alertas automáticas ante anomalías en signos vitales o ubicación. |
+| Reacción ante una emergencia | Recibe la noticia del incidente tarde, muchas veces horas después, y debe improvisar una respuesta sin protocolo definido. | "Necesito saber de inmediato si algo sale mal, no cuando ya sea demasiado tarde." | Urgencia y estrés. | La falta de un botón de emergencia y protocolos claros retrasa la respuesta y pone en riesgo a los turistas. | Implementar alertas críticas con protocolo de respuesta sugerido y contacto inmediato con el guía en campo. |
+| Cierre del tour y reportes | Reconstruye manualmente lo ocurrido durante el tour a partir de mensajes, notas y el relato de los guías para generar reportes y facturación. | "Ojalá pueda armar el reporte con la información que tengo, aunque esté incompleta." | Cansancio y falta de respaldo documentado. | La información dispersa dificulta la elaboración de reportes confiables y la trazabilidad del servicio. | Generar reportes operativos y financieros automáticos a partir de los datos registrados durante el tour. |
+
+### As-is Scenario Mapping: Turista de Aventura
+
+**User Persona:** Marco Rodriguez  
+**Escenario:** Exploración de rutas remotas dependiendo de aplicaciones sin funcionamiento offline y sin monitoreo de salud.
+
+| Etapa | Actividades actuales | Pensamientos del usuario | Emociones | Pain points | Oportunidades para VitalTrek |
+|-------|----------------------|--------------------------|-----------|-------------|-------------------------------|
+| Investigación previa al viaje | Compara agencias y servicios turísticos en internet y redes sociales antes de reservar su tour de aventura. | "Quiero elegir una agencia que realmente me garantice seguridad en la ruta." | Expectativa y cautela. | La información sobre seguridad y protocolos de las agencias suele ser limitada o poco verificable. | Mostrar de forma transparente las capacidades de monitoreo y seguridad que ofrece la agencia asociada a VitalTrek. |
+| Inicio del recorrido | Utiliza aplicaciones de mapas convencionales para orientarse y comparte su ubicación con familiares antes de perder señal. | "Espero que la señal aguante un poco más antes de entrar a la zona sin cobertura." | Entusiasmo mezclado con preocupación. | Las aplicaciones dependen de conexión continua, lo que genera vacíos de información apenas se pierde la señal. | Ofrecer navegación y registro de ubicación con funcionamiento offline mediante sincronización asincrónica. |
+| Pérdida de señal en zona remota | Continúa el recorrido sin poder confirmar su ubicación exacta ni informar a su familia sobre su estado. | "No sé si mi familia sabe que sigo bien, y yo tampoco puedo confirmarlo." | Incertidumbre y aislamiento. | La imposibilidad de comunicarse durante varios días genera ansiedad tanto en el turista como en sus familiares. | Registrar y sincronizar automáticamente la ubicación y el estado del turista apenas se recupera la conectividad. |
+| Actividad física exigente | Realiza la actividad de aventura sin ningún dispositivo que monitoree su estado físico o signos vitales. | "Si algo me pasara aquí, nadie lo sabría hasta que sea muy tarde." | Vulnerabilidad y autoexigencia. | La falta de monitoreo de signos vitales limita la capacidad de reacción ante una emergencia médica. | Capturar signos vitales mediante wearables IoT y generar alertas ante anomalías detectadas durante la actividad. |
+| Cierre del recorrido | Documenta su experiencia con fotografías y notas personales, sin registro contextual automático del recorrido realizado. | "Me hubiera gustado tener más información histórica y cultural mientras avanzaba en la ruta." | Satisfacción parcial y nostalgia. | La experiencia carece de información contextual enriquecida y de un registro digital estructurado del recorrido. | Ofrecer información contextual del recorrido y registro automático de experiencia, fotos y ruta completada. |
+
+---
+
 ## 2.4. Big Picture Event Storming
 
 En esta sección se presenta el Big Picture Event Storming del proyecto VitalTrek, elaborado como una visión general del dominio del turismo de aventura en zonas de baja conectividad. Mediante una sesión colaborativa, el equipo identificó y ordenó los eventos más importantes que ocurren durante un tour, desde la planificación hasta el cierre.
 
 ![Big Picture EventStorming](assets/images/Big-PictureEvent-Storming.png)
+
+---
 
 ## 2.5 Ubiquitous Language
 
