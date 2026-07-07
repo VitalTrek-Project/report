@@ -1225,8 +1225,6 @@ El siguiente glosario define los términos clave del dominio de turismo de avent
 | **Post-Tour Evaluation**      | Evaluación Post-Tour              | Proceso de revisión de la experiencia, incluyendo desempeño, incidentes y oportunidades de mejora. |
 | **Tour Experience**           | Experiencia del Tour              | Percepción general del usuario respecto a la calidad, seguridad y disfrute del recorrido. |
 
-<div style="page-break-before: always;"></div>
-
 ---
 
 # Capítulo III: Requirements Specification
@@ -1368,8 +1366,7 @@ El Impact Mapping es una herramienta de planificación estrategica que nos permi
 
 A continuación se presenta el Product Backlog de VitalTrek con la priorización y estimación de todas las historias identificadas. El orden refleja el valor para el negocio, priorizando las funcionalidades del Landing Page y las capacidades core de monitoreo y seguridad en campo.
 
-Para acceder al Product Backlog en la herramienta de gestión del equipo, visitar el siguiente enlace: [Product Backlog — VitalTrek](https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog)
-https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog
+Para acceder al Product Backlog en la herramienta de gestión del equipo, visitar el siguiente enlace: [https://tinyurl.com/product-backlog-vitaltrek](https://tinyurl.com/product-backlog-vitaltrek)
 
 ![Product Backlog VitalTrek](assets/images/product-backlog-vitaltrek.png)
 
