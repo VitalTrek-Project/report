@@ -1198,8 +1198,17 @@ El As-is Scenario Mapping permite representar cómo los usuarios realizan actual
 
 ## 2.4. Big Picture Event Storming
 
-En esta sección se presenta el Big Picture Event Storming del proyecto VitalTrek, elaborado como una visión general del dominio del turismo de aventura en zonas de baja conectividad. Mediante una sesión colaborativa, el equipo identificó y ordenó los eventos más importantes que ocurren durante un tour, desde la planificación hasta el cierre.
+En esta sección se presenta el Big Picture Event Storming del proyecto VitalTrek, elaborado como una visión general del dominio del turismo de aventura (Adventure Tourism) en zonas de baja conectividad. Mediante una sesión colaborativa, el equipo identificó y ordenó los eventos más importantes que ocurren durante un tour, desde la planificación hasta el cierre.
 
+Ahora, aquí se va a explicar paso a paso como se desarrollo el Big Picture Event Storming:
+
+* Para empezar, antes de poner los Post-its, dividimos todo este Event Storming en Etapas, basandonos en el As-is Scenario Mapping:
+![Big Picture EventStorming 1](assets/images/Big-PictureEvent-Storming-1.png)
+* Luego, ubicamos todos los Post-its, que representan los Eventos de Dominio (Domain Events) en sus respectivas etapas:
+![Big Picture EventStorming 2](assets/images/Big-PictureEvent-Storming-2.png)
+* Después de esto, creamos la sección de "Problems", donde identificamos todos los problemas que se pueden presentar en las etapas del turismo:
+![Big Picture EventStorming 3](assets/images/Big-PictureEvent-Storming-3.png)
+* Finalmente, en la sección de "Opportunities" identificamos todas las oportunidades de mejora:
 ![Big Picture EventStorming](assets/images/Big-PictureEvent-Storming.png)
 
 ---
@@ -2225,8 +2234,6 @@ Prototipo de la aplicación web VitalTrek en Figma:
 
 ### 4.6.1. Design-Level EventStorming
 
-![Event Storming](assets/images/Big-PictureEvent-Storming.png)
-
 ![Event Storming](assets/images/Design-Level-EventStorming-1.jpg)
 ![Event Storming](assets/images/Design-Level-EventStorming-2.jpg)
 ![Event Storming](assets/images/Design-Level-EventStorming-3.jpg)
@@ -2343,7 +2350,7 @@ Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente 
 | Project Management                  | Trello             | Organización del Product Backlog, planificación de Sprints y monitoreo del avance de tareas del equipo.                                 | https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog <br>                                                     |
 | Requirements Management             | UXPressia          | Elaboración de artefactos de descubrimiento (User Personas, Empathy Maps, Journey Maps e Impact Maps) para la definición de requisitos. | https://uxpressia.com/w/zOJAx                                                                                                                                              |
 | UX/UI Design                        | Figma              | Diseño de la guía de estilo, prototipos de baja fidelidad (wireframes) y alta fidelidad (mockups).                                      | https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=A39veEYR7UykQwPG-0                                                                    |
-| Big Picture Event Storming          | Miro               | Modelado y representación colaborativa de procesos mediante Event Storming.                                                             | https://miro.com/app/board/uXjVHcmAuSg=/?share_link_id=67734123477                                                                                                         |
+| Big Picture Event Storming          | Figma              | Modelado y representación colaborativa de procesos mediante Event Storming.                                                             | https://www.figma.com/board/qJ6uMOLu6Den0EhpUKhiDD/Big-Picture-Event-Storming?node-id=0-1&t=XRk6W4qH7HjZNmMr-1                                                             |
 | User Flows & Wireflows              | LucidChart         | Elaboración de Wireflows y User Flows.                                                                                                  | https://lucid.app/lucidchart/43bc9b20-18a3-4d2c-b9a6-85ed008620de/edit?viewport_loc=-2040%2C2618%2C4437%2C2445%2C0_0&invitationId=inv_49759446-823e-49d5-b1b4-d320a18165d8 |
 | C4 Diagrams                         | Structurizr        | Elaboración de diagramas C4.                                                                                                            | https://structurizr.com/share/109663/51271721-b088-4007-addf-b09ca1ad0c3f                                                                                                  |
 | Class Diagrams & Database Design    | PlantUML           | Elaboración de diagramas UML y modelado estructural de la base de datos.                                                                | https://plantuml.com/es/class-diagram                                                                                                                                      |
@@ -2352,7 +2359,7 @@ Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente 
 | Software Development (Landing Page) | Visual Studio Code | Desarrollo y edición de la Landing Page utilizando tecnologías web estándar.                                                            |                                                                                                                                                                            |
 | Version Control                     | GitHub             | Administración de repositorios y control de versiones mediante GitFlow y Conventional Commits.                                          |                                                                                                                                                                            |
 | Software Deployment                 | GitHub Pages       | Despliegue y publicación de la Landing Page en un entorno accesible para usuarios.                                                      | https://vitaltrek-project.github.io/landing-page/                                                                                                                          |
-| Software Deployment Web-Application | CloudFare          | Despliegue y publicación de la Web Application en un entorno accesible para usuarios.                                                   | 
+| Software Deployment Web-Application | CloudFare          | Despliegue y publicación de la Web Application en un entorno accesible para usuarios.                                                   |                                                                                                                                                                            |
 | Documentation                       | Markdown           | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto.                                                       |                                                                                                                                                                            |
 
 
