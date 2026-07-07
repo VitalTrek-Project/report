@@ -1708,124 +1708,50 @@ La interfaz web soporta dos locales:
 
 El sistema i18n se implementa mediante atributos `data-i18n` en el HTML y un objeto `translations` en `main.js`. La función `toggleLanguage()` actualiza `document.documentElement.lang`, todos los elementos `[data-i18n]`, el pill del botón de idioma y anuncia el cambio mediante `aria-live`. El modal de Join también responde al toggle de idioma. El idioma predeterminado al cargar la página es inglés, conforme al statement del proyecto.
 
-## 4.2. Information Architecture
+# 4.2. Information Architecture
 
-La arquitectura de información de VitalTrek está diseñada para servir a tres perfiles de usuario con necesidades distintas: el **turista aventurero**, el **administrador de agencia** y el **guía de tour**. Las decisiones de organización, etiquetado, navegación y búsqueda se orientan a reducir la carga cognitiva en contextos de uso exigentes — en campo, sin señal, bajo presión — garantizando que cada usuario encuentre lo que necesita sin esfuerzo y en el menor número de pasos posible.
+La arquitectura de información de VitalTrek organiza el contenido de la landing page y de la aplicación web para que turistas, administradores de agencia y guías de tour encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios operan en contextos exigentes en campo, sin señal, bajo presión, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
 
----
+En la landing page, la información se organiza para presentar la propuesta de valor, beneficios por segmento, tecnología, planes y confianza. En la aplicación web, la información se organiza por tareas operativas: gestión de tours, monitoreo de seguridad, navegación y exploración, notificaciones y perfil.
 
-### 4.2.1. Organization Systems
+## 4.2.1. Organization Systems
 
-**Organización visual del contenido**
+- **Organización jerárquica:** Se aplica en la landing page y en las vistas principales mediante un sistema tipográfico de dos familias (Playfair Display para headings, DM Sans para cuerpo) que establece niveles de importancia claros: el título de sección comunica el tema central, el subtítulo contextualiza y el cuerpo detalla. En la aplicación web, el estado activo de una expedición se muestra en la parte superior con métricas clave (progreso, alertas activas), mientras que el detalle histórico queda en un nivel inferior de la pantalla.
 
-***Jerarquía visual (Visual Hierarchy)***
+- **Organización secuencial:** Se usa en flujos donde el usuario debe completar pasos de forma ordenada, como el registro de cuenta (datos personales → verificación de correo → configuración de perfil), la creación de un tour (información general → checkpoints → asignación de turistas → publicación) y el inicio de una expedición por parte del guía (verificar grupo → iniciar expedición → registrar checkpoints → finalizar). La landing page también sigue una progresión narrativa: problema → solución por segmento → tecnología → planes → confianza.
 
-Se aplica jerarquía visual en todas las secciones de la landing page y en las vistas principales de la aplicación web. El sistema tipográfico de dos familias (Playfair Display para headings, DM Sans para cuerpo) establece niveles de importancia claros: el título de sección comunica el tema central, el subtítulo contextualiza, y el cuerpo detalla. Los elementos de mayor jerarquía visual reciben mayor tamaño tipográfico, mayor contraste cromático y mayor espaciado superior. Este sistema se aplica consistentemente en Hero, Problem, Tourists, Agencies, Ecosystem y Plans.
+- **Organización por audiencia:** La landing page separa mensajes para turistas y agencias mediante las secciones "For Adventurous Tourists" y "For the Tours Agencies", además del toggle de planes (Tourists / Agencies). Dentro de la aplicación, la navegación cambia según el rol: el administrador de agencia accede a Tour Management y Safety & Monitoring, el turista accede a Navigation & Exploration, y el guía tiene acceso operativo a la expedición en curso.
 
-En la aplicación web, la jerarquía visual se expresa mediante el tamaño y posición de los componentes: el estado activo de una expedición se muestra en la parte superior de la vista con métricas clave (progreso, alertas activas), mientras que el detalle histórico queda en un nivel inferior de la pantalla.
+- **Organización por tópicos:** Los módulos se agrupan según el tipo de información que gestionan: Tour Management agrupa el ciclo de vida del tour (crear, editar, duplicar, asignar, publicar); Safety & Monitoring agrupa ubicaciones, signos vitales, alertas e incidentes; y Notification & Profile agrupa las preferencias del usuario y el historial de comunicaciones.
 
-***Organización secuencial (Step-by-step)***
+- **Organización cronológica:** Se aplica en el historial de expediciones (de más reciente a más antiguo), el historial de notificaciones (orden inverso, con las no leídas destacadas), los registros de ubicación y telemetría (orden cronológico para identificar patrones durante el recorrido) y los incidentes reportados (por fecha, con posibilidad de reordenar por severidad).
 
-Se aplica organización secuencial en los siguientes contextos:
+- **Organización matricial:** Se utiliza en la sección Plans de la landing page, donde los tres planes de cada segmento se presentan en una grilla de tres columnas para comparación horizontal; en el dashboard de monitoreo, donde las columnas representan métricas (ubicación, signos vitales, último checkpoint) y las filas representan participantes; y en la lista de tours de la agencia, presentada en formato tabla o tarjeta con los mismos atributos por elemento (título, estado, fecha, capacidad).
 
-- **Landing page**: las secciones siguen una progresión narrativa — problema → solución por segmento → tecnología → planes → confianza — que guía al visitante desde la identificación del dolor hasta la conversión.
-- **Flujo de registro**: el proceso de creación de cuenta sigue pasos ordenados (datos personales → verificación de correo → configuración de perfil) que el usuario debe completar en secuencia.
-- **Creación de tour**: el formulario de creación de tour sigue una secuencia lógica (información general → checkpoints → asignación de turistas → publicación).
-- **Inicio de expedición**: el guía sigue un flujo secuencial (verificar grupo → iniciar expedición → registrar checkpoints → finalizar) que refleja el proceso operativo real del recorrido.
+## 4.2.2. Labeling Systems
 
-***Organización matricial***
+El sistema de etiquetado de VitalTrek sigue el principio de mínimo número de palabras sin sacrificar claridad, priorizando términos del dominio de la aventura y el turismo para que los usuarios reconozcan las funciones sin necesidad de aprendizaje adicional.
 
-Se aplica organización matricial en las vistas de listado y comparación donde el usuario necesita evaluar múltiples elementos con los mismos atributos en paralelo:
+| Contexto | Etiqueta | Significado para el usuario |
+|----------|----------|-----------------------------|
+| Landing page | Tourists | Presenta los beneficios de la plataforma para turistas. |
+| Landing page | Agencies | Presenta los beneficios de la plataforma para agencias. |
+| Landing page | Ecosystem | Explica el ecosistema IoT de la plataforma. |
+| Landing page | Plans | Presenta las opciones de suscripción. |
+| Landing page | About us | Muestra información del equipo. |
+| Landing page | Join | Abre el modal de acceso a la plataforma. |
+| Aplicación turista | My Tours | Muestra la lista de tours del turista. |
+| Aplicación agencia | Tour Catalog | Muestra la lista de tours de la agencia. |
+| Aplicación compartida | Active Expedition | Muestra la expedición en curso. |
+| Aplicación agencia | Live Monitoring | Presenta el dashboard de seguridad en tiempo real. |
+| Aplicación agencia | Alerts | Muestra la lista de alertas activas. |
+| Aplicación agencia | Incidents | Muestra el registro de incidentes. |
+| Aplicación compartida | Profile | Muestra los datos personales del usuario. |
+| Aplicación compartida | Notifications | Muestra el historial de notificaciones. |
 
-- **Sección Plans de la landing page**: los tres planes de cada segmento se presentan en una grilla de tres columnas donde cada fila representa una categoría de features, permitiendo la comparación horizontal entre planes.
-- **Dashboard de monitoreo**: el estado de cada turista se presenta en una cuadrícula donde las columnas representan métricas (ubicación, signos vitales, último checkpoint) y las filas representan participantes.
-- **Lista de tours de la agencia**: los tours se muestran en formato de tabla o tarjeta donde cada elemento expone los mismos atributos (título, estado, fecha, capacidad) para facilitar la comparación.
+Las etiquetas de acción también se mantienen simples: "Create tour", "Edit", "Duplicate", "Assign tourist", "Start expedition", "Register checkpoint", "Report incident", "Acknowledge", "Export report", "Download route", "Sign in" y "Create account". Estas palabras describen directamente la acción esperada y reducen la posibilidad de interpretación ambigua.
 
-**Esquemas de categorización del contenido**
-
-***Por audiencia (grupos de usuarios)***
-
-Es el esquema principal de VitalTrek. Tanto en la landing page como en la aplicación web, el contenido se segmenta según el rol del usuario:
-
-- En la landing page, las secciones "For Adventurous Tourists" y "For the Tours Agencies" presentan beneficios diferenciados para cada segmento. El toggle de planes (Tourists / Agencies) es el ejemplo más explícito de esta categorización.
-- En la aplicación web, el menú de navegación y las vistas disponibles varían según el rol autenticado: el administrador de agencia accede a Tour Management y Safety & Monitoring; el turista accede a Navigation & Exploration; el guía tiene acceso operativo a la expedición en curso.
-
-***Por tópicos***
-
-Se aplica dentro de cada módulo de la aplicación web para agrupar funcionalidades relacionadas:
-
-- **Tour Management**: agrupa todo lo relacionado con el ciclo de vida del tour (crear, editar, duplicar, asignar, publicar).
-- **Safety & Monitoring**: agrupa ubicaciones, signos vitales, alertas e incidentes bajo el tópico de seguridad operativa.
-- **Notification & Profile**: agrupa las preferencias del usuario y el historial de comunicaciones.
-
-***Cronológico***
-
-Se aplica en vistas donde el tiempo es el criterio de relevancia más importante:
-
-- **Historial de expediciones**: ordenado de más reciente a más antiguo.
-- **Historial de notificaciones**: ordenado cronológicamente inverso, con las no leídas destacadas al inicio.
-- **Registros de ubicación y telemetría**: los datos biométricos y de localización se presentan en orden cronológico para permitir la identificación de patrones a lo largo del recorrido.
-- **Incidentes reportados**: ordenados por fecha de reporte, con posibilidad de reordenar por severidad.
-
----
-
-### 4.2.2. Labeling Systems
-
-Las etiquetas de VitalTrek siguen el principio de mínimo número de palabras sin sacrificar claridad. Se prioriza el uso de términos del dominio de la aventura y el turismo para que los usuarios reconozcan las funciones sin necesidad de aprendizaje adicional.
-
-**Etiquetas de navegación principal**
-
-| Etiqueta EN | Etiqueta ES | Destino |
-|---|---|---|
-| Tourists | Turistas | Sección beneficios turistas |
-| Agencies | Agencias | Sección beneficios agencias |
-| Ecosystem | Ecosistema | Sección IoT |
-| Plans | Planes | Sección precios |
-| About us | Nosotros | Sección equipo |
-| Join | Únete | Modal de acceso |
-
-**Etiquetas de módulos de la aplicación**
-
-| Etiqueta EN | Etiqueta ES | Módulo |
-|---|---|---|
-| My Tours | Mis Tours | Lista de tours del turista |
-| Tour Catalog | Catálogo | Lista de tours de la agencia |
-| Active Expedition | Expedición activa | Vista de expedición en curso |
-| Live Monitoring | Monitoreo en vivo | Dashboard de seguridad |
-| Alerts | Alertas | Lista de alertas activas |
-| Incidents | Incidentes | Registro de incidentes |
-| Profile | Perfil | Datos personales |
-| Notifications | Notificaciones | Historial de notificaciones |
-
-**Etiquetas de acciones principales**
-
-| Etiqueta | Contexto |
-|---|---|
-| Create tour | Nuevo tour |
-| Edit | Modificar tour existente |
-| Duplicate | Copiar configuración de tour |
-| Assign tourist | Agregar participante |
-| Start expedition | Iniciar recorrido |
-| Register checkpoint | Paso manual por checkpoint |
-| Report incident | Nuevo incidente |
-| Acknowledge | Confirmar recepción de alerta |
-| Export report | Descargar reporte |
-| Download route | Guardar ruta offline |
-| Sign in | Acceso con cuenta existente |
-| Create account | Registro nuevo usuario |
-
-**Etiquetas de estados de entidades**
-
-| Entidad | Estados |
-|---|---|
-| Tour | Draft · Available · Closed · Cancelled |
-| Expedition | Scheduled · Active · Finished · Partially completed |
-| Assignment | Pending · Confirmed · Cancelled |
-| Alert | Active · Acknowledged · Dismissed |
-| Incident | Reported · Acknowledged · Resolved |
-| Account | Pending verification · Active · Inactive |
-
----
+Asimismo, las entidades principales del sistema manejan estados claramente etiquetados: un Tour puede estar en Draft, Available, Closed o Cancelled; una Expedition puede estar Scheduled, Active, Finished o Partially completed; un Assignment puede estar Pending, Confirmed o Cancelled; una Alert puede estar Active, Acknowledged o Dismissed; un Incident puede estar Reported, Acknowledged o Resolved; y una Account puede estar Pending verification, Active o Inactive.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
