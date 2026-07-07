@@ -3997,6 +3997,14 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 - Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional. Recuperado de [https://www.domainlanguage.com/ddd](https://www.domainlanguage.com/ddd)
 - Newman, S. (2021). *Building Microservices: Designing Fine-Grained Systems* (2nd ed.). O'Reilly Media. Recuperado de [https://samnewman.io/books/building_microservices_2nd_edition](https://samnewman.io/books/building_microservices_2nd_edition)
 - Walls, C. (2022). *Spring in Action* (6th ed.). Manning Publications. Recuperado de [https://www.manning.com/books/spring-in-action-sixth-edition](https://www.manning.com/books/spring-in-action-sixth-edition)
+- Connect2grp. (2024). Using PlantUML for creating clear and concise diagrams. Medium. https://connect2grp.medium.com/using-plantuml-for-creating-clear-and-concise-diagrams-2fc621529560
+- ddd-by-examples. (2019). Big picture EventStorming. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
+- Fontané, G. (n.d.). Full list of meta tags: Why they matter for SEO & how to write them. HubSpot Blog. https://blog.hubspot.com/marketing/meta-tags
+- Gothelf, J., & Seiden, J. (2013). Front-end style guides. Nielsen Norman Group. https://www.nngroup.com/articles/front-end-style-guides/
+- Gothelf, J., & Seiden, J. (2021). Lean UX (3rd ed.). O'Reilly Media. https://learning.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+- Preston-Werner, T. (n.d.). Semantic versioning 2.0.0. https://semver.org/
+- Tune, N. (2025, August 15). Domain-driven architecture diagrams. Medium. https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture-diagrams-139a75acb578
+
 # Anexos
 
 ## Anexo A. Videos de exposiciones
