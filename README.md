@@ -3986,7 +3986,15 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 ![Video About The Team](assets/images/video-team.jpg)
 
 # Bibliografía
-
+- Ali, A., & Frew, A. J. (2014). ICT and sustainable tourism development: An innovative perspective. Journal of Hospitality and Tourism Technology, 5(1), 2–16. [https://doi.org/10.1108/JHTT-12-2012-0034](https://doi.org/10.1108/JHTT-12-2012-0034)
+- Adeyinka-Ojo, S., & Abdullah, S. K. (2019). Disruptive technologies and the future of rural tourism. En J. Pesonen & J. Neidhardt (Eds.), Information and Communication Technologies in Tourism 2019 (pp. 311-323). Springer. [https://doi.org/10.1007/978-3-030-05940-8_24](https://doi.org/10.1007/978-3-030-05940-8_24)
+- Gretzel, U., Sigala, M., Xiang, Z., & Koo, C. (2015). Smart tourism: Foundations and developments. Electronic Markets, 25(3), 179-188. [https://doi.org/10.1007/s12525-015-0197-8](https://doi.org/10.1007/s12525-015-0197-8)
+- Buhalis, D. (2020). Technology in tourism-from information communication technologies to eTourism and smart tourism towards ambient intelligence tourism: A perspective. Tourism Management, 80, 104124. [https://doi.org/10.1016/j.tourman.2020.104124](https://doi.org/10.1016/j.tourman.2020.104124)
+- Brown, S. (2020). *The C4 model for visualising software architecture*. C4Model.com. Recuperado de [https://c4model.com](https://c4model.com)
+- Driessen, V. (2010). *A successful Git branching model*. Nvie. Recuperado de [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model)
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional. Recuperado de [https://www.domainlanguage.com/ddd](https://www.domainlanguage.com/ddd)
+- Newman, S. (2021). *Building Microservices: Designing Fine-Grained Systems* (2nd ed.). O'Reilly Media. Recuperado de [https://samnewman.io/books/building_microservices_2nd_edition](https://samnewman.io/books/building_microservices_2nd_edition)
+- Walls, C. (2022). *Spring in Action* (6th ed.). Manning Publications. Recuperado de [https://www.manning.com/books/spring-in-action-sixth-edition](https://www.manning.com/books/spring-in-action-sixth-edition)
 # Anexos
 
 ## Anexo A. Videos de exposiciones
@@ -3994,7 +4002,7 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 - Exposición AV1: 
 - Exposición TB1: 
 - Exposición AV2: 
--
+- Exposición TB2:
 
 <div style="page-break-before: always;"></div>
 
