@@ -4062,19 +4062,27 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo B. Videos de entrevistas
 
-- Entrevista 1 -
--
--
-- 
+- Entrevista 1 - https://upcedupe-my.sharepoint.com/personal/u20241a267_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a267_upc_edu_pe%2FDocuments%2FEntrevista+-+1er+seg+obj+-+Alberto+Joaquin+Alfaro+Mallma.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.c995a407-75e5-4f5a-b497-985dd244f536
+- Entrevista 2 - 
+- Entrevista 3 - https://upcedupe-my.sharepoint.com/personal/u20241a267_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a267%5Fupc%5Fedu%5Fpe%2FDocuments%2F3ra%20%2D%20Entrevista%20%2D%201er%20seg%20obj%20%2D%20Alberto%20Joaquin%20Alfaro%20Mallma%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E549307d2%2D6ebd%2D40cb%2D8fa9%2D15c75fef7780
+- Entrevista 4 - https://upcedupe-my.sharepoint.com/personal/u20241a267_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a267%5Fupc%5Fedu%5Fpe%2FDocuments%2FIMG%5F1191%2EMOV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E97e9d43c%2Df063%2D4aca%2Db7be%2D92103938d1ea
+- Entrevista 5 - https://upcedupe-my.sharepoint.com/personal/u20241a267_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a267%5Fupc%5Fedu%5Fpe%2FDocuments%2FIMG%5F1187%2EMOV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4b7f7ba3%2Dfb72%2D4f15%2Da8b8%2Dff32193ae96f
+- Entrevista 6 - https://upcedupe-my.sharepoint.com/personal/u20241a267_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a267%5Fupc%5Fedu%5Fpe%2FDocuments%2FIMG%5F1194%2EMOV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eec39ac8e%2D4ccf%2D47c2%2Dbe34%2Df5f509b3440f
+- Entrevista 7 - https://upcedupe-my.sharepoint.com/personal/u202416903_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416903%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%202do%20seg%20obj%20%2D%20Miguel%20Morales%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edf3d81ff%2D438e%2D4ffa%2Da517%2Dbe23219ac680
+- Entrevista 8 - https://upcedupe-my.sharepoint.com/personal/u202324623_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202324623%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%202do%20seg%20obj%20%2D%20Edu%20Quispe%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebf793445%2Dc442%2D4750%2D8363%2D74b20fb596e5
 
 ## Anexo C. Videos de entrevistas de validación
 
-- Entrevista 1 - 
+- Entrevista 1 - https://upcedupe-my.sharepoint.com/personal/u202324623_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202324623%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DSegmento1%2DEder%2DQuispe%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf59e8c2%2D2ea7%2D4bfc%2Dbb0a%2Dac159e29185c
+- Entrevista 2 - https://upcedupe-my.sharepoint.com/personal/u202416903_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416903%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DSegmento2%2DGabriel%2DVilchez%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c2c0aad%2D32b1%2D49d6%2Da5f8%2D99f85b0849c8
+- Entrevista 3 - https://upcedupe-my.sharepoint.com/personal/u202419483_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202419483%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista%2Dvitaltrek%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E80660606%2D65a2%2D4067%2D8c0e%2D509574bafbd3
+- Entrevista 4 - https://upcedupe-my.sharepoint.com/personal/u20241a827_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241a827%5Fupc%5Fedu%5Fpe%2FDocuments%2F2026%2D06%2D20%2019%2D10%2D20%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8fdb27a5%2D3ca6%2D4922%2D95f4%2D11943fcab433
+
 ## Anexo D. Materiales de ideación y diseño
 
 - Lean UX Canvas del proyecto :
-- Big Picture EventStorming y Design-Level EventStorming: 
-
+- Big Picture EventStorming y Design-Level EventStorming: https://www.figma.com/board/qJ6uMOLu6Den0EhpUKhiDD/Big-Picture-Event-Storming?node-id=0-1&t=mG6SLBfALhlztJ6V-0
+  https://miro.com/app/board/uXjVHcmAuSg=/
 - Wireframe de la landing page: 
 - Mock-up de la landing page: 
 - Wireframes de la aplicación web: 
@@ -4085,18 +4093,18 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo E. Repositorios y despliegues
 
-- Repositorio del informe del proyecto: 
-- Repositorio de la landing page: 
-- Repositorio del frontend web: 
-- Repositorio del backend web: 
+- Repositorio del informe del proyecto: https://github.com/VitalTrek-Project/report
+- Repositorio de la landing page: https://github.com/VitalTrek-Project/landing-page
+- Repositorio del frontend web: https://github.com/VitalTrek-Project/web-application
+- Repositorio del backend web: https://github.com/VitalTrek-Project/vital-trek-platform
 - Repositorio de datos de prueba: 
-- Despliegue de la landing page: 
-- Despliegue del frontend web: 
+- Despliegue de la landing page: https://vitaltrek-project.github.io/landing-page/
+- Despliegue del frontend web: https://vitaltrek.vitaltrek.workers.dev/home
 - Despliegue del backend web: 
 - API mock del frontend: 
-- Tablero del Sprint Backlog 1: 
-- Tablero del Sprint Backlog 2: 
-- Tablero del Sprint Backlog 3: 
+- Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a0567247c8e53cf8fc17be3/ATTI7e5cdb3f9c2996b8b79b09dace8562264A21CD8D/vitaltrek-sprint-1(#)
+- Tablero del Sprint Backlog 2: https://trello.com/b/QKMh317p/vitaltrek-sprint2
+- Tablero del Sprint Backlog 3: https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
 
 ## Anexo F. Herramientas utilizadas
 
@@ -4126,5 +4134,5 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo H. Videos de cierre
 
-- Video About The Team: 
-- Video About The Product: 
+- Video About The Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQBkvoy60zGpSpi-_v3eNykOAUvjFFoOe5ZILRBPDf_MiqM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YHZNBQ
+- Video About The Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
