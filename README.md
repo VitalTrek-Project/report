@@ -4085,9 +4085,9 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
   https://miro.com/app/board/uXjVHcmAuSg=/
 - Wireframe de la landing page: 
 - Mock-up de la landing page: 
-- Wireframes de la aplicación web: 
-- Wireflows de la aplicación web: 
-- Mock-ups de la aplicación web: 
+- Wireframes de la aplicación web: https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=G6Mbqczu6nWd6QHp-0
+- Wireflows de la aplicación web: https://lucid.app/lucidchart/43bc9b20-18a3-4d2c-b9a6-85ed008620de/edit?invitationId=inv_49759446-823e-49d5-b1b4-d320a18165d8&page=0_0#
+- Mock-ups de la aplicación web: https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=G6Mbqczu6nWd6QHp-0
 - Prototipo de la aplicación web: 
 - Diagrama de clases del sistema: 
 
@@ -4100,7 +4100,7 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 - Repositorio de datos de prueba: 
 - Despliegue de la landing page: https://vitaltrek-project.github.io/landing-page/
 - Despliegue del frontend web: https://vitaltrek.vitaltrek.workers.dev/home
-- Despliegue del backend web: 
+- Despliegue del backend web: https://backend-vitaltrek-production.up.railway.app/swagger/index.html
 - API mock del frontend: 
 - Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a0567247c8e53cf8fc17be3/ATTI7e5cdb3f9c2996b8b79b09dace8562264A21CD8D/vitaltrek-sprint-1(#)
 - Tablero del Sprint Backlog 2: https://trello.com/b/QKMh317p/vitaltrek-sprint2
