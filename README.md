@@ -4082,7 +4082,7 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo D. Materiales de ideación y diseño
 
-- Lean UX Canvas del proyecto :
+- Lean UX Canvas del proyecto: https://app.mural.co/t/leanuxcanvas1351/m/leanuxcanvas1351/1783398911050/a3480458df1f57ce69db9c3d1478e78c2a857257
 - Big Picture EventStorming y Design-Level EventStorming: https://www.figma.com/board/qJ6uMOLu6Den0EhpUKhiDD/Big-Picture-Event-Storming?node-id=0-1&t=mG6SLBfALhlztJ6V-0
   https://miro.com/app/board/uXjVHcmAuSg=/
 - Wireframe de la landing page: 
