@@ -3924,9 +3924,61 @@ A continuación se presenta la matriz de líderes y colaboradores:
 | Verastigue Martinez, Giancarlo Jose | CaLoVM | L | - | C | - | C |
 | Vilchez, Gabriel | GZ-99 | - | C | - | C | L |
 
-
-
 #### 5.2.4.3. Sprint Backlog 4 
+
+El objetivo principal del Sprint 4 fue implementar los bounded contexts de IAM, Subscriptions y Loyalty & Engagement en frontend y backend, así como liberar nuevas versiones de la Landing Page, Web Services y Web Application que resuelvan la technical debt acumulada en el Sprint 3, bajo arquitectura DDD en ASP.NET Core.
+ 
+A continuación se presenta el tablero correspondiente al Sprint 4 junto con su enlace:
+ 
+**Link trello :** https://trello.com/b/OddXGmZ7/vitaltrek-sprint-4
+
+| User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| TS-IAM-01 | Register user | TS-IAM-01-01 | Create User Aggregate and Value Objects | Create the `User` aggregate root with properties `UserId`, `Email`, `PasswordHash`, `FullName`, `Role` and `Status`. Add domain validations inside the aggregate constructor. | 3 | CaLoVM | Done |
+| TS-IAM-01 | Register user | TS-IAM-01-02 | Implement IUserRepository Interface | Implement the `IUserRepository` interface with `FindByEmail` and `Add` methods. | 2 | CaLoVM | Done |
+| TS-IAM-01 | Register user | TS-IAM-01-03 | Implement RegisterUserCommandService | Implement `RegisterUserCommandService`, hashing the password with BCrypt and validating email uniqueness before persisting the user. | 4 | Edu-09 | Done |
+| TS-IAM-01 | Register user | TS-IAM-01-04 | Implement POST /api/v1/users/register Endpoint | Implement the `POST /api/v1/users/register` endpoint and map the response to `UserResource`. | 2 | CaLoVM | Done |
+| TS-IAM-01 | Register user | TS-IAM-01-05 | Build Registration Form Component | Build the frontend registration form component with client-side validation for email, password and full name. | 4 | elprrr | Done |
+| TS-IAM-02 | Login with JWT | TS-IAM-02-01 | Implement JWT Token Generation Service | Implement the JWT token generation service, issuing both access and refresh tokens with configurable expiration. | 3 | CaLoVM | Done |
+| TS-IAM-02 | Login with JWT | TS-IAM-02-02 | Implement LoginCommandService | Implement `LoginCommandService`, validating submitted credentials against the stored `PasswordHash`. | 3 | Edu-09 | Done |
+| TS-IAM-02 | Login with JWT | TS-IAM-02-03 | Implement POST /api/v1/auth/login Endpoint | Implement the `POST /api/v1/auth/login` endpoint and map the response to `AuthResource`. | 2 | CaLoVM | Done |
+| TS-IAM-02 | Login with JWT | TS-IAM-02-04 | Configure JWT Authentication Middleware | Configure the JWT authentication middleware and authorization policies in `Program.cs`. | 3 | CaLoVM | Done |
+| TS-IAM-02 | Login with JWT | TS-IAM-02-05 | Build Login Form Component | Build the frontend login form component, including token storage and an HTTP interceptor for authenticated requests. | 4 | elprrr | Done |
+| TS-IAM-03 | Manage roles and permissions | TS-IAM-03-01 | Define Role Value Object | Define the `Role` value object/enum with values `Tourist`, `Guide`, `AgencyAdmin` and `PlatformAdmin`. | 1 | CaLoVM | Done |
+| TS-IAM-03 | Manage roles and permissions | TS-IAM-03-02 | Implement AssignRoleCommandService | Implement `AssignRoleCommandService`, applying role-transition validations before updating a user's role. | 3 | Edu-09 | Done |
+| TS-IAM-03 | Manage roles and permissions | TS-IAM-03-03 | Implement PUT /api/v1/users/{id}/role Endpoint | Implement the `PUT /api/v1/users/{id}/role` endpoint, restricted with the `[Authorize(Roles="PlatformAdmin")]` policy. | 2 | CaLoVM | Done |
+| TS-IAM-03 | Manage roles and permissions | TS-IAM-03-04 | Build Admin Role Management View | Build the frontend admin panel view for assigning and managing user roles. | 4 | elprrr | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-01 | Create Subscription Aggregate | Create the `Subscription` aggregate root with properties `SubscriptionId`, `UserId`, `PlanId`, `StartDate`, `EndDate` and `Status`. | 3 | Edu-09 | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-02 | Define SubscriptionStatus Enum | Define the `SubscriptionStatus` enum with values `Active`, `Cancelled`, `Expired` and `PendingPayment`. | 1 | Edu-09 | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-03 | Implement ISubscriptionRepository Interface | Implement the `ISubscriptionRepository` interface with `FindActiveByUserId` and `Add` methods. | 2 | Miler2003 | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-04 | Implement CreateSubscriptionCommandService | Implement `CreateSubscriptionCommandService`, validating plan existence and that the user has no other active subscription. | 4 | Edu-09 | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-05 | Implement POST /api/v1/subscriptions Endpoint | Implement the `POST /api/v1/subscriptions` endpoint and map the response to `SubscriptionResource`. | 2 | Edu-09 | Done |
+| TS-SUB-01 | Subscribe to a premium plan | TS-SUB-01-06 | Build Plan Selection and Checkout Component | Build the frontend plan selection and checkout component. | 5 | GZ-99 | Done |
+| TS-SUB-02 | Update payment method | TS-SUB-02-01 | Create PaymentMethod Value Object | Create the `PaymentMethod` value object with properties `CardLast4`, `CardBrand` and `ExpirationDate`. | 2 | Edu-09 | Done |
+| TS-SUB-02 | Update payment method | TS-SUB-02-02 | Implement UpdatePaymentMethodCommandService | Implement `UpdatePaymentMethodCommandService`, validating that the subscription belongs to the requesting user. | 3 | Miler2003 | Done |
+| TS-SUB-02 | Update payment method | TS-SUB-02-03 | Implement PUT /api/v1/subscriptions/{id}/payment-method Endpoint | Implement the `PUT /api/v1/subscriptions/{id}/payment-method` endpoint. | 2 | Edu-09 | Done |
+| TS-SUB-02 | Update payment method | TS-SUB-02-04 | Build Payment Method Management Form | Build the frontend form for managing the subscription's payment method. | 3 | GZ-99 | Done |
+| TS-SUB-03 | Cancel subscription | TS-SUB-03-01 | Implement CancelSubscriptionCommandService | Implement `CancelSubscriptionCommandService`, applying the status transition validation from `Active` to `Cancelled`. | 2 | Edu-09 | Done |
+| TS-SUB-03 | Cancel subscription | TS-SUB-03-02 | Implement DELETE /api/v1/subscriptions/{id} Endpoint | Implement the `DELETE /api/v1/subscriptions/{id}` endpoint with an ownership check. | 2 | Miler2003 | Done |
+| TS-SUB-03 | Cancel subscription | TS-SUB-03-03 | Build Cancellation Confirmation Modal | Build the frontend cancellation confirmation modal. | 2 | GZ-99 | Done |
+| TS-LE-01 | Earn loyalty points | TS-LE-01-01 | Create LoyaltyAccount Aggregate | Create the `LoyaltyAccount` aggregate root with properties `LoyaltyAccountId`, `UserId`, `TotalPoints` and `Level`. | 3 | Miler2003 | Done |
+| TS-LE-01 | Earn loyalty points | TS-LE-01-02 | Define ActivityType Enum | Define the `ActivityType` enum with values `CompleteTour`, `WriteReview`, `ReferFriend` and `DailyLogin`. | 1 | Miler2003 | Done |
+| TS-LE-01 | Earn loyalty points | TS-LE-01-03 | Implement ILoyaltyAccountRepository Interface | Implement the `ILoyaltyAccountRepository` interface with `FindByUserId` and `Update` methods. | 2 | Edu-09 | Done |
+| TS-LE-01 | Earn loyalty points | TS-LE-01-04 | Implement AwardPointsCommandService | Implement `AwardPointsCommandService`, applying the point-value rules for each `ActivityType`. | 4 | Miler2003 | Done |
+| TS-LE-01 | Earn loyalty points | TS-LE-01-05 | Implement POST /api/v1/loyalty/points Endpoint | Implement the `POST /api/v1/loyalty/points` endpoint and map the response to `LoyaltyPointsResource`. | 2 | Edu-09 | Done |
+| TS-LE-02 | View gamification progress | TS-LE-02-01 | Create Badge Entity | Create the `Badge` entity with properties `BadgeId`, `Name`, `Description` and `UnlockCondition`. | 2 | Miler2003 | Done |
+| TS-LE-02 | View gamification progress | TS-LE-02-02 | Implement Level Calculation Logic | Implement the level calculation logic based on `TotalPoints` thresholds inside the `LoyaltyAccount` aggregate. | 3 | CaLoVM | Done |
+| TS-LE-02 | View gamification progress | TS-LE-02-03 | Implement GetLoyaltyProgressQueryService | Implement `GetLoyaltyProgressQueryService`, joining the loyalty account with its unlocked badges. | 3 | Edu-09 | Done |
+| TS-LE-02 | View gamification progress | TS-LE-02-04 | Implement GET /api/v1/loyalty/{userId}/progress Endpoint | Implement the `GET /api/v1/loyalty/{userId}/progress` endpoint and map the response to `LoyaltyProgressResource`. | 2 | Miler2003 | Done |
+| TS-LE-02 | View gamification progress | TS-LE-02-05 | Build Gamification Dashboard Component | Build the frontend gamification dashboard component, including level bar and badges grid. | 5 | CaLoVM | Done |
+| TS-LE-03 | Redeem points for rewards | TS-LE-03-01 | Create Reward Entity | Create the `Reward` entity with properties `RewardId`, `Name`, `PointsCost` and `Stock`. | 2 | Miler2003 | Done |
+| TS-LE-03 | Redeem points for rewards | TS-LE-03-02 | Implement RedeemPointsCommandService | Implement `RedeemPointsCommandService`, validating sufficient balance and deducting points transactionally. | 4 | Edu-09 | Done |
+| TS-LE-03 | Redeem points for rewards | TS-LE-03-03 | Implement POST /api/v1/loyalty/redeem Endpoint | Implement the `POST /api/v1/loyalty/redeem` endpoint and map the response to `RedemptionResource`. | 2 | Miler2003 | Done |
+| TS-LE-03 | Redeem points for rewards | TS-LE-03-04 | Build Rewards Catalog Component | Build the frontend rewards catalog and redemption confirmation component. | 4 | CaLoVM | Done |
+| TS-LP-01 | Renewed landing page | TS-LP-01-01 | Redesign Hero Section | Redesign the hero section with the updated value proposition copy. | 3 | elprrr | Done |
+| TS-LP-01 | Renewed landing page | TS-LP-01-02 | Add Subscription Plans Preview Section | Add a subscription plans preview section linking to the Subscriptions module. | 2 | elprrr | Done |
+| TS-LP-01 | Renewed landing page | TS-LP-01-03 | Add Gamification Highlights Section | Add a gamification/loyalty highlights section to the landing page. | 2 | GZ-99 | Done |
+| TS-LP-01 | Renewed landing page | TS-LP-01-04 | Optimize Responsive Layout | Optimize images and verify the responsive layout on mobile devices. | 2 | elprrr | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
