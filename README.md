@@ -278,13 +278,52 @@ Registro de Versiones del Informe.
   <img src="assets/images/insight-av2.png" alt="insight av2" width="700" >
 </div>
 
+---
+
 ### Entrega TB2
+
+Para esta entrega, el equipo desarrolló el Sprint 4, el cual se centró en la 
+mejora integral del Project Report atendiendo las indicaciones y observaciones 
+brindadas por el docente en las entregas anteriores. Las actividades se 
+desarrollaron entre el 27 de junio y el 8 de julio, e incluyeron la corrección 
+de secciones observadas, la actualización de evidencias y la consolidación del 
+Registro de Versiones del Informe. La participación de los integrantes fue la 
+siguiente:
+
+- **Vilchez Vite, Gabriel Alejandro** corrigió la tabla del Registro de 
+  Versiones del Informe en sucesivas iteraciones, consolidó el registro 
+  añadiendo las versiones 0.1 a la 0.56, y actualizó el Big Picture Event 
+  Storming y el Design-Level Event Storming.
+- **Rodriguez Rojas, Miler Alexander** corrigió la tabla de contenidos y el 
+  Hypothesis Statement; añadió los Team Collaboration Insights de los Sprints 
+  1, 2 y 3 y el Student Outcome; y actualizó los Lean UX Hypothesis 
+  Statements, el Lean UX Canvas, la sección de segmentos objetivo, las 
+  estrategias y tácticas frente a competidores, las entrevistas, el glosario, 
+  el Product Backlog, la sección de Information Architecture, los 
+  Organization Systems, los Labeling Systems, la sección de Landing Page UI 
+  Design y la Bibliografía.
+- **Quispe Perez, Eder Edu** actualizó el registro de la 2da entrevista y 
+  corrigió el 1er User Persona conforme a las observaciones recibidas.
+- **Alfaro Mallma, Alberto Joaquin** añadió el Software Deployment Evidence 
+  for Sprint Review y actualizó los links de las entrevistas 1 y 3.
+- **Verastigue Martinez, Giancarlo Jose** actualizó la carátula, el video 
+  About The Team y los Sprint Planning.
+
+Los aportes de esta entrega corresponden a las versiones 0.47 a la 0.59 del 
+Registro de Versiones del Informe.
 
 **Evidencias de colaboración — TB2:**
 
-*Analíticos de colaboración del repositorio :*
 <div align="center">
-  <img src="assets/images/insight-tb2.png" alt="insight tb2" width="700" >
+  <img src="assets/images/commits-4.0.png" alt="insight tb2" width="700" >
+</div>
+
+<div align="center">
+  <img src="assets/images/commits-4.1.png" alt="insight tb2" width="700" >
+</div>
+
+<div align="center">
+  <img src="assets/images/commits-4.2.png" alt="insight tb2" width="700" >
 </div>
 
 # Student outcome 
@@ -3488,6 +3527,8 @@ A continuación se presenta el tablero correspondiente al Sprint 3 junto con su 
 
 **link trello :** https://trello.com/b/pImIQqdi/vitaltrek-sprint-3
 
+![Trello ](assets/images/trello-3.png)
+
 | Sprint # | Sprint 3 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **User Story** | | **Work-Item / Task** | | | | | |
@@ -3566,7 +3607,6 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 ###### Landing Page
 
-> Captura de la Landing Page actualizada.
 
 ![VitalTrek Landing Page 1](assets/images/vitaltrek-landing-pag1.png)
 
@@ -3932,6 +3972,8 @@ A continuación se presenta la matriz de líderes y colaboradores:
 | Verastigue Martinez, Giancarlo Jose | CaLoVM | L | - | C | - | C |
 | Vilchez, Gabriel | GZ-99 | - | C | - | C | L |
 
+
+
 #### 5.2.4.3. Sprint Backlog 4 
 
 El objetivo principal del Sprint 4 fue implementar los bounded contexts de IAM, Subscriptions y Loyalty & Engagement en frontend y backend, así como liberar nuevas versiones de la Landing Page, Web Services y Web Application que resuelvan la technical debt acumulada en el Sprint 3, bajo arquitectura DDD en ASP.NET Core.
@@ -3939,6 +3981,8 @@ El objetivo principal del Sprint 4 fue implementar los bounded contexts de IAM, 
 A continuación se presenta el tablero correspondiente al Sprint 4 junto con su enlace:
  
 **Link trello :** https://trello.com/b/OddXGmZ7/vitaltrek-sprint-4
+
+![Web Services](assets/images/trello-4.png)
 
 | User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -3987,6 +4031,506 @@ A continuación se presenta el tablero correspondiente al Sprint 4 junto con su 
 | TS-LP-01 | Renewed landing page | TS-LP-01-02 | Add Subscription Plans Preview Section | Add a subscription plans preview section linking to the Subscriptions module. | 2 | elprrr | Done |
 | TS-LP-01 | Renewed landing page | TS-LP-01-03 | Add Gamification Highlights Section | Add a gamification/loyalty highlights section to the landing page. | 2 | GZ-99 | Done |
 | TS-LP-01 | Renewed landing page | TS-LP-01-04 | Optimize Responsive Layout | Optimize images and verify the responsive layout on mobile devices. | 2 | elprrr | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el desarrollo del presente Sprint se realizaron avances relacionados con la implementación de los productos principales de la solución **VitalTrek**, abarcando la **Landing Page**, la **Web Application** y los **Web Services**.
+ 
+Los principales avances estuvieron enfocados en la construcción de la interfaz web, la integración de funcionalidades orientadas al usuario y la implementación de servicios necesarios para soportar las operaciones principales de la plataforma.
+ 
+Asimismo, se realizaron mejoras en la estructura del proyecto, corrección de errores, optimización de componentes y actualización de funcionalidades según el alcance definido para este Sprint.
+ 
+A continuación, se presentan los commits relacionados con la implementación realizados en cada repositorio:
+ 
+| Repository                             | Branch                  | Commit Id | Commit Message                                         | Commit Message Body                                                                                        | Commited on (Date) |
+|----------------------------------------|-------------------------|-----------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | d3be1fa   | feat(env): add authentication endpoints for signup, signin, and user management | Se implementaron los endpoints de autenticación para signup, signin y gestión de usuarios en el bounded context de identidad y acceso (IAM). | 08/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | b191291   | feat(iam): add profile management translations and routing integration | Se agregaron traducciones de gestión de perfiles (EN/ES) e integración de rutas de IAM en la aplicación web. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 643879e   | feat(iam): implement profile management components including completeness meter and emergency contact form | Se implementaron componentes de gestión de perfil incluyendo medidor de completitud de perfil y formulario de contacto de emergencia. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 5502a21   | feat(iam): add entities for emergency contacts, medical access logs, and profile completeness | Se agregaron entidades para contactos de emergencia, registros de acceso médico y métricas de completitud de perfil. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 8055de9   | feat(iam): enhance IAM integration with dynamic imports and user role management | Se mejoró la integración de IAM con importaciones dinámicas y gestión de roles de usuario con soporte a agencias. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 9870fe2   | feat(iam): integrate IAM store for user and agency management across components | Se integró el IAM store para gestión de usuarios y agencias a través de todos los componentes de la aplicación. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 3cc8ab1   | feat(iam): implement authentication flow with sign-in and sign-up functionality | Se implementó el flujo completo de autenticación con funcionalidad de sign-in y sign-up. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 7a61e1c   | feat: implement user role management and enhance user authentication with agency support | Se implementó la gestión de roles de usuario y se mejoró la autenticación con soporte a agencias. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | c08edb8   | feat: implement user authentication and management features with sign-in, sign-up, and user retrieval endpoints | Se implementaron características de autenticación y gestión de usuarios con endpoints de sign-in, sign-up y recuperación de usuario. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | ecb0ad0   | feat: add interfaces for staff and tourist profile management, including command and query services | Se agregaron interfaces para gestión de perfiles de staff y turistas con servicios de command y query (CQRS). | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 0ea9ca7   | feat: add commands for updating user profiles and preferences in the profiles domain | Se agregaron comandos de dominio para actualizar perfiles de usuario y preferencias. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 77a030f   | feat: implement staff profile and notification preferences management with command/query services | Se implementó la gestión de perfiles de staff y preferencias de notificación con servicios CQRS. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | deca607   | feat: add TouristPreferences aggregate and related command/query services for managing tourist preferences | Se agregó el agregado TouristPreferences con servicios de command/query para gestión de preferencias de turistas. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | e80c816   | feat: add EmergencyContact entity and command for managing emergency contacts in tourist profiles | Se agregó la entidad EmergencyContact y comando para gestionar contactos de emergencia en perfiles de turista. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | b647dbf   | feat: add value objects for blood type and experience level, and queries for accessing tourist and staff preferences | Se agregaron value objects para tipo de sangre y nivel de experiencia, con queries para acceder a preferencias de turistas y staff. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/iam             | 11278d5   | feat: add profile completeness evaluation and error handling for profiles context | Se agregó evaluación de completitud de perfil y manejo de errores en el bounded context de perfiles. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | dc3bf81   | feat(loyalty): add localization for loyalty program in English and Spanish | Se agregó soporte de localización para el programa de lealtad en idiomas inglés y español. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 2b87f5f   | feat(loyalty): add local agency ID management and integrate loyalty routes | Se agregó gestión de ID de agencia local e integración de rutas de lealtad en el dashboard administrativo. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 8374e5d   | feat(loyalty): integrate loyalty metrics and notifications into admin dashboard | Se integraron métricas de lealtad y sistema de notificaciones en el dashboard administrativo. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | b380a84   | feat(loyalty): add entity classes for awarded badges, badge definitions, notifications, and points transactions | Se agregaron clases de entidades para badges otorgados, definiciones de badges, notificaciones y transacciones de puntos. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 30f9f42   | feat(loyalty): add reward management components and entity assembly | Se agregaron componentes de gestión de recompensas y ensamblaje completo de entidades para el sistema de lealtad. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 3d2d9ee   | feat(loyalty): implement loyalty program management with API integration and UI components | Se implementó gestión de programa de lealtad con integración de API y componentes de interfaz. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 7046205   | feat: enhance Engagement bounded context with new entities and configurations for loyalty programs, transactions, and notifications | Se mejoró el bounded context de Engagement con nuevas entidades y configuraciones para programas de lealtad, transacciones y notificaciones. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/engagement      | 3de3130   | feat: update GamificationProfile to support agency-specific loyalty programs | Se actualizó GamificationProfile para soportar programas de lealtad específicos por agencia. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/support         | 8b8ffdb   | feat(support): update ticket handling and user mode mapping for improved functionality | Se actualizó el manejo de tickets y mapeo de modo de usuario para mejorar la funcionalidad del bounded context de soporte. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/infrastructure  | 543a385   | feat(dependencies): add chart.js and vue-chartjs for charting capabilities | Se agregaron dependencias chart.js y vue-chartjs para capacidades de gráficos en el dashboard. | 07/07/2026         |
+| VitalTrek-Project/vital-trek-platform  | feature/infrastructure  | f5a25e3   | feat: update database connection string for development environment | Se actualizó la cadena de conexión a base de datos para el ambiente de desarrollo. | 07/07/2026         |
+| VitalTrek-Project/web-application      | feature/dashboard       | f3b4dd6   | feat(layout): add dashboard and my expedition routes with corresponding components | Se agregaron rutas de dashboard y mis expediciones con sus componentes correspondientes en la aplicación web. | 07/07/2026         |
+| VitalTrek-Project/landing-page         | feature/team-content    | 45bb205   | feat: fix video about the team | Se corrigió el video de presentación del equipo en la landing page. | 06/07/2026         |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se logró avanzar en la implementación de las funcionalidades principales de **VitalTrek**, enfocándose en mejorar la experiencia del usuario y consolidar la solución propuesta.
+
+Entre los principales resultados obtenidos se encuentran:
+
+- Implementación y mejora de la **Landing Page**, mostrando información relevante sobre la plataforma y su propuesta de valor.
+- Desarrollo de nuevas funcionalidades dentro de la **Web Application**, permitiendo una navegación más fluida y una mejor interacción con los usuarios.
+- Implementación y actualización de **Web Services**, permitiendo la comunicación entre los diferentes componentes de la solución.
+- Integración progresiva de las funcionalidades relacionadas con turismo, ubicación y gestión de información dentro de la plataforma.
+
+Como evidencia del trabajo realizado durante el Sprint se presentan capturas de pantalla de las funcionalidades implementadas y mejoras realizadas en la solución.
+
+##### Evidencias de Implementación
+
+###### Landing Page
+
+
+
+![VitalTrek Landing Page 1](assets/images/vitaltrek-landing-pag1.png)
+
+![VitalTrek Landing Page 2](assets/images/screenshot-landing-1.png)
+
+![VitalTrek Landing Page 3](assets/images/screenshot-landing-2.png)
+
+![VitalTrek Landing Page 4](assets/images/vitaltrek-landing-pag2.png)
+
+![VitalTrek Landing Page 5](assets/images/vitaltrek-landing-pag3.png)
+
+![VitalTrek Landing Page 6](assets/images/vitaltrek-landing-pag4.png)
+
+![VitalTrek Landing Page 7](assets/images/vitaltrek-landing-pag5.png)
+
+![VitalTrek Landing Page 8](assets/images/vitaltrek-landing-pag6.png)
+
+![VitalTrek Landing Page 9](assets/images/vitaltrek-landing-pag7.png)
+
+![VitalTrek Landing Page 10](assets/images/vitaltrek-landing-pag8.png)
+
+![VitalTrek Landing Page 11](assets/images/vitaltrek-landing-pag9.png)
+
+---
+
+##### Web Application
+
+> Captura de la plataforma web mostrando las funcionalidades desarrolladas.
+
+- Home
+![VitalTrek Web Application Home](assets/images/screenshot-wa-home.png)
+
+- Dashboard IOT
+![VitalTrek Web Application IOT](assets/images/screenshot-wa-iot.png)
+
+- Dashboard Monitoring
+![VitalTrek Web Application Monitoring](assets/images/screenshot-wa-monitoring.png)
+
+- Dashboard Navigation and Expedition
+![VitalTrek Web Application NyE](assets/images/screenshot-wa-nye.png)
+
+- Dashboard Routes
+![VitalTrek Web Application Routes](assets/images/screenshot-wa-routes.png)
+
+- Dashboard Tour Management
+![VitalTrek Web Application Tour Management](assets/images/screenshot-wa-tm.png)
+
+###### Web Services
+
+> Evidencia de la implementación y funcionamiento de los servicios.
+
+![Web Services](assets/images/web-service-2.png)
+
+![Web Services](assets/images/web-service-3.png)
+
+![Web Services](assets/images/web-service-4.png)
+
+![Web Services](assets/images/web-service-5.png)
+
+![Web Services](assets/images/web-service-6.png)
+
+![Web Services](assets/images/web-service-7.png)
+
+![Web Services](assets/images/web-service-8.png)
+
+![Web Services](assets/images/web-service-9.png)
+
+###### Video de demostración
+
+Se adjunta un video donde se muestra la navegación y funcionamiento de las funcionalidades implementadas durante este Sprint:
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo completó la expansión integral de la API de VitalTrek, consolidando una arquitectura de monolito modular basada en Domain-Driven Design. Se implementaron nuevos Bounded Contexts críticos incluyendo **IAM (Identity & Access Management)**, **Loyalty Program** (con gamificación avanzada), **Profiles** (Gestión de Perfiles de Turistas y Staff), **Support** (Sistema de Tickets), **Subscriptions** (Pagos con Stripe), y **Dashboard** (Analíticos administrativos), manteniendo la compatibilidad con contextos previos de **Monitoring**, **TourManagement**, **Navigation** e **IoT**. A continuación se documentan todos los endpoints disponibles en la API que el frontend puede consumir en este Sprint.
+ 
+**Figura**
+ 
+![Swagger UI Endpoints Sprint 4](assets/images/backend-5.png)
+ 
+*Panel de Swagger con todos los endpoints configurados para VitalTrek - Sprint 4*
+ 
+URL base: `https://backend-vitaltrek-production.up.railway.app/api/v1`
+ 
+---
+ 
+## Alerts
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/alerts` | POST | Raise an alert - Genera una nueva alerta |
+| `/alerts/expedition/{expeditionId}` | GET | Get active alerts by expedition - Retorna alertas activas de una expedición |
+| `/alerts/{alertId}/acknowledge` | PUT | Acknowledge an alert - Reconoce una alerta como vista |
+| `/alerts/{alertId}/dismiss` | PUT | Dismiss an alert - Descarta una alerta |
+ 
+## Authentication
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/authentication/sign-in` | POST | Sign in - Autentica un usuario y retorna token JWT |
+| `/authentication/sign-up` | POST | Sign-up - Registra un nuevo usuario en el sistema |
+ 
+## Badges (Loyalty)
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/badges` | GET | Get the badge catalog - Retorna el catálogo de badges disponibles |
+| `/loyalty/badges` | POST | Create a badge definition - Crea una nueva definición de badge |
+ 
+## Binnacle Readings
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/binnacle-readings` | POST | Record a binnacle reading - Registra una lectura de bitácora |
+| `/binnacle-readings/expedition/{expeditionId}` | GET | Get binnacle readings by expedition - Retorna lecturas de bitácora de una expedición |
+ 
+## Dashboard
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/dashboard/admin/summary` | GET | Get admin dashboard KPI summary - Retorna resumen de KPIs del dashboard administrativo |
+| `/dashboard/admin/alerts/distribution` | GET | Get alerts distribution - Retorna distribución de alertas |
+| `/dashboard/admin/alerts/attention` | GET | Get alerts requiring attention - Retorna alertas que requieren atención |
+| `/dashboard/admin/expeditions/timeseries` | GET | Get expeditions time series - Retorna series de tiempo de expediciones |
+| `/dashboard/admin/expeditions/active` | GET | Get expeditions in progress - Retorna expediciones activas |
+| `/dashboard/tourists/{touristId}/summary` | GET | Get tourist dashboard - Retorna dashboard personal del turista |
+ 
+## Expeditions
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/expeditions` | GET | Get all expeditions - Retorna todas las expediciones |
+| `/expeditions` | POST | Create a expedition - Crea una nueva expedición |
+| `/expeditions/{expeditionId}` | GET | Get an expedition by its id - Retorna detalles de una expedición específica |
+ 
+## Experiences
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/experiences` | GET | Get all experience - Retorna todas las experiencias |
+| `/experiences` | POST | Create an experience - Crea una nueva experiencia |
+| `/experiences/{experienceId}` | GET | Get an experience by its id - Retorna detalles de una experiencia específica |
+ 
+## Incidents
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/incidents` | GET | Get all incidents - Retorna todos los incidentes |
+| `/incidents` | POST | Create a incident - Crea un nuevo incidente |
+| `/incidents/{incidentId}` | GET | Get a incident by its id - Retorna detalles de un incidente específico |
+ 
+## IoT Devices
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/devices` | GET | Get all devices - Retorna todos los dispositivos IoT registrados |
+| `/devices` | POST | Register a device - Registra un nuevo dispositivo IoT |
+| `/devices/{deviceId}` | GET | Get device by ID - Retorna detalles de un dispositivo específico |
+| `/devices/{deviceId}` | PUT | Dispatch a command to a device - Envía un comando a un dispositivo |
+| `/devices/{deviceId}` | DELETE | Remove a device - Elimina un dispositivo registrado |
+ 
+## Location Readings
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/location-readings` | POST | Record a location reading - Registra una lectura de ubicación |
+| `/location-readings/expedition/{expeditionId}` | GET | Get location readings by expedition - Retorna lecturas de ubicación de una expedición |
+ 
+## Loyalty - Metrics
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/metrics` | GET | Get loyalty metrics for an agency - Retorna métricas de lealtad de una agencia |
+ 
+## Loyalty - Notifications
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/notifications` | GET | Get a tourist's notifications - Retorna notificaciones del turista |
+| `/notifications/{notificationId}` | PATCH | Mark a notification as read - Marca una notificación como leída |
+ 
+## Loyalty - Profile
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/profile` | GET | Get a tourist's loyalty profile - Retorna perfil de lealtad de un turista |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/points-transactions` | GET | Get a tourist's points ledger - Retorna historial de transacciones de puntos |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/points-transactions` | POST | Record a points-earning event - Registra un evento de ganancia de puntos |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/badges` | GET | Get a tourist's earned badges - Retorna badges ganados por un turista |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/referral-code` | GET | Get or create a tourist's referral code - Obtiene o crea código de referencia |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/reviews` | POST | Submit a review for a completed expedition - Envía una reseña de expedición completada |
+ 
+## Loyalty - Program & Tiers
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/program` | GET | Get an agency's loyalty program configuration - Obtiene configuración del programa de lealtad |
+| `/loyalty/agencies/{agencyId}/program` | PUT | Update an agency's loyalty program configuration - Actualiza configuración del programa |
+| `/loyalty/agencies/{agencyId}/tiers` | GET | Get an agency's loyalty tiers - Obtiene niveles de lealtad de una agencia |
+| `/loyalty/agencies/{agencyId}/tiers` | POST | Create a loyalty tier - Crea un nuevo nivel de lealtad |
+| `/loyalty/agencies/{agencyId}/tiers/{tierId}` | PUT | Update a loyalty tier - Actualiza un nivel de lealtad |
+| `/loyalty/agencies/{agencyId}/tiers/{tierId}` | DELETE | Delete a loyalty tier - Elimina un nivel de lealtad |
+ 
+## Loyalty - Redemptions
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/redemptions` | GET | Get a tourist's redemptions - Retorna redenciones de un turista |
+| `/loyalty/agencies/{agencyId}/tourists/{touristId}/redemptions` | POST | Redeem a reward - Canjea una recompensa |
+| `/loyalty/agencies/{agencyId}/redemptions` | GET | Find a redemption by its code - Busca redención por código |
+| `/loyalty/agencies/{agencyId}/redemptions/{redemptionId}` | PATCH | Mark a redemption as used - Marca redención como utilizada |
+ 
+## Loyalty - Referrals
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/referrals` | POST | Redeem a referral code - Canjea un código de referencia |
+ 
+## Loyalty - Rewards
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/loyalty/agencies/{agencyId}/rewards` | GET | Get an agency's reward catalog - Obtiene catálogo de recompensas |
+| `/loyalty/agencies/{agencyId}/rewards` | POST | Create a reward - Crea una nueva recompensa |
+| `/loyalty/agencies/{agencyId}/rewards/{rewardId}` | PUT | Update a reward - Actualiza una recompensa |
+| `/loyalty/agencies/{agencyId}/rewards/{rewardId}` | DELETE | Deactivate a reward - Desactiva una recompensa |
+ 
+## Progress
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/progress` | POST | Create a progress - Crea un nuevo registro de progreso |
+| `/progress/{progressId}` | GET | Get a progress by its id - Retorna detalles de progreso específico |
+ 
+## Sensor Readings
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/sensor-readings` | GET | Get all sensor readings - Retorna todas las lecturas de sensores |
+| `/sensor-readings` | POST | Record a sensor reading - Registra una lectura de sensor |
+| `/sensor-readings/device/{deviceId}` | GET | Get sensor readings by device - Retorna lecturas de un dispositivo |
+ 
+## Staff Profiles
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/profiles/agencies/{agencyId}/staff/{staffUserId}` | GET | Get a staff member's own profile - Obtiene perfil de miembro de staff |
+| `/profiles/agencies/{agencyId}/staff/{staffUserId}` | PUT | Create or update a staff member's own profile - Crea o actualiza perfil de staff |
+| `/profiles/agencies/{agencyId}/staff/{staffUserId}/preferences` | GET | Get a staff member's notification preferences - Obtiene preferencias de notificación |
+| `/profiles/agencies/{agencyId}/staff/{staffUserId}/preferences` | PUT | Set a staff member's notification preferences - Establece preferencias de notificación |
+ 
+## Subscriptions & Payments
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/subscriptions/checkout` | POST | Start a Stripe Checkout session for the current user - Inicia sesión de checkout con Stripe |
+| `/subscriptions/me` | GET | Get the current user's subscription - Obtiene suscripción del usuario actual |
+| `/subscriptions/me/cancel` | POST | Cancel the current user's active subscription - Cancela suscripción activa |
+| `/subscriptions/webhook` | POST | Stripe webhook receiver - Receptor de webhooks de Stripe |
+ 
+## Support Tickets
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/support-tickets` | GET | Get support tickets - Retorna todos los tickets de soporte |
+| `/support-tickets` | POST | Open a support ticket - Abre un nuevo ticket de soporte |
+| `/support-tickets/{ticketId}` | GET | Get a ticket by its id - Retorna detalles de un ticket específico |
+| `/support-tickets/{ticketId}` | PATCH | Partially update a ticket - Actualiza parcialmente un ticket |
+ 
+## Support Ticket Replies
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/support-ticket-replies` | GET | Get replies for a ticket - Retorna respuestas de un ticket |
+| `/support-ticket-replies` | POST | Post a reply on a ticket - Publica una respuesta en un ticket |
+ 
+## Tour Assignments
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/tours/{tourId}/assignments` | GET | Get tour assignments - Retorna asignaciones de un tour |
+| `/tours/{tourId}/assignments` | POST | Create tour assignment - Asigna un turista a un tour |
+| `/tours/{tourId}/assignments/{touristId}` | DELETE | Delete tour assignment - Elimina asignación de turista a tour |
+ 
+## Tourist Preferences
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/profiles/tourists/{touristId}/preferences` | GET | Get a tourist's preferences - Obtiene preferencias de turista |
+| `/profiles/tourists/{touristId}/preferences/expedition` | PUT | Set expedition preferences - Establece preferencias de expedición |
+| `/profiles/tourists/{touristId}/preferences/notifications` | PUT | Set notification preferences - Establece preferencias de notificación |
+| `/profiles/tourists/{touristId}/preferences/privacy` | PUT | Set privacy preferences - Establece preferencias de privacidad |
+ 
+## Tourist Profiles
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/profiles/tourists/{touristId}` | GET | Get a tourist's own profile - Obtiene perfil personal del turista |
+| `/profiles/tourists/{touristId}` | PUT | Create or update a tourist's personal/travel data - Crea o actualiza datos de turista |
+| `/profiles/tourists/{touristId}/identity-document` | PUT | Set a tourist's identity document - Establece documento de identidad |
+| `/profiles/tourists/{touristId}/medical-info` | PUT | Set a tourist's optional medical information - Establece información médica |
+| `/profiles/tourists/{touristId}/emergency-contacts` | POST | Add an emergency contact - Agrega contacto de emergencia |
+| `/profiles/tourists/{touristId}/emergency-contacts/{contactId}` | PUT | Update an emergency contact - Actualiza contacto de emergencia |
+| `/profiles/tourists/{touristId}/emergency-contacts/{contactId}` | DELETE | Remove an emergency contact - Elimina contacto de emergencia |
+| `/profiles/tourists/{touristId}/completeness` | GET | Check whether a tourist's profile is complete enough to join an expedition - Verifica completitud del perfil |
+| `/profiles/agencies/{agencyId}/tourists/{touristId}` | GET | Agency staff: read a tourist's full profile - Personal de agencia lee perfil completo |
+| `/profiles/agencies/{agencyId}/tourists/{touristId}/medical-access-log` | GET | Agency staff: see who accessed a tourist's medical profile and when - Historial de accesos a datos médicos |
+ 
+## Tours
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/tours` | POST | Create a tour - Crea un nuevo tour |
+| `/tours` | GET | Get all tours - Retorna todos los tours |
+| `/tours/{tourId}` | GET | Get a tour by ID - Retorna detalles de un tour |
+| `/tours/{tourId}` | PUT | Update a tour - Actualiza un tour |
+| `/tours/{tourId}` | DELETE | Delete a tour - Elimina un tour |
+| `/tours/agency/{agencyId}` | GET | Get tours by agency - Retorna tours de una agencia |
+| `/tours/search` | GET | Search tours - Busca tours según criterios |
+| `/tours/{tourId}/duplicate` | POST | Duplicate a tour - Duplica un tour existente |
+ 
+## Users
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/users` | GET | Get all users - Retorna todos los usuarios |
+| `/users/{id}` | GET | Get a user by its id - Retorna detalles de un usuario específico |
+ 
+## Vital Sign Readings
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/vital-sign-readings` | POST | Record a vital sign reading - Registra lectura de signos vitales |
+| `/vital-sign-readings/expedition/{expeditionId}` | GET | Get vital sign readings by expedition - Retorna signos vitales de expedición |
+ 
+## Weather
+ 
+| Endpoint | Verbo HTTP | Descripción |
+|---|---|---|
+| `/weather` | POST | Create a weather - Crea un registro climático |
+| `/weather/{weatherId}` | GET | Get a weather by its id - Retorna detalles climáticos específicos |
+ 
+---
+ 
+## Resumen de Nuevos Bounded Contexts - Sprint 4
+ 
+### 1. **IAM (Identity & Access Management)**
+- Autenticación con JWT (sign-in/sign-up)
+- Gestión segura de roles y permisos
+- Control de acceso basado en agencias
+### 2. **Profiles (Gestión de Perfiles)**
+- Perfiles completos de turistas (datos personales, médicos, contactos de emergencia)
+- Perfiles de staff con especialización y certificaciones
+- Evaluación de completitud de perfil
+- Control de acceso a información médica sensible
+### 3. **Loyalty Program (Gamificación)**
+- Sistema de puntos y badges
+- Niveles (tiers) configurables por agencia
+- Catálogo de recompensas y canjes
+- Código de referencia y sistema de referidos
+- Resumen de transacciones y logros
+- Rankings y métricas por agencia
+### 4. **Dashboard (Analíticos Administrativos)**
+- Resumen de KPIs
+- Distribución y tendencias de alertas
+- Series de tiempo de expediciones
+- Dashboard personalizado por turista
+### 5. **Support (Sistema de Tickets)**
+- Tickets de soporte con seguimiento
+- Respuestas y comentarios en tickets
+- Gestión de estados de tickets
+### 6. **Subscriptions (Pagos & Suscripciones)**
+- Integración con Stripe Checkout
+- Gestión de suscripciones activas
+- Cancelación de suscripciones
+- Webhooks para eventos de Stripe
+### Contextos Existentes (Mantenidos desde Sprint 3)
+- **Monitoring** - Alertas, Incidentes, Signos Vitales
+- **TourManagement** - Tours, Asignaciones, Expediciones
+- **Navigation** - Lecturas de Ubicación, Progreso
+- **IoT** - Dispositivos, Lecturas de Sensores
+---
+ 
+## Estadísticas de Endpoints
+ 
+- **Total de endpoints:** 100+
+- **Nuevos en Sprint 4:** 70+
+- **Mantenidos de Sprint 3:** 30+
+- **Métodos HTTP:** GET, POST, PUT, PATCH, DELETE
+- **Autenticación:** JWT Bearer Token
+- **Versionado:** API v1 (`/api/v1`)
+---
+ 
+**URL del repositorio Backend:** [VitalTrek-Project/vital-trek-platform](https://github.com/VitalTrek-Project/vital-trek-platform)
+ 
+**URL de documentación interactiva (Swagger):** [https://backend-vitaltrek-production.up.railway.app/swagger](https://backend-vitaltrek-production.up.railway.app/swagger)
+ 
+**Commits relacionados con la implementación de estos endpoints en Sprint 4:** `d3be1fa`, `b191291`, `643879e`, `5502a21`, `8055de9`, `9870fe2`, `3cc8ab1`, `7a61e1c`, `c08edb8`, `ecb0ad0`, `0ea9ca7`, `77a030f`, `deca607`, `e80c816`, `b647dbf`, `11278d5`, `dc3bf81`, `2b87f5f`, `8374e5d`, `b380a84`, `30f9f42`, `3d2d9ee`, `7046205`, `3de3130`, `8b8ffdb`, `543a385`, `f5a25e3`
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 4.
+ 
+**Distribución de Trabajo:**
+ 
+Durante el Sprint 4, el equipo continuó con el desarrollo integral de VitalTrek, consolidando avances en los tres productos principales: iteración de la Landing Page, evolución de la Web Application hacia la versión v3.0.0 y continuación del desarrollo del Backend de VitalTrek Platform hacia la versión v2.0.0. 
+ 
+En este Sprint se profundizó en la estrategia colaborativa iniciada en el Sprint anterior, donde todos los integrantes participaron activamente en la implementación de nuevos Bounded Contexts (IAM, Engagement/Loyalty, Support) y características transversales del Backend. El equipo enfatizó la integración de la lógica de identidad y acceso, la gamificación mediante el programa de lealtad, y la mejora de los servicios de soporte, trabajando de manera coordinada para resolver requisitos técnicos complejos y garantizar la coherencia arquitectónica entre componentes.
+ 
+El equipo mantuvo un enfoque de trabajo colaborativo mediante reuniones de coordinación, revisiones de código rigurosas y la integración continua en GitHub, lo que permitió sincronizar eficientemente el desarrollo simultáneo de la Landing Page, la Web Application y el Backend, asegurando que todas las dependencias entre capas fueran correctamente gestionadas y que los cambios se integraran sin conflictos.
+
+**Métricas de Colaboración:**
+
+<div align="center">
+  <p>
+    <b>Contributors de la Landing Page v4.0.0</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-landing-page.png" alt="Contributors landing page v3.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-landing-page.</i></p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Contributors de la Web Application v3.0.0</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-web-application.png" alt="Contributors web application v2.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-frontend.</i></p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Contributors del Backend (VitalTrek Platform v2.0.0)</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-web-platform.png" alt="Contributors vitaltrek platform v1.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-backend.</i></p>
+</div>
+
+
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
@@ -4279,13 +4823,11 @@ Por un lado, está diseñado para los visitantes de la Landing Page, brindándol
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Viabilidad de la Arquitectura Offline-First: El desarrollo de VitalTrek demuestra la factibilidad de resolver la "ceguera operativa" en el turismo de aventura peruano mediante un ecosistema IoT asincrónico. La sincronización basada en ráfagas de datos a través de checkpoints Bluetooth se confirma como una alternativa técnica y financieramente viable frente a las costosas soluciones 100% satelitales en zonas de baja o nula conectividad.
-
-Diseño Centrado en el Usuario y el Dominio: La aplicación rigurosa de metodologías de descubrimiento (Lean UX, Empathy Mapping) y modelado (Event Storming, Domain-Driven Design) permitió estructurar un software que atiende con precisión las necesidades reales de dos segmentos distintos: el control operativo para las agencias (B2B) y la experiencia segura e interactiva para los turistas (B2C).
-
-Escalabilidad Tecnológica: La estructuración del sistema mediante Bounded Contexts e interfaces basadas en APIs RESTful garantiza que VitalTrek sea una plataforma altamente desacoplada y escalable, preparada para asimilar un mayor volumen de usuarios y nuevos dispositivos wearables en el futuro sin comprometer el rendimiento general.
-
-Cumplimiento del Outcome 5 de ABET: La adopción de prácticas ágiles de desarrollo (Scrum) y herramientas de gestión de configuración de software (GitFlow, Conventional Commits en GitHub) fomentó un entorno de trabajo organizado, inclusivo y colaborativo. Esto permitió al equipo Nexum Devs distribuir el liderazgo efectivamente, cumplir con los objetivos de cada Sprint y garantizar la trazabilidad completa del ciclo de vida del producto.
+Validación del problema y ajuste producto-mercado. El proceso de Lean UX, sustentado en 8 entrevistas de descubrimiento (3 agencias, 5 turistas) y posteriormente en 4 entrevistas de validación con evaluación heurística, confirmó que la pérdida de comunicación en zonas remotas es un problema crítico y recurrente: el 100% de las agencias entrevistadas reportó tramos de 2 a 8 horas sin señal y al menos un incidente grave derivado de ello. Esto valida la hipótesis central del proyecto y justifica la arquitectura offline-first adoptada.
+Arquitectura evolutiva y sostenible. El sistema se construyó progresivamente sobre Domain-Driven Design, pasando de 5 bounded contexts iniciales (Identity & Access, Tour Management, Navigation & Exploration, Safety & Monitoring, Notification & Profile) a un ecosistema de 9 contextos hacia el Sprint 4, incorporando IAM con JWT, Subscriptions con pagos vía Stripe, y Loyalty & Engagement con gamificación completa (puntos, badges, niveles, canjes y referidos). Esta evolución modular, documentada mediante Event Storming y diagramas C4, permitió absorber nueva complejidad de negocio sin comprometer la estabilidad de los módulos ya implementados.
+Consolidación técnica a través de los sprints. El recorrido desde una Landing Page estática (Sprint 1) hasta una plataforma con más de 100 endpoints RESTful documentados en Swagger (Sprint 4) demuestra la viabilidad de escalar un producto real dentro de un ciclo académico, apoyándose en integración continua, GitFlow, Conventional Commits y despliegues automatizados en GitHub Pages, Cloudflare Workers, Firebase y Railway.
+Usabilidad validada empíricamente, no asumida. La evaluación heurística del Sprint 4 identificó 7 problemas concretos de usabilidad (ausencia de contactos de emergencia en la creación de tours, falta de mensajería in-app, dificultad para ubicar "Crear Tour", acceso confuso al panel de monitoreo, entre otros), todos con severidad y recomendación específica. Esto evidencia que el equipo no solo construyó funcionalidades, sino que institucionalizó un proceso de mejora continua basado en evidencia real de usuarios (Valeri Rojas, Miguel Morales, Anamile Atalaya y María Fernanda Ttito).
+Trabajo en equipo como resultado, no como trámite. Los Team Collaboration Insights de cada sprint muestran una transición deliberada: de trabajo en silos por Bounded Context (Sprint 2) a colaboración cruzada entre todos los integrantes sobre los mismos módulos (Sprints 3 y 4), lo cual aceleró la integración y redujo conflictos, cumpliendo el Student Outcome 5 de ABET en la práctica y no solo en el discurso.
 
 ## Recomendaciones
 Validación en Entornos Reales: Se recomienda realizar pruebas de campo piloto (Beta Testing) en rutas de alta exigencia geográfica y climática (como la cordillera en Áncash o el Camino Inca en Cusco) para medir empíricamente la tolerancia a fallos del hardware IoT y la latencia real en la sincronización de los checkpoints.
