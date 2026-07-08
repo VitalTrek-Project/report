@@ -4909,7 +4909,7 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 - Big Picture EventStorming y Design-Level EventStorming: https://www.figma.com/board/qJ6uMOLu6Den0EhpUKhiDD/Big-Picture-Event-Storming?node-id=0-1&t=mG6SLBfALhlztJ6V-0
   https://miro.com/app/board/uXjVHcmAuSg=/
 - Wireframe de la landing page: 
-- Mock-up de la landing page: 
+- Mock-up de la landing page: https://www.figma.com/design/zUVOdxaYnrsgbZQ2ToVYgR/UPC-2026-02?node-id=0-1&p=f&t=BsZhMekfB39vGqlh-0
 - Wireframes de la aplicación web: https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=G6Mbqczu6nWd6QHp-0
 - Wireflows de la aplicación web: https://lucid.app/lucidchart/43bc9b20-18a3-4d2c-b9a6-85ed008620de/edit?invitationId=inv_49759446-823e-49d5-b1b4-d320a18165d8&page=0_0#
 - Mock-ups de la aplicación web: https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=G6Mbqczu6nWd6QHp-0
