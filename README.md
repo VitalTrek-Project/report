@@ -914,18 +914,18 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 <div align="center">
 
-| Campo | Información |
-|-------|-------------|
-| Segmento | Turista de aventura |
-| Nombres y apellidos | Tamara Velasquez |
-| Edad | 20 años |
-| Distrito | Lima |
+| Campo                   | Información                            |
+|-------------------------|----------------------------------------|
+| Segmento                | Turista de aventura                    |
+| Nombres y apellidos     | Tamara Velasquez                       |
+| Edad                    | 20 años                                |
+| Distrito                | Lima                                   |
 | Actividades practicadas | Parapente anual, montañismo y escalada |
-| Dispositivo principal | Celular Android |
-| App de referencia | Google Maps |
-| Inicio de la entrevista | 00:00 |
-| Duración | 00:05:49 |
-| URL del video | https://surl.li/wtbakg |
+| Dispositivo principal   | Celular Android                        |
+| App de referencia       | Google Maps                            |
+| Inicio de la entrevista | 00:00                                  |
+| Duración                | 00:05:49                               |
+| URL del video           | https://surl.li/wtbakg                 |
 
 </div>
 <div align="center">
@@ -938,18 +938,18 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 <div align="center">
 
-| Campo | Información |
-|-------|-------------|
-| Segmento | Turista de aventura |
-| Nombres y apellidos | Gaby Valencia |
-| Edad | 20 años |
-| Distrito | Lima |
-| Actividades practicadas | Escalada en nevados, expediciones con amigos |
-| Dispositivo principal | Celular iPhone |
-| App / canal de referencia | Google Maps e Instagram |
-| Inicio de la entrevista | 00:00 |
-| Duración | 00:04:03 |
-| URL del video | https://surl.li/wrchlv |
+| Campo                     | Información                                  |
+|---------------------------|----------------------------------------------|
+| Segmento                  | Turista de aventura                          |
+| Nombres y apellidos       | Gaby Valencia                                |
+| Edad                      | 20 años                                      |
+| Distrito                  | Lima                                         |
+| Actividades practicadas   | Escalada en nevados, expediciones con amigos |
+| Dispositivo principal     | Celular iPhone                               |
+| App / canal de referencia | Google Maps e Instagram                      |
+| Inicio de la entrevista   | 00:00                                        |
+| Duración                  | 00:04:03                                     |
+| URL del video             | https://surl.li/wrchlv                       |
 
 </div>
 <div align="center">
@@ -962,18 +962,18 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 <div align="center">
 
-| Campo | Información |
-|-------|-------------|
-| Segmento | Turista de aventura |
-| Nombres y apellidos | Antonella Chavez |
-| Edad | 20 años |
-| Distrito | Lima |
-| Actividades practicadas | Esquí en el extranjero y trekking en Huaraz |
-| Dispositivo principal | iPhone y Apple Watch |
-| App / canal de referencia | Google Maps e Instagram |
-| Inicio de la entrevista | 00:00 |
-| Duración | 00:04:05 |
-| URL del video | https://surl.li/scgbfh |
+| Campo                     | Información                                 |
+|---------------------------|---------------------------------------------|
+| Segmento                  | Turista de aventura                         |
+| Nombres y apellidos       | Antonella Chavez                            |
+| Edad                      | 20 años                                     |
+| Distrito                  | Lima                                        |
+| Actividades practicadas   | Esquí en el extranjero y trekking en Huaraz |
+| Dispositivo principal     | iPhone y Apple Watch                        |
+| App / canal de referencia | Google Maps e Instagram                     |
+| Inicio de la entrevista   | 00:00                                       |
+| Duración                  | 00:04:05                                    |
+| URL del video             | https://surl.li/scgbfh                      |
 
 </div>
 <div align="center">
@@ -1011,18 +1011,18 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 <div align="center">
 
-| Campo | Información |
-|-------|-------------|
-| Segmento | Turista de aventura |
-| Nombres y apellidos | Valeria Quiliano |
-| Edad | 21 años |
-| Distrito | Lima |
-| Actividades practicadas | Camino Inca hasta Machu Picchu, sandboarding en Lunahuaná |
-| Dispositivo principal | iPhone y Apple Watch |
-| App / canal de referencia | Google Maps, Instagram y TikTok |
-| Inicio de la entrevista | 00:00 |
-| Duración | 00:08:33 |
-| URL del video | https://surl.li/lvxaav |
+| Campo                     | Información                                               |
+|---------------------------|-----------------------------------------------------------|
+| Segmento                  | Turista de aventura                                       |
+| Nombres y apellidos       | Valeria Quiliano                                          |
+| Edad                      | 21 años                                                   |
+| Distrito                  | Lima                                                      |
+| Actividades practicadas   | Camino Inca hasta Machu Picchu, sandboarding en Lunahuaná |
+| Dispositivo principal     | iPhone y Apple Watch                                      |
+| App / canal de referencia | Google Maps, Instagram y TikTok                           |
+| Inicio de la entrevista   | 00:00                                                     |
+| Duración                  | 00:08:33                                                  |
+| URL del video             | https://surl.li/lvxaav                                    |
 
 </div>
 <div align="center">
@@ -1195,6 +1195,40 @@ El As-is Scenario Mapping permite representar cómo los usuarios realizan actual
 | Pérdida de señal en zona remota | Continúa el recorrido sin poder confirmar su ubicación exacta ni informar a su familia sobre su estado. | "No sé si mi familia sabe que sigo bien, y yo tampoco puedo confirmarlo." | Incertidumbre y aislamiento. | La imposibilidad de comunicarse durante varios días genera ansiedad tanto en el turista como en sus familiares. | Registrar y sincronizar automáticamente la ubicación y el estado del turista apenas se recupera la conectividad. |
 | Actividad física exigente | Realiza la actividad de aventura sin ningún dispositivo que monitoree su estado físico o signos vitales. | "Si algo me pasara aquí, nadie lo sabría hasta que sea muy tarde." | Vulnerabilidad y autoexigencia. | La falta de monitoreo de signos vitales limita la capacidad de reacción ante una emergencia médica. | Capturar signos vitales mediante wearables IoT y generar alertas ante anomalías detectadas durante la actividad. |
 | Cierre del recorrido | Documenta su experiencia con fotografías y notas personales, sin registro contextual automático del recorrido realizado. | "Me hubiera gustado tener más información histórica y cultural mientras avanzaba en la ruta." | Satisfacción parcial y nostalgia. | La experiencia carece de información contextual enriquecida y de un registro digital estructurado del recorrido. | Ofrecer información contextual del recorrido y registro automático de experiencia, fotos y ruta completada. |
+
+---
+
+## 2.3.6. To-be Scenario Mapping.
+
+El To-be Scenario Mapping representa cómo los usuarios realizarán sus actividades una vez implementada la plataforma VitalTrek, contrastando directamente con el As-is Scenario Mapping presentado anteriormente. Este análisis muestra cómo las funcionalidades del ecosistema (monitoreo en tiempo real, sincronización asincrónica, wearables IoT y alertas automáticas) transforman las etapas identificadas, reduciendo la incertidumbre, el tiempo de reacción y la dependencia de procesos manuales.
+
+### To-be Scenario Mapping: Agencia y Operador de Turismo de Aventura
+
+**User Persona:** Ana Lucía Quispe  
+**Escenario:** Coordinación y supervisión de tours en zonas remotas mediante el dashboard en tiempo real de VitalTrek.
+
+| Etapa | Actividades con VitalTrek | Pensamientos del usuario | Emociones | Mejora respecto al As-is | Valor entregado por VitalTrek |
+|-------|----------------------------|---------------------------|-----------|---------------------------|-------------------------------|
+| Planificación del tour | Crea el tour desde el panel web, define checkpoints, asigna guías y turistas, y publica el itinerario en un solo flujo. | "Todo el tour queda armado y visible para mi equipo desde el primer momento." | Organización y control. | Reemplaza hojas de cálculo y coordinación dispersa por un flujo único de creación de tour. | Centraliza la planificación en el módulo de Tour Management. |
+| Salida del grupo a campo | Verifica el estado de los wearables y del grupo antes de iniciar la expedición, con confirmación automática en el sistema. | "Puedo confirmar que todos los dispositivos están activos antes de que salgan a ruta." | Confianza y tranquilidad. | Elimina la incertidumbre de enviar al grupo sin visibilidad; ahora hay una verificación previa registrada. | El flujo de inicio de expedición asegura que el monitoreo esté activo desde el primer checkpoint. |
+| Seguimiento durante el recorrido | Supervisa la ubicación y signos vitales de cada turista en el dashboard Live Monitoring, incluso con datos sincronizados de forma asincrónica. | "Aunque no haya señal continua, sé que la información llegará apenas se recupere la conexión." | Seguridad y control continuo. | Sustituye la espera pasiva de mensajes por un panel activo con datos estructurados por participante. | La sincronización asincrónica y el dashboard matricial permiten monitoreo sin depender de señal constante. |
+| Reacción ante una emergencia | Recibe una alerta automática generada por anomalías en signos vitales o ubicación, y responde siguiendo el protocolo sugerido por el sistema. | "En cuanto algo se sale de lo normal, el sistema me avisa antes de que se convierta en una emergencia mayor." | Rapidez y seguridad operativa. | Reduce el tiempo de reacción de horas a minutos, reemplazando la espera de un mensaje de auxilio. | Las alertas automáticas y el módulo de Incidents agilizan la respuesta y dejan registro trazable del evento. |
+| Cierre del tour y reportes | Genera automáticamente el reporte operativo del tour a partir de los datos registrados durante la expedición. | "El reporte ya está armado con toda la información real del recorrido." | Satisfacción y respaldo documentado. | Elimina la reconstrucción manual de lo ocurrido a partir de mensajes y notas sueltas. | Los reportes post-tour se generan a partir de la telemetría y los checkpoints registrados en el sistema. |
+
+### To-be Scenario Mapping: Turista de Aventura
+
+**User Persona:** Marco Rodriguez  
+**Escenario:** Exploración de rutas remotas utilizando la aplicación móvil de VitalTrek con navegación offline y monitoreo de salud.
+
+| Etapa | Actividades con VitalTrek | Pensamientos del usuario | Emociones | Mejora respecto al As-is | Valor entregado por VitalTrek |
+|-------|----------------------------|---------------------------|-----------|---------------------------|-------------------------------|
+| Investigación previa al viaje | Revisa el perfil de la agencia y confirma que utiliza VitalTrek para monitoreo y seguridad antes de reservar. | "Esta agencia sí muestra cómo cuidan a sus turistas en ruta." | Confianza y expectativa positiva. | Sustituye la incertidumbre sobre la seguridad de la agencia por información verificable. | La integración con VitalTrek se convierte en un diferenciador visible para el turista al elegir agencia. |
+| Inicio del recorrido | Descarga el mapa y la ruta desde la app antes de salir, y su wearable comienza a sincronizarse con el sistema. | "Ya tengo todo descargado, no dependo de que haya señal." | Preparación y tranquilidad. | Reemplaza la dependencia de aplicaciones de mapas online por navegación 100% offline. | El módulo de Navigation & Exploration permite descargar rutas y operar sin conexión continua. |
+| Pérdida de señal en zona remota | Continúa el recorrido con normalidad; la app sigue registrando ubicación y signos vitales localmente para sincronizarlos después. | "No tengo señal, pero sé que mi información se está guardando y se enviará apenas se pueda." | Calma y confianza en el sistema. | Elimina la ansiedad y el aislamiento comunicativo que antes generaba la pérdida de señal. | La sincronización asincrónica asegura continuidad de datos sin necesidad de conexión constante. |
+| Actividad física exigente | Su wearable monitorea continuamente su frecuencia cardíaca y SpO₂, enviando una alerta automática si detecta una anomalía. | "Si algo me pasara, mi guía y la agencia lo sabrían de inmediato." | Seguridad y confianza en su propio cuerpo. | Sustituye la ausencia total de monitoreo por vigilancia constante de signos vitales con alertas activas. | El ecosistema de wearables IoT y las alertas automáticas habilitan una respuesta médica más rápida. |
+| Cierre del recorrido | Recibe automáticamente su diario de viaje generado con fotos georreferenciadas, ruta completada y datos de salud del recorrido. | "Tengo un registro completo de mi experiencia sin haber tenido que armarlo yo mismo." | Satisfacción y sensación de logro. | Reemplaza la documentación manual y dispersa por un registro automático y enriquecido de la experiencia. | El módulo de registro automático (auto-generated journal) entrega contexto, fotos y datos de salud sin intervención manual. |
+
+En conjunto, el To-be Scenario Mapping evidencia que VitalTrek no elimina la naturaleza riesgosa del turismo de aventura, pero sí transforma la forma en que agencias y turistas se preparan, se comunican y reaccionan ante ella: la incertidumbre pasiva del escenario As-is es reemplazada por visibilidad activa, respuesta automatizada y registro trazable en cada etapa del recorrido.
 
 ---
 
@@ -1738,13 +1772,13 @@ La interfaz web soporta dos locales:
 
 El sistema i18n se implementa mediante atributos `data-i18n` en el HTML y un objeto `translations` en `main.js`. La función `toggleLanguage()` actualiza `document.documentElement.lang`, todos los elementos `[data-i18n]`, el pill del botón de idioma y anuncia el cambio mediante `aria-live`. El modal de Join también responde al toggle de idioma. El idioma predeterminado al cargar la página es inglés, conforme al statement del proyecto.
 
-# 4.2. Information Architecture
+## 4.2. Information Architecture
 
 La arquitectura de información de VitalTrek organiza el contenido de la landing page y de la aplicación web para que turistas, administradores de agencia y guías de tour encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios operan en contextos exigentes en campo, sin señal, bajo presión, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
 
 En la landing page, la información se organiza para presentar la propuesta de valor, beneficios por segmento, tecnología, planes y confianza. En la aplicación web, la información se organiza por tareas operativas: gestión de tours, monitoreo de seguridad, navegación y exploración, notificaciones y perfil.
 
-## 4.2.1. Organization Systems
+### 4.2.1. Organization Systems
 
 - **Organización jerárquica:** Se aplica en la landing page y en las vistas principales mediante un sistema tipográfico de dos familias (Playfair Display para headings, DM Sans para cuerpo) que establece niveles de importancia claros: el título de sección comunica el tema central, el subtítulo contextualiza y el cuerpo detalla. En la aplicación web, el estado activo de una expedición se muestra en la parte superior con métricas clave (progreso, alertas activas), mientras que el detalle histórico queda en un nivel inferior de la pantalla.
 
@@ -1758,7 +1792,7 @@ En la landing page, la información se organiza para presentar la propuesta de v
 
 - **Organización matricial:** Se utiliza en la sección Plans de la landing page, donde los tres planes de cada segmento se presentan en una grilla de tres columnas para comparación horizontal; en el dashboard de monitoreo, donde las columnas representan métricas (ubicación, signos vitales, último checkpoint) y las filas representan participantes; y en la lista de tours de la agencia, presentada en formato tabla o tarjeta con los mismos atributos por elemento (título, estado, fecha, capacidad).
 
-## 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems
 
 El sistema de etiquetado de VitalTrek sigue el principio de mínimo número de palabras sin sacrificar claridad, priorizando términos del dominio de la aventura y el turismo para que los usuarios reconozcan las funciones sin necesidad de aprendizaje adicional.
 
@@ -2236,7 +2270,23 @@ Estos User Flows mantienen consistencia directa con los Wireflows definidos en l
 ![User Flow 06 - Ana Lucía gestiona permisos](assets/images/userflow-6.png)
 
 **Explicación del flujo:** El happy path conduce a Ana Lucía desde la lista de usuarios de su agencia hasta el detalle del miembro del equipo seleccionado, donde modifica sus roles y guarda los cambios con éxito, viendo reflejado el cambio inmediatamente en la tabla. Los unhappy paths definidos son: (a) intento de remover el rol de Ana Lucía como única gerente con permisos completos, donde el sistema bloquea la acción y solicita asignar previamente otro responsable; (b) asignación de roles incompatibles entre sí (por ejemplo, guía de campo simultáneamente como administrador de identidad), generando una validación que impide guardar hasta resolver el conflicto; (c) usuario actualmente activo en una sesión con los roles previos, donde el sistema advierte que los cambios surtirán efecto al siguiente inicio de sesión y ofrece notificar al usuario afectado; (d) intento de asignar un permiso de monitoreo IoT a un usuario sin entrenamiento certificado en uso del sistema, donde el sistema sugiere agendar capacitación previa; (e) error de persistencia al guardar, mostrando un mensaje de reintento sin perder las modificaciones realizadas en pantalla.
-## 4.5. Web Applications Prototyping
+
+## 4.5. Web Applications Prototyping.
+
+El prototipado de la aplicación web de VitalTrek permite validar la navegación e interacción entre las principales pantallas antes de la implementación final. Los criterios considerados para el prototipo fueron claridad en los recorridos, consistencia visual con el Style Guide, separación de acciones por rol y facilidad para completar tareas frecuentes como iniciar sesión, crear y gestionar tours, asignar turistas y guías, monitorear expediciones en tiempo real, registrar checkpoints, gestionar alertas e incidentes, y visualizar reportes post-tour.
+
+El prototipo se relaciona directamente con la arquitectura de información definida previamente, ya que utiliza una navegación superior o lateral según el contexto y organiza las pantallas por módulos funcionales. Los flujos cubiertos corresponden principalmente al acceso a la aplicación, gestión de tours, monitoreo de seguridad (Safety & Monitoring), seguimiento de expediciones activas, notificaciones y perfil, evidenciando cómo el usuario avanza entre pantallas para cumplir sus objetivos según su rol (turista, administrador de agencia o guía).
+
+<div align="center">
+
+| Evidencia |
+| --------- |
+| <img src="assets/images/prototypingEvidence.png" width="600"> <img src="assets/images/" width="600"> |
+| Enlace al video del prototipo. Recordatorio: reemplazar este enlace por la versión publicada. |
+|  |
+
+</div>
+
 
 Prototipo de la aplicación web VitalTrek en Figma:
 [Prototipo-VitalTrek](https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=1825-73&t=QlXWry40dvBZPTwC-0)
@@ -2370,104 +2420,117 @@ gestión eficiente de toda la operación de turismo de aventura.
 
 ## 5.1. Software Configuration Management
 
-### 5.1.1. Software Development Environment Configuration
+En esta sección se detallan todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar la Landing Page y Aplicación Web de VitalTrek. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
 
-Con el objetivo de garantizar un desarrollo fluido, estandarizado y consistente entre todos los miembros del equipo Nexum Devs, se ha definido el siguiente entorno de desarrollo para el ecosistema VitalTrek:
+### 5.1.1. Software Development Environment Configuration.
 
-| Actividad                           | Producto           | Propósito / Uso                                                                                                                         | Ruta de referencia / descarga                                                                                                                                              |
-|:------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Project Management                  | Trello             | Organización del Product Backlog, planificación de Sprints y monitoreo del avance de tareas del equipo.                                 | https://trello.com/invite/b/6a01549806a94e62dfa6d970/ATTIaa1f5e639f52cbe5545e00c59015b13b4225C42A/product-backlog <br>                                                     |
-| Requirements Management             | UXPressia          | Elaboración de artefactos de descubrimiento (User Personas, Empathy Maps, Journey Maps e Impact Maps) para la definición de requisitos. | https://uxpressia.com/w/zOJAx                                                                                                                                              |
-| UX/UI Design                        | Figma              | Diseño de la guía de estilo, prototipos de baja fidelidad (wireframes) y alta fidelidad (mockups).                                      | https://www.figma.com/design/ggY7QkJXCBcy7VXaPptREz/Figma-basics?node-id=0-286&p=f&t=A39veEYR7UykQwPG-0                                                                    |
-| Big Picture Event Storming          | Figma              | Modelado y representación colaborativa de procesos mediante Event Storming.                                                             | https://www.figma.com/board/qJ6uMOLu6Den0EhpUKhiDD/Big-Picture-Event-Storming?node-id=0-1&t=XRk6W4qH7HjZNmMr-1                                                             |
-| User Flows & Wireflows              | LucidChart         | Elaboración de Wireflows y User Flows.                                                                                                  | https://lucid.app/lucidchart/43bc9b20-18a3-4d2c-b9a6-85ed008620de/edit?viewport_loc=-2040%2C2618%2C4437%2C2445%2C0_0&invitationId=inv_49759446-823e-49d5-b1b4-d320a18165d8 |
-| C4 Diagrams                         | Structurizr        | Elaboración de diagramas C4.                                                                                                            | https://structurizr.com/share/109663/51271721-b088-4007-addf-b09ca1ad0c3f                                                                                                  |
-| Class Diagrams & Database Design    | PlantUML           | Elaboración de diagramas UML y modelado estructural de la base de datos.                                                                | https://plantuml.com/es/class-diagram                                                                                                                                      |
-| Software Development (Backend)      | JetBrains Rider    | Entorno de desarrollo para la implementación de servicios web RESTful con ASP.NET Core y C#.                                            |                                                                                                                                                                            |
-| Software Development (Frontend)     | JetBrains WebStorm | Desarrollo de la aplicación web utilizando Vue Framework y tecnologías frontend como HTML5, CSS3 y JavaScript.                          |                                                                                                                                                                            |
-| Software Development (Landing Page) | Visual Studio Code | Desarrollo y edición de la Landing Page utilizando tecnologías web estándar.                                                            |                                                                                                                                                                            |
-| Version Control                     | GitHub             | Administración de repositorios y control de versiones mediante GitFlow y Conventional Commits.                                          |                                                                                                                                                                            |
-| Software Deployment                 | GitHub Pages       | Despliegue y publicación de la Landing Page en un entorno accesible para usuarios.                                                      | https://vitaltrek-project.github.io/landing-page/                                                                                                                          |
-| Software Deployment Web-Application | CloudFare          | Despliegue y publicación de la Web Application en un entorno accesible para usuarios.                                                   |                                                                                                                                                                            |
-| Documentation                       | Markdown           | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto.                                                       |                                                                                                                                                                            |
+En este apartado se describe la configuración del entorno de desarrollo de VitalTrek, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo Nexum Devs. Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida de la ejecución, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
 
+**Project Management**
 
-### 5.1.2. Source Code Management
+Esta categoría agrupa las herramientas a utilizar para la planificación, organización y seguimiento del trabajo del equipo durante el desarrollo del proyecto.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| Trello | Organización del Product Backlog de VitalTrek, planificación de Sprints y monitoreo del avance de tareas del equipo. | https://tinyurl.com/product-backlog-vitaltrek |
+
+**Requirements Management**
+
+Incluye herramientas orientadas a la identificación, análisis y definición de los requerimientos funcionales y no funcionales del sistema.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| UXPressia | Elaboración de artefactos de descubrimiento (User Personas, Empathy Maps, Journey Maps e Impact Maps) para la definición de requisitos de VitalTrek. | https://uxpressia.com/w/zOJAx |
+
+**Product UX/UI Design**
+
+Comprende las herramientas a utilizar para el diseño de la experiencia de usuario, interfaces, modelado colaborativo y validación visual del producto digital.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| Figma | Diseño de la guía de estilo, prototipos de baja fidelidad (wireframes) y alta fidelidad (mockups) de la landing page y la aplicación web. | https://tinyurl.com/vitaltrek-web-application |
+| Figma (Big Picture Event Storming) | Modelado y representación colaborativa de procesos del negocio mediante la técnica de Event Storming. | https://tinyurl.com/vitaltrek-eventstorming |
+| LucidChart | Elaboración de Wireflows y User Flows del sistema. | https://tinyurl.com/wireflow-user-flow-vitaltrek |
+
+**Software Development**
+
+Incluye herramientas que serán destinadas a la implementación técnica del sistema, desarrollo del código y control de versiones.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| JetBrains Rider | Entorno de desarrollo para la implementación de servicios web RESTful con ASP.NET Core y C# (backend). | — |
+| JetBrains WebStorm | Desarrollo de la aplicación web utilizando Vue Framework y tecnologías frontend como HTML5, CSS3 y JavaScript. | — |
+| Visual Studio Code | Desarrollo y edición de la Landing Page utilizando tecnologías web estándar. | — |
+| GitHub | Administración de repositorios y control de versiones del proyecto mediante GitFlow y Conventional Commits. | https://github.com |
+
+**Software Deployment**
+
+Se incluyen las herramientas a utilizar para la publicación y disponibilidad del sistema en entornos accesibles para los usuarios.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| GitHub Pages | Despliegue y publicación de la Landing Page de VitalTrek en un entorno accesible para usuarios. | https://vitaltrek-project.github.io/landing-page/ |
+| Wrangler | Despliegue y publicación del Frontend de la Web Application de VitalTrek mediante Cloudflare Workers/Pages. | — |
+| Railway | Despliegue y publicación del Backend (Web Services) de VitalTrek en un entorno accesible para usuarios. | — |
+
+**Software Documentation**
+
+Agrupa herramientas a emplear para documentar la arquitectura, los procesos, los modelos y la estructura del sistema.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+| ------------------------ | ------------------------- | ------ |
+| Structurizr | Elaboración de diagramas C4 (contexto, contenedores y componentes) del sistema. | https://tinyurl.com/c4-diagram-vitaltrek |
+| PlantUML | Elaboración de diagramas UML y modelado estructural de la base de datos. | https://plantuml.com/es/class-diagram |
+| Markdown | Redacción y mantenimiento de la documentación técnica y del reporte del proyecto. | — |
+
+### 5.1.2. Source Code Management.
 
 El proyecto utilizará Git como sistema de control de versiones distribuido y GitHub como plataforma de alojamiento de repositorios. Con el propósito de garantizar la trazabilidad, consistencia y control de cambios durante el ciclo de vida del producto digital, se adoptará una estrategia de trabajo basada en GitFlow, permitiendo organizar el desarrollo colaborativo, la integración continua y el mantenimiento de versiones estables del sistema.
 
 Asimismo, cada componente del ecosistema VitalTrek contará con un repositorio independiente, facilitando la modularidad, el control de versiones y la administración de los distintos productos de software desarrollados por el equipo. En el caso de Web Services, el repositorio incluirá tanto el proyecto principal como los archivos correspondientes a pruebas unitarias y pruebas de integración/aceptación.
 
-| Producto                 | Repositorio            | URL                                                      |
-|:-------------------------|:-----------------------|:---------------------------------------------------------|
-| Landing Page             | vitaltrek-landing-page | https://github.com/VitalTrek-Project/landing-page.git    |
-| Frontend Web Application | vitaltrek-frontend     | https://github.com/VitalTrek-Project/web-application.git |
-| Web Services             | vitaltrek-backend      |                                                          |
-| Documentation            | NexumDevs              | https://github.com/VitalTrek-Project/report.git          |
+Los repositorios oficiales del proyecto VitalTrek son los siguientes:
 
----
-
-#### Estrategia de Ramas (GitFlow)
+- Landing Page (vitaltrek-landing-page): https://github.com/VitalTrek-Project/landing-page.git
+- Frontend Web Application (vitaltrek-frontend): https://github.com/VitalTrek-Project/web-application.git
+- Web Services (vitaltrek-backend): (repositorio en configuración): https://github.com/VitalTrek-Project/vitaltrek-platform.git
+- Documentation (NexumDevs): https://github.com/VitalTrek-Project/report.git
+  
+**Workflow de Control de Versiones (GitFlow)**
 
 El flujo de trabajo del proyecto seguirá el modelo GitFlow propuesto por Vincent Driessen, estableciendo ramas específicas para desarrollo, integración, liberación y mantenimiento correctivo.
 
-Las ramas definidas para el proyecto son las siguientes:
+**Estructura de branches (Ramas)**
 
-- **main**: contiene únicamente versiones estables, aprobadas y listas para producción. Cada liberación será etiquetada utilizando Semantic Versioning.
-- **develop**: rama principal de integración continua donde se consolidan las funcionalidades desarrolladas antes de su liberación.
-- **feature/***: ramas temporales creadas a partir de `develop` para el desarrollo de nuevas funcionalidades o User Stories.
-- **release/***: ramas utilizadas para la preparación, validación y estabilización de nuevas versiones antes de ser desplegadas en producción.
+**Ramas base:**
 
-Las funcionalidades serán desarrolladas en ramas `feature/*` y posteriormente integradas a `develop` mediante Pull Requests (PR). Una vez completada la validación de funcionalidades, se preparará una rama `release/*` para estabilizar la versión antes de su integración en `main`. En caso de detectarse errores críticos en producción, se utilizarán ramas `hotfix/*` creadas a partir de `main`.
+- _main_: contiene únicamente versiones estables, aprobadas y listas para producción. Cada liberación será etiquetada utilizando Semantic Versioning.
+- _develop_: rama principal de integración continua donde se consolidan las funcionalidades desarrolladas antes de su liberación.
+  **Feature branches:** <br> Ramas temporales creadas a partir de `develop` para el desarrollo de nuevas funcionalidades o User Stories. Al completarse su desarrollo, se integrarán a `develop` mediante Pull Requests (PR). La nomenclatura seguirá el formato `feature/<nombre-funcionalidad>` (ejemplo: `feature/user-authentication`).
 
----
+**Release branches:** <br> Ramas utilizadas para la preparación, validación y estabilización de nuevas versiones antes de ser desplegadas en producción. Su identificación se basará en el Versionamiento Semántico, siguiendo el formato `release/v<major>.<minor>.<patch>` (ejemplo: `release/v1.0.0`).
 
-#### Convención para el Nombre de Ramas
+**Hotfix branches:** <br> Se implementarán a partir de `main` para resolver de manera ágil errores críticos detectados en producción que afecten directamente la funcionalidad del sistema.
 
-Con el objetivo de mantener consistencia y facilitar la identificación de cambios dentro del repositorio, se definieron las siguientes convenciones para el nombramiento de ramas:
+1. _Versionamiento Semántico:_ El control de versiones aplicará estrictamente los principios del Versionamiento Semántico 2.0.0 (SemVer), siguiendo el formato `vMAJOR.MINOR.PATCH`, lo que permite mantener coherencia entre las versiones del sistema y asegurar la compatibilidad entre actualizaciones.
+   
+ | Parte | Significado |
+ |-------|-------------|
+ | **MAJOR** | Cambios incompatibles o modificaciones significativas que alteran el funcionamiento del sistema existente. |
+ | **MINOR** | Incorporación de nuevas funcionalidades compatibles (retrocompatibles) dentro del sistema. |
+ | **PATCH** | Corrección de errores o ajustes menores que no afectan la funcionalidad existente. |
 
-| Tipo de rama | Convención | Ejemplo |
-|:--|:--|:--|
-| Feature Branch | `feature/<nombre-funcionalidad>` | `feature/user-authentication` |
-| Release Branch | `release/v<major>.<minor>.<patch>` | `release/v1.0.0` |
+Ejemplo de versión: `v1.0.0`
 
----
-
-#### Semantic Versioning
-
-El versionado de liberaciones seguirá el estándar Semantic Versioning 2.0.0 bajo el siguiente formato:
-
-```text
-vMAJOR.MINOR.PATCH
-```
-
-Donde:
-
-- **MAJOR**: cambios incompatibles o modificaciones significativas.
-- **MINOR**: incorporación de nuevas funcionalidades compatibles.
-- **PATCH**: corrección de errores o ajustes menores.
-
-Ejemplo de versión:
-
-```text
-v1.0.0
-```
-
----
-
-#### Convención de Commits (Conventional Commits)
-
-Todos los mensajes de commit seguirán el estándar Conventional Commits con el objetivo de mantener un historial de cambios claro, consistente y fácilmente rastreable.
-
+<br>
+2. _Convenciones de Commits:_ Los mensajes de commit seguirán el estándar Conventional Commits, con el objetivo de mantener un historial de cambios claro, consistente y fácilmente rastreable a lo largo del desarrollo del proyecto VitalTrek.
 La estructura definida para los mensajes de commit es la siguiente:
 
 ```text
 <tipo>(componente): descripción corta en minúsculas y en infinitivo
 ```
 
----
-
-#### Tipos de Commits Permitidos
+**Tipos de commits utilizados:**
 
 | Tipo | Uso recomendado | Ejemplo |
 |:--|:--|:--|
@@ -2704,7 +2767,7 @@ El objetivo principal del Sprint 1 fue implementar la Landing Page completa y bi
 
 A continuación se presenta el screenshot del board de control utilizado durante el sprint, junto con el URL público.
 
-**Board:** https://trello.com/invite/b/6a0567247c8e53cf8fc17be3/ATTI7e5cdb3f9c2996b8b79b09dace8562264A21CD8D/vitaltrek-sprint-1(#)
+**Board:** https://tinyurl.com/sprint-backlog-1-vitaltrek
 
 ![VitalTrek Sprint Backlog 1](assets/images/vitaltrek-sprint-backlog1.png)
 
