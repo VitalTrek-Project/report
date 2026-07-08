@@ -181,6 +181,7 @@ En esta sección se describe cómo las actividades desarrolladas durante el proy
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.6. To-be Scenario Mapping](#236-to-be-scenario-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
@@ -1434,79 +1435,79 @@ Para acceder al Product Backlog en la herramienta de gestión del equipo, visita
 
 ![Product Backlog VitalTrek](assets/images/product-backlog-vitaltrek.png)
 
-| #Orden | User Story ID | Título | Descripción | Story Points |
-|:--------|:---------------|:--------|:-------------|:--------------|
-| 1 | US-LP01 | Conocer la propuesta de valor | Como visitante, quiero conocer la propuesta de valor de VitalTrek para evaluar si la plataforma se ajusta a mis necesidades. | 3 |
-| 2 | US-LP02 | Navegar entre secciones de la landing | Como visitante, quiero acceder a las distintas secciones de la landing page para conocer las funcionalidades del sistema. | 2 |
-| 3 | US-LP03 | Conocer beneficios para turistas | Como visitante del segmento turista, quiero conocer los beneficios específicos de la plataforma para comprender cómo mejora mi experiencia durante las expediciones. | 2 |
-| 4 | US-LP04 | Conocer beneficios para administradores de agencia | Como visitante del segmento agencia, quiero conocer los beneficios específicos de la plataforma para comprender cómo mejora la gestión y monitoreo de expediciones. | 2 |
-| 5 | US-LP05 | Conocer las funcionalidades principales | Como visitante, quiero conocer las funcionalidades principales de la plataforma para entender el funcionamiento general del sistema. | 2 |
-| 6 | US-LP06 | Acceder al registro desde la landing | Como visitante, quiero acceder rápidamente al registro desde la landing page para comenzar a utilizar la plataforma. | 1 |
-| 7 | US-LP07 | Acceder a una demostración del sistema | Como visitante, quiero acceder a una demostración del sistema para comprender el funcionamiento de la plataforma antes de registrarme. | 3 |
-| 8 | US-LP08 | Conocer la compatibilidad offline | Como visitante, quiero conocer la compatibilidad offline de la plataforma para confiar en su funcionamiento en zonas sin cobertura. | 1 |
-| 9 | US-LP09 | Contactar al equipo de VitalTrek | Como visitante, quiero contactar al equipo de VitalTrek para resolver dudas relacionadas con la plataforma. | 3 |
-| 10 | US-LP10 | Conocer las medidas de seguridad de datos | Como visitante, quiero conocer cómo la plataforma protege la información personal para confiar en el sistema. | 1 |
-| 11 | US-LP11 | Conocer testimonios y casos de uso | Como visitante, quiero conocer testimonios y casos de uso reales para tomar una decisión informada sobre la plataforma. | 2 |
-| 12 | US-LP12 | Conocer el equipo de la startup | Como visitante, quiero conocer al equipo detrás de VitalTrek para construir confianza en la propuesta de valor. | 2 |
-| 13 | TS03 | Endpoint de gestión de tours | Como developer, quiero exponer endpoints para la creación, consulta, actualización y eliminación de tours para que el frontend pueda administrar la información de las expediciones. | 5 |
-| 14 | US08 | Crear tour | Como administrador de agencia, quiero crear un tour para organizar rutas y ponerlas a disposición de los turistas. | 5 |
-| 15 | US09 | Editar tour | Como administrador de agencia, quiero editar la información de un tour para mantener actualizados los datos del recorrido. | 3 |
-| 16 | US10 | Eliminar tour | Como administrador de agencia, quiero eliminar un tour para mantener actualizado el catálogo de la agencia. | 2 |
-| 17 | US16 | Duplicar tour | Como administrador de agencia, quiero duplicar un tour existente para crear uno nuevo basado en una configuración previamente validada. | 3 |
-| 18 | US14 | Consultar tours de la agencia | Como administrador de agencia, quiero consultar todos los tours registrados por mi agencia para gestionarlos de forma centralizada. | 2 |
-| 19 | US11 | Asignar turistas a un tour | Como administrador de agencia, quiero asignar turistas a un tour para conformar el grupo de participantes del recorrido. | 5 |
-| 20 | US12 | Desasignar turista de un tour | Como administrador de agencia, quiero desasignar a un turista de un tour para actualizar la composición del grupo. | 3 |
-| 21 | US15 | Consultar turistas asignados a un tour | Como administrador de agencia, quiero consultar la información de los turistas asignados a un tour para conocer la composición del grupo. | 2 |
-| 22 | US17 | Buscar tours | Como turista, quiero buscar tours mediante términos para localizar opciones acordes a mis intereses. | 3 |
-| 23 | US18 | Filtrar tours | Como turista, quiero filtrar los tours disponibles según criterios definidos para encontrar opciones ajustadas a mis preferencias. | 3 |
-| 24 | US19 | Consultar detalle del tour | Como turista, quiero acceder a la información completa de un tour para tomar una decisión informada antes de participar. | 2 |
-| 25 | US13 | Confirmar asistencia | Como turista, quiero confirmar mi asistencia a un tour para asegurar mi participación en el recorrido. | 2 |
-| 26 | US45 | Gestionar perfil personal | Como usuario registrado, quiero gestionar mi información personal para mantener actualizados los datos asociados a mi cuenta. | 2 |
-| 27 | US25 | Consultar información del recorrido | Como turista, quiero acceder a la información detallada del recorrido para prepararme adecuadamente antes y durante la expedición. | 2 |
-| 28 | US26 | Consultar clima del recorrido | Como turista, quiero consultar la información climática del recorrido para prepararme con el equipamiento adecuado. | 3 |
-| 29 | US20 | Visualizar ruta del tour | Como turista, quiero acceder a la ruta del tour para orientarme durante el recorrido. | 8 |
-| 30 | US21 | Descargar ruta offline | Como turista, quiero descargar la información de la ruta de un tour para utilizarla sin conexión durante el recorrido. | 8 |
-| 31 | US22 | Visualizar checkpoints del recorrido | Como turista, quiero conocer los checkpoints del tour para identificar mi progreso durante el recorrido. | 5 |
-| 32 | US23 | Visualizar progreso del recorrido | Como turista, quiero consultar mi avance en el tour para conocer cuánto resta por completar. | 5 |
-| 33 | US24 | Finalizar tour | Como turista, quiero marcar un tour como finalizado para cerrar formalmente mi participación en el recorrido. | 2 |
-| 34 | US27 | Registrar experiencia del recorrido | Como turista, quiero registrar notas e imágenes durante el tour para documentar mi experiencia. | 3 |
-| 35 | TS04 | Endpoint de monitoreo de ubicación | Como developer, quiero exponer endpoints que registren y expongan las ubicaciones de los turistas en tiempo real para que el frontend pueda supervisar la seguridad de los participantes durante la expedición. | 8 |
-| 36 | TS05 | Endpoint de gestión de incidentes | Como developer, quiero exponer endpoints que registren y expongan los incidentes reportados durante las expediciones para que el administrador de agencia pueda responder oportunamente. | 5 |
-| 37 | TS07 | Endpoint de gestión de alertas | Como developer, quiero exponer endpoints que generen y expongan alertas ante anomalías detectadas para que el administrador de agencia y el guía de tour puedan responder oportunamente. | 5 |
-| 38 | US28 | Monitorear ubicación de turistas | Como administrador de agencia, quiero consultar la ubicación de los turistas para supervisar su seguridad durante la expedición. | 8 |
-| 39 | US29 | Consultar estado general del grupo | Como administrador de agencia, quiero consultar el estado general de los turistas para detectar situaciones de riesgo durante la expedición. | 8 |
-| 40 | US30 | Recibir alertas por anomalías | Como administrador de agencia, quiero recibir alertas ante situaciones de riesgo para responder oportunamente durante las expediciones. | 5 |
-| 41 | US31 | Consultar estado de salud básico | Como guía de tour, quiero consultar alertas básicas del estado de salud de los turistas para actuar oportunamente ante posibles emergencias. | 5 |
-| 42 | US32 | Reportar incidentes | Como turista, quiero reportar incidentes para alertar oportunamente al personal responsable durante la expedición. | 3 |
-| 43 | US33 | Exportar reportes de expedición | Como administrador de agencia, quiero exportar reportes de las expediciones para analizar la información operativa. | 5 |
-| 44 | TS08 | Endpoint de exportación de reportes | Como developer, quiero exponer un endpoint que genere reportes exportables de las expediciones para que el administrador de agencia pueda analizar la información operativa. | 5 |
-| 45 | US34 | Iniciar expedición | Como guía de tour, quiero marcar el inicio de la expedición para activar el monitoreo y registro del recorrido. | 3 |
-| 46 | US35 | Registrar paso por checkpoint manual | Como guía de tour, quiero registrar manualmente el paso del grupo por un checkpoint para garantizar la trazabilidad cuando la detección automática no es posible. | 3 |
-| 47 | US36 | Reportar incidente desde el rol guía | Como guía de tour, quiero reportar incidentes detectados en campo para informar oportunamente al administrador de agencia. | 3 |
-| 48 | US37 | Comunicar estado del grupo | Como guía de tour, quiero comunicar periódicamente el estado del grupo al administrador de agencia para mantener la trazabilidad durante el recorrido. | 3 |
-| 49 | US38 | Finalizar expedición como guía | Como guía de tour, quiero marcar la finalización de la expedición para cerrar formalmente el monitoreo del recorrido. | 2 |
-| 50 | TS09 | Endpoint de ingesta de telemetría IoT | Como developer, quiero exponer un endpoint que reciba y procese la telemetría enviada por los dispositivos wearables para que la información biométrica esté disponible para el monitoreo en tiempo real. | 8 |
-| 51 | TS10 | Endpoint de gestión de dispositivos wearables | Como developer, quiero exponer endpoints para vincular, desvincular y consultar dispositivos wearables para que los turistas puedan administrar los dispositivos asociados a su cuenta. | 5 |
-| 52 | TS06 | Endpoint de sincronización offline | Como developer, quiero exponer un endpoint que procese los datos almacenados localmente al recuperar conexión para que no se pierdan registros generados durante la expedición. | 8 |
-| 53 | US39 | Vincular dispositivo wearable | Como turista, quiero vincular un dispositivo wearable a mi cuenta para que el sistema capture mis signos vitales durante la expedición. | 3 |
-| 54 | US40 | Recibir datos biométricos del wearable | Como turista, quiero que el sistema reciba los datos biométricos capturados por mi wearable para que sean utilizados en el monitoreo de mi salud durante la expedición. | 5 |
-| 55 | US41 | Detección automática por checkpoint Bluetooth | Como turista, quiero que el sistema detecte automáticamente mi paso por checkpoints Bluetooth para registrar mi progreso sin intervención manual. | 8 |
-| 56 | US42 | Sincronización asincrónica de telemetría | Como turista, quiero que los datos capturados durante la expedición se sincronicen automáticamente al recuperar la conexión para no perder ningún registro generado. | 8 |
-| 57 | US43 | Consultar estado del wearable | Como turista, quiero consultar el estado de mi wearable para verificar su nivel de batería y conectividad antes de iniciar el recorrido. | 2 |
-| 58 | US44 | Desvincular dispositivo wearable | Como turista, quiero desvincular un dispositivo wearable de mi cuenta para gestionar los dispositivos asociados a mi perfil. | 2 |
-| 59 | US46 | Recibir notificaciones | Como usuario registrado, quiero recibir notificaciones relevantes para mantenerme informado sobre eventos importantes relacionados con mi cuenta o expedición. | 5 |
-| 60 | US47 | Configurar preferencias de notificaciones | Como usuario registrado, quiero configurar las preferencias de notificaciones para recibir únicamente las que considero relevantes. | 3 |
-| 61 | TS01 | Endpoint de registro de usuarios | Como developer, quiero exponer un endpoint que registre usuarios validando los datos del request para que los clientes puedan crear cuentas de forma segura en la plataforma. | 5 |
-| 62 | TS02 | Endpoint de autenticación | Como developer, quiero exponer un endpoint que valide credenciales y genere tokens de acceso para que los clientes puedan autenticarse y consumir recursos protegidos del sistema. | 5 |
-| 63 | US01 | Registro de turista | Como turista, quiero registrarme en la plataforma para acceder a los tours y funcionalidades disponibles del sistema. | 5 |
-| 64 | US02 | Registro de administrador de agencia | Como administrador de agencia, quiero registrar mi agencia en la plataforma para gestionar tours y monitorear a los turistas asignados. | 5 |
-| 65 | US03 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a las funcionalidades de la plataforma según mi rol. | 3 |
-| 66 | US05 | Verificación de correo electrónico | Como turista, quiero verificar mi correo electrónico tras el registro para confirmar la validez de mi cuenta. | 2 |
-| 67 | US04 | Recuperación de contraseña | Como usuario registrado, quiero recuperar mi contraseña para no perder el acceso a mi cuenta en la plataforma. | 3 |
-| 68 | US06 | Cambio de contraseña | Como usuario registrado, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta. | 2 |
-| 69 | US48 | Cerrar sesión actual | Como usuario registrado, quiero cerrar mi sesión actual para proteger el acceso a mi cuenta cuando termino de utilizar la plataforma. | 1 |
-| 70 | US07 | Cierre de sesiones activas | Como usuario registrado, quiero cerrar todas mis sesiones activas en otros dispositivos para proteger mi cuenta. | 2 |
-| 71 | US49 | Desactivar cuenta personal | Como usuario registrado, quiero desactivar mi cuenta para dejar de utilizar la plataforma cuando lo considere necesario. | 2 |
+| #Orden   | User Story ID | Título                                             | Descripción                                                                                                                                                                                                       | Story Points |
+|:---------|:--------------|:---------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------|
+| 1        | US-LP01       | Conocer la propuesta de valor                      | Como visitante, quiero conocer la propuesta de valor de VitalTrek para evaluar si la plataforma se ajusta a mis necesidades.                                                                                      | 3            |
+| 2        | US-LP02       | Navegar entre secciones de la landing              | Como visitante, quiero acceder a las distintas secciones de la landing page para conocer las funcionalidades del sistema.                                                                                         | 2            |
+| 3        | US-LP03       | Conocer beneficios para turistas                   | Como visitante del segmento turista, quiero conocer los beneficios específicos de la plataforma para comprender cómo mejora mi experiencia durante las expediciones.                                              | 2            |
+| 4        | US-LP04       | Conocer beneficios para administradores de agencia | Como visitante del segmento agencia, quiero conocer los beneficios específicos de la plataforma para comprender cómo mejora la gestión y monitoreo de expediciones.                                               | 2            |
+| 5        | US-LP05       | Conocer las funcionalidades principales            | Como visitante, quiero conocer las funcionalidades principales de la plataforma para entender el funcionamiento general del sistema.                                                                              | 2            |
+| 6        | US-LP06       | Acceder al registro desde la landing               | Como visitante, quiero acceder rápidamente al registro desde la landing page para comenzar a utilizar la plataforma.                                                                                              | 1            |
+| 7        | US-LP07       | Acceder a una demostración del sistema             | Como visitante, quiero acceder a una demostración del sistema para comprender el funcionamiento de la plataforma antes de registrarme.                                                                            | 3            |
+| 8        | US-LP08       | Conocer la compatibilidad offline                  | Como visitante, quiero conocer la compatibilidad offline de la plataforma para confiar en su funcionamiento en zonas sin cobertura.                                                                               | 1            |
+| 9        | US-LP09       | Contactar al equipo de VitalTrek                   | Como visitante, quiero contactar al equipo de VitalTrek para resolver dudas relacionadas con la plataforma.                                                                                                       | 3            |
+| 10       | US-LP10       | Conocer las medidas de seguridad de datos          | Como visitante, quiero conocer cómo la plataforma protege la información personal para confiar en el sistema.                                                                                                     | 1            |
+| 11       | US-LP11       | Conocer testimonios y casos de uso                 | Como visitante, quiero conocer testimonios y casos de uso reales para tomar una decisión informada sobre la plataforma.                                                                                           | 2            |
+| 12       | US-LP12       | Conocer el equipo de la startup                    | Como visitante, quiero conocer al equipo detrás de VitalTrek para construir confianza en la propuesta de valor.                                                                                                   | 2            |
+| 13       | TS03          | Endpoint de gestión de tours                       | Como developer, quiero exponer endpoints para la creación, consulta, actualización y eliminación de tours para que el frontend pueda administrar la información de las expediciones.                              | 5            |
+| 14       | US08          | Crear tour                                         | Como administrador de agencia, quiero crear un tour para organizar rutas y ponerlas a disposición de los turistas.                                                                                                | 5            |
+| 15       | US09          | Editar tour                                        | Como administrador de agencia, quiero editar la información de un tour para mantener actualizados los datos del recorrido.                                                                                        | 3            |
+| 16       | US10          | Eliminar tour                                      | Como administrador de agencia, quiero eliminar un tour para mantener actualizado el catálogo de la agencia.                                                                                                       | 2            |
+| 17       | US16          | Duplicar tour                                      | Como administrador de agencia, quiero duplicar un tour existente para crear uno nuevo basado en una configuración previamente validada.                                                                           | 3            |
+| 18       | US14          | Consultar tours de la agencia                      | Como administrador de agencia, quiero consultar todos los tours registrados por mi agencia para gestionarlos de forma centralizada.                                                                               | 2            |
+| 19       | US11          | Asignar turistas a un tour                         | Como administrador de agencia, quiero asignar turistas a un tour para conformar el grupo de participantes del recorrido.                                                                                          | 5            |
+| 20       | US12          | Desasignar turista de un tour                      | Como administrador de agencia, quiero desasignar a un turista de un tour para actualizar la composición del grupo.                                                                                                | 3            |
+| 21       | US15          | Consultar turistas asignados a un tour             | Como administrador de agencia, quiero consultar la información de los turistas asignados a un tour para conocer la composición del grupo.                                                                         | 2            |
+| 22       | US17          | Buscar tours                                       | Como turista, quiero buscar tours mediante términos para localizar opciones acordes a mis intereses.                                                                                                              | 3            |
+| 23       | US18          | Filtrar tours                                      | Como turista, quiero filtrar los tours disponibles según criterios definidos para encontrar opciones ajustadas a mis preferencias.                                                                                | 3            |
+| 24       | US19          | Consultar detalle del tour                         | Como turista, quiero acceder a la información completa de un tour para tomar una decisión informada antes de participar.                                                                                          | 2            |
+| 25       | US13          | Confirmar asistencia                               | Como turista, quiero confirmar mi asistencia a un tour para asegurar mi participación en el recorrido.                                                                                                            | 2            |
+| 26       | US45          | Gestionar perfil personal                          | Como usuario registrado, quiero gestionar mi información personal para mantener actualizados los datos asociados a mi cuenta.                                                                                     | 2            |
+| 27       | US25          | Consultar información del recorrido                | Como turista, quiero acceder a la información detallada del recorrido para prepararme adecuadamente antes y durante la expedición.                                                                                | 2            |
+| 28       | US26          | Consultar clima del recorrido                      | Como turista, quiero consultar la información climática del recorrido para prepararme con el equipamiento adecuado.                                                                                               | 3            |
+| 29       | US20          | Visualizar ruta del tour                           | Como turista, quiero acceder a la ruta del tour para orientarme durante el recorrido.                                                                                                                             | 8            |
+| 30       | US21          | Descargar ruta offline                             | Como turista, quiero descargar la información de la ruta de un tour para utilizarla sin conexión durante el recorrido.                                                                                            | 8            |
+| 31       | US22          | Visualizar checkpoints del recorrido               | Como turista, quiero conocer los checkpoints del tour para identificar mi progreso durante el recorrido.                                                                                                          | 5            |
+| 32       | US23          | Visualizar progreso del recorrido                  | Como turista, quiero consultar mi avance en el tour para conocer cuánto resta por completar.                                                                                                                      | 5            |
+| 33       | US24          | Finalizar tour                                     | Como turista, quiero marcar un tour como finalizado para cerrar formalmente mi participación en el recorrido.                                                                                                     | 2            |
+| 34       | US27          | Registrar experiencia del recorrido                | Como turista, quiero registrar notas e imágenes durante el tour para documentar mi experiencia.                                                                                                                   | 3            |
+| 35       | TS04          | Endpoint de monitoreo de ubicación                 | Como developer, quiero exponer endpoints que registren y expongan las ubicaciones de los turistas en tiempo real para que el frontend pueda supervisar la seguridad de los participantes durante la expedición.   | 8            |
+| 36       | TS05          | Endpoint de gestión de incidentes                  | Como developer, quiero exponer endpoints que registren y expongan los incidentes reportados durante las expediciones para que el administrador de agencia pueda responder oportunamente.                          | 5            |
+| 37       | TS07          | Endpoint de gestión de alertas                     | Como developer, quiero exponer endpoints que generen y expongan alertas ante anomalías detectadas para que el administrador de agencia y el guía de tour puedan responder oportunamente.                          | 5            |
+| 38       | US28          | Monitorear ubicación de turistas                   | Como administrador de agencia, quiero consultar la ubicación de los turistas para supervisar su seguridad durante la expedición.                                                                                  | 8            |
+| 39       | US29          | Consultar estado general del grupo                 | Como administrador de agencia, quiero consultar el estado general de los turistas para detectar situaciones de riesgo durante la expedición.                                                                      | 8            |
+| 40       | US30          | Recibir alertas por anomalías                      | Como administrador de agencia, quiero recibir alertas ante situaciones de riesgo para responder oportunamente durante las expediciones.                                                                           | 5            |
+| 41       | US31          | Consultar estado de salud básico                   | Como guía de tour, quiero consultar alertas básicas del estado de salud de los turistas para actuar oportunamente ante posibles emergencias.                                                                      | 5            |
+| 42       | US32          | Reportar incidentes                                | Como turista, quiero reportar incidentes para alertar oportunamente al personal responsable durante la expedición.                                                                                                | 3            |
+| 43       | US33          | Exportar reportes de expedición                    | Como administrador de agencia, quiero exportar reportes de las expediciones para analizar la información operativa.                                                                                               | 5            |
+| 44       | TS08          | Endpoint de exportación de reportes                | Como developer, quiero exponer un endpoint que genere reportes exportables de las expediciones para que el administrador de agencia pueda analizar la información operativa.                                      | 5            |
+| 45       | US34          | Iniciar expedición                                 | Como guía de tour, quiero marcar el inicio de la expedición para activar el monitoreo y registro del recorrido.                                                                                                   | 3            |
+| 46       | US35          | Registrar paso por checkpoint manual               | Como guía de tour, quiero registrar manualmente el paso del grupo por un checkpoint para garantizar la trazabilidad cuando la detección automática no es posible.                                                 | 3            |
+| 47       | US36          | Reportar incidente desde el rol guía               | Como guía de tour, quiero reportar incidentes detectados en campo para informar oportunamente al administrador de agencia.                                                                                        | 3            |
+| 48       | US37          | Comunicar estado del grupo                         | Como guía de tour, quiero comunicar periódicamente el estado del grupo al administrador de agencia para mantener la trazabilidad durante el recorrido.                                                            | 3            |
+| 49       | US38          | Finalizar expedición como guía                     | Como guía de tour, quiero marcar la finalización de la expedición para cerrar formalmente el monitoreo del recorrido.                                                                                             | 2            |
+| 50       | TS09          | Endpoint de ingesta de telemetría IoT              | Como developer, quiero exponer un endpoint que reciba y procese la telemetría enviada por los dispositivos wearables para que la información biométrica esté disponible para el monitoreo en tiempo real.         | 8            |
+| 51       | TS10          | Endpoint de gestión de dispositivos wearables      | Como developer, quiero exponer endpoints para vincular, desvincular y consultar dispositivos wearables para que los turistas puedan administrar los dispositivos asociados a su cuenta.                           | 5            |
+| 52       | TS06          | Endpoint de sincronización offline                 | Como developer, quiero exponer un endpoint que procese los datos almacenados localmente al recuperar conexión para que no se pierdan registros generados durante la expedición.                                   | 8            |
+| 53       | US39          | Vincular dispositivo wearable                      | Como turista, quiero vincular un dispositivo wearable a mi cuenta para que el sistema capture mis signos vitales durante la expedición.                                                                           | 3            |
+| 54       | US40          | Recibir datos biométricos del wearable             | Como turista, quiero que el sistema reciba los datos biométricos capturados por mi wearable para que sean utilizados en el monitoreo de mi salud durante la expedición.                                           | 5            |
+| 55       | US41          | Detección automática por checkpoint Bluetooth      | Como turista, quiero que el sistema detecte automáticamente mi paso por checkpoints Bluetooth para registrar mi progreso sin intervención manual.                                                                 | 8            |
+| 56       | US42          | Sincronización asincrónica de telemetría           | Como turista, quiero que los datos capturados durante la expedición se sincronicen automáticamente al recuperar la conexión para no perder ningún registro generado.                                              | 8            |
+| 57       | US43          | Consultar estado del wearable                      | Como turista, quiero consultar el estado de mi wearable para verificar su nivel de batería y conectividad antes de iniciar el recorrido.                                                                          | 2            |
+| 58       | US44          | Desvincular dispositivo wearable                   | Como turista, quiero desvincular un dispositivo wearable de mi cuenta para gestionar los dispositivos asociados a mi perfil.                                                                                      | 2            |
+| 59       | US46          | Recibir notificaciones                             | Como usuario registrado, quiero recibir notificaciones relevantes para mantenerme informado sobre eventos importantes relacionados con mi cuenta o expedición.                                                    | 5            |
+| 60       | US47          | Configurar preferencias de notificaciones          | Como usuario registrado, quiero configurar las preferencias de notificaciones para recibir únicamente las que considero relevantes.                                                                               | 3            |
+| 61       | TS01          | Endpoint de registro de usuarios                   | Como developer, quiero exponer un endpoint que registre usuarios validando los datos del request para que los clientes puedan crear cuentas de forma segura en la plataforma.                                     | 5            |
+| 62       | TS02          | Endpoint de autenticación                          | Como developer, quiero exponer un endpoint que valide credenciales y genere tokens de acceso para que los clientes puedan autenticarse y consumir recursos protegidos del sistema.                                | 5            |
+| 63       | US01          | Registro de turista                                | Como turista, quiero registrarme en la plataforma para acceder a los tours y funcionalidades disponibles del sistema.                                                                                             | 5            |
+| 64       | US02          | Registro de administrador de agencia               | Como administrador de agencia, quiero registrar mi agencia en la plataforma para gestionar tours y monitorear a los turistas asignados.                                                                           | 5            |
+| 65       | US03          | Inicio de sesión                                   | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a las funcionalidades de la plataforma según mi rol.                                                                                  | 3            |
+| 66       | US05          | Verificación de correo electrónico                 | Como turista, quiero verificar mi correo electrónico tras el registro para confirmar la validez de mi cuenta.                                                                                                     | 2            |
+| 67       | US04          | Recuperación de contraseña                         | Como usuario registrado, quiero recuperar mi contraseña para no perder el acceso a mi cuenta en la plataforma.                                                                                                    | 3            |
+| 68       | US06          | Cambio de contraseña                               | Como usuario registrado, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.                                                                                                                    | 2            |
+| 69       | US48          | Cerrar sesión actual                               | Como usuario registrado, quiero cerrar mi sesión actual para proteger el acceso a mi cuenta cuando termino de utilizar la plataforma.                                                                             | 1            |
+| 70       | US07          | Cierre de sesiones activas                         | Como usuario registrado, quiero cerrar todas mis sesiones activas en otros dispositivos para proteger mi cuenta.                                                                                                  | 2            |
+| 71       | US49          | Desactivar cuenta personal                         | Como usuario registrado, quiero desactivar mi cuenta para dejar de utilizar la plataforma cuando lo considere necesario.                                                                                          | 2            |
 
 <div style="page-break-before: always;"></div>
 
@@ -2721,28 +2722,45 @@ Este enfoque permite mantener sincronizada la versión publicada con el estado a
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 1 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación de la Landing Page estática de la plataforma, que constituye el primer punto de contacto con los segmentos objetivo: turistas aventureros y administradores de agencias de tours de aventura.
 
+
+Sprint planning 1 vitaltrek · MD
 #### 5.2.1.1. Sprint Planning 1
 
 A continuación se presenta el resumen de la reunión de Sprint Planning correspondiente al Sprint 1, llevada a cabo de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
 
-El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los visitantes del sitio, siguiendo el template recomendado por Scrum.org:
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los visitantes del sitio, siguiendo el template recomendado por Scrum.org (Outcome → Impact/Customer → Event).
 
-> **"Our focus is on** publishing a fully functional and bilingual Landing Page for VitalTrek. **We believe it delivers** a clear understanding of the platform's value proposition — including its features, offline capabilities, and security measures — to prospective tourists and tour agency administrators visiting the site. **This will be confirmed when** visitors can navigate all sections of the landing page, consult benefits tailored to each user segment, access a system demonstration, and submit a contact message — all available in both English and Spanish."
+| Campo                                  | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Date**                               | 2026-05-09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Time**                               | 10:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Location**                           | Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Prepared By**                        | Quispe Perez, Edu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Attendees (to planning meeting)**    | Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel / Alfaro, Joaquin / Quispe Perez, Edu                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint n – 1 Review Summary**        | Al tratarse del primer sprint del proyecto, no existe sprint previo que revisar. El equipo inició la iteración con el Product Backlog definido y los artefactos de Requirements Engineering completados.                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint n – 1 Retrospective Summary** | Al tratarse del primer sprint del proyecto, no aplica retrospectiva anterior. El equipo acordó establecer canales de comunicación en Discord, distribuir responsabilidades por sección de la landing page y mantener una convención de commits descriptiva desde el inicio del desarrollo.                                                                                                                                                                                                                                                                        |
+| **Sprint 1 Goal**                      | Our focus is on publishing a fully functional and bilingual Landing Page for VitalTrek. We believe it delivers a clear understanding of the platform's value proposition including its features, offline capabilities, and security measures to prospective tourists and tour agency administrators visiting the site. This will be confirmed when visitors can navigate all sections of the landing page, consult benefits tailored to each user segment, access a system demonstration, and submit a contact message all available in both English and Spanish. |
+| **Sprint 1 Velocity**                  | 24 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sum of Story Points**                | 24 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-| Campo | Detalle |
-|:------|:--------|
-| **Sprint #** | Sprint 1 |
-| **Date** | 2026-05-9 |
-| **Time** | 10:00 PM |
-| **Location** | Discord  |
-| **Prepared By** | Quispe Perez, Edu |
-| **Attendees (to planning meeting)** | Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel / Alfaro, Joaquin / Quispe Perez, Edu |
-| **Sprint n – 1 Review Summary** | Al tratarse del primer sprint del proyecto, no existe sprint previo que revisar. El equipo inició la iteración con el Product Backlog definido y los artefactos de Requirements Engineering completados. |
-| **Sprint n – 1 Retrospective Summary** | Al tratarse del primer sprint del proyecto, no aplica retrospectiva anterior. El equipo acordó establecer canales de comunicación en Discord, distribuir responsabilidades por sección de la landing page y mantener una convención de commits descriptiva desde el inicio del desarrollo. |
-| **Sprint 1 Goal** | Our focus is on publishing a fully functional and bilingual Landing Page for VitalTrek. We believe it delivers a clear understanding of the platform's value proposition including its features, offline capabilities, and security measures to prospective tourists and tour agency administrators visiting the site. This will be confirmed when visitors can navigate all sections of the landing page, consult benefits tailored to each user segment, access a system demonstration, and submit a contact message all available in both English and Spanish. |
-| **Sprint 1 Velocity** | 24 Story Points |
-| **Sum of Story Points** | 24 Story Points |
+**User Stories seleccionadas para el Sprint 1**
 
+| User Story                                                  | Story Points  |
+|:------------------------------------------------------------|:--------------|
+| US-LP01: Conocer la propuesta de valor                      | 3             |
+| US-LP02: Navegar entre secciones de la landing              | 2             |
+| US-LP03: Conocer beneficios para turistas                   | 2             |
+| US-LP04: Conocer beneficios para administradores de agencia | 2             |
+| US-LP05: Conocer las funcionalidades principales            | 2             |
+| US-LP06: Acceder al registro desde la landing               | 1             |
+| US-LP07: Acceder a una demostración del sistema             | 3             |
+| US-LP08: Conocer la compatibilidad offline                  | 1             |
+| US-LP09: Contactar al equipo de VitalTrek                   | 3             |
+| US-LP10: Conocer las medidas de seguridad de datos          | 1             |
+| US-LP11: Conocer testimonios y casos de uso                 | 2             |
+| US-LP12: Conocer el equipo de la startup                    | 2             |
+| **Total**                                                   | **24**        |
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -2751,13 +2769,13 @@ Durante el Sprint 1, el equipo identificó seis aspectos principales correspondi
 
 Los aspectos considerados para este sprint son: Hero & Navigation, Benefits & Features Section, Demo & Offline Info Section, Contact & Security Section, Testimonials & Team Section, e i18n & Deployment.
 
-| Team Member (Last Name, First Name) | GitHub Username | Hero & Navigation Leader (L) / Collaborator (C) | Benefits & Features Section Leader (L) / Collaborator (C) | Demo & Offline Info Section Leader (L) / Collaborator (C) | Contact & Security Section Leader (L) / Collaborator (C) | Testimonials & Team Section Leader (L) / Collaborator (C) | i18n & Deployment Leader (L) / Collaborator (C) |
-|:-------------------------------------|:----------------|:--------------------------------------------------|:-----------------------------------------------------------|:-----------------------------------------------------------|:----------------------------------------------------------|:----------------------------------------------------------|:------------------------------------------------|
-| Quispe Perez, Edu | Eder_09 | C | C | C | C | C | L |
-| Rodriguez, Miler | Miler2003 | L | C | C | C | C | C |
-| Verastigue, Giancarlo | CaLoVM | C | L | C | C | C | C |
-| Alfaro, Joaquin | elprrr | C | C | L | C | C | C |
-| Vilchez, Gabriel | GZ-99 | C | C | C | L | L | C |
+| Team Member (Last Name, First Name)   | GitHub Username   | Hero & Navigation Leader (L) / Collaborator (C)   | Benefits & Features Section Leader (L) / Collaborator (C)   | Demo & Offline Info Section Leader (L) / Collaborator (C)   | Contact & Security Section Leader (L) / Collaborator (C)   | Testimonials & Team Section Leader (L) / Collaborator (C)   | i18n & Deployment Leader (L) / Collaborator (C)   |
+|:--------------------------------------|:------------------|:--------------------------------------------------|:------------------------------------------------------------|:------------------------------------------------------------|:-----------------------------------------------------------|:------------------------------------------------------------|:--------------------------------------------------|
+| Quispe Perez, Edu                     | Eder_09           | C                                                 | C                                                           | C                                                           | C                                                          | C                                                           | L                                                 |
+| Rodriguez, Miler                      | Miler2003         | L                                                 | C                                                           | C                                                           | C                                                          | C                                                           | C                                                 |
+| Verastigue, Giancarlo                 | CaLoVM            | C                                                 | L                                                           | C                                                           | C                                                          | C                                                           | C                                                 |
+| Alfaro, Joaquin                       | elprrr            | C                                                 | C                                                           | L                                                           | C                                                          | C                                                           | C                                                 |
+| Vilchez, Gabriel                      | GZ-99             | C                                                 | C                                                           | C                                                           | L                                                          | L                                                           | C                                                 |
 
 ---
 
@@ -2870,13 +2888,7 @@ Durante el Sprint 1, el alcance del equipo se limitó exclusivamente a la implem
 
 La implementación de endpoints y su documentación corresponderá a sprints posteriores, una vez que el equipo avance hacia el desarrollo de la Web Application y el Web Service de la plataforma.
 
-### 5.2.2. Sprint 2
-
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 2 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación inicial de la **Web Application**, que constituye el núcleo funcional de la plataforma y habilita la interacción directa de los usuarios con los servicios de expediciones, monitoreo y gestión de tours.
-
----
-
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 1, el equipo desplegó la Landing Page de VitalTrek utilizando **GitHub Pages** como plataforma de publicación, siguiendo la configuración descrita en la sección 5.1.4. El proceso se ejecutó directamente desde el repositorio `vitaltrek-landing-page`, sin requerir procesos de build ni infraestructura adicional, dado que el sitio fue desarrollado con HTML5, CSS3 y JavaScript puro.
 
@@ -2905,64 +2917,65 @@ Esta automatización garantiza que cada `push` a la rama `main` actualice autom�
 
 ---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Durante el **Sprint 1**, el equipo trabajó de manera colaborativa para desarrollar la **primera versión funcional de la Landing Page de VitalTrek**, aplicando una estrategia de trabajo basada en **GitFlow** y utilizando **GitHub** como plataforma para el control de versiones y la integración del código fuente.
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Esta información permite evaluar la efectividad del equipo y identificar oportunidades de mejora para sprints futuros.
 
-Al inicio del Sprint, las tareas fueron planificadas y distribuidas entre los cinco integrantes del equipo, asignando a cada uno la responsabilidad del desarrollo de una sección específica de la Landing Page. Esta distribución permitió que las actividades se desarrollaran de forma paralela, optimizando el tiempo de implementación y facilitando la integración progresiva de los cambios en la rama **develop**.
+**Distribución de Trabajo:**
 
-Durante todo el Sprint, la comunicación entre los integrantes fue constante mediante reuniones de coordinación y seguimiento, donde se revisó el avance de las tareas, se resolvieron dudas técnicas y se verificó que todas las secciones implementadas mantuvieran una estructura visual consistente con la identidad del producto.
+Todos los miembros del equipo participaron en la implementación de la primera versión funcional de la Landing Page de VitalTrek, asignando a cada integrante una sección específica de la interfaz. La distribución fue equitativa, con cada miembro contribuyendo al menos un commit durante el Sprint, demostrando el compromiso colectivo con el Sprint Goal.
 
-#### Distribución de responsabilidades
+El equipo adoptó un enfoque de trabajo colaborativo basado en GitFlow, donde los miembros se reunían mediante reuniones de coordinación y seguimiento para compartir avances, resolver dudas técnicas y verificar que todas las secciones implementadas mantuvieran una estructura visual consistente con la identidad del producto. Las comunicaciones asincrónicas se realizaban principalmente a través de Discord, donde se compartían enlaces a código, capturas de pantalla y preguntas técnicas.
 
-Durante el Sprint 1, el equipo distribuyó el desarrollo de la primera versión funcional de la Landing Page entre los cinco integrantes, asignando a cada uno una sección específica de la interfaz. En esta primera iteración se priorizó la implementación de la estructura principal del sitio web, dejando para los siguientes Sprints la incorporación de nuevas funcionalidades, mejoras visuales y elementos multimedia.
+**Métricas de Colaboración:**
 
-| Integrante | Sección desarrollada | Responsabilidades |
-|------------|----------------------|-------------------|
-| **Alberto Joaquin Alfaro Mallma** | Navbar | Implementó la barra de navegación principal de la Landing Page, incorporando la estructura de navegación y los enlaces necesarios para acceder a las secciones disponibles durante el Sprint 1. |
-| **Eder Edu Quispe Perez** | Plans | Desarrolló la sección de planes, presentando la información inicial de los servicios ofrecidos por la plataforma mediante una estructura organizada y responsive. |
-| **Gabriel Alejandro Vilchez Vite** | Benefits | Implementó la sección de beneficios, describiendo las ventajas que la plataforma ofrece tanto para los turistas como para los trabajadores de agencias de viaje. |
-| **Miler Alexander Rodriguez Rojas** | About Us y Footer | Desarrolló las secciones **About Us** y **Footer**, incorporando la información institucional del proyecto, enlaces de navegación y datos de contacto básicos. |
-| **Giancarlo Jose Verastigue Martinez** | Integración y soporte de desarrollo | Colaboró en la integración de las diferentes secciones implementadas durante el Sprint, apoyando en la corrección de detalles de la interfaz y en la consolidación de la primera versión funcional de la Landing Page. |
-
-##### Flujo de colaboración
-
-Durante el Sprint se siguió un flujo de trabajo colaborativo que permitió mantener organizado el desarrollo del proyecto:
-
-- Planificación de las actividades durante el Sprint Planning.
-- Desarrollo individual de las secciones asignadas a cada integrante.
-- Implementación de funcionalidades mediante ramas de trabajo.
-- Registro continuo del avance mediante commits en GitHub.
-- Integración progresiva de los cambios en la rama `develop`.
-- Revisión conjunta de la Landing Page antes de finalizar el Sprint para validar su funcionamiento y consistencia visual.
-
-##### Evidencias de colaboración
-
-Las siguientes figuras muestran las evidencias del trabajo colaborativo realizado durante el Sprint 1.
-
-##### Contributors
-
-![Contribuors](assets/images/contributors-sprint-1.png)
+<div align="center">
+  <p>
+    <b>Contributors del Sprint 1</b>
+  </p>
+  <img src="assets/images/contributors-sprint-1.png" alt="Contributors" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-landing-page.</i></p>
+</div>
 
 Como se aprecia en la figura anterior, todos los integrantes realizaron contribuciones al repositorio durante el Sprint, evidenciando una participación activa en el desarrollo de la primera versión de la Landing Page.
 
-##### Historial de commmits de la lading page v1.0.0
+**Reflexiones del Equipo:**
 
-![Commits first version - 2](assets/images/commits-sprint-1-part-2.png)
+- Alfaro Mallma, Alberto Joaquin: "El Sprint 1 estableció las bases de nuestra presencia digital. Implementé la barra de navegación principal, asegurando que los enlaces a cada sección funcionaran correctamente desde el inicio del proyecto. Aprendí la importancia de mantener una comunicación fluida con el resto del equipo para evitar retrabajo."
 
-El historial de commits evidencia el desarrollo progresivo del proyecto y la participación continua de los integrantes mediante la incorporación de nuevas funcionalidades y mejoras en las diferentes secciones de la Landing Page.
+- Quispe Perez, Eder Edu: "Aporté en el desarrollo de la sección de Plans, presentando la información inicial de los servicios de la plataforma de forma organizada y responsive. También coordiné la documentación del Sprint, lo que me permitió sintetizar la información técnica de manera clara y concisa."
 
-##### Conclusiones del Sprint
+- Vilchez Vite, Gabriel Alejandro: "Implementé la sección de Benefits, describiendo las ventajas que la plataforma ofrece tanto para turistas como para trabajadores de agencias de viaje. Esta experiencia me permitió aplicar mis habilidades de desarrollo frontend mientras entendía mejor las necesidades de cada segmento de usuario."
 
-El trabajo colaborativo desarrollado durante el Sprint 1 permitió completar satisfactoriamente la primera versión funcional de la Landing Page de **VitalTrek**. La adecuada distribución de responsabilidades, el uso de GitHub como herramienta de control de versiones y la comunicación permanente entre los integrantes facilitaron la integración del trabajo realizado por cada miembro del equipo. Asimismo, la planificación de las actividades y el seguimiento continuo del progreso permitieron cumplir los objetivos establecidos para el Sprint y sentar una base sólida para las siguientes iteraciones del proyecto.
+- Rodriguez Rojas, Miler Alexander: "Desarrollé las secciones About Us y Footer, incorporando la información institucional del proyecto, los enlaces de navegación y los datos de contacto básicos. El trabajo en equipo fue fundamental para mantener la coherencia visual entre todas las secciones."
+
+- Verastigue Martinez, Giancarlo Jose: "Colaboré en la integración de las diferentes secciones implementadas durante el Sprint, apoyando en la corrección de detalles de la interfaz y en la consolidación de la primera versión funcional de la Landing Page. Aprendí la importancia de revisar con cuidado la integración de código proveniente de distintos integrantes."
+
+**Lección Aprendida:**
+
+El equipo identifica las siguientes lecciones de este Sprint 1:
+
+1. **La configuración inicial del entorno de desarrollo toma tiempo significativo al inicio del proyecto:** Es importante considerar este tiempo en las estimaciones de futuros sprints, especialmente cuando se trabaja con tecnologías nuevas para algunos miembros del equipo.
+
+2. **La distribución de secciones independientes por integrante facilita el trabajo paralelo:** Asignar una sección específica de la Landing Page a cada miembro permitió optimizar el tiempo de implementación y facilitar la integración progresiva de los cambios en la rama `develop`.
+
+3. **Las reuniones de coordinación cortas fueron efectivas para mantener el progreso:** Reuniones breves y frecuentes permitieron compartir información relevante sin afectar el tiempo de implementación de cada integrante.
+
+4. **La integración progresiva en `develop` reduce conflictos al final del Sprint:** Registrar el avance mediante commits continuos y fusionar los cambios de forma incremental facilitó la revisión conjunta antes de finalizar el Sprint.
+
+5. **La revisión conjunta de la Landing Page antes del cierre del Sprint mejora la consistencia visual:** Validar en equipo el funcionamiento y la coherencia visual de todas las secciones permitió sentar una base sólida para las siguientes iteraciones del proyecto.
+
+---
+
+### 5.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 2 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación inicial de la **Web Application**, que constituye el núcleo funcional de la plataforma y habilita la interacción directa de los usuarios con los servicios de expediciones, monitoreo y gestión de tours.
 
 #### 5.2.2.1. Sprint Planning 2
 
 La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las User Stories que serían abordadas durante la iteración.
 
-El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
-
-> **"Our focus is on** delivering the first functional version of the VitalTrek Web Application. **We believe it delivers** core capabilities such as user registration/login, tour catalog browsing, and initial monitoring features. **This will be confirmed when** users can create accounts, authenticate sessions, explore available tours, and visualize monitoring dashboards within the application."
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales, siguiendo el template recomendado por Scrum.org (Outcome → Impact/Customer → Event).
 
 | Campo | Detalle |
 |:------|:--------|
@@ -2977,6 +2990,17 @@ El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva
 | **Sprint 2 Goal** | Our focus is on delivering the first functional version of the VitalTrek Web Application. We believe it delivers core capabilities such as user registration/login, tour catalog browsing, and initial monitoring features. This will be confirmed when users can create accounts, authenticate sessions, explore available tours, and visualize monitoring dashboards within the application. |
 | **Sprint 2 Velocity** | 30 Story Points |
 | **Sum of Story Points** | 30 Story Points |
+
+**User Stories seleccionadas para el Sprint 2**
+
+| User Story | Story Points |
+|:-----------|:-------------|
+| US09: Crear tour | 5 |
+| US18: Consultar tours de la agencia | 5 |
+| US19: Iniciar expedición | 5 |
+| US29: Monitorear ubicación de turistas | 8 |
+| US32: Consultar estado de salud básico | 7 |
+| **Total** | **30** |
 
 ---
 
@@ -3199,100 +3223,97 @@ La Web Application de VitalTrek fue desplegada exitosamente, permitiendo acceder
 
 URL de despliegue: https://vitaltrek.vitaltrek.workers.dev/home
 
-### 5.2.2.8. Team Collaboration Insights during Sprint
+### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Durante el **Sprint 2**, el equipo continuó trabajando de manera colaborativa en la evolución del producto, enfocándose en dos objetivos principales: mejorar la experiencia de usuario de la **Landing Page** e iniciar el desarrollo de la **versión v1.0.0 de la Web Application de VitalTrek**.
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 2.
 
-En la Landing Page se realizaron mejoras sobre la versión desarrollada durante el Sprint 1, refinando la identidad visual mediante la actualización de la paleta de colores y optimizando la redacción de los contenidos para comunicar con mayor claridad la propuesta de valor de la plataforma. Estas mejoras estuvieron orientadas a que los usuarios comprendieran con mayor facilidad el propósito de VitalTrek y se sintieran motivados a explorar la aplicación.
+**Distribución de Trabajo:**
 
-Paralelamente, el equipo inició el desarrollo de la **Web Application v1.0.0**, organizando la implementación mediante **Bounded Contexts** definidos siguiendo los principios de **Domain-Driven Design (DDD)**. Esta distribución permitió que cada integrante trabajara de forma independiente sobre un dominio específico del sistema, facilitando posteriormente la integración de los distintos módulos en una única aplicación.
+Todos los miembros del equipo participaron activamente en la evolución del producto durante el Sprint 2, enfocándose en dos frentes principales: mejorar la Landing Page desarrollada en el Sprint anterior e iniciar el desarrollo de la versión v1.0.0 de la Web Application de VitalTrek. La distribución fue equitativa, con cada integrante asumiendo la responsabilidad de un Bounded Context específico según los principios de Domain-Driven Design, lo que permitió el trabajo paralelo sobre distintos dominios del sistema.
 
-La comunicación entre los integrantes se mantuvo de forma constante mediante reuniones de seguimiento, donde se revisó el progreso de las actividades, se resolvieron dificultades técnicas y se coordinó la integración de los avances desarrollados tanto en la Landing Page como en la Web Application.
+El equipo adoptó un enfoque de trabajo colaborativo basado en GitFlow, manteniendo reuniones de seguimiento constantes para revisar el progreso de las actividades, resolver dificultades técnicas y coordinar la integración de los avances tanto en la Landing Page como en la Web Application. Las comunicaciones asincrónicas se realizaban a través de Discord, donde se compartían fragmentos de código, capturas de pantalla de los componentes implementados y preguntas técnicas sobre la integración de los distintos Bounded Contexts.
 
-#### Distribución de responsabilidades
+**Métricas de Colaboración:**
 
-Durante este Sprint, las actividades fueron distribuidas entre los integrantes del equipo de la siguiente manera:
+<div align="center">
+  <p>
+    <b>Contributors de la Web Application</b>
+  </p>
+  <img src="assets/images/contributors-sprint-2.png" alt="Contributors web application" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-frontend.</i></p>
+</div>
 
-| Integrante | Responsabilidad | Actividades realizadas |
-|------------|-----------------|------------------------|
-| **Alberto Joaquin Alfaro Mallma** | Dashboard | Implementó el Bounded Context **Dashboard**, desarrollando la primera versión de los componentes principales asociados a la visualización de información para los usuarios. |
-| **Eder Edu Quispe Perez** | Landing Page | Mejoró la Landing Page desarrollada durante el Sprint anterior, actualizando la paleta de colores e incorporando una redacción más clara y persuasiva para comunicar la propuesta de valor de VitalTrek. |
-| **Miler Alexander Rodriguez Rojas** | Tour Management | Implementó el Bounded Context **Tour Management**, desarrollando las funcionalidades iniciales relacionadas con la administración de recorridos turísticos. |
-| **Giancarlo Jose Verastigue Martinez** | Monitoring | Desarrolló el Bounded Context **Monitoring**, implementando la primera versión de los componentes asociados al monitoreo de información dentro de la plataforma. |
-| **Gabriel Alejandro Vilchez Vite** | Navigation and Expedition | Implementó el Bounded Context **Navigation and Expedition**, desarrollando las funcionalidades iniciales relacionadas con la navegación y la gestión de expediciones. |
+Como se aprecia en la figura anterior, todos los integrantes realizaron contribuciones al repositorio durante el Sprint, evidenciando una participación activa en el desarrollo paralelo de los Bounded Contexts de la Web Application.
 
-#### Flujo de colaboración
+**Reflexiones del Equipo:**
 
-Durante el Sprint 2, el equipo siguió un flujo de trabajo colaborativo basado en GitFlow para garantizar una integración organizada del desarrollo realizado por cada integrante.
+- Alfaro Mallma, Alberto Joaquin: "En el Sprint 2 implementé el Bounded Context de Dashboard, desarrollando la primera versión de los componentes principales asociados a la visualización de información para los usuarios. Trabajar en un módulo transversal a la aplicación me hizo entender la importancia de coordinar con los líderes de los otros dominios."
 
-Las principales actividades colaborativas fueron las siguientes:
+- Quispe Perez, Eder Edu: "Mejoré la Landing Page desarrollada durante el Sprint anterior, actualizando la paleta de colores e incorporando una redacción más clara y persuasiva para comunicar la propuesta de valor de VitalTrek. Aprendí que pequeños ajustes visuales y de contenido pueden mejorar significativamente la comprensión del producto por parte del visitante."
 
-- Revisión y mejora de la versión inicial de la Landing Page.
-- Actualización de la identidad visual mediante una nueva paleta de colores.
-- Optimización del contenido textual para mejorar la comprensión del producto.
-- Desarrollo paralelo de los Bounded Contexts de la Web Application.
-- Registro continuo del progreso mediante commits en GitHub.
-- Integración progresiva de los cambios en la rama `develop`.
-- Revisión conjunta de las funcionalidades implementadas antes del cierre del Sprint.
+- Rodriguez Rojas, Miler Alexander: "Implementé el Bounded Context de Tour Management, desarrollando las funcionalidades iniciales relacionadas con la administración de recorridos turísticos. Este módulo es central para la operación de las agencias, por lo que priorizamos que la estructura fuera clara y escalable para los siguientes sprints."
 
-#### Evidencias de colaboración
+- Verastigue Martinez, Giancarlo Jose: "Desarrollé el Bounded Context de Monitoring, implementando la primera versión de los componentes asociados al monitoreo de información dentro de la plataforma. Fue un reto diseñar componentes que pudieran escalar hacia el monitoreo en tiempo real que necesitaremos en sprints posteriores."
 
-Las siguientes figuras presentan las evidencias del trabajo colaborativo realizado durante el Sprint 2.
+- Vilchez Vite, Gabriel Alejandro: "Implementé el Bounded Context de Navigation and Expedition, desarrollando las funcionalidades iniciales relacionadas con la navegación y la gestión de expediciones. Trabajar en paralelo con los demás módulos mediante Bounded Contexts bien definidos facilitó bastante la integración final."
 
-#### Contributors de la landing page
+**Lección Aprendida:**
 
-![Contributors landing page](assets/images/contributors-sprint-1.png)
+El equipo identifica las siguientes lecciones de este Sprint 2:
 
-#### Contributors de la web application
+1. **La organización por Bounded Contexts facilitó el desarrollo paralelo de la Web Application:** La separación en dominios definidos mediante Domain-Driven Design permitió que cada integrante trabajara de forma independiente sobre su módulo, reduciendo conflictos al integrar los cambios.
 
-![Contributors web application](assets/images/contributors-sprint-2.png)
+2. **Mejorar la Landing Page en paralelo al desarrollo de la Web Application requiere buena coordinación de prioridades:** Atender dos frentes de trabajo distintos durante el mismo Sprint exigió organizar el tiempo del equipo con cuidado para no descuidar ninguno de los dos entregables.
 
-La figura evidencia la participación activa de todos los integrantes mediante contribuciones distribuidas en el repositorio durante el desarrollo del Sprint.
+3. **La integración progresiva en la rama `develop` facilitó el ensamblaje de los distintos Bounded Contexts:** Registrar el avance mediante commits continuos permitió detectar temprano posibles incompatibilidades entre los módulos desarrollados por distintos integrantes.
 
-#### Historial de commits del Sprint 2.
+4. **Las reuniones de seguimiento constantes fueron clave para coordinar dominios interdependientes:** Al trabajar en Bounded Contexts separados, fue necesario mantener comunicación frecuente para asegurar consistencia en la forma en que los distintos módulos consumían y mostraban la información.
 
-#### Historial de commmits de la landing page v2.0.0
+5. **Actualizar la identidad visual de la Landing Page mejora la comunicación de la propuesta de valor:** Ajustar la paleta de colores y la redacción del contenido ayudó a que la propuesta de VitalTrek se comprendiera con mayor claridad, reforzando la importancia de revisar y refinar entregables de sprints anteriores.
 
-![Historial de commit landing page](assets/images/commits-sprint-1-part-1.png)
-
-#### Historial de commmits de la web application v1.0.0
-
-![Contributors web application](assets/images/commits-sprint-2-part-2.png)
-![Contributors web application](assets/images/commits-sprint-2-part-1.png)
-
-El historial de commits refleja el desarrollo continuo tanto de la Landing Page como de la primera versión de la Web Application, evidenciando la implementación paralela de los diferentes Bounded Contexts y la integración progresiva de las funcionalidades desarrolladas por cada integrante.
-
-#### Conclusiones del Sprint
-
-El Sprint 2 representó un avance importante en la evolución del proyecto, ya que permitió mejorar significativamente la presentación de la Landing Page mediante una identidad visual más consistente y contenidos mejor estructurados para comunicar la propuesta de valor de VitalTrek. Asimismo, se inició el desarrollo de la **Web Application v1.0.0**, distribuyendo la implementación en diferentes Bounded Contexts de acuerdo con los principios de **Domain-Driven Design**, lo que favoreció el trabajo paralelo, la organización del desarrollo y la integración eficiente de los componentes implementados por cada integrante del equipo.
+6. **La revisión conjunta de las funcionalidades antes del cierre del Sprint permitió validar la coherencia general del producto:** Verificar en equipo el funcionamiento tanto de la Landing Page como de la Web Application sentó una base sólida para las siguientes iteraciones del proyecto.
 
 ### 5.2.3. Sprint 3
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 3 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en la implementación del backend RESTful API, abordando los bounded contexts de Tour Management, Navigation & Exploration, Safety & Monitoring y Engagement, los cuales constituyen el núcleo funcional del servidor y habilitan la comunicación entre la web application y los servicios de la plataforma.
 
-
 #### 5.2.3.1. Sprint Planning 3
 
 La reunión de Sprint Planning se realizó de forma virtual mediante Discord. En esta reunión el equipo definió el Sprint Goal, acordó la velocidad del sprint y seleccionó las Technical Stories que serían abordadas durante la iteración.
 
-El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales:
+El Sprint Goal fue formulado considerando el enfoque de negocio y la perspectiva de los usuarios finales, siguiendo el template recomendado por Scrum.org (Outcome → Impact/Customer → Event).
 
-**Nuestro enfoque se centra en** implementar los *endpoints* fundamentales de la API RESTful para Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts; proporcionando así a los administradores de agencias, guías turísticos y turistas las capacidades de *backend* necesarias para gestionar tours, realizar expediciones, monitorear la seguridad en tiempo real y seguir el progreso de fidelización a través de la plataforma. **Consideramos que esto aporta** un control centralizado de tours y expediciones para administradores y guías, un monitoreo continuo de datos biométricos y ubicación con alertas automatizadas de anomalías para garantizar la seguridad de los turistas durante los recorridos activos, y un conjunto completo de *endpoints* fiables para que los desarrolladores de *frontend* implementen todas las funcionalidades relacionadas con expediciones, monitoreo y gamificación en el ecosistema VitalTrek sin necesidad de intervención del equipo de *backend*. **Esto se confirmará cuando** los administradores de agencias puedan crear y gestionar tours y asignar turistas mediante los *endpoints* implementados; los guías puedan iniciar y finalizar expediciones con soporte de sincronización *offline*; el sistema ingiera automáticamente telemetría IoT y genere alertas en tiempo real ante desviaciones de ruta, pérdida de comunicación y signos vitales críticos; los administradores puedan acceder al panel operativo y exportar informes de expediciones finalizadas en formato CSV; los turistas reciban puntos e insignias al completar la expedición, con protección contra duplicidad de recompensas; y los desarrolladores de *frontend* puedan consumir todos los *endpoints* implementados, obteniendo los códigos de estado y las representaciones de recursos correctos sin requerir soporte adicional del *backend*.
+| Campo                                  | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|:---------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2026-06-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Time**                               | 10:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Location**                           | Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Prepared By**                        | Quispe Perez, Eder Edu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Alfaro, Joaquin / Quispe, Eder Edu / Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint n – 1 Review Summary**        | El equipo completó la implementación de la Web Application con las vistas principales de los bounded contexts, incluyendo exploración de tours, seguimiento de expediciones y el dashboard del turista. Los flujos de usuario fueron validados por el product owner, quien expresó conformidad con la experiencia de navegación y señaló como prioridad contar con el backend real para la siguiente iteración.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint n – 1 Retrospective Summary** | Se identificó que la distribución de tareas fue desbalanceada durante los últimos días del sprint, generando presión en la integración final. Para el Sprint 3 se acordó definir los contratos de endpoints desde el inicio, asignar tareas de forma individual al comienzo de cada semana y realizar check-ins diarios en Discord para visibilizar bloqueos a tiempo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint 3 Goal**                      | Our focus is on implementing the core RESTful API endpoints for the Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts, providing agency administrators, tour guides and tourists the backend capabilities needed to manage tours, run expeditions, monitor safety in real time and track loyalty progress through the platform. We believe it delivers centralized tour and expedition control to agency administrators and tour guides, continuous biometric and location monitoring with automated anomaly alerts to keep tourists safe during active recorridos, and a complete set of reliable endpoints to frontend developers for implementing all expedition-related, monitoring and gamification features in the VitalTrek ecosystem without backend team intervention. This will be confirmed when agency administrators can create and manage tours and assign tourists through the implemented endpoints, tour guides can start and finish expeditions with offline sync support, the system automatically ingests IoT telemetry and generates real-time alerts for route deviation, communication loss and critical vital signs, agency administrators can access the operational dashboard and export finished expedition reports in CSV format, tourists receive points and badges upon expedition completion with duplicate award protection, and frontend developers can consume all implemented endpoints returning the correct status codes and resource representations without additional backend support. |
+| **Sprint 3 Velocity**                  | 50 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sum of Story Points**                | 50 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
+**Technical Stories seleccionadas para el Sprint 3**
 
-| Campo | Detalle |
-|:------|:--------|
-| **Sprint #** | Sprint 3 |
-| **Date** | 2026-06-07 |
-| **Time** | 10:00 PM |
-| **Location** | Discord |
-| **Prepared By** | Quispe Perez, Eder Edu |
-| **Attendees (to planning meeting)** | Alfaro, Joaquin / Quispe, Eder Edu / Rodriguez, Miler / Verastigue, Giancarlo / Vilchez, Gabriel |
-| **Sprint n – 1 Review Summary** | El equipo completó la implementación de la Web Application con las vistas principales de los bounded contexts, incluyendo exploración de tours, seguimiento de expediciones y el dashboard del turista. Los flujos de usuario fueron validados por el product owner, quien expresó conformidad con la experiencia de navegación y señaló como prioridad contar con el backend real para la siguiente iteración. |
-| **Sprint n – 1 Retrospective Summary** | Se identificó que la distribución de tareas fue desbalanceada durante los últimos días del sprint, generando presión en la integración final. Para el Sprint 3 se acordó definir los contratos de endpoints desde el inicio, asignar tareas de forma individual al comienzo de cada semana y realizar check-ins diarios en Discord para visibilizar bloqueos a tiempo. |
-| **Sprint 3 Goal** | Our focus is on implementing the core RESTful API endpoints for the Tour Management, Navigation & Exploration, Safety & Monitoring and Engagement bounded contexts, providing agency administrators, tour guides and tourists the backend capabilities needed to manage tours, run expeditions, monitor safety in real time and track loyalty progress through the platform. We believe it delivers centralized tour and expedition control to agency administrators and tour guides, continuous biometric and location monitoring with automated anomaly alerts to keep tourists safe during active recorridos, and a complete set of reliable endpoints to frontend developers for implementing all expedition-related, monitoring and gamification features in the VitalTrek ecosystem without backend team intervention. This will be confirmed when agency administrators can create and manage tours and assign tourists through the implemented endpoints, tour guides can start and finish expeditions with offline sync support, the system automatically ingests IoT telemetry and generates real-time alerts for route deviation, communication loss and critical vital signs, agency administrators can access the operational dashboard and export finished expedition reports in CSV format, tourists receive points and badges upon expedition completion with duplicate award protection, and frontend developers can consume all implemented endpoints returning the correct status codes and resource representations without additional backend support. |
-| **Sprint 3 Velocity** | 50 Story Points |
-| **Sum of Story Points** | 50 Story Points |
+| Technical Story                                  | Story Points   |
+|:-------------------------------------------------|:---------------|
+| TS-TM-03: Endpoint de gestión de tours           | 5              |
+| TS-TM-04: Endpoint de asignación de turistas     | 4              |
+| TS-TO-05: Endpoint de gestión de expediciones    | 6              |
+| TS-TO-06: Endpoint de sincronización offline     | 4              |
+| TS-MON-07: Endpoint de ingesta de telemetría IoT | 4              |
+| TS-MON-08: Endpoint de gestión de incidentes     | 5              |
+| TS-MON-09: Endpoint de alertas automáticas       | 5              |
+| TS-DASH-11: Endpoint de métricas de agencia      | 2              |
+| TS-DASH-12: Endpoint de exportación de reportes  | 3              |
+| TS-ENG-13: Endpoint de perfil de Gamification    | 4              |
+| TS-ENG-14: Endpoint de otorgamiento de puntos    | 4              |
+| TS-DEP-01: Deployment & CI/CD                    | 4              |
+| **Total**                                        | **50**         |
 
 ---
 
@@ -3650,86 +3671,73 @@ Se verificó el correcto funcionamiento de la API exponiendo la documentación i
 ![Backend - Swagger funcionando en producción](assets/images/backend-5.png)
 *Nota.* Elaboración propia.
 
-### 5.2.3.8. Team Collaboration Insights during Sprint
+### 5.2.3.8. Team Collaboration Insights during Sprint.
 
-Durante el **Sprint 3**, el equipo consolidó el desarrollo del proyecto mediante la evolución de los productos implementados en los Sprints anteriores. Las actividades se enfocaron en tres objetivos principales: completar la **tercera versión de la Landing Page**, continuar con la evolución de la **Web Application hacia la versión v2.0.0** e iniciar el desarrollo de la **versión v1.0.0 del Backend de VitalTrek Platform**.
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 3.
 
-Como parte de la evolución de la Landing Page, se incorporaron nuevas funcionalidades que fortalecieron la interacción con los usuarios. Entre las principales mejoras se implementó la sección **Call to Action (CTA)**, diseñada para incentivar a los visitantes a conocer y utilizar la plataforma, así como la incorporación del **video de About Us**, permitiendo presentar de manera más dinámica la misión del proyecto y la propuesta de valor de VitalTrek. Estas mejoras complementaron la identidad visual definida en el Sprint anterior, ofreciendo una experiencia más atractiva y completa para el usuario.
+**Distribución de Trabajo:**
 
-Paralelamente, el equipo continuó el desarrollo de la **Web Application**, alcanzando la **versión v2.0.0** mediante la ampliación y mejora de las funcionalidades implementadas previamente. Asimismo, se inició el desarrollo de la **versión v1.0.0 del Backend**, implementando la arquitectura basada en **Bounded Contexts** siguiendo los principios de **Domain-Driven Design (DDD)**.
+Durante el Sprint 3, el equipo consolidó el desarrollo del proyecto atendiendo tres frentes en paralelo: completar la tercera versión de la Landing Page, continuar la evolución de la Web Application hacia la versión v2.0.0 e iniciar el desarrollo de la versión v1.0.0 del Backend de VitalTrek Platform. A diferencia del Sprint anterior, donde cada integrante desarrolló un único Bounded Context de manera independiente, en este Sprint se adoptó una estrategia de colaboración cruzada, en la que todos los integrantes participaron activamente en el desarrollo de cada uno de los Bounded Contexts del Backend, compartiendo conocimientos y resolviendo problemas técnicos de manera conjunta.
 
-A diferencia del Sprint anterior, donde cada integrante desarrolló un único Bounded Context de manera independiente, durante este Sprint se adoptó una estrategia de **colaboración cruzada**, en la que todos los integrantes participaron activamente en el desarrollo de cada uno de los Bounded Contexts del Backend. Esta forma de trabajo permitió compartir conocimientos, resolver problemas técnicos de manera conjunta y acelerar el desarrollo de la solución, manteniendo una arquitectura consistente entre el Frontend y el Backend.
+El equipo mantuvo un enfoque de trabajo colaborativo mediante reuniones de seguimiento, revisiones de código y la integración continua en GitHub, lo que permitió coordinar eficientemente las tareas desarrolladas por cada integrante y garantizar la correcta integración de todos los componentes implementados durante el Sprint.
 
-La comunicación permanente mediante reuniones de seguimiento, revisiones de código y la integración continua en GitHub permitió coordinar eficientemente las tareas desarrolladas por cada integrante, garantizando la correcta integración de todos los componentes implementados durante el Sprint.
+**Métricas de Colaboración:**
 
-#### Distribución de responsabilidades
+<div align="center">
+  <p>
+    <b>Contributors de la Landing Page v3.0.0</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-landing-page.png" alt="Contributors landing page v3.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-landing-page.</i></p>
+</div>
 
-Durante el Sprint 3, las responsabilidades se organizaron de la siguiente manera:
+<div align="center">
+  <p>
+    <b>Contributors de la Web Application v2.0.0</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-web-application.png" alt="Contributors web application v2.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-frontend.</i></p>
+</div>
 
-| Integrante | Responsabilidad principal | Actividades realizadas |
-|------------|---------------------------|------------------------|
-| **Alberto Joaquin Alfaro Mallma** | Dashboard, Deployment y Backend | Continuó la evolución del Bounded Context **Dashboard** en el Frontend, lideró el **despliegue (deployment)** de la Landing Page, la Web Application y el Backend en los servicios de alojamiento definidos por el equipo, además de participar activamente en el desarrollo colaborativo de los diferentes Bounded Contexts del Backend. |
-| **Eder Edu Quispe Perez** | Loyalty & Engagement Backend | Implementó el Bounded Context **Loyalty & Engagement** en la plataforma Backend de VitalTrek y colaboró con el equipo en el desarrollo e integración de los diferentes Bounded Contexts para garantizar el correcto funcionamiento de la arquitectura de la aplicación. |
-| **Miler Alexander Rodriguez Rojas** | Tour Management, Backend y Landing Page | Continuó la evolución del Bounded Context **Tour Management** en el Frontend, colaboró en la implementación de los diferentes Bounded Contexts del Backend y desarrolló la sección **Call to Action (CTA)** de la tercera versión de la Landing Page para fortalecer la interacción de los usuarios con la plataforma. |
-| **Giancarlo Jose Verastigue Martinez** | Monitoring, Backend y Landing Page | Mejoró el Bounded Context **Monitoring** en la Web Application, participó en el desarrollo colaborativo de la arquitectura Backend e incorporó el **video de About Us** en la Landing Page, enriqueciendo la presentación de la startup y su propuesta de valor. |
-| **Gabriel Alejandro Vilchez Vite** | Navigation and Expedition y Backend | Evolucionó el Bounded Context **Navigation and Expedition** en el Frontend y colaboró en la implementación conjunta de los diferentes Bounded Contexts del Backend, apoyando en la integración de las funcionalidades desarrolladas por el equipo. |
-#### Flujo de colaboración
-
-Durante el Sprint 3, el equipo fortaleció su dinámica de trabajo colaborativo mediante una estrategia de integración continua y desarrollo paralelo entre el Frontend y el Backend.
-
-Las principales actividades colaborativas desarrolladas fueron:
-
-- Implementación de la tercera versión de la Landing Page.
-- Incorporación de la sección **Call to Action (CTA)**.
-- Integración del video institucional en la sección **About Us**.
-- Evolución de la **Web Application** hacia la versión **v2.0.0**.
-- Inicio del desarrollo de la **versión v1.0.0 del Backend**.
-- Implementación colaborativa de los diferentes **Bounded Contexts** del Backend.
-- Revisión conjunta del código desarrollado por cada integrante.
-- Resolución colaborativa de incidencias técnicas durante la integración.
-- Registro continuo del avance mediante commits en GitHub.
-- Integración progresiva de las funcionalidades en la rama `develop`.
-
-#### Evidencias de colaboración
-
-Las siguientes figuras presentan las evidencias del trabajo colaborativo desarrollado durante el Sprint 3.
-
-#### Contribution Insights Landing Page v3.0.0
-
-![Contributors landing page v3.0.0](assets/images/contributors-sprint-3-landing-page.png)
-
-#### Contribution Insights Web Application v2.0.0
-
-![Contributors web application v2.0.0](assets/images/contributors-sprint-3-web-application.png)
-
-#### Contribution Insights Vitaltrek Platform v1.0.0
-
-![Contributors vitaltrek platform v1.0.0](assets/images/contributors-sprint-3-web-platform.png)
+<div align="center">
+  <p>
+    <b>Contributors del Backend (VitalTrek Platform v1.0.0)</b>
+  </p>
+  <img src="assets/images/contributors-sprint-3-web-platform.png" alt="Contributors vitaltrek platform v1.0.0" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-backend.</i></p>
+</div>
 
 Los analíticos muestran la participación activa de todos los integrantes durante el Sprint, evidenciando un incremento en las contribuciones como resultado del desarrollo simultáneo de la Landing Page, la Web Application y el Backend.
 
-#### Historial de commits del Sprint 3.
+**Reflexiones del Equipo:**
 
-##### Historial de commmits de la landing page v2.0.0
+- Alfaro Mallma, Alberto Joaquin: "En el Sprint 3 continué la evolución del Bounded Context de Dashboard en el Frontend y lideré el despliegue de la Landing Page, la Web Application y el Backend en los servicios de alojamiento definidos por el equipo. Coordinar el deployment de tres productos a la vez me hizo valorar la importancia de tener pipelines de CI/CD bien configurados desde etapas tempranas."
 
-![Commits landing page v3.0.0](assets/images/commits-sprint-3-part-1.png)
+- Quispe Perez, Eder Edu: "Implementé el Bounded Context de Loyalty & Engagement en el Backend de VitalTrek y colaboré activamente en el desarrollo e integración de los demás Bounded Contexts. Trabajar de forma cruzada con los módulos de mis compañeros me ayudó a entender mejor cómo se conecta todo el ecosistema del backend."
 
-##### Historial de commmits de la web application v1.0.0
+- Rodriguez Rojas, Miler Alexander: "Continué la evolución del Bounded Context de Tour Management en el Frontend, colaboré en la implementación de los distintos Bounded Contexts del Backend y desarrollé la sección Call to Action de la tercera versión de la Landing Page. Ver cómo un cambio en la CTA puede fortalecer la interacción del visitante fue una buena lección de UX aplicada."
 
-![Commits web application v2.0.0](assets/images/commits-sprint-3-part-2.png)
+- Verastigue Martinez, Giancarlo Jose: "Mejoré el Bounded Context de Monitoring en la Web Application, participé en el desarrollo colaborativo de la arquitectura Backend e incorporé el video de About Us en la Landing Page. Combinar tareas de frontend, backend y contenido audiovisual en un mismo Sprint exigió organizar bien mi tiempo, pero enriqueció bastante mi aporte al equipo."
 
-##### Historial de commmits de VitalTrek Platform v1.0.0
+- Vilchez Vite, Gabriel Alejandro: "Evolucioné el Bounded Context de Navigation and Expedition en el Frontend y colaboré en la implementación conjunta de los diferentes Bounded Contexts del Backend, apoyando en la integración de las funcionalidades desarrolladas por el equipo. La colaboración cruzada de este Sprint hizo que la integración final fuera mucho más fluida que en sprints anteriores."
 
-![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-6.png)
-![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-5.png)
-![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-4.png)
-![Commits vitaltrek platform v1.0.0](assets/images/commits-sprint-3-part-3.png)
+**Lección Aprendida:**
 
-El historial de commits refleja el trabajo continuo realizado por el equipo durante la evolución de la Web Application y la implementación del Backend, evidenciando la integración progresiva de nuevas funcionalidades y la colaboración constante entre los integrantes.
+El equipo identifica las siguientes lecciones de este Sprint 3:
 
-#### Conclusiones del Sprint
+1. **La colaboración cruzada en el desarrollo del Backend aceleró la implementación de los Bounded Contexts:** A diferencia del Sprint anterior, trabajar todos sobre los mismos módulos permitió compartir conocimientos, resolver bloqueos técnicos más rápido y mantener consistencia entre Frontend y Backend.
 
-El Sprint 3 representó una etapa de consolidación para el proyecto, permitiendo completar la tercera versión de la Landing Page mediante la incorporación de nuevas funcionalidades orientadas a mejorar la experiencia del usuario. Asimismo, la evolución de la **Web Application** hacia la versión **v2.0.0** y el inicio del desarrollo del **Backend v1.0.0** marcaron un avance significativo hacia una arquitectura distribuida basada en **Domain-Driven Design**. La estrategia de colaboración cruzada adoptada por el equipo permitió que todos los integrantes participaran activamente en el desarrollo de los diferentes Bounded Contexts del Backend, fortaleciendo el trabajo en equipo, la transferencia de conocimientos y el cumplimiento de los objetivos establecidos para el Sprint.
+2. **Atender tres productos en paralelo (Landing Page, Web Application y Backend) exige una coordinación de prioridades más estricta:** Fue necesario planificar con cuidado el tiempo de cada integrante para no descuidar ninguno de los tres frentes de trabajo del Sprint.
+
+3. **Centralizar el deployment en una sola persona facilitó la consistencia de los despliegues, pero también reveló la necesidad de documentar el proceso:** Concentrar el despliegue de los tres productos permitió avanzar rápido, aunque el equipo identificó que documentar esos pasos evitaría dependencia de un solo integrante en el futuro.
+
+4. **Las mejoras incrementales en la Landing Page (CTA y video institucional) reforzaron la propuesta de valor sin rediseñar la página completa:** Pequeños añadidos dirigidos a la conversión y a la narrativa de marca mejoraron la experiencia sin afectar la identidad visual ya definida.
+
+5. **La revisión conjunta de código entre integrantes que trabajaron en los mismos Bounded Contexts mejoró la calidad de la integración:** Al tener varias personas familiarizadas con un mismo módulo, fue más sencillo detectar inconsistencias antes de fusionar los cambios en `develop`.
+
+6. **La integración progresiva y constante en `develop` permitió sostener el desarrollo simultáneo de tres productos sin generar conflictos mayores al cierre del Sprint:** Mantener commits frecuentes facilitó que el trabajo de frontend, backend y landing page se integrara de forma ordenada.
+
+---
 
 ### 5.2.4. Sprint 4 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo correspondiente al Sprint 4 del proyecto VitalTrek. Durante este sprint, el equipo concentró sus esfuerzos en icluir los bounded contexts de IAM, Subscriptions, Loyalty and Engagement, en la Web Aplication y Web Services. Ademas corregir algunos errores del sprint 3.
