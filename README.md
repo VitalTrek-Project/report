@@ -238,7 +238,7 @@ Registro de Versiones del Informe.
 En la entrega final, el equipo completó el Sprint 3, las entrevistas de 
 validación, las evaluaciones heurísticas y las evidencias de despliegue, 
 además de realizar una revisión integral del documento. Las actividades se 
-desarrollaron entre el 26 de mayo y el 27 de junio, con la siguiente 
+desarrollaron entre el 26 de mayo y el 21 de junio, con la siguiente 
 participación:
 
 - **Verastigue Martinez, Giancarlo Jose** corrigió los Sprint Backlog 1 y 2, 
@@ -285,7 +285,7 @@ Registro de Versiones del Informe.
 Para esta entrega, el equipo desarrolló el Sprint 4, el cual se centró en la 
 mejora integral del Project Report atendiendo las indicaciones y observaciones 
 brindadas por el docente en las entregas anteriores. Las actividades se 
-desarrollaron entre el 27 de junio y el 8 de julio, e incluyeron la corrección 
+desarrollaron entre el 21 de junio y el 8 de julio, e incluyeron la corrección 
 de secciones observadas, la actualización de evidencias y la consolidación del 
 Registro de Versiones del Informe. La participación de los integrantes fue la 
 siguiente:
@@ -335,6 +335,10 @@ En esta sección se describe cómo las actividades desarrolladas durante el proy
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **AV1:**<br><br>**Alberto Joaquin Alfaro Mallma:** Participé en la elaboración del Capítulo IV del informe, apoyando en el diseño de la arquitectura de software y colaborando en el desarrollo de la primera versión de la Landing Page.<br><br>**Eder Edu Quispe Perez:** Participé en la elaboración del Capítulo II y colaboré en el desarrollo de la primera versión de la Landing Page, aportando en la organización del contenido y la propuesta de valor del producto.<br><br>**Miler Alexander Rodriguez Rojas:** Participé en la elaboración del Capítulo III y colaboré en la implementación de la primera versión de la Landing Page, apoyando en la estructura general del proyecto.<br><br>**Giancarlo Jose Verastigue Martinez:** Participé en la elaboración del Capítulo I y colaboré en el desarrollo de la primera versión de la Landing Page, aportando en la organización de la información del proyecto.<br><br>**Gabriel Alejandro Vilchez Vite:** Participé en la elaboración del Capítulo V y colaboré en la implementación inicial de la Landing Page, apoyando en la integración del proyecto.<br><br>**TB1:**<br><br>**Alberto Joaquin Alfaro Mallma:** Implementé el Bounded Context **Dashboard** de la Web Application v1.0.0 y colaboré en la integración del Frontend.<br><br>**Eder Edu Quispe Perez:** Lideré la mejora de la segunda versión de la Landing Page, actualizando la identidad visual y optimizando la redacción para mejorar la comprensión de la propuesta de valor de VitalTrek.<br><br>**Miler Alexander Rodriguez Rojas:** Implementé el Bounded Context **Tour Management**, colaborando en la integración de la primera versión funcional de la Web Application.<br><br>**Giancarlo Jose Verastigue Martinez:** Implementé el Bounded Context **Monitoring**, apoyando en el desarrollo de la arquitectura del Frontend.<br><br>**Gabriel Alejandro Vilchez Vite:** Implementé el Bounded Context **Navigation and Expedition**, colaborando con el equipo en la integración de los diferentes módulos de la aplicación.<br><br>**AV2:**<br><br>**Alberto Joaquin Alfaro Mallma:** Continué la evolución del Bounded Context **Dashboard**, participé en el desarrollo colaborativo del Backend y lideré el despliegue (deployment) de la Landing Page, la Web Application y la API del proyecto.<br><br>**Eder Edu Quispe Perez:** Implementé el Bounded Context **Loyalty & Engagement** del Backend y colaboré en el desarrollo conjunto de la arquitectura Backend basada en Domain-Driven Design.<br><br>**Miler Alexander Rodriguez Rojas:** Continué el desarrollo del Bounded Context **Tour Management**, participé en el desarrollo colaborativo del Backend e implementé la sección **Call to Action (CTA)** en la tercera versión de la Landing Page.<br><br>**Giancarlo Jose Verastigue Martinez:** Mejoré el Bounded Context **Monitoring**, colaboré en la implementación del Backend e incorporé el **video About Us** en la Landing Page.<br><br>**Gabriel Alejandro Vilchez Vite:** Continué el desarrollo del Bounded Context **Navigation and Expedition** y colaboré en la implementación conjunta de los diferentes Bounded Contexts del Backend.<br><br>**TB2:**<br><br>**Alberto Joaquin Alfaro Mallma:** Lideré el despliegue final de la plataforma, apoyé en la integración de las mejoras de la Web Application y colaboré en la revisión y corrección de la documentación técnica del proyecto.<br><br>**Eder Edu Quispe Perez:** Participé en la implementación y mejora del Backend, colaborando en la integración del módulo **IAM**, la **pasarela de pagos** y la optimización de funcionalidades de la plataforma, además de apoyar en la revisión del informe.<br><br>**Miler Alexander Rodriguez Rojas:** Colaboré en la mejora continua de la Web Application, apoyando en la implementación de nuevas funcionalidades, la integración de la pasarela de pagos y la corrección de la documentación del proyecto.<br><br>**Giancarlo Jose Verastigue Martinez:** Participé en la optimización de los módulos implementados durante las entregas anteriores, colaborando en la mejora del Backend, la integración de nuevas funcionalidades y la revisión técnica del informe.<br><br>**Gabriel Alejandro Vilchez Vite:** Contribuí en la mejora de la plataforma mediante la implementación y validación de funcionalidades adicionales, apoyando en la integración de componentes y en la revisión final de la documentación. | **AV1:**<br>El equipo ejerció liderazgo conjunto al distribuir responsabilidades para la elaboración del informe y el desarrollo de la primera versión de la Landing Page, estableciendo una base sólida para el proyecto.<br><br>**TB1:**<br>Durante el Sprint 2, el liderazgo colaborativo permitió mejorar la Landing Page e implementar la primera versión funcional de la Web Application mediante la distribución de los diferentes Bounded Contexts entre los integrantes del equipo.<br><br>**AV2:**<br>En el Sprint 3, el liderazgo conjunto se fortaleció mediante el desarrollo colaborativo del Backend, la evolución de la Web Application, la incorporación de nuevas funcionalidades en la Landing Page y el despliegue de la solución, permitiendo consolidar una arquitectura basada en Domain-Driven Design.<br><br>**TB2:**<br>Durante la entrega final, el equipo consolidó el desarrollo de VitalTrek mediante la integración de mejoras funcionales en la plataforma, la implementación de la pasarela de pagos, la incorporación del módulo de autenticación (IAM), el despliegue definitivo de la solución y la revisión integral de la documentación, evidenciando un liderazgo compartido y el cumplimiento de los objetivos planteados. |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **AV1:**<br><br>**Alberto Joaquin Alfaro Mallma:** Colaboré en la planificación de las actividades relacionadas con la arquitectura del sistema y el desarrollo de la Landing Page, promoviendo la comunicación constante con el equipo.<br><br>**Eder Edu Quispe Perez:** Participé en la organización del contenido del proyecto y en la planificación de las actividades para la implementación inicial de la Landing Page.<br><br>**Miler Alexander Rodriguez Rojas:** Apoyé en la planificación del desarrollo del proyecto y en la organización de las actividades relacionadas con la implementación inicial del producto.<br><br>**Giancarlo Jose Verastigue Martinez:** Colaboré en la revisión de los primeros capítulos del informe y participé en la planificación de las actividades del equipo.<br><br>**Gabriel Alejandro Vilchez Vite:** Participé en la coordinación de las tareas relacionadas con el desarrollo inicial del proyecto y la integración de la Landing Page.<br><br>**TB1:**<br><br>**Alberto Joaquin Alfaro Mallma:** Planifiqué el desarrollo del Bounded Context **Dashboard**, coordinando su integración con el resto de módulos del Frontend.<br><br>**Eder Edu Quispe Perez:** Coordiné las mejoras de la Landing Page, promoviendo una comunicación más clara de la propuesta de valor y una identidad visual consistente.<br><br>**Miler Alexander Rodriguez Rojas:** Planifiqué e implementé el Bounded Context **Tour Management**, manteniendo la integración con los demás componentes de la aplicación.<br><br>**Giancarlo Jose Verastigue Martinez:** Participé en la planificación e implementación del Bounded Context **Monitoring**, asegurando su coherencia con la arquitectura del sistema.<br><br>**Gabriel Alejandro Vilchez Vite:** Colaboré en la planificación e implementación del Bounded Context **Navigation and Expedition**, integrándolo con el resto de la Web Application.<br><br>**AV2:**<br><br>**Alberto Joaquin Alfaro Mallma:** Coordiné las actividades relacionadas con el despliegue de la plataforma y colaboré en la integración de los servicios implementados.<br><br>**Eder Edu Quispe Perez:** Participé en la planificación del desarrollo del Backend, colaborando en la implementación del módulo **IAM** y del Bounded Context **Loyalty & Engagement**.<br><br>**Miler Alexander Rodriguez Rojas:** Colaboré en la planificación de las mejoras funcionales del sistema y en el desarrollo del Backend y la Landing Page.<br><br>**Giancarlo Jose Verastigue Martinez:** Participé en la revisión de la arquitectura implementada y colaboré en la integración del Backend y las mejoras de la Landing Page.<br><br>**Gabriel Alejandro Vilchez Vite:** Apoyé en la planificación de las actividades relacionadas con el desarrollo del Backend y la integración de los diferentes módulos implementados por el equipo.<br><br>**TB2:**<br><br>**Alberto Joaquin Alfaro Mallma:** Coordiné el despliegue final de la solución y apoyé la integración de las mejoras implementadas en la plataforma.<br><br>**Eder Edu Quispe Perez:** Participé en la planificación de las mejoras finales del Backend, colaborando en la implementación del módulo IAM, la pasarela de pagos y la validación de las funcionalidades desarrolladas por el equipo.<br><br>**Miler Alexander Rodriguez Rojas:** Colaboré en la planificación e implementación de nuevas funcionalidades de la plataforma, apoyando la integración de la pasarela de pagos y la actualización de la documentación.<br><br>**Giancarlo Jose Verastigue Martinez:** Participé en la validación técnica de las mejoras implementadas durante la etapa final y colaboré en la revisión de la documentación del proyecto.<br><br>**Gabriel Alejandro Vilchez Vite:** Apoyé en la planificación de las actividades finales del proyecto, colaborando en la revisión del código, la validación de funcionalidades y las correcciones de la documentación. | **AV1:**<br>La planificación conjunta permitió organizar eficientemente las responsabilidades del equipo para desarrollar la documentación inicial y la primera versión de la Landing Page, cumpliendo los objetivos definidos para la primera entrega.<br><br>**TB1:**<br>La coordinación del equipo permitió mejorar significativamente la Landing Page e implementar la primera versión funcional de la Web Application mediante una adecuada distribución de responsabilidades y una comunicación constante entre los integrantes.<br><br>**AV2:**<br>La planificación colaborativa permitió evolucionar el proyecto mediante el desarrollo simultáneo de la tercera versión de la Landing Page, la Web Application v2.0.0 y el Backend v1.0.0, favoreciendo una integración eficiente de todos los componentes implementados.<br><br>**TB2:**<br>El equipo cumplió satisfactoriamente los objetivos planteados para la entrega final mediante la integración de las mejoras de la plataforma, la implementación de la pasarela de pagos, el módulo IAM, el despliegue definitivo de la solución y la actualización de la documentación, evidenciando un entorno de trabajo colaborativo, organizado y orientado al cumplimiento de metas.
 |
+
+<div style="page-break-before: always;"></div>
+
+---
 
 # Tabla de Contenido
 
@@ -4119,7 +4123,7 @@ Como evidencia del trabajo realizado durante el Sprint se presentan capturas de 
 
 ##### Web Application
 
-> Captura de la plataforma web mostrando las funcionalidades desarrolladas.
+
 
 - Home
 ![VitalTrek Web Application Home](assets/images/screenshot-wa-home.png)
@@ -4170,10 +4174,19 @@ Durante el Sprint 4, el equipo completó la expansión integral de la API de Vit
 **Figura**
  
 ![Swagger UI Endpoints Sprint 4](assets/images/backend-5.png)
- 
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.1.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.2.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.3.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.4.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.5.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.6.png)
+![Swagger UI Endpoints Sprint 4](assets/images/swagger-4.7.png)
+
 *Panel de Swagger con todos los endpoints configurados para VitalTrek - Sprint 4*
  
 URL base: `https://backend-vitaltrek-production.up.railway.app/api/v1`
+
+https://backend-vitaltrek-production.up.railway.app/swagger/index.html
  
 ---
  
@@ -4510,7 +4523,8 @@ El equipo mantuvo un enfoque de trabajo colaborativo mediante reuniones de coord
   <p>
     <b>Contributors de la Landing Page v4.0.0</b>
   </p>
-  <img src="assets/images/contributors-sprint-3-landing-page.png" alt="Contributors landing page v3.0.0" width="600">
+  <img src="assets/images/landing-sprint-4.0.png" alt="Contributors landing page v4.0.0" width="600">
+  <img src="assets/images/commits-sprint-4.png" alt="Contributors landing page v4.0.0" width="600">
   <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-landing-page.</i></p>
 </div>
 
@@ -4518,7 +4532,11 @@ El equipo mantuvo un enfoque de trabajo colaborativo mediante reuniones de coord
   <p>
     <b>Contributors de la Web Application v3.0.0</b>
   </p>
-  <img src="assets/images/contributors-sprint-3-web-application.png" alt="Contributors web application v2.0.0" width="600">
+  <img src="assets/images/insight-tb2.png" alt="Contributors web application v3.0.0" width="600">
+  <img src="assets/images/commits-front-4.0.png" alt="Contributors web application v3.0.0" width="600">
+   <img src="assets/images/commits-front-4.1.png" alt="Contributors web application v3.0.0" width="600">
+ <img src="assets/images/commits-front-4.2.png" alt="Contributors web application v3.0.0" width="600">
+
   <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-frontend.</i></p>
 </div>
 
@@ -4526,21 +4544,12 @@ El equipo mantuvo un enfoque de trabajo colaborativo mediante reuniones de coord
   <p>
     <b>Contributors del Backend (VitalTrek Platform v2.0.0)</b>
   </p>
-  <img src="assets/images/contributors-sprint-3-web-platform.png" alt="Contributors vitaltrek platform v1.0.0" width="600">
+  <img src="assets/images/contributors-sprint-4-web-platform.png" alt="Contributors vitaltrek platform v2.0.0" width="600">
+  <img src="assets/images/commits-back-4.1.png" alt="Contributors vitaltrek platform v2.0.0" width="600">
+  <img src="assets/images/commits-back-4.0.png" alt="Contributors vitaltrek platform v2.0.0" width="600">
   <p><i><b>Fuente</b>: GitHub Insights del repositorio vitaltrek-backend.</i></p>
 </div>
 
-
-
-#### 5.2.4.4. Development Evidence for Sprint Review
-
-#### 5.2.4.5. Execution Evidence for Sprint Review
-
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews.
 
@@ -4950,5 +4959,5 @@ En esta sección, el equipo presenta el Video About-the-Team, un recurso audiovi
 
 ## Anexo H. Videos de cierre
 
-- Video About The Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQBkvoy60zGpSpi-_v3eNykOAUvjFFoOe5ZILRBPDf_MiqM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YHZNBQ
-- Video About The Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a827_upc_edu_pe/IQBOUEmx4QguTatiDnDvw4p8AQoTjXObk6ZgmO9VHKbWS7Q?e=KrDdRT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Video About The Team: https://goo.su/OBdc9y
+- Video About The Product: https://surl.li/taewvi
